@@ -1,0 +1,8 @@
+@use "global" as *;
+
+.c-text-gradation {
+  background: linear-gradient(to right, #0087C1 0%, #033FC2 100%);
+  padding: rem(4) rem(2);
+  margin-left: rem(2);
+  margin-right: rem(2);
+}

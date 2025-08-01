@@ -1,0 +1,18 @@
+@use "global" as *;
+
+.p-top-image {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  @include mq(md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.p-top-image__img {
+}
+.p-top-image__img img {
+  aspect-ratio: 480 / 270;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}

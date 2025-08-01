@@ -1,0 +1,48 @@
+@use "global" as *;
+
+.p-mv {
+}
+
+.p-mv__content {
+  position: relative;
+}
+
+.p-mv__img {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.p-mv__img img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-mv__detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.p-mv__title {
+  max-width: rem(536);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p-mv__title img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-mv__text {
+}

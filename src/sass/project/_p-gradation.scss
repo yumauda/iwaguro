@@ -1,0 +1,26 @@
+@use "global" as *;
+
+.p-gradation {
+  padding-top: rem(250);
+  padding-bottom: rem(250);
+  position: relative;
+  background: url(../images/common/gradation_bg.png) no-repeat center center / cover;
+}
+
+.p-gradation__content {
+  text-align: center;
+}
+
+.p-gradation__text-wrapper {
+}
+
+.p-gradation__text {
+  color: #fff;
+  font-size: rem(17);
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+.p-gradation__text + .p-gradation__text {
+  margin-top: rem(60);
+}
