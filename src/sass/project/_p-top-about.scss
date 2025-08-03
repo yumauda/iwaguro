@@ -1,0 +1,75 @@
+@use "global" as *;
+
+.p-top-about {
+  padding-top: rem(100);
+  padding-bottom: rem(100);
+  background: $bg-gray;
+}
+
+.p-top-about__content {
+}
+
+.p-top-about__title {
+}
+
+.p-top-about__row {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: rem(100);
+}
+
+.p-top-about__img {
+  width: rem(575);
+}
+.p-top-about__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-top-about__detail {
+  width: rem(474);
+}
+
+.p-top-about__detail-top {
+  margin-top: rem(60);
+}
+
+.p-top-about__detail-title {
+  font-size: rem(26);
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.04em;
+  width: fit-content;
+  line-height: 1.6;
+}
+
+.p-top-about__detail-en {
+  margin-top: rem(16);
+  font-size: rem(14);
+  font-family: $second-font-family;
+  font-weight: 400;
+  color: $black;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+}
+
+.p-top-about__text-wrapper {
+  margin-top: rem(49);
+}
+
+.p-top-about__text {
+  font-size: rem(16);
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: $black;
+}
+.p-top-about__text .c-text-gradation {
+  color: #fff;
+}
+.p-top-about__btn {
+  margin-top: rem(55);
+}

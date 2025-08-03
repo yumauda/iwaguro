@@ -28,7 +28,8 @@
             それらを包む技術に私たちは情熱をかけています。</p>
           <p class="p-gradation__text">ただモノづくりをするのではなく、<br>
             <span class="c-text-gradation">医薬の一つひとつ</span> に、<span class="c-text-gradation">オンリーワンの包み方</span> を<br>
-            ゼロから考え、つくり、安心を届ける。</p>
+            ゼロから考え、つくり、安心を届ける。
+          </p>
           <p class="p-gradation__text">創意は無限、改良は永遠。</p>
           <p class="p-gradation__text">なくてはならない「くすり」。<br>
             その一錠、一包が、<br>
@@ -48,5 +49,36 @@
       <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img3.jpg" alt="" width="480" height="270">
     </figure>
   </div>
+  <section class="p-top-about">
+    <div class="l-inner">
+      <div class="p-top-about__content">
+        <div class="p-top-about__row">
+          <figure class="p-top-about__img">
+            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_about_img.png" alt="" width="575" height="490">
+          </figure>
+          <div class="p-top-about__detail">
+            <div class="p-top-about__title">
+              <h3 class="c-section-title">
+                <span class="c-section-title__en">about</span>
+                <span class="c-section-title__ja">私たちについて</span>
+              </h3>
+            </div>
+            <div class="p-top-about__detail-top">
+              <p class="p-top-about__detail-title c-text-gradation">だれにも真似できない<br>オーダーメイドなものづくりを｡</p>
+              <p class="p-top-about__detail-en">Always Challenging.</p>
+            </div>
+            <div class="p-top-about__text-wrapper">
+              <p class="p-top-about__text">岩黒製作所は、国内トップクラスのシェアを誇る
+                医科向けの自動包装機の開発・製造を手がける
+                富山の<span class="c-text-gradation">小さな一流企業</span>です。</p>
+            </div>
+            <div class="p-top-about__btn">
+              <a href="#" class="c-btn">view more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 <?php get_footer() ?>

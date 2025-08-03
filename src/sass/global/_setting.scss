@@ -16,9 +16,8 @@ $padding-sp: 30px;
 // フォント設定
 ////////////////////
 
-$base-font-family: "Noto Sans JP", sans-serif;
-$second-font-family: "Noto Serif JP", serif;
-$urbanist: "Urbanist", sans-serif;
+$base-font-family: "Zen Kaku Gothic New", sans-serif;
+$second-font-family: "Outfit", sans-serif;
 
 // ※検証ツールでしっかり反映されているか確認する
 
@@ -36,7 +35,8 @@ $bold: 700;
 ////////////////////
 
 //色指定（共通性のあるものは出来る限り指定すると良い）
-$black: #363636;
+$black: #222426;
+$bg-gray: #f2f2f2;
 $white: #fff;
 $blue: #4fc3e0;
 $barge: #f4eee8;

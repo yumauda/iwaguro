@@ -1,0 +1,19 @@
+@use "global" as *;
+
+.c-section-title {
+}
+
+.c-section-title__en {
+  font-family: $second-font-family;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  font-size: rem(80);
+  font-weight: 600;
+}
+
+.c-section-title__ja {
+  font-size: rem(16);
+  font-weight: 700;
+  line-height: 1.8;
+}

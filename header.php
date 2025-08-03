@@ -7,7 +7,7 @@
     <meta name="format-detection" content="telephone=no" />
     <!-- meta情報 -->
     <?php if (is_home() || is_front_page()) : ?>
-        <title>大倉山の矯正歯科なら大倉山ファミリア矯正歯科（横浜市港北区）</title>
+        <title>岩黒製作所｜採用サイト</title>
         <meta name="description" content="横浜市港北区大倉山の、痛くない・目立たない矯正専門歯科。マウスピース矯正(インビザライン)なども子供から大人まで安心の定額制です。" />
         <meta name="keywords" content="矯正歯科,港北区,大倉山" />
         <meta property="og:title" content="横浜市港北区大倉山の矯正専門歯科｜大倉山ファミリア矯正歯科（横浜市港北区）" />
@@ -68,7 +68,7 @@
     <!-- css -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600&family=Urbanist:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
     <?php if (is_404()) : ?>
         <meta http-equiv="refresh" content=" 3; url=<?php echo esc_url(home_url("/")); ?>">
     <?php endif; ?>

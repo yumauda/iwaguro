@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.c-btn {
+  background: #413c37;
+  color: #fff;
+  font-size: rem(15);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  line-height: 1.6;
+  border-radius: 9999px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
