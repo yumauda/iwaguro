@@ -1,0 +1,30 @@
+@use "global" as *;
+
+.c-left {
+  background: #fff;
+  width: rem(75);
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.c-left::before {
+  position: absolute;
+  content: "";
+  background: #413c37;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.c-left__text {
+  writing-mode: vertical-rl;
+  text-transform: uppercase;
+  font-family: $second-font-family;
+  font-size: rem(20);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding-top: rem(100);
+}

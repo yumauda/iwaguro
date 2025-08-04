@@ -1,15 +1,42 @@
 @use "global" as *;
 
 .p-top-about {
-  padding-top: rem(100);
-  padding-bottom: rem(100);
   background: $bg-gray;
+  display: flex;
+  position: relative;
+}
+.p-top-about::before {
+  position: absolute;
+  content: "";
+  background: $black;
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.p-top-about::after {
+  position: absolute;
+  content: "";
+  background: $black;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .p-top-about__content {
+  padding-top: rem(100);
+  padding-bottom: rem(100);
 }
 
-.p-top-about__title {
+.p-top-about__title .c-section-title__en,
+.p-top-about__title .c-section-title__ja {
+  display: block;
+}
+.p-top-about__title .c-section-title__ja {
+  margin-top: rem(40);
 }
 
 .p-top-about__row {
@@ -45,7 +72,9 @@
   width: fit-content;
   line-height: 1.6;
 }
-
+.p-top-about__detail-title + .p-top-about__detail-title {
+  margin-top: rem(10);
+}
 .p-top-about__detail-en {
   margin-top: rem(16);
   font-size: rem(14);
@@ -72,4 +101,7 @@
 }
 .p-top-about__btn {
   margin-top: rem(55);
+}
+.p-top-about__block {
+  padding-left: rem(70);
 }

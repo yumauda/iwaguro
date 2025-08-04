@@ -50,6 +50,9 @@
     </figure>
   </div>
   <section class="p-top-about">
+    <div class="c-left">
+      <p class="c-left__text">about</p>
+    </div>
     <div class="l-inner">
       <div class="p-top-about__content">
         <div class="p-top-about__row">
@@ -63,17 +66,25 @@
                 <span class="c-section-title__ja">私たちについて</span>
               </h3>
             </div>
-            <div class="p-top-about__detail-top">
-              <p class="p-top-about__detail-title c-text-gradation">だれにも真似できない<br>オーダーメイドなものづくりを｡</p>
-              <p class="p-top-about__detail-en">Always Challenging.</p>
-            </div>
-            <div class="p-top-about__text-wrapper">
-              <p class="p-top-about__text">岩黒製作所は、国内トップクラスのシェアを誇る
-                医科向けの自動包装機の開発・製造を手がける
-                富山の<span class="c-text-gradation">小さな一流企業</span>です。</p>
-            </div>
-            <div class="p-top-about__btn">
-              <a href="#" class="c-btn">view more</a>
+            <div class="p-top-about__block">
+              <div class="p-top-about__detail-top">
+                <p class="p-top-about__detail-title c-text-gradation">だれにも真似できない</p>
+                <p class="p-top-about__detail-title c-text-gradation">オーダーメイドなものづくりを｡</p>
+                <p class="p-top-about__detail-en">Always Challenging.</p>
+              </div>
+              <div class="p-top-about__text-wrapper">
+                <p class="p-top-about__text">岩黒製作所は、国内トップクラスのシェアを誇る<br>
+                  医科向けの自動包装機の開発・製造を手がける<br>
+                  富山の<span class="c-text-gradation">小さな一流企業</span>です。</p>
+              </div>
+              <div class="p-top-about__btn">
+                <a href="#" class="c-btn">
+                  <p class="c-btn__text">view more</p>
+                  <span class="c-btn__arrow">
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/arrow.svg" alt="" width="28" height="28">
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

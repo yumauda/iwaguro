@@ -16,4 +16,16 @@
   font-size: rem(16);
   font-weight: 700;
   line-height: 1.8;
+  position: relative;
+  padding-left: rem(23);
+}
+.c-section-title__ja::before {
+  position: absolute;
+  content: "";
+  background: $black;
+  width: rem(14);
+  height: 1px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
