@@ -13,7 +13,7 @@
           <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/mv_img.jpg" alt="" width="431" height="38">
         </figure>
         <div class="p-mv__detail">
-          <h2 class="p-mv__title">
+          <h2 class="p-mv__title js-mv-title">
             <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/mv_title.png" alt="あなたの技術は、生きるを支える" width="521" height="148">
           </h2>
         </div>

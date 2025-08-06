@@ -1,5 +1,4 @@
 "use strict";
-
 // Then, once the page loads...
 window.addEventListener("DOMContentLoaded", function () {
   gsap.fromTo(
@@ -51,6 +50,23 @@ window.addEventListener("DOMContentLoaded", function () {
       delay: 0.5,
       ease: "power3.out",
       stagger: 0.1,
+    }
+  );
+  gsap.fromTo(
+    ".js-mv-title",
+    {
+      clipPath: "inset(100% 0% 0% 0%)",
+    },
+    {
+      duration: 1.5,
+      delay: 3,
+      clipPath: "inset(0% 0% 0% 0%)",
+     /*  stagger: 0.3, */
+      /* scrollTrigger: {
+        trigger: ".p-top-about",
+        start: "0% 30%",
+      }, */
+      ease: "power3.out",
     }
   );
   gsap.fromTo(

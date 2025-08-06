@@ -1,0 +1,129 @@
+@use "global" as *;
+
+.p-footer {
+  background: #413c37;
+  padding-top: rem(70);
+  padding-bottom: rem(72);
+}
+
+.p-footer__content {
+}
+
+.p-footer__logo {
+}
+
+.p-footer__home {
+  display: inline-block;
+  width: rem(368);
+}
+.p-footer__home img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-footer__nav {
+  display: flex;
+  margin-top: rem(60);
+}
+
+.p-footer__address-wrapper {
+}
+
+.p-footer__address {
+  font-size: rem(14);
+  line-height: 2;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
+.p-footer__tel-wrapper {
+  display: flex;
+  gap: rem(8);
+}
+
+.p-footer__tel {
+  font-size: rem(14);
+  line-height: 2;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+.p-footer__tel--fax {
+  position: relative;
+  padding-left: rem(8);
+}
+.p-footer__tel--fax::before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 1px;
+  height: rem(14);
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.p-footer__lists {
+  margin-left: auto;
+  display: flex;
+  gap: rem(40);
+}
+
+.p-footer__list {
+}
+
+.p-footer__list-left {
+}
+
+.p-footer__list-leftList {
+}
+.p-footer__list-leftList + .p-footer__list-leftList {
+  margin-top: rem(12);
+}
+.p-footer__link {
+  color: #fff;
+  font-size: rem(14);
+  letter-spacing: 0.04em;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.p-footer__out {
+  margin-top: rem(52);
+  display: flex;
+  align-items: center;
+  gap: rem(40);
+}
+
+.p-footer__out-link {
+  display: flex;
+  align-items: center;
+  gap: rem(8);
+}
+
+.p-footer__out-text {
+  font-size: rem(12);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  color: #fff;
+}
+
+.p-footer__icon {
+  display: inline-block;
+  width: rem(11);
+}
+.p-footer__icon img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+.p-footer__small {
+  margin-top: rem(40);
+}
+.p-footer__small small {
+  font-size: rem(12);
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-family: $second-font-family;
+}
