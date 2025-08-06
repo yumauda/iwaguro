@@ -1617,6 +1617,9 @@ input::placeholder {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  --scaleX: 0;
+  -webkit-transform-origin: top;
+          transform-origin: top;
 }
 
 .p-top-about::before {
@@ -1628,17 +1631,10 @@ input::placeholder {
   top: 0;
   left: 0;
   z-index: 1;
-}
-
-.p-top-about::after {
-  position: absolute;
-  content: "";
-  background: #222426;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
+  -webkit-transform: scaleX(var(--scaleX));
+          transform: scaleX(var(--scaleX));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
 }
 
 .p-top-about__content {
@@ -1772,6 +1768,134 @@ input::placeholder {
   height: auto;
 }
 
+.p-top-interview {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.p-top-interview__content {
+  padding-top: 100px;
+  padding-top: 6.25rem;
+  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
+}
+
+.p-top-interview__title .c-section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  gap: 2.5rem;
+}
+
+.p-top-interview__row {
+  margin-top: 28px;
+  margin-top: 1.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.p-top-interview__gradation-text {
+  color: #fff;
+  font-size: 26px;
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+}
+
+.p-top-interview__slider {
+  margin-top: 48px;
+  margin-top: 3rem;
+  max-width: 1075px;
+  max-width: 67.1875rem;
+  margin-left: auto;
+}
+
+.p-top-interview__slider-card {
+  padding-top: 15px;
+  padding-top: 0.9375rem;
+  padding-left: 45px;
+  padding-left: 2.8125rem;
+  padding-right: 45px;
+  padding-right: 2.8125rem;
+  padding-bottom: 41px;
+  padding-bottom: 2.5625rem;
+  background: #f2f2f2;
+}
+
+.p-top-interview__slider-img img {
+  aspect-ratio: 260/260;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.p-top-interview__slider-detail {
+  padding-top: 5px;
+  padding-top: 0.3125rem;
+}
+
+.p-top-interview__slider-name {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  color: #222426;
+  font-family: "Outfit", sans-serif;
+  text-transform: uppercase;
+}
+
+.p-top-interview__slider-text {
+  margin-top: 25px;
+  margin-top: 1.5625rem;
+  font-size: 17px;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #222426;
+  font-weight: 700;
+}
+
+.p-top-interview__tag-wrapper {
+  margin-top: 25px;
+  margin-top: 1.5625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 0.9375rem;
+     -moz-column-gap: 0.9375rem;
+          column-gap: 0.9375rem;
+  row-gap: 12px;
+  row-gap: 0.75rem;
+}
+
+.p-top-interview__tag {
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #222426;
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
 .c-btn {
   background: #413c37;
   border-radius: 9999px;
@@ -1805,8 +1929,8 @@ input::placeholder {
 
 .c-btn__arrow {
   display: inline-block;
-  width: 8px;
-  width: 0.5rem;
+  width: 28px;
+  width: 1.75rem;
   position: absolute;
   right: 20px;
   right: 1.25rem;
@@ -1826,8 +1950,10 @@ input::placeholder {
 
 .c-left {
   background: #fff;
-  width: 75px;
-  width: 4.6875rem;
+  min-width: 75px;
+  min-width: 4.6875rem;
+  max-width: 75px;
+  max-width: 4.6875rem;
   height: auto;
   position: relative;
   display: -webkit-box;
@@ -1837,6 +1963,10 @@ input::placeholder {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
+  --scaleY: 0;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  /*  transition: transform 0.3s ease-in-out; */
 }
 
 .c-left::before {
@@ -1847,6 +1977,10 @@ input::placeholder {
   height: 100%;
   top: 0;
   right: 0;
+  -webkit-transform: scaleY(var(--scaleY));
+          transform: scaleY(var(--scaleY));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
 }
 
 .c-left__text {

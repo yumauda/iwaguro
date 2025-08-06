@@ -49,8 +49,8 @@
       <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img3.jpg" alt="" width="480" height="270">
     </figure>
   </div>
-  <section class="p-top-about">
-    <div class="c-left">
+  <section class="p-top-about js-left--row">
+    <div class="c-left js-left--vertical">
       <p class="c-left__text">about</p>
     </div>
     <div class="l-inner">
@@ -87,6 +87,120 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="p-top-interview">
+    <div class="c-left">
+      <p class="c-left__text">interview</p>
+    </div>
+    <div class="l-inner">
+      <div class="p-top-interview__content">
+        <div class="p-top-interview__title">
+          <h3 class="c-section-title">
+            <span class="c-section-title__en">interview</span>
+            <span class="c-section-title__ja">仲間を知る</span>
+          </h3>
+        </div>
+        <div class="p-top-interview__row">
+          <p class="p-top-interview__gradation-text c-text-gradation">
+            共に創ろう。ワクワクする機械｡
+          </p>
+          <div class="p-top-interview__btn">
+            <a href="" class="c-btn">
+              <p class="c-btn__text">view more</p>
+              <span class="c-btn__arrow">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/arrow.svg" alt="" width="28" height="28">
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="p-top-interview__slider">
+          <!-- Slider main container -->
+          <div class="swiper swiper1">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="p-top-interview__slider-card">
+                  <figure class="p-top-interview__slider-img">
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img1.png" alt="" width="270" height="270">
+                  </figure>
+                  <div class="p-top-interview__slider-detail">
+                    <p class="p-top-interview__slider-name">
+                      t.m
+                    </p>
+                    <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
+                      思い通りに動いた瞬間、<br>
+                      モノづくりの醍醐味を感じる。</p>
+                    <div class="p-top-interview__tag-wrapper">
+                      <span class="p-top-interview__tag">#制御設計</span>
+                      <span class="p-top-interview__tag">#キャリア入社</span>
+                      <span class="p-top-interview__tag">#機械科 卒業</span>
+                      <span class="p-top-interview__tag">#チームワーク</span>
+                      <span class="p-top-interview__tag">#仕事を通して成長できる</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="p-top-interview__slider-card">
+                  <figure class="p-top-interview__slider-img">
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img1.png" alt="" width="270" height="270">
+                  </figure>
+                  <div class="p-top-interview__slider-detail">
+                    <p class="p-top-interview__slider-name">
+                      t.m
+                    </p>
+                    <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
+                      思い通りに動いた瞬間、<br>
+                      モノづくりの醍醐味を感じる。</p>
+                    <div class="p-top-interview__tag-wrapper">
+                      <span class="p-top-interview__tag">#制御設計</span>
+                      <span class="p-top-interview__tag">#キャリア入社</span>
+                      <span class="p-top-interview__tag">#機械科 卒業</span>
+                      <span class="p-top-interview__tag">#チームワーク</span>
+                      <span class="p-top-interview__tag">#仕事を通して成長できる</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="p-top-interview__slider-card">
+                  <figure class="p-top-interview__slider-img">
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img1.png" alt="" width="270" height="270">
+                  </figure>
+                  <div class="p-top-interview__slider-detail">
+                    <p class="p-top-interview__slider-name">
+                      t.m
+                    </p>
+                    <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
+                      思い通りに動いた瞬間、<br>
+                      モノづくりの醍醐味を感じる。</p>
+                    <div class="p-top-interview__tag-wrapper">
+                      <span class="p-top-interview__tag">#制御設計</span>
+                      <span class="p-top-interview__tag">#キャリア入社</span>
+                      <span class="p-top-interview__tag">#機械科 卒業</span>
+                      <span class="p-top-interview__tag">#チームワーク</span>
+                      <span class="p-top-interview__tag">#仕事を通して成長できる</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+
         </div>
       </div>
     </div>

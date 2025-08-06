@@ -21,45 +21,37 @@ window.addEventListener("DOMContentLoaded", function () {
       },
       ease: "power3.out",
     }
-  )
+  );
   gsap.fromTo(
-    ".js-image-reverse",
+    ".js-left--vertical",
     {
-      opacity: 0,
-      y: 30,
-      clipPath: "inset(0% 0% 0% 100%)",
+      "--scaleY": 0,
     },
     {
-      duration: 1.5,
-      opacity: 1,
-      y: 0,
-      clipPath: "inset(0% 0% 0% 0%)",
-      stagger: 0.3,
+      "--scaleY": 1,
+      duration: 3,
+      delay: 0.5,
       scrollTrigger: {
-        trigger: ".js-image",
+        trigger: ".p-top-about",
         start: "0% 50%",
       },
       ease: "power3.out",
     }
   );
   gsap.fromTo(
-    ".js-image-last",
+    ".js-left--row",
     {
-      opacity: 0,
-      y: 30,
-      clipPath: "inset(0% 100% 0% 0%)",
+      "--scaleX": 0,
     },
     {
-      duration: 1.5,
-      opacity: 1,
-      y: 0,
-      clipPath: "inset(0% 0% 0% 0%)",
-      stagger: 0.3,
+      "--scaleX": 1,
+      duration: 3,
+      delay: 0.5,
       scrollTrigger: {
-        trigger: ".js-image-reverse",
+        trigger: ".p-top-about",
         start: "0% 50%",
       },
       ease: "power3.out",
     }
-  )
+  );
 });

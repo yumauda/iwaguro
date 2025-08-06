@@ -2,12 +2,16 @@
 
 .c-left {
   background: #fff;
-  width: rem(75);
+  min-width: rem(75);
+  max-width: rem(75);
   height: auto;
   position: relative;
   display: flex;
   justify-content: center;
   position: relative;
+  --scaleY: 0;
+  transform-origin: top;
+ /*  transition: transform 0.3s ease-in-out; */
 }
 .c-left::before {
   position: absolute;
@@ -17,6 +21,8 @@
   height: 100%;
   top: 0;
   right: 0;
+  transform: scaleY(var(--scaleY));
+  transform-origin: top left;
 }
 
 .c-left__text {
