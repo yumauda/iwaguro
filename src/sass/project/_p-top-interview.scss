@@ -4,8 +4,21 @@
   background: #fff;
   display: flex;
   position: relative;
+  --scaleX: 0;
+  transform-origin: top;
 }
-
+.p-top-interview::before {
+  position: absolute;
+  content: "";
+  background: $black;
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: scaleX(var(--scaleX));
+  transform-origin: top left;
+}
 .p-top-interview__content {
   padding-top: rem(100);
   padding-bottom: rem(100);

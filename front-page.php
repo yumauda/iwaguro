@@ -18,22 +18,22 @@
     <div class="l-inner">
       <div class="p-gradation__content">
         <div class="p-gradation__text-wrapper">
-          <p class="p-gradation__text">普段、何気なく手に取っている<span class="c-text-gradation">医薬品</span>。<br>
+          <p class="p-gradation__text">普段、何気なく手に取っている<span class="c-text-gradation js-text-gradation">医薬品</span>。<br>
             そのパッケージ、<br>岩黒製作所が関わっているかもしれません。</p>
           <p class="p-gradation__text">私たちは ｢限りなき技術への挑戦｣ を信念に<br>
             医療・製薬業界の発展に貢献し続ける<br>
             薬剤包装機械製造のソリューション・カンパニー。</p>
           <p class="p-gradation__text">医薬という、<br>
-            大事な<span class="c-text-gradation">命・健康</span> を支えるものだからこそ<br>
+            大事な<span class="c-text-gradation js-text-gradation">命・健康</span> を支えるものだからこそ<br>
             それらを包む技術に私たちは情熱をかけています。</p>
           <p class="p-gradation__text">ただモノづくりをするのではなく、<br>
-            <span class="c-text-gradation">医薬の一つひとつ</span> に、<span class="c-text-gradation">オンリーワンの包み方</span> を<br>
+            <span class="c-text-gradation js-text-gradation">医薬の一つひとつ</span> に、<span class="c-text-gradation js-text-gradation">オンリーワンの包み方</span> を<br>
             ゼロから考え、つくり、安心を届ける。
           </p>
           <p class="p-gradation__text">創意は無限、改良は永遠。</p>
           <p class="p-gradation__text">なくてはならない「くすり」。<br>
             その一錠、一包が、<br>
-            人々を支える、<span class="c-text-gradation">生きる力</span>になることを信じて。</p>
+            人々を支える、<span class="c-text-gradation js-text-gradation">生きる力</span>になることを信じて。</p>
         </div>
       </div>
     </div>
@@ -62,20 +62,20 @@
           <div class="p-top-about__detail">
             <div class="p-top-about__title">
               <h3 class="c-section-title">
-                <span class="c-section-title__en">about</span>
-                <span class="c-section-title__ja">私たちについて</span>
+                <span class="c-section-title__en js-about-title">about</span>
+                <span class="c-section-title__ja js-about-title">私たちについて</span>
               </h3>
             </div>
             <div class="p-top-about__block">
               <div class="p-top-about__detail-top">
-                <p class="p-top-about__detail-title c-text-gradation">だれにも真似できない</p>
-                <p class="p-top-about__detail-title c-text-gradation">オーダーメイドなものづくりを｡</p>
+                <p class="p-top-about__detail-title c-text-gradation js-about-gradation">だれにも真似できない</p>
+                <p class="p-top-about__detail-title c-text-gradation js-about-gradation">オーダーメイドなものづくりを｡</p>
                 <p class="p-top-about__detail-en">Always Challenging.</p>
               </div>
               <div class="p-top-about__text-wrapper">
                 <p class="p-top-about__text">岩黒製作所は、国内トップクラスのシェアを誇る<br>
                   医科向けの自動包装機の開発・製造を手がける<br>
-                  富山の<span class="c-text-gradation">小さな一流企業</span>です。</p>
+                  富山の<span class="c-text-gradation js-about-gradation">小さな一流企業</span>です。</p>
               </div>
               <div class="p-top-about__btn">
                 <a href="#" class="c-btn">
@@ -91,20 +91,20 @@
       </div>
     </div>
   </section>
-  <section class="p-top-interview">
-    <div class="c-left">
+  <section class="p-top-interview js-left--row-interview">
+    <div class="c-left js-left--vertical-interview">
       <p class="c-left__text">interview</p>
     </div>
     <div class="l-inner">
       <div class="p-top-interview__content">
         <div class="p-top-interview__title">
           <h3 class="c-section-title">
-            <span class="c-section-title__en">interview</span>
-            <span class="c-section-title__ja">仲間を知る</span>
+            <span class="c-section-title__en js-interview-title">interview</span>
+            <span class="c-section-title__ja js-interview-title">仲間を知る</span>
           </h3>
         </div>
         <div class="p-top-interview__row">
-          <p class="p-top-interview__gradation-text c-text-gradation">
+          <p class="p-top-interview__gradation-text c-text-gradation js-interview-gradation">
             共に創ろう。ワクワクする機械｡
           </p>
           <div class="p-top-interview__btn">
@@ -188,7 +188,7 @@
                   </div>
                 </div>
               </div>
-              
+
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -204,6 +204,143 @@
         </div>
       </div>
     </div>
+  </section>
+  <section class="p-pickup js-left--row-pickup">
+    <div class="c-left js-left--vertical-pickup">
+      <p class="c-left__text">pick up</p>
+    </div>
+    <div class="l-inner">
+      <div class="p-pickup__content">
+        <ul class="p-pickup__lists">
+          <li class="p-pickup__list">
+            <h3 class="p-pickup__title">
+              <span class="p-pickup__title-en">job</span>
+              <span class="p-pickup__title-ja">職種紹介</span>
+            </h3>
+            <figure class="p-pickup__img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/pickup_img1.png" alt="" width="270" height="270">
+            </figure>
+            <div class="p-pickup__detail">
+              <p class="p-pickup__detail-text">
+                各部門の仕事について紹介します｡
+              </p>
+              <div class="p-pickup__btn">
+                <a href="" class="c-btn">
+                  <p class="c-btn__text">view more</p>
+                  <span class="c-btn__arrow">
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/arrow.svg" alt="" width="28" height="28">
+                  </span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="p-pickup__list">
+            <h3 class="p-pickup__title">
+              <span class="p-pickup__title-en">figures</span>
+              <span class="p-pickup__title-ja">数字で見る岩黒製作所</span>
+            </h3>
+            <figure class="p-pickup__img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/pickup_img2.png" alt="" width="270" height="270">
+            </figure>
+            <div class="p-pickup__detail">
+              <p class="p-pickup__detail-text">
+                気になる数字について紹介します
+              </p>
+              <div class="p-pickup__btn">
+                <a href="" class="c-btn">
+                  <p class="c-btn__text">view more</p>
+                  <span class="c-btn__arrow">
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/arrow.svg" alt="" width="28" height="28">
+                  </span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="p-pickup__list">
+            <h3 class="p-pickup__title">
+              <span class="p-pickup__title-en">style</span>
+              <span class="p-pickup__title-ja">福利厚生・制度</span>
+            </h3>
+            <figure class="p-pickup__img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/pickup_img3.png" alt="" width="270" height="270">
+            </figure>
+            <div class="p-pickup__detail">
+              <p class="p-pickup__detail-text">
+                働く環境について紹介します｡
+              </p>
+              <div class="p-pickup__btn">
+                <a href="" class="c-btn">
+                  <p class="c-btn__text">view more</p>
+                  <span class="c-btn__arrow">
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/arrow.svg" alt="" width="28" height="28">
+                  </span>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="p-top-news">
+    <div class="c-left js-left--vertical-news">
+      <p class="c-left__text">news</p>
+    </div>
+    <div class="l-inner">
+      <div class="p-top-news__content">
+        <div class="p-top-news__detail">
+          <h3 class="c-section-title">
+            <span class="c-section-title__en js-news-title">news</span>
+            <span class="c-section-title__ja js-news-title">お知らせ</span>
+          </h3>
+          <div class="p-top-news__btn">
+            <a href="" class="c-btn">
+              <p class="c-btn__text">view more</p>
+              <span class="c-btn__arrow">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/arrow.svg" alt="" width="28" height="28">
+              </span>
+            </a>
+          </div>
+        </div>
+        <ul class="p-top-news__lists">
+          <li class="p-top-news__list">
+            <a href="#" class="p-top-news__link">
+              <div class="p-top-news__meta">
+                <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
+                <span class="p-top-news__category">イベント情報</span>
+              </div>
+              <p class="p-top-news__link-title">キャリア向け！◯◯転職◯◯◯◯◯に参加します。</p>
+            </a>
+          </li>
+          <li class="p-top-news__list">
+            <a href="#" class="p-top-news__link">
+              <div class="p-top-news__meta">
+                <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
+                <span class="p-top-news__category">お知らせ</span>
+              </div>
+              <p class="p-top-news__link-title">202X卒 新卒採用のエントリーを開始しました。</p>
+            </a>
+          </li>
+          <li class="p-top-news__list">
+            <a href="#" class="p-top-news__link">
+              <div class="p-top-news__meta">
+                <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
+                <span class="p-top-news__category">イベント情報</span>
+              </div>
+              <p class="p-top-news__link-title">キャリア向け！◯◯転職◯◯◯◯◯に参加します。</p>
+            </a>
+          </li>
+          <li class="p-top-news__list">
+            <a href="#" class="p-top-news__link">
+              <div class="p-top-news__meta">
+                <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
+                <span class="p-top-news__category">お知らせ</span>
+              </div>
+              <p class="p-top-news__link-title">202X卒 新卒採用のエントリーを開始しました。</p>
+            </a>
+          </li>
+        </ul>
+      </div>
   </section>
 </main>
 <?php get_footer() ?>
