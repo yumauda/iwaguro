@@ -1,5 +1,11 @@
 <?php get_header(); ?>
 <main>
+  <div class="p-loading js-loading-cover">
+    <div class="p-loading__bg js-loading"></div>
+    <div class="p-loading__logo js-logo-top">
+      <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/header_logo.png" alt="岩黒製作所" width="315" height="38">
+    </div>
+  </div>
   <section class="p-mv">
     <div class="l-inner">
       <div class="p-mv__content">
