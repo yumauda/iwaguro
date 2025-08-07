@@ -1,0 +1,64 @@
+@use "global" as *;
+
+/* スライダー全体 */
+.slider-wrapper {
+  display: flex; /* スライドのグループを横並び */
+  overflow: hidden; /* はみ出たスライドを隠す */
+  gap: rem(20);
+  @include mq(md) {
+    gap: min(rem(30), calc(30 / 1920) * 100vw);
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+  }
+}
+.slider-wrapper + .slider-wrapper {
+  margin-top: rem(35);
+}
+/* スライド3枚のグループ */
+.slider {
+  animation: scroll-left 40s infinite linear 0.5s both;
+  display: flex; /* スライド3枚を横並び */
+  gap: rem(20);
+  @include mq(md) {
+    gap: min(rem(30), calc(30 / 1920) * 100vw);
+  }
+}
+.slider--right {
+  animation: scroll-right 40s infinite linear 0.5s both;
+}
+/* スライド */
+.slide {
+  width: calc(100vw / 2);
+  @include mq(md) {
+    width: calc(100vw / 5); /* 3はスライドの枚数 */
+  }
+}
+/* スライドの画像 */
+.slide img {
+  display: block;
+  width: 100%;
+}
+/* CSSアニメーション */
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes scroll-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.p-slider__img img {
+  aspect-ratio: 400 / 400;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}

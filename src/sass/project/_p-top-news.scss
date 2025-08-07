@@ -4,10 +4,21 @@
   background: #f2f2f2;
   position: relative;
   display: flex;
-  --scaleX: 0;
+  --scaleX: 1;
   transform-origin: top;
 }
-
+.p-top-news::before {
+  position: absolute;
+  content: "";
+  background: $black;
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: scaleX(var(--scaleX));
+  transform-origin: top left;
+}
 .p-top-news__content {
   padding-top: rem(100);
   padding-bottom: rem(100);

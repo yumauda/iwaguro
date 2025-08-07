@@ -1,0 +1,110 @@
+@use "global" as *;
+
+.p-top-line {
+  background: #fff;
+  position: relative;
+  --scaleX: 1;
+  display: flex;
+  transform-origin: top;
+}
+.p-top-line::before {
+  position: absolute;
+  content: "";
+  background: $black;
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: scaleX(var(--scaleX));
+  transform-origin: top left;
+}
+.p-top-line__content {
+  padding-top: rem(100);
+  padding-bottom: rem(57);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: rem(94);
+}
+
+.p-top-line__detail {
+  display: flex;
+}
+
+.p-top-line__title {
+}
+
+.p-top-line .c-section-title__ja {
+  display: block;
+}
+
+.p-top-line__icon {
+  width: rem(62);
+  margin-left: rem(21);
+  margin-top: rem(12);
+}
+.p-top-line__icon img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-top-line__text-wrapper {
+  text-align: center;
+}
+
+.p-top-line__text {
+  color: $black;
+  font-size: rem(16);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.8;
+}
+
+.p-top-line__btn-wrapper {
+  text-align: center;
+}
+
+.p-top-line__btn-topText {
+  color: #413c37;
+  font-size: rem(16);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  position: relative;
+  margin-bottom: rem(13);
+}
+
+.p-top-line__btn-topText::before {
+  position: absolute;
+  content: "";
+  background: url(../images/common/line_left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: rem(20);
+  height: auto;
+  aspect-ratio: 20 / 15;
+  object-fit: cover;
+  top: rem(8);
+  left: rem(-32);
+}
+.p-top-line__btn-topText::after {
+  position: absolute;
+  content: "";
+  background: url(../images/common/line_right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: rem(20);
+  height: auto;
+  aspect-ratio: 20 / 15;
+  object-fit: cover;
+  top: rem(8);
+  right: rem(-32);
+}
+.p-top-line__slider {
+  padding-bottom: rem(57);
+}

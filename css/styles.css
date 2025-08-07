@@ -195,8 +195,8 @@ select::-ms-expand {
   max-width: 600px;
   max-width: 37.5rem;
   width: 100%;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1966,6 +1966,114 @@ input::placeholder {
   margin-top: 2.8125rem;
 }
 
+/* スライダー全体 */
+.slider-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; /* スライドのグループを横並び */
+  overflow: hidden; /* はみ出たスライドを隠す */
+  gap: 20px;
+  gap: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .slider-wrapper {
+    gap: min(1.875rem, 1.5625vw);
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+  }
+}
+
+.slider-wrapper + .slider-wrapper {
+  margin-top: 35px;
+  margin-top: 2.1875rem;
+}
+
+/* スライド3枚のグループ */
+.slider {
+  -webkit-animation: scroll-left 40s infinite linear 0.5s both;
+          animation: scroll-left 40s infinite linear 0.5s both;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; /* スライド3枚を横並び */
+  gap: 20px;
+  gap: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .slider {
+    gap: min(1.875rem, 1.5625vw);
+  }
+}
+
+.slider--right {
+  -webkit-animation: scroll-right 40s infinite linear 0.5s both;
+          animation: scroll-right 40s infinite linear 0.5s both;
+}
+
+/* スライド */
+.slide {
+  width: 50vw;
+}
+@media screen and (min-width: 768px) {
+  .slide {
+    width: 20vw; /* 3はスライドの枚数 */
+  }
+}
+
+/* スライドの画像 */
+.slide img {
+  display: block;
+  width: 100%;
+}
+
+/* CSSアニメーション */
+@-webkit-keyframes scroll-left {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+@keyframes scroll-left {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes scroll-right {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes scroll-right {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+.p-slider__img img {
+  aspect-ratio: 400/400;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
 .p-single-topics {
   padding-top: 80px;
   padding-top: 5rem;
@@ -2650,15 +2758,174 @@ input::placeholder {
   line-height: 1;
 }
 
+.p-top-line {
+  background: #fff;
+  position: relative;
+  --scaleX: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+
+.p-top-line::before {
+  position: absolute;
+  content: "";
+  background: #222426;
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transform: scaleX(var(--scaleX));
+          transform: scaleX(var(--scaleX));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.p-top-line__content {
+  padding-top: 100px;
+  padding-top: 6.25rem;
+  padding-bottom: 57px;
+  padding-bottom: 3.5625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 94px;
+  gap: 5.875rem;
+}
+
+.p-top-line__detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.p-top-line .c-section-title__ja {
+  display: block;
+}
+
+.p-top-line__icon {
+  width: 62px;
+  width: 3.875rem;
+  margin-left: 21px;
+  margin-left: 1.3125rem;
+  margin-top: 12px;
+  margin-top: 0.75rem;
+}
+
+.p-top-line__icon img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.p-top-line__text-wrapper {
+  text-align: center;
+}
+
+.p-top-line__text {
+  color: #222426;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.8;
+}
+
+.p-top-line__btn-wrapper {
+  text-align: center;
+}
+
+.p-top-line__btn-topText {
+  color: #413c37;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
+}
+
+.p-top-line__btn-topText::before {
+  position: absolute;
+  content: "";
+  background: url(../images/common/line_left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20px;
+  width: 1.25rem;
+  height: auto;
+  aspect-ratio: 20/15;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 8px;
+  top: 0.5rem;
+  left: -32px;
+  left: -2rem;
+}
+
+.p-top-line__btn-topText::after {
+  position: absolute;
+  content: "";
+  background: url(../images/common/line_right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20px;
+  width: 1.25rem;
+  height: auto;
+  aspect-ratio: 20/15;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 8px;
+  top: 0.5rem;
+  right: -32px;
+  right: -2rem;
+}
+
+.p-top-line__slider {
+  padding-bottom: 57px;
+  padding-bottom: 3.5625rem;
+}
+
 .p-top-news {
   background: #f2f2f2;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  --scaleX: 0;
+  --scaleX: 1;
   -webkit-transform-origin: top;
           transform-origin: top;
+}
+
+.p-top-news::before {
+  position: absolute;
+  content: "";
+  background: #222426;
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transform: scaleX(var(--scaleX));
+          transform: scaleX(var(--scaleX));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
 }
 
 .p-top-news__content {
@@ -2839,6 +3106,7 @@ input::placeholder {
   max-width: 4.6875rem;
   height: auto;
   position: relative;
+  z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

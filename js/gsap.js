@@ -268,4 +268,36 @@ window.addEventListener("DOMContentLoaded", function () {
       ease: "power3.out",
     }
   );
+  gsap.fromTo(
+    ".js-left--vertical-news",
+    {
+      "--scaleY": 0,
+    },
+    {
+      "--scaleY": 1,
+      duration: 3,
+      delay: 0.5,
+      scrollTrigger: {
+        trigger: ".p-top-news",
+        start: "0% 50%",
+      },
+      ease: "power3.out",
+    }
+  );
+  gsap.fromTo(
+    ".js-left--vertical-line",
+    {
+      "--scaleY": 0,
+    },
+    {
+      "--scaleY": 1,
+      duration: 3,
+      delay: 0.5,
+      scrollTrigger: {
+        trigger: ".p-top-line",
+        start: "0% 50%",
+      },
+      ease: "power3.out",
+    }
+  );
 });

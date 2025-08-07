@@ -348,5 +348,165 @@
         </ul>
       </div>
   </section>
+  <section class="p-top-line">
+    <div class="c-left js-left--vertical-line">
+      <p class="c-left__text">line</p>
+    </div>
+    <div class="l-inner">
+      <div class="p-top-line__content">
+        <div class="p-top-line__detail">
+          <div class="p-top-line__title">
+            <h3 class="c-section-title">
+              <span class="c-section-title__en js-line-title">line</span>
+              <span class="c-section-title__ja js-line-title">LINE公式アカウント</span>
+            </h3>
+          </div>
+          <figure class="p-top-line__icon">
+            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/line.png" alt="" width="100" height="100">
+          </figure>
+        </div>
+        <div class="p-top-line__text-wrapper">
+          <p class="p-top-line__text">LINEの友だち登録をしていただくと<br>
+            会社訪問のお問い合わせができます。<br>
+            いつでもご連絡をおまちしております！</p>
+        </div>
+        <div class="p-top-line__btn-wrapper">
+          <p class="p-top-line__btn-topText">LINE公式アカウント</p>
+          <a href="" class="c-btn">
+            <p class="c-btn__text">ご登録はこちら</p>
+            <span class="c-btn__arrow">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/arrow.svg" alt="" width="28" height="28">
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="p-top-line__slider">
+
+        <div class="slider-wrapper">
+          <ul class="slider">
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_1.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_2.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_3.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_4.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_5.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+          </ul>
+          <ul class="slider">
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_1.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_2.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_3.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_4.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_5.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <div class="slider-wrapper">
+          <ul class="slider slider--right">
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_6.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_7.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_8.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_9.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_10.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_11.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+          </ul>
+          <ul class="slider slider--right">
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_6.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_7.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_8.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_9.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_10.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+            <li class="slide">
+              <figure class="p-slider__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_11.jpg" alt="" width="400" height="400">
+              </figure>
+            </li>
+          </ul>
+  
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 <?php get_footer() ?>
