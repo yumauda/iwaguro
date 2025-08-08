@@ -41,7 +41,10 @@
 }
 
 .p-top-about__img {
-  width: rem(575);
+  width: 100%;
+  @include mq(md) {
+    max-width: rem(575);
+  }
 }
 .p-top-about__img img {
   width: 100%;
@@ -51,7 +54,10 @@
 }
 
 .p-top-about__detail {
-  width: rem(474);
+  width: 100%;
+  @include mq(md) {
+    width: rem(474);
+  }
 }
 
 .p-top-about__detail-top {

@@ -6,6 +6,7 @@
   --scaleX: 1;
   display: flex;
   transform-origin: top;
+  overflow-x: clip;
 }
 .p-top-line::before {
   position: absolute;
