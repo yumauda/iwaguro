@@ -1,0 +1,134 @@
+@use "global" as *;
+
+.p-reason {
+  padding-top: rem(100);
+  padding-bottom: rem(100);
+}
+
+.p-reason__content {
+}
+
+.p-reason__title {
+  .c-section-title__en,
+  .c-section-title__ja {
+    display: block;
+  }
+
+  .c-section-title__ja {
+    margin-top: rem(30);
+  }
+}
+
+.p-reason__block {
+  margin-top: rem(40);
+  max-width: rem(1100);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-reason__row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: rem(70);
+}
+.p-reason__row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.p-reason__row + .p-reason__row {
+  margin-top: rem(80);
+}
+.p-reason__detail {
+  max-width: rem(540);
+  width: 100%;
+  position: relative;
+}
+.p-reason__detail::before {
+  position: absolute;
+  content: attr(data-number);
+  color: #f3faff;
+  font-size: rem(150);
+  font-weight: 600;
+  font-family: $second-font-family;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  right: 0;
+  top: rem(-40);
+  z-index: -1;
+}
+
+.p-reason__detailTitle {
+  color: #fff;
+  font-size: rem(24);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.p-reason__text-wrapper {
+  margin-top: rem(24);
+}
+
+.p-reason__text {
+  font-size: rem(16);
+  color: $black;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+.p-reason__img {
+  max-width: rem(480);
+  width: 100%;
+  flex: 1;
+}
+.p-reason__img img {
+  aspect-ratio: 480 / 350;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+.p-reason__bottom {
+  margin-top: rem(100);
+  position: relative;
+  padding-top: rem(25);
+  padding-bottom: rem(32);
+}
+.p-reason__bottom::before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #DFF3FF 0%, #E5EDFF 100%);
+  width: 100vw;
+  left: calc(50% - 50vw);
+  right: calc(50% - 50vw);
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.p-reason__bottom-text {
+  font-size: rem(20);
+  line-height: 2;
+  color: $black;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.p-reason__bottom-gradation {
+  margin-top: rem(17);
+  text-align: center;
+}
+
+.p-reason__bottom-text--gradation {
+  color: #fff;
+  font-weight: 700;
+  font-size: rem(24);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.p-reason__bottom-text--gradation + .p-reason__bottom-text--gradation {
+  margin-top: rem(12);
+}

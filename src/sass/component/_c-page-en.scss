@@ -1,0 +1,26 @@
+@use "global" as *;
+
+.c-page-en {
+  font-family: $second-font-family;
+  font-size: rem(24);
+  font-weight: 500;
+  color: $black;
+  line-height: 1;
+  position: relative;
+  padding-left: rem(23);
+}
+.c-page-en::before {
+  position: absolute;
+  content: "";
+  background: url(../images/common/page_en_icon.png) no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: rem(20);
+  height: auto;
+  aspect-ratio: 20 / 10;
+  object-fit: cover;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}

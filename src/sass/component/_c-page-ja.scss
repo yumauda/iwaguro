@@ -1,0 +1,13 @@
+@use "global" as *;
+
+.c-page-ja {
+  font-size: rem(60);
+  color: $black;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  display: block;
+}
+.c-page-ja + .c-page-ja {
+  margin-top: rem(28);
+}

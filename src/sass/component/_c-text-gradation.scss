@@ -22,3 +22,6 @@
   transform: scaleX(var(--scaleX));
   transform-origin: top left;
 }
+.c-text-gradation--page {
+  --scaleX: 1;
+}
