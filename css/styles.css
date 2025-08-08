@@ -1872,7 +1872,7 @@ input::placeholder {
   height: 1px;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 10;
   -webkit-transform: scaleX(var(--scaleX));
           transform: scaleX(var(--scaleX));
   -webkit-transform-origin: top left;
@@ -2474,7 +2474,7 @@ input::placeholder {
   height: 1px;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 10;
   -webkit-transform: scaleX(var(--scaleX));
           transform: scaleX(var(--scaleX));
   -webkit-transform-origin: top left;
@@ -2631,7 +2631,7 @@ input::placeholder {
   height: 1px;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 10;
   -webkit-transform: scaleX(var(--scaleX));
           transform: scaleX(var(--scaleX));
   -webkit-transform-origin: top left;
@@ -2777,7 +2777,7 @@ input::placeholder {
   height: 1px;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 10;
   -webkit-transform: scaleX(var(--scaleX));
           transform: scaleX(var(--scaleX));
   -webkit-transform-origin: top left;
@@ -2921,7 +2921,7 @@ input::placeholder {
   height: 1px;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 10;
   -webkit-transform: scaleX(var(--scaleX));
           transform: scaleX(var(--scaleX));
   -webkit-transform-origin: top left;
