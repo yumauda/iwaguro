@@ -23,7 +23,7 @@ body.drawer-open {
   overflow: hidden;
 }
 
-main {
+body {
   overflow-x: hidden;
 }
 
@@ -2046,6 +2046,166 @@ input::placeholder {
      object-fit: cover;
   -o-object-position: center center;
      object-position: center center;
+}
+
+.p-other {
+  padding-top: 130px;
+  padding-top: 8.125rem;
+  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
+  background: #f2f2f2;
+}
+
+.p-other__content {
+  max-width: 1100px;
+  max-width: 68.75rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-other__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.p-other__link::before {
+  position: absolute;
+  content: "other stories";
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 160px;
+  font-size: 10rem;
+  left: -168px;
+  left: -10.5rem;
+  top: -120px;
+  top: -7.5rem;
+  z-index: 0;
+  white-space: nowrap;
+}
+
+.p-other__link:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.p-other__link--second {
+  position: relative;
+}
+
+.p-other__link--second::before {
+  position: absolute;
+  content: "other stories";
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 160px;
+  font-size: 10rem;
+  left: auto;
+  left: initial;
+  right: -160px;
+  right: -10rem;
+  top: auto;
+  top: initial;
+  bottom: -120px;
+  bottom: -7.5rem;
+  z-index: 0;
+  white-space: nowrap;
+}
+
+.p-other__link + .p-other__link {
+  margin-top: 45px;
+  margin-top: 2.8125rem;
+}
+
+.p-other__img {
+  max-width: 789px;
+  max-width: 49.3125rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.p-other__img img {
+  aspect-ratio: 789/363;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.p-other__detail {
+  margin-left: -64px;
+  margin-left: -4rem;
+  margin-top: 102px;
+  margin-top: 6.375rem;
+  position: relative;
+  z-index: 3;
+}
+
+.p-other__link:nth-child(even) .p-other__detail {
+  margin-left: 0;
+  margin-left: initial;
+}
+
+.p-other__link:nth-child(even) .p-other__img {
+  margin-left: -200px;
+  margin-left: -12.5rem;
+}
+
+.p-other__en {
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  background: -webkit-gradient(linear, left top, right top, from(#0087c1), to(#033fc2));
+  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.p-other__title-wrapper {
+  margin-top: 9px;
+  margin-top: 0.5625rem;
+}
+
+.p-other__title-ja {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 36px;
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background: #413c37;
+  padding-left: 8px;
+  padding-left: 0.5rem;
+  padding-right: 8px;
+  padding-right: 0.5rem;
+  display: inline-block;
+}
+
+.p-other__title-ja + .p-other__title-ja {
+  margin-top: 9px;
+  margin-top: 0.5625rem;
 }
 
 .p-page-mv {

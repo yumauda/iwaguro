@@ -164,5 +164,41 @@
       </div>
     </div>
   </section>
+  <section class="p-other">
+    <div class="l-inner">
+      <div class="p-other__content">
+        <div class="p-other__block">
+          <a href="#" class="p-other__link" data-title="OTHER STORIES">
+            <figure class="p-other__img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/other_img1.jpg" alt="岩黒製作所だからできること" width="431" height="38">
+            </figure>
+            <div class="p-other__detail">
+              <p class="p-other__en">STORY #01</p>
+              <div class="p-other__title-wrapper">
+                <h3 class="p-other__title">
+                  <span class="p-other__title-ja">岩黒製作所だから</span>
+                  <span class="p-other__title-ja">できること。</span>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="p-other__link p-other__link--second" data-title="OTHER STORIES">
+            <figure class="p-other__img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/other_img2.jpg" alt="金属の未来をリファイン" width="431" height="38">
+            </figure>
+            <div class="p-other__detail">
+              <p class="p-other__en">STORY #02</p>
+              <div class="p-other__title-wrapper">
+                <h3 class="p-other__title">
+                  <span class="p-other__title-ja">機械創りに集中できる</span>
+                  <span class="p-other__title-ja">風通しのよい職場。</span>
+                </h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 <?php get_footer() ?>
