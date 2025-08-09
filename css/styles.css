@@ -2232,7 +2232,7 @@ input::placeholder {
 
 .p-line {
   position: relative;
-  --scaleX: 1;
+  --scaleY: 0;
   -webkit-transform-origin: top;
           transform-origin: top;
   z-index: 10;
@@ -2247,9 +2247,9 @@ input::placeholder {
   top: 0;
   left: 74px;
   left: 4.625rem;
-  z-index: 10;
-  -webkit-transform: scaleX(var(--scaleX));
-          transform: scaleX(var(--scaleX));
+  z-index: 999;
+  -webkit-transform: scaleY(var(--scaleY));
+          transform: scaleY(var(--scaleY));
   -webkit-transform-origin: top left;
           transform-origin: top left;
 }
@@ -3502,21 +3502,18 @@ input::placeholder {
           transform-origin: top;
 }
 
-.p-top-about::before {
+/* .p-top-about::before {
   position: absolute;
   content: "";
-  background: #222426;
+  background: $black;
   width: 100%;
   height: 1px;
   top: 0;
   left: 0;
   z-index: 10;
-  -webkit-transform: scaleX(var(--scaleX));
-          transform: scaleX(var(--scaleX));
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
-}
-
+  transform: scaleX(var(--scaleX));
+  transform-origin: top left;
+} */
 .p-top-about__content {
   padding-top: 100px;
   padding-top: 6.25rem;

@@ -55,7 +55,7 @@
       <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img3.jpg" alt="" width="480" height="270">
     </figure>
   </div>
-  <div class="p-line">
+  <div class="p-line js-left--vertical">
     <section class="p-top-about js-left--row">
       <div class="c-left js-left--vertical">
         <p class="c-left__text">about</p>
@@ -195,19 +195,19 @@
                     </div>
                   </div>
                 </div>
-  
+
               </div>
               <!-- If we need pagination -->
               <div class="swiper-pagination"></div>
-  
+
               <!-- If we need navigation buttons -->
               <div class="swiper-button-prev"></div>
               <div class="swiper-button-next"></div>
-  
+
               <!-- If we need scrollbar -->
               <div class="swiper-scrollbar"></div>
             </div>
-  
+
           </div>
         </div>
       </div>
@@ -348,6 +348,7 @@
             </li>
           </ul>
         </div>
+      </div>
     </section>
     <section class="p-challenge">
       <div class="c-left js-left--vertical-line">
@@ -376,7 +377,7 @@
                   期待に応えるモノづくりで、一生ゴトの仕事をしよう！</p>
               </div>
             </div>
-  
+
             <div class="p-challenge__right">
               <a href="#" class="p-challenge__link">
                 <p class="p-challenge__link-text">新卒採用 募集要項</p>
@@ -406,7 +407,6 @@
             <p class="marquee__text">recruitment</p>
             <p class="marquee__text marquee__text--transparent">recruitment</p>
           </div>
-  
         </div>
       </div>
     </section>
@@ -443,7 +443,7 @@
           </div>
         </div>
         <div class="p-top-line__slider">
-  
+
           <div class="slider-wrapper">
             <ul class="slider">
               <li class="slide">
@@ -565,7 +565,6 @@
                 </figure>
               </li>
             </ul>
-  
           </div>
         </div>
       </div>

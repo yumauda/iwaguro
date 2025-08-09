@@ -2,7 +2,7 @@
 
 .p-line {
   position: relative;
-  --scaleX: 1;
+  --scaleY: 0;
   transform-origin: top;
   z-index: 10;
 }
@@ -14,7 +14,7 @@
   height: 100%;
   top: 0;
   left: rem(74);
-  z-index: 10;
-  transform: scaleX(var(--scaleX));
+  z-index: 999;
+  transform: scaleY(var(--scaleY));
   transform-origin: top left;
 }

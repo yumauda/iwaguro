@@ -61,7 +61,7 @@ window.addEventListener("DOMContentLoaded", function () {
       duration: 1.5,
       delay: 3,
       clipPath: "inset(0% 0% 0% 0%)",
-     /*  stagger: 0.3, */
+      /*  stagger: 0.3, */
       /* scrollTrigger: {
         trigger: ".p-top-about",
         start: "0% 30%",
@@ -69,26 +69,7 @@ window.addEventListener("DOMContentLoaded", function () {
       ease: "power3.out",
     }
   );
-  gsap.fromTo(
-    ".js-image",
-    {
-      opacity: 0,
-      y: 30,
-      clipPath: "inset(0% 100% 0% 0%)",
-    },
-    {
-      duration: 1.5,
-      opacity: 1,
-      y: 0,
-      clipPath: "inset(0% 0% 0% 0%)",
-      stagger: 0.3,
-      scrollTrigger: {
-        trigger: ".js-start",
-        start: "0% 50%",
-      },
-      ease: "power3.out",
-    }
-  );
+  
   gsap.fromTo(
     ".js-text-gradation",
     {
@@ -146,13 +127,12 @@ window.addEventListener("DOMContentLoaded", function () {
     },
     {
       "--scaleY": 1,
-      duration: 3,
+      duration: 15,
       delay: 0.5,
       scrollTrigger: {
         trigger: ".p-top-about",
         start: "0% 50%",
       },
-      ease: "power3.out",
     }
   );
   gsap.fromTo(
@@ -204,22 +184,7 @@ window.addEventListener("DOMContentLoaded", function () {
       ease: "power3.out",
     }
   );
-  gsap.fromTo(
-    ".js-left--vertical-interview",
-    {
-      "--scaleY": 0,
-    },
-    {
-      "--scaleY": 1,
-      duration: 3,
-      delay: 0.5,
-      scrollTrigger: {
-        trigger: ".p-top-interview",
-        start: "0% 50%",
-      },
-      ease: "power3.out",
-    }
-  );
+  
   gsap.fromTo(
     ".js-left--row-interview",
     {
@@ -236,22 +201,7 @@ window.addEventListener("DOMContentLoaded", function () {
       ease: "power3.out",
     }
   );
-  gsap.fromTo(
-    ".js-left--vertical-pickup",
-    {
-      "--scaleY": 0,
-    },
-    {
-      "--scaleY": 1,
-      duration: 3,
-      delay: 0.5,
-      scrollTrigger: {
-        trigger: ".p-pickup",
-        start: "0% 50%",
-      },
-      ease: "power3.out",
-    }
-  );
+
   gsap.fromTo(
     ".js-left--row-pickup",
     {
@@ -263,38 +213,6 @@ window.addEventListener("DOMContentLoaded", function () {
       delay: 0.5,
       scrollTrigger: {
         trigger: ".p-pickup",
-        start: "0% 50%",
-      },
-      ease: "power3.out",
-    }
-  );
-  gsap.fromTo(
-    ".js-left--vertical-news",
-    {
-      "--scaleY": 0,
-    },
-    {
-      "--scaleY": 1,
-      duration: 3,
-      delay: 0.5,
-      scrollTrigger: {
-        trigger: ".p-top-news",
-        start: "0% 50%",
-      },
-      ease: "power3.out",
-    }
-  );
-  gsap.fromTo(
-    ".js-left--vertical-line",
-    {
-      "--scaleY": 0,
-    },
-    {
-      "--scaleY": 1,
-      duration: 3,
-      delay: 0.5,
-      scrollTrigger: {
-        trigger: ".p-top-line",
         start: "0% 50%",
       },
       ease: "power3.out",
