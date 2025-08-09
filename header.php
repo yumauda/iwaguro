@@ -69,9 +69,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
-    <?php if (is_404()) : ?>
-        <meta http-equiv="refresh" content=" 3; url=<?php echo esc_url(home_url("/")); ?>">
-    <?php endif; ?>
     <?php wp_head() ?>
 </head>
 
@@ -99,7 +96,7 @@
                             <a href="#" class="p-header__link">job</a>
                         </li>
                         <li class="p-header__list">
-                            <a href="#" class="p-header__link">figures</a>
+                            <a href="<?php echo esc_url(home_url('/figures')); ?>" class="p-header__link">figures</a>
                         </li>
                         <li class="p-header__list">
                             <a href="#" class="p-header__link">style</a>

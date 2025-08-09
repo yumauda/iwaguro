@@ -1,0 +1,39 @@
+@use "global" as *;
+
+.p-thanks {
+  padding-top: rem(60);
+  padding-bottom: rem(180);
+}
+
+.p-thanks__content {
+}
+
+.p-thanks__title-wrapper {
+}
+
+.p-thanks__title {
+  font-size: rem(30);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  color: $black;
+}
+
+.p-thanks__text-wrapper {
+  margin-top: rem(50);
+}
+
+.p-thanks__text {
+  font-size: rem(16);
+  color: $black;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+}
+.p-thanks__text + .p-thanks__text {
+  margin-top: rem(20);
+}
+
+.p-thanks__btn {
+  margin-top: rem(55);
+}

@@ -875,6 +875,8 @@ select::-ms-expand {
   padding-top: 4.375rem;
   padding-bottom: 72px;
   padding-bottom: 4.5rem;
+  position: relative;
+  z-index: 99;
 }
 
 .p-footer__home {
@@ -2570,6 +2572,15 @@ input::placeholder {
 .p-pickup__btn {
   margin-top: 45px;
   margin-top: 2.8125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .p-reason {
@@ -3233,6 +3244,46 @@ input::placeholder {
 /* グループ（グループ化ブロック） */
 /* カラム系 */
 /* ギャラリー */
+.p-thanks {
+  padding-top: 60px;
+  padding-top: 3.75rem;
+  padding-bottom: 180px;
+  padding-bottom: 11.25rem;
+}
+
+.p-thanks__title {
+  font-size: 30px;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  color: #222426;
+}
+
+.p-thanks__text-wrapper {
+  margin-top: 50px;
+  margin-top: 3.125rem;
+}
+
+.p-thanks__text {
+  font-size: 16px;
+  font-size: 1rem;
+  color: #222426;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+}
+
+.p-thanks__text + .p-thanks__text {
+  margin-top: 20px;
+  margin-top: 1.25rem;
+}
+
+.p-thanks__btn {
+  margin-top: 55px;
+  margin-top: 3.4375rem;
+}
+
 .p-top-about {
   background: #f2f2f2;
   display: -webkit-box;
@@ -3407,6 +3458,7 @@ input::placeholder {
   -webkit-transform-origin: top;
           transform-origin: top;
   overflow-x: clip;
+  background: #fff;
 }
 
 .p-top-interview::before {

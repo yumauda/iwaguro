@@ -24,7 +24,7 @@
                                 <a href="#" class="p-footer__link">STORY #01 岩黒製作所だからできること。</a>
                             </li>
                             <li class="p-footer__list-leftList">
-                                <a href="#" class="p-footer__link">STORY #02 社会に求められる医薬の業界へ。</a>
+                                <a href="<?php echo esc_url(home_url('/story02')); ?>" class="p-footer__link">STORY #02 社会に求められる医薬の業界へ。</a>
                             </li>
                             <li class="p-footer__list-leftList">
                                 <a href="#" class="p-footer__link">STORY #03 機械創りに集中できる風通しの良い職場。</a>
@@ -40,7 +40,7 @@
                                 <a href="#" class="p-footer__link">職種紹介</a>
                             </li>
                             <li class="p-footer__list-leftList">
-                                <a href="#" class="p-footer__link">数字で見る岩黒製作所</a>
+                                <a href="<?php echo esc_url(home_url('/figures')); ?>" class="p-footer__link">数字で見る岩黒製作所</a>
                             </li>
                             <li class="p-footer__list-leftList">
                                 <a href="#" class="p-footer__link">福利厚生・制度</a>

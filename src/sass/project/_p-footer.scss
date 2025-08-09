@@ -4,6 +4,8 @@
   background: #413c37;
   padding-top: rem(70);
   padding-bottom: rem(72);
+  position: relative;
+  z-index: 99;
 }
 
 .p-footer__content {
