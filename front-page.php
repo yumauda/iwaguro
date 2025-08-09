@@ -354,6 +354,12 @@
     </div>
     <div class="l-inner">
       <div class="p-challenge__content">
+        <div class="section__marquee">
+          <p class="marquee__text">recruitment</p>
+          <p class="marquee__text">recruitment</p>
+          <p class="marquee__text">recruitment</p>
+          <p class="marquee__text">recruitment</p>
+        </div>
         <div class="p-challenge__box">
           <div class="p-challenge__left">
             <div class="p-challenge__title-wrapper">
@@ -393,6 +399,13 @@
             </div>
           </div>
         </div>
+        <div class="section__marquee">
+          <p class="marquee__text">recruitment</p>
+          <p class="marquee__text marquee__text--transparent">recruitment</p>
+          <p class="marquee__text">recruitment</p>
+          <p class="marquee__text marquee__text--transparent">recruitment</p>
+        </div>
+
       </div>
     </div>
   </section>

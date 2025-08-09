@@ -27,6 +27,30 @@ body {
   overflow-x: clip;
 }
 
+main {
+  position: relative;
+  --scaleX: 1;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  z-index: 10;
+}
+
+main::before {
+  position: absolute;
+  content: "";
+  background: #222426;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 75px;
+  left: 4.6875rem;
+  z-index: 10;
+  -webkit-transform: scaleX(var(--scaleX));
+          transform: scaleX(var(--scaleX));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
 html {
   font-size: 16px;
 }
@@ -434,13 +458,12 @@ select::-ms-expand {
   display: flex;
   position: relative;
   z-index: 2;
+  overflow-x: clip;
 }
 
 .p-challenge__content {
-  padding-top: 100px;
-  padding-top: 6.25rem;
-  padding-bottom: 100px;
-  padding-bottom: 6.25rem;
+  /*   padding-top: rem(100);
+    padding-bottom: rem(100); */
 }
 
 .p-challenge__box {
@@ -2995,6 +3018,58 @@ input::placeholder {
   height: auto;
 }
 
+.section__marquee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+}
+
+.marquee__text {
+  display: inline-block;
+  padding-right: 0.5em;
+  -webkit-animation: marquee 10s linear infinite;
+          animation: marquee 10s linear infinite;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 88px;
+  font-size: 5.5rem;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.marquee__text--transparent {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff; /* ベンダープレフィックス */
+  text-stroke: 1px #fff;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
 .p-single-topics {
   padding-top: 80px;
   padding-top: 5rem;

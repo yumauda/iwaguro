@@ -1,0 +1,35 @@
+@use "global" as *;
+
+.section__marquee {
+  display: flex;
+  white-space: nowrap;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+}
+
+.marquee__text {
+  display: inline-block;
+  padding-right: 0.5em;
+  animation: marquee 10s linear infinite;
+  color: #fff;
+  font-family: $second-font-family;
+  font-size: rem(88);
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.marquee__text--transparent {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff; /* ベンダープレフィックス */
+  text-stroke: 1px #fff;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
