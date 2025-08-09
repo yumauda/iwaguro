@@ -14,7 +14,9 @@
   max-width: rem(564);
   width: 100%;
 }
-
+.p-page-mv__detail--figures {
+  max-width: initial;
+}
 .p-page-mv__breadcrumbs {
   display: flex;
   align-items: center;
