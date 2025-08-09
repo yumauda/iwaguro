@@ -98,21 +98,3 @@ body.drawer-open {
 body {
   overflow-x: clip;
 }
-main {
-  position: relative;
-  --scaleX: 1;
-  transform-origin: top;
-  z-index: 10;
-}
-main::before {
-  position: absolute;
-  content: "";
-  background: $black;
-  width: 1px;
-  height: 100%;
-  top: 0;
-  left: rem(75);
-  z-index: 10;
-  transform: scaleX(var(--scaleX));
-  transform-origin: top left;
-}
