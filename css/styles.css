@@ -427,6 +427,138 @@ select::-ms-expand {
   color: #6d6d6d;
 }
 
+.p-challenge {
+  background: #413c37;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.p-challenge__content {
+  padding-top: 100px;
+  padding-top: 6.25rem;
+  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
+}
+
+.p-challenge__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 80px;
+  gap: 5rem;
+  max-width: 1071px;
+  max-width: 66.9375rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  padding-top: 60px;
+  padding-top: 3.75rem;
+  padding-bottom: 49px;
+  padding-bottom: 3.0625rem;
+  padding-left: 100px;
+  padding-left: 6.25rem;
+  padding-right: 100px;
+  padding-right: 6.25rem;
+}
+
+.p-challenge__left {
+  max-width: 483px;
+  max-width: 30.1875rem;
+  width: 100%;
+}
+
+.p-challenge__title-ja {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 42px;
+  font-size: 2.625rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.p-challenge__title-ja + .p-challenge__title-ja {
+  margin-top: 12px;
+  margin-top: 0.75rem;
+}
+
+.p-challenge__text-wrapper {
+  margin-top: 40px;
+  margin-top: 2.5rem;
+}
+
+.p-challenge__text {
+  color: #222426;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.p-challenge__right {
+  max-width: 306px;
+  max-width: 19.125rem;
+  width: 100%;
+}
+
+.p-challenge__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 8px;
+  padding-top: 0.5rem;
+  padding-bottom: 16px;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #2b2f38;
+}
+
+.p-challenge__link + .p-challenge__link {
+  margin-top: 25px;
+  margin-top: 1.5625rem;
+}
+
+.p-challenge__link-text {
+  color: #222426;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.p-challenge__link-arrow {
+  display: inline-block;
+  width: 28px;
+  width: 1.75rem;
+}
+
+.p-challenge__link-arrow img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.p-challenge__btn-wrapper {
+  margin-top: 40px;
+  margin-top: 2.5rem;
+}
+
 .p-drawer-icon {
   background: #fff;
   -webkit-transition: 0.3s;
@@ -3903,6 +4035,18 @@ input::placeholder {
   height: 54px;
   height: 3.375rem;
   position: relative;
+}
+
+.c-btn--306 {
+  width: 306px;
+  width: 19.125rem;
+  height: 60px;
+  height: 3.75rem;
+}
+
+.c-btn--300 {
+  width: 300px;
+  width: 18.75rem;
 }
 
 .c-btn__text {

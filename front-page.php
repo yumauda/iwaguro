@@ -348,6 +348,54 @@
         </ul>
       </div>
   </section>
+  <section class="p-challenge">
+    <div class="c-left js-left--vertical-line">
+      <p class="c-left__text">recruit</p>
+    </div>
+    <div class="l-inner">
+      <div class="p-challenge__content">
+        <div class="p-challenge__box">
+          <div class="p-challenge__left">
+            <div class="p-challenge__title-wrapper">
+              <h3 class="p-challenge__title">
+                <span class="p-challenge__title-ja c-text-gradation c-text-gradation--page">まだ見ぬ技術に</span>
+                <span class="p-challenge__title-ja c-text-gradation c-text-gradation--page">挑戦しよう！</span>
+              </h3>
+            </div>
+            <div class="p-challenge__text-wrapper">
+              <p class="p-challenge__text">私たちが目指すのは、モノづくりではなく“コト”づくり。<br>
+                お客様の要望をどう実現するか、考えるのは難しい。<br>
+                でも、だからこそ面白い。<br>
+                期待に応えるモノづくりで、一生ゴトの仕事をしよう！</p>
+            </div>
+          </div>
+
+          <div class="p-challenge__right">
+            <a href="#" class="p-challenge__link">
+              <p class="p-challenge__link-text">新卒採用 募集要項</p>
+              <span class="p-challenge__link-arrow">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/challenge_arrow.svg" alt="" width="28" height="28">
+              </span>
+            </a>
+            <a href="#" class="p-challenge__link">
+              <p class="p-challenge__link-text">キャリア採用 募集要項</p>
+              <span class="p-challenge__link-arrow">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/challenge_arrow.svg" alt="" width="28" height="28">
+              </span>
+            </a>
+            <div class="p-challenge__btn-wrapper">
+              <a href="" class="c-btn c-btn--306">
+                <p class="c-btn__text">ご登録はこちら</p>
+                <span class="c-btn__arrow">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/arrow.svg" alt="" width="28" height="28">
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="p-top-line">
     <div class="c-left js-left--vertical-line">
       <p class="c-left__text">line</p>
@@ -372,7 +420,7 @@
         </div>
         <div class="p-top-line__btn-wrapper">
           <p class="p-top-line__btn-topText">LINE公式アカウント</p>
-          <a href="" class="c-btn">
+          <a href="" class="c-btn c-btn--300">
             <p class="c-btn__text">ご登録はこちら</p>
             <span class="c-btn__arrow">
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/arrow.svg" alt="" width="28" height="28">
@@ -503,7 +551,7 @@
               </figure>
             </li>
           </ul>
-  
+
         </div>
       </div>
     </div>
