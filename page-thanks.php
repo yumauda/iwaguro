@@ -4,12 +4,12 @@
     <div class="l-inner">
       <div class="p-page-mv__content">
         <div class="p-page-mv__detail p-page-mv__detail--figures">
-
           <div class="p-page-mv__title-wrapper">
             <h2 class="c-page-en">ENTRY</h2>
           </div>
         </div>
       </div>
+    </div>
   </section>
   <section class="p-thanks">
     <div class="l-inner">

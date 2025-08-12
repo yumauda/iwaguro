@@ -10,6 +10,7 @@
           </div>
         </div>
       </div>
+    </div>
   </section>
   <section class="p-thanks">
     <div class="l-inner">

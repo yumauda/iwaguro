@@ -1,0 +1,78 @@
+@use "global" as *;
+
+.p-single {
+}
+.p-single__content {
+  position: relative;
+}
+
+.p-single__img {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+  margin-top: rem(47);
+}
+.p-single__img img {
+  aspect-ratio: 1440 / 647;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.p-single__detail {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.p-single__number {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.p-single__en {
+  font-family: $second-font-family;
+  font-size: rem(16);
+  color: $black;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  text-transform: uppercase;
+  padding-left: rem(8);
+}
+
+.p-single__num {
+  font-family: $second-font-family;
+  font-size: rem(30);
+  letter-spacing: 0.14em;
+  font-weight: 500;
+  color: $black;
+}
+
+.p-single__title {
+  margin-top: rem(31);
+  background: #fff;
+  font-weight: 700;
+  font-size: rem(40);
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+  display: inline;
+  background: #fff;
+  box-decoration-break: clone; /* 改行後も背景適用 */
+}
+
+.p-single__sub-wrapper {
+  margin-top: rem(36);
+  display: block;
+}
+
+.p-single__sub {
+  background: #fff;
+  font-size: rem(20);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: $black;
+  display: inline-block;
+}

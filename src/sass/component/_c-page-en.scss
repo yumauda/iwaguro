@@ -24,3 +24,34 @@
   transform: translateY(-50%);
   left: 0;
 }
+.c-page-en--ja {
+  font-size: rem(20);
+  line-height: 1;
+  font-weight: 500;
+  color: $black;
+  position: relative;
+  padding-left: rem(23);
+  margin-bottom: rem(45);
+}
+.c-page-en--ja::before {
+  position: absolute;
+  content: "";
+  background: url(../images/common/page_en_icon.png) no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: rem(20);
+  height: auto;
+  aspect-ratio: 20 / 10;
+  object-fit: cover;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.c-page-ja--en {
+  font-family: $second-font-family;
+  font-size: rem(100);
+  font-weight: 600;
+  line-height: 1;
+  color: $black;
+}
