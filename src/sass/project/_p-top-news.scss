@@ -1,11 +1,11 @@
 @use "global" as *;
 
 .p-top-news {
-  background: #f2f2f2;
   position: relative;
   display: flex;
   --scaleX: 1;
   transform-origin: top;
+  overflow-x: clip;
 }
 .p-top-news::before {
   position: absolute;
@@ -21,11 +21,26 @@
 }
 .p-top-news__content {
   padding-top: rem(100);
-  padding-bottom: rem(100);
+  padding-bottom: rem(600);
+}
+.p-top-news__bg {
+  position: relative;
   display: flex;
   gap: rem(118);
+  padding-bottom: rem(100);
 }
-
+.p-top-news__bg::before {
+  position: absolute;
+  content: "";
+  background: #f2f2f2;
+  width: 100vw;
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+  top: rem(-100);
+  bottom: rem(-100);
+  height: 125%;
+  z-index: -1;
+}
 .p-top-news__detail {
   max-width: rem(263);
   width: 100%;
@@ -95,7 +110,7 @@
 .p-top-news__link-title::before {
   position: absolute;
   content: "";
-  background: #BEB9B4;
+  background: #beb9b4;
   width: 1px;
   height: rem(33);
   top: 50%;

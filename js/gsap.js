@@ -218,4 +218,17 @@ window.addEventListener("DOMContentLoaded", function () {
       ease: "power3.out",
     }
   );
+
+  // トップストーリーのパララックス効果
+  gsap.to(".p-top-story__img1", {
+    y: -30,
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".p-top-story",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: 1
+    }
+  });
+
 });

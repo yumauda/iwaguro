@@ -216,6 +216,80 @@
         </div>
       </div>
     </section>
+    <section class="p-top-story">
+      <div class="c-left js-left--vertical-story">
+        <p class="c-left__text">story</p>
+      </div>
+      <div class="l-inner l-story-inner">
+        <div class="p-top-story__content">
+          <div class="p-top-story__block">
+            <a href="#" class="p-top-story__link">
+              <div class="p-top-story__img1">
+                <figure class="p-top-story__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_story_1.jpg" alt="" width="1300" height="540">
+                </figure>
+              </div>
+              <div class="p-top-story__detail">
+                <p class="p-top-story__num">STORY #01</p>
+                <h3 class="p-top-story__title">岩黒製作所だから<br>
+                  できること。</h3>
+                <div class="p-top-story__bottom">
+                  <div class="p-top-story__text-wrapper">
+                    <p class="p-top-story__text">創意は無限、改良は永遠。止まらない情熱が､</p>
+                    <p class="p-top-story__text">精度の高い唯一無二の機械をつくる｡</p>
+                  </div>
+                  <div class="p-top-story__arrow">
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_story_arrow.svg" alt="" width="28" height="28">
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="p-top-story__block">
+            <a href="#" class="p-top-story__link">
+              <figure class="p-top-story__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_story_2.jpg" alt="" width="1300" height="540">
+              </figure>
+              <div class="p-top-story__detail">
+                <p class="p-top-story__num">STORY #02</p>
+                <h3 class="p-top-story__title">社会に求められる<br>
+                  医薬の業界へ。</h3>
+                <div class="p-top-story__bottom">
+                  <div class="p-top-story__text-wrapper">
+                    <p class="p-top-story__text">社会を支える医薬の業界で､</p>
+                    <p class="p-top-story__text">本当に信頼されるものをつくり、届ける｡</p>
+                  </div>
+                  <div class="p-top-story__arrow">
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_story_arrow.svg" alt="" width="28" height="28">
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="p-top-story__block">
+            <a href="#" class="p-top-story__link">
+              <figure class="p-top-story__img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_story_3.jpg" alt="" width="1300" height="540">
+              </figure>
+              <div class="p-top-story__detail">
+                <p class="p-top-story__num">STORY #03</p>
+                <h3 class="p-top-story__title">機械創りに集中できる<br>
+                  風通しのよい職場。</h3>
+                <div class="p-top-story__bottom">
+                  <div class="p-top-story__text-wrapper">
+                    <p class="p-top-story__text">オーダーメイドで1つしかない機械をつくる</p>
+                    <p class="p-top-story__text">自由で、刺激的な職場です｡</p>
+                  </div>
+                  <div class="p-top-story__arrow">
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_story_arrow.svg" alt="" width="28" height="28">
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="p-pickup js-left--row-pickup">
       <div class="c-left js-left--vertical-pickup">
         <p class="c-left__text">pick up</p>
@@ -299,58 +373,61 @@
       </div>
       <div class="l-inner">
         <div class="p-top-news__content">
-          <div class="p-top-news__detail">
-            <h3 class="c-section-title">
-              <span class="c-section-title__en js-news-title">news</span>
-              <span class="c-section-title__ja js-news-title">お知らせ</span>
-            </h3>
-            <div class="p-top-news__btn">
-              <a href="" class="c-btn">
-                <p class="c-btn__text">view more</p>
-                <span class="c-btn__arrow">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/arrow.svg" alt="" width="28" height="28">
-                </span>
-              </a>
+          <div class="p-top-news__bg">
+            <div class="p-top-news__detail">
+              <h3 class="c-section-title">
+                <span class="c-section-title__en js-news-title">news</span>
+                <span class="c-section-title__ja js-news-title">お知らせ</span>
+              </h3>
+              <div class="p-top-news__btn">
+                <a href="" class="c-btn">
+                  <p class="c-btn__text">view more</p>
+                  <span class="c-btn__arrow">
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/arrow.svg" alt="" width="28" height="28">
+                  </span>
+                </a>
+              </div>
             </div>
+
+            <ul class="p-top-news__lists">
+              <li class="p-top-news__list">
+                <a href="#" class="p-top-news__link">
+                  <div class="p-top-news__meta">
+                    <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
+                    <span class="p-top-news__category">イベント情報</span>
+                  </div>
+                  <p class="p-top-news__link-title">キャリア向け！◯◯転職◯◯◯◯◯に参加します。</p>
+                </a>
+              </li>
+              <li class="p-top-news__list">
+                <a href="#" class="p-top-news__link">
+                  <div class="p-top-news__meta">
+                    <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
+                    <span class="p-top-news__category">お知らせ</span>
+                  </div>
+                  <p class="p-top-news__link-title">202X卒 新卒採用のエントリーを開始しました。</p>
+                </a>
+              </li>
+              <li class="p-top-news__list">
+                <a href="#" class="p-top-news__link">
+                  <div class="p-top-news__meta">
+                    <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
+                    <span class="p-top-news__category">イベント情報</span>
+                  </div>
+                  <p class="p-top-news__link-title">キャリア向け！◯◯転職◯◯◯◯◯に参加します。</p>
+                </a>
+              </li>
+              <li class="p-top-news__list">
+                <a href="#" class="p-top-news__link">
+                  <div class="p-top-news__meta">
+                    <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
+                    <span class="p-top-news__category">お知らせ</span>
+                  </div>
+                  <p class="p-top-news__link-title">202X卒 新卒採用のエントリーを開始しました。</p>
+                </a>
+              </li>
+            </ul>
           </div>
-          <ul class="p-top-news__lists">
-            <li class="p-top-news__list">
-              <a href="#" class="p-top-news__link">
-                <div class="p-top-news__meta">
-                  <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
-                  <span class="p-top-news__category">イベント情報</span>
-                </div>
-                <p class="p-top-news__link-title">キャリア向け！◯◯転職◯◯◯◯◯に参加します。</p>
-              </a>
-            </li>
-            <li class="p-top-news__list">
-              <a href="#" class="p-top-news__link">
-                <div class="p-top-news__meta">
-                  <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
-                  <span class="p-top-news__category">お知らせ</span>
-                </div>
-                <p class="p-top-news__link-title">202X卒 新卒採用のエントリーを開始しました。</p>
-              </a>
-            </li>
-            <li class="p-top-news__list">
-              <a href="#" class="p-top-news__link">
-                <div class="p-top-news__meta">
-                  <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
-                  <span class="p-top-news__category">イベント情報</span>
-                </div>
-                <p class="p-top-news__link-title">キャリア向け！◯◯転職◯◯◯◯◯に参加します。</p>
-              </a>
-            </li>
-            <li class="p-top-news__list">
-              <a href="#" class="p-top-news__link">
-                <div class="p-top-news__meta">
-                  <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
-                  <span class="p-top-news__category">お知らせ</span>
-                </div>
-                <p class="p-top-news__link-title">202X卒 新卒採用のエントリーを開始しました。</p>
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </section>
