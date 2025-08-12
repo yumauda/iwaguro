@@ -2379,6 +2379,7 @@ input::placeholder {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .p-other__link {
@@ -2505,6 +2506,24 @@ input::placeholder {
   margin-top: 0.5625rem;
 }
 
+.p-other__title {
+  text-align: center;
+  font-size: 130px;
+  font-size: 8.125rem;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
+}
+
 .p-other__title-ja {
   color: #fff;
   line-height: 1.5;
@@ -2523,6 +2542,60 @@ input::placeholder {
 .p-other__title-ja + .p-other__title-ja {
   margin-top: 9px;
   margin-top: 0.5625rem;
+}
+
+.p-other .p-top-interview__slider-card {
+  background: #fff;
+}
+
+.p-other__prev {
+  position: absolute;
+  left: -27px;
+  left: -1.6875rem;
+  top: 60%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.p-other__next {
+  position: absolute;
+  right: -27px;
+  right: -1.6875rem;
+  top: 60%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.p-other__nav-img {
+  display: inline-block;
+  width: 54px;
+  width: 3.375rem;
+}
+
+.p-other__nav-img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.my-swiper .swiper-scrollbar {
+  position: static; /* ←スライダー外に自然配置 */
+  height: 2px; /* トラックの太さ */
+  background: #d9d9d9;
+  margin-top: 12px; /* スライダーとの間隔 */
+  overflow: hidden; /* 角丸を効かせる */
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+
+/* つまみ（ドラッグ部分） */
+.my-swiper .swiper-scrollbar-drag {
+  background: #413c37; /* 任意色 */
+  height: 3px;
 }
 
 .p-page-mv {
@@ -2936,16 +3009,16 @@ input::placeholder {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 50px;
-  width: 3.125rem;
+  width: 39px;
+  width: 2.4375rem;
   height: auto;
-  aspect-ratio: 50/24;
+  aspect-ratio: 39/25;
   -o-object-fit: cover;
      object-fit: cover;
   top: 30px;
   top: 1.875rem;
-  right: -50px;
-  right: -3.125rem;
+  right: -30px;
+  right: -1.875rem;
 }
 
 .p-question__white-text {
@@ -4087,6 +4160,7 @@ input::placeholder {
   max-width: 1075px;
   max-width: 67.1875rem;
   margin-left: auto;
+  position: relative;
 }
 
 .p-top-interview__slider-card {
@@ -4159,6 +4233,39 @@ input::placeholder {
   color: #222426;
   letter-spacing: 0.04em;
   line-height: 1;
+}
+
+.p-top-interview__prev {
+  position: absolute;
+  left: -27px;
+  left: -1.6875rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.p-top-interview__next {
+  position: absolute;
+  right: -27px;
+  right: -1.6875rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.p-top-interview__nav-img {
+  display: inline-block;
+  width: 54px;
+  width: 3.375rem;
+}
+
+.p-top-interview__nav-img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 
 .p-top-line {

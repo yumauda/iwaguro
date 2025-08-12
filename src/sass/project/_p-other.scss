@@ -12,6 +12,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .p-other__block {
@@ -108,6 +109,19 @@
 }
 
 .p-other__title {
+  text-align: center;
+  font-size: rem(130);
+  color: #fff;
+  font-weight: 600;
+  font-family: $second-font-family;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: rem(30);
 }
 
 .p-other__title-ja {
@@ -123,4 +137,45 @@
 }
 .p-other__title-ja + .p-other__title-ja {
   margin-top: rem(9);
+}
+.p-other .p-top-interview__slider-card {
+  background: #fff;
+}
+.p-other__prev {
+  position: absolute;
+  left: rem(-27);
+  top: 60%;
+  transform: translateY(-50%);
+}
+.p-other__next {
+  position: absolute;
+  right: rem(-27);
+  top: 60%;
+  transform: translateY(-50%);
+}
+.p-other__nav-img {
+  display: inline-block;
+  width: rem(54);
+}
+.p-other__nav-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+.my-swiper .swiper-scrollbar {
+  position: static; /* ←スライダー外に自然配置 */
+  height: 2px; /* トラックの太さ */
+  background: #d9d9d9;
+  margin-top: 12px; /* スライダーとの間隔 */
+  overflow: hidden; /* 角丸を効かせる */
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+
+/* つまみ（ドラッグ部分） */
+.my-swiper .swiper-scrollbar-drag {
+  background: #413c37; /* 任意色 */
+  height: 3px;
 }

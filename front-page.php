@@ -197,15 +197,19 @@
                 </div>
 
               </div>
-              <!-- If we need pagination -->
-              <div class="swiper-pagination"></div>
-
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-
               <!-- If we need scrollbar -->
               <div class="swiper-scrollbar"></div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev p-top-interview__prev">
+              <figure class="p-top-interview__nav-img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/prev.png" alt="" width="54" height="54">
+              </figure>
+            </div>
+            <div class="swiper-button-next p-top-interview__next">
+              <figure class="p-top-interview__nav-img">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/next.png" alt="" width="54" height="54">
+              </figure>
             </div>
 
           </div>

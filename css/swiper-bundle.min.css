@@ -492,12 +492,13 @@ button.swiper-pagination-bullet {
 .swiper-horizontal > .swiper-scrollbar,
 .swiper-scrollbar.swiper-scrollbar-horizontal {
   position: absolute;
-  left: var(--swiper-scrollbar-sides-offset, 1%);
-  bottom: var(--swiper-scrollbar-bottom, 4px);
+  left: var(--swiper-scrollbar-sides-offset, 0%);
+  right: var(--swiper-scrollbar-sides-offset, 0%);
+  bottom: var(--swiper-scrollbar-bottom, 0);
   top: var(--swiper-scrollbar-top, auto);
   z-index: 50;
   height: var(--swiper-scrollbar-size, 4px);
-  width: calc(100% - 2 * var(--swiper-scrollbar-sides-offset, 1%));
+  width: 100%;
 }
 .swiper-scrollbar.swiper-scrollbar-vertical,
 .swiper-vertical > .swiper-scrollbar {
