@@ -4457,8 +4457,8 @@ input::placeholder {
 }
 
 .p-top-line__slider {
-  padding-bottom: 57px;
-  padding-bottom: 3.5625rem;
+  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
 }
 
 .p-top-news {
