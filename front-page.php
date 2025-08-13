@@ -246,7 +246,7 @@
             </a>
           </div>
           <div class="p-top-story__block">
-            <a href="#" class="p-top-story__link">
+            <a href="<?php echo esc_url(home_url('/story02')); ?>" class="p-top-story__link">
               <figure class="p-top-story__img">
                 <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_story_2.jpg" alt="" width="1300" height="540">
               </figure>
