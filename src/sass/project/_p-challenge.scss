@@ -9,7 +9,7 @@
 }
 
 .p-challenge__content {
-/*   padding-top: rem(100);
+  /*   padding-top: rem(100);
   padding-bottom: rem(100); */
 }
 .p-challenge__box {
@@ -25,6 +25,7 @@
   padding-bottom: rem(49);
   padding-left: rem(100);
   padding-right: rem(100);
+  margin-top: rem(60);
 }
 .p-challenge__left {
   max-width: rem(483);
@@ -96,4 +97,24 @@
 
 .p-challenge__btn-wrapper {
   margin-top: rem(40);
+}
+.p-challenge__top img,
+.p-challenge__bottom img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+.p-challenge__top {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: rem(-36);
+}
+.p-challenge__bottom {
+  margin-top: rem(60);
+  margin-bottom: rem(-9);
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }

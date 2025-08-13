@@ -449,7 +449,7 @@ select::-ms-expand {
 
 .p-challenge__content {
   /*   padding-top: rem(100);
-    padding-bottom: rem(100); */
+  padding-bottom: rem(100); */
 }
 
 .p-challenge__box {
@@ -475,6 +475,8 @@ select::-ms-expand {
   padding-left: 6.25rem;
   padding-right: 100px;
   padding-right: 6.25rem;
+  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 
 .p-challenge__left {
@@ -566,6 +568,34 @@ select::-ms-expand {
 .p-challenge__btn-wrapper {
   margin-top: 40px;
   margin-top: 2.5rem;
+}
+
+.p-challenge__top img,
+.p-challenge__bottom img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.p-challenge__top {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: -36px;
+  margin-top: -2.25rem;
+}
+
+.p-challenge__bottom {
+  margin-top: 60px;
+  margin-top: 3.75rem;
+  margin-bottom: -9px;
+  margin-bottom: -0.5625rem;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 
 .p-drawer-icon {
@@ -3311,7 +3341,7 @@ input::placeholder {
 }
 @media screen and (min-width: 768px) {
   .slide {
-    width: 20vw; /* 3はスライドの枚数 */
+    width: 10vw; /* 3はスライドの枚数 */
   }
 }
 
@@ -4017,6 +4047,9 @@ input::placeholder {
 }
 @media screen and (min-width: 768px) {
   .p-top-about__detail {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     width: 29.625rem;
   }
 }
@@ -4620,27 +4653,42 @@ input::placeholder {
 .p-top-story__link {
   display: block;
   position: relative;
+  overflow: hidden;
+}
+
+.p-top-story__link:hover {
+  opacity: 1;
 }
 
 .p-top-story__img {
   overflow: hidden;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
 .p-top-story__img1 {
-  will-change: transform;
+  /* will-change: transform; */
 }
 
 .p-top-story__img img {
-  /* aspect-ratio: 1300 / 540;
-  object-fit: cover;
-  width: 100%;
-  height: auto; */
-  width: 100%;
-  height: 100%;
+  aspect-ratio: 1300/540;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-transform: scale(1.08);
-          transform: scale(1.08);
+  width: 100%;
+  height: auto;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  /* width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.08); */
+}
+
+.p-top-story__link:hover .p-top-story__img img {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .p-top-story__detail {

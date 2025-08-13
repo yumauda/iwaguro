@@ -23,23 +23,31 @@
 .p-top-story__link {
   display: block;
   position: relative;
+  overflow: hidden;
 }
-
+.p-top-story__link:hover {
+  opacity: 1;
+}
 .p-top-story__img {
-  overflow:hidden;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
 }
 .p-top-story__img1 {
-  will-change: transform;
+  /* will-change: transform; */
 }
 .p-top-story__img img {
-  /* aspect-ratio: 1300 / 540;
+  aspect-ratio: 1300 / 540;
   object-fit: cover;
   width: 100%;
-  height: auto; */
-  width: 100%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+  /* width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scale(1.08);
+  transform: scale(1.08); */
+}
+.p-top-story__link:hover .p-top-story__img img {
+  transform: scale(1.03);
 }
 
 .p-top-story__detail {

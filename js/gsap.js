@@ -220,7 +220,7 @@ window.addEventListener("DOMContentLoaded", function () {
   );
 
   // トップストーリーのパララックス効果
-  gsap.to(".p-top-story__img1", {
+ /*  gsap.to(".p-top-story__img1", {
     y: -30,
     ease: "none",
     scrollTrigger: {
@@ -229,6 +229,6 @@ window.addEventListener("DOMContentLoaded", function () {
       end: "bottom top",
       scrub: 1
     }
-  });
+  }); */
 
 });
