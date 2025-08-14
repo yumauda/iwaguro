@@ -4245,9 +4245,8 @@ input::placeholder {
 .p-top-interview__slider {
   margin-top: 48px;
   margin-top: 3rem;
-  max-width: 1075px;
-  max-width: 67.1875rem;
-  margin-left: auto;
+  /* max-width: rem(1075);
+  margin-left: auto; */
   position: relative;
 }
 
@@ -4894,6 +4893,13 @@ input::placeholder {
   height: 54px;
   height: 3.375rem;
   position: relative;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border: 1px solid #413c37;
+}
+
+.c-btn:hover {
+  background: #fff;
 }
 
 .c-btn--306 {
@@ -4917,6 +4923,12 @@ input::placeholder {
   line-height: 1.6;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.c-btn:hover .c-btn__text {
+  color: #413c37;
 }
 
 .c-btn__arrow {
@@ -4931,13 +4943,37 @@ input::placeholder {
           transform: translateY(-50%);
 }
 
-.c-btn__arrow img {
+.c-btn__arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 28px;
+  width: 1.75rem;
+}
+
+.c-btn__arrow svg {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center center;
      object-position: center center;
+}
+
+.c-btn__path {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  fill: #fff;
+}
+
+.c-btn:hover .c-btn__path {
+  fill: #413c37;
 }
 
 .c-left {
