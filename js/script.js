@@ -13,6 +13,17 @@ jQuery(function ($) {
       // 画面が指定pxより上ならボタンを非表示
       topBtn.fadeOut();
     }
+    
+    // ヘッダーのアクティブ状態制御
+    if ($(this).scrollTop() > 600) {
+      $(".p-header").addClass("is-active");
+      $(".p-header__link").addClass("is-active");
+      $(".p-header__path").addClass("is-active");
+    } else {
+      $(".p-header").removeClass("is-active");
+      $(".p-header__link").removeClass("is-active");
+      $(".p-header__path").removeClass("is-active");
+    }
   });
 
   // ボタンをクリックしたらスクロールして上に戻る

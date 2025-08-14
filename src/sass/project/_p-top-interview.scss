@@ -67,7 +67,7 @@
 
 .p-top-interview__slider-card {
   padding-top: rem(15);
-  padding-left: rem(45);
+  padding-left: rem(15);
   padding-right: rem(45);
   padding-bottom: rem(41);
   background: #f2f2f2;
@@ -75,6 +75,8 @@
 }
 
 .p-top-interview__slider-img {
+  padding-left: rem(30);
+  margin-top: rem(-40);
 }
 .p-top-interview__slider-img img {
   aspect-ratio: 260 / 260;
@@ -85,6 +87,7 @@
 
 .p-top-interview__slider-detail {
   padding-top: rem(5);
+  padding-left: rem(30);
 }
 
 .p-top-interview__slider-name {
@@ -142,4 +145,30 @@
   height: auto;
   object-fit: cover;
   object-position: center center;
+}
+.p-top-interview__num-wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.p-top-interview__no {
+  font-size: rem(16);
+  font-weight: 500;
+  color: $black;
+  letter-spacing: 0.14em;
+  font-family: $second-font-family;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: rem(8);
+}
+
+.p-top-interview__num {
+  font-size: rem(30);
+  font-weight: 500;
+  color: $black;
+  letter-spacing: 0.14em;
+  font-family: $second-font-family;
 }

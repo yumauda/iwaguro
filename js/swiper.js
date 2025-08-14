@@ -1,8 +1,9 @@
 "use strict";
 
 let swiper = new Swiper(".swiper1", {
-  loop: true,
-  centeredSlides: true,
+  loop: false,
+  rewind: true,
+  centeredSlides: false,
   /* autoplay: {
     delay: 2500,
   }, */
