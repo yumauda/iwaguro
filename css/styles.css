@@ -2691,6 +2691,10 @@ input::placeholder {
   gap: 2.875rem;
 }
 
+.p-page-mv__content--story03 {
+  gap: initial;
+}
+
 .p-page-mv__detail {
   max-width: 564px;
   max-width: 35.25rem;
@@ -2740,6 +2744,10 @@ input::placeholder {
 .p-page-mv__title {
   margin-top: 61px;
   margin-top: 3.8125rem;
+}
+
+.p-page-mv__title--story03 .c-page-ja {
+  white-space: nowrap;
 }
 
 .p-page-mv__text-wrapper {

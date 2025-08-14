@@ -9,7 +9,9 @@
   align-items: center;
   gap: rem(46);
 }
-
+.p-page-mv__content--story03 {
+  gap: initial;
+}
 .p-page-mv__detail {
   max-width: rem(564);
   width: 100%;
@@ -46,6 +48,9 @@
 }
 .p-page-mv__title {
   margin-top: rem(61);
+}
+.p-page-mv__title--story03 .c-page-ja {
+  white-space: nowrap;
 }
 .p-page-mv__text-wrapper {
   margin-top: rem(60);
