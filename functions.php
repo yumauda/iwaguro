@@ -51,6 +51,11 @@ function my_script_init()
 		wp_enqueue_script('js-gsap', get_template_directory_uri() . '/js/gsap.js', array('jquery'), filemtime(get_theme_file_path('/js/gsap.js')), true);
 	}
 	wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array('jquery'), filemtime(get_theme_file_path('/js/script.js')), true);
+	
+	// ページ情報をJavaScriptに渡す
+	wp_localize_script('script', 'wpPageInfo', array(
+		'isFrontPage' => is_front_page()
+	));
 }
 add_action('wp_enqueue_scripts', 'my_script_init');
 

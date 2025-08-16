@@ -189,8 +189,7 @@
             </div>
         </header>
     <?php else : ?>
-
-        <header class="p-header">
+        <header class="p-header is-active">
             <div class="p-header__inner">
                 <div class="p-header__content">
                     <h1 class="p-header__logo">

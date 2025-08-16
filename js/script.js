@@ -14,15 +14,17 @@ jQuery(function ($) {
       topBtn.fadeOut();
     }
     
-    // ヘッダーのアクティブ状態制御
-    if ($(this).scrollTop() > 600) {
-      $(".p-header").addClass("is-active");
-      $(".p-header__link").addClass("is-active");
-      $(".p-header__path").addClass("is-active");
-    } else {
-      $(".p-header").removeClass("is-active");
-      $(".p-header__link").removeClass("is-active");
-      $(".p-header__path").removeClass("is-active");
+    // ヘッダーのアクティブ状態制御（トップページのみ）
+    if (typeof wpPageInfo !== 'undefined' && wpPageInfo.isFrontPage) {
+      if ($(this).scrollTop() > 600) {
+        $(".p-header").addClass("is-active");
+        $(".p-header__link").addClass("is-active");
+        $(".p-header__path").addClass("is-active");
+      } else {
+        $(".p-header").removeClass("is-active");
+        $(".p-header__link").removeClass("is-active");
+        $(".p-header__path").removeClass("is-active");
+      }
     }
   });
 
