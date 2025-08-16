@@ -4,7 +4,9 @@
   padding-top: rem(100);
   padding-bottom: rem(100);
 }
-
+.p-reason--story03 {
+  padding-top: rem(60);
+}
 .p-reason__content {
 }
 
@@ -26,7 +28,9 @@
   margin-left: auto;
   margin-right: auto;
 }
-
+.p-reason__block--story03 {
+  margin-top: initial;
+}
 .p-reason__row {
   display: flex;
   align-items: center;
@@ -99,7 +103,7 @@
 .p-reason__bottom::before {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #DFF3FF 0%, #E5EDFF 100%);
+  background: linear-gradient(to right, #dff3ff 0%, #e5edff 100%);
   width: 100vw;
   left: calc(50% - 50vw);
   right: calc(50% - 50vw);

@@ -1,0 +1,128 @@
+@use "global" as *;
+
+.p-occupation {
+  padding-top: rem(100);
+}
+
+.p-occupation__content {
+}
+
+.p-occupation__title-wrapper {
+  text-align: center;
+}
+
+.p-occupation__title {
+  font-size: rem(32);
+  color: $black;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  position: relative;
+  display: inline-block;
+}
+.p-occupation__title::before {
+  position: absolute;
+  content: "";
+  background: url(../images/common/occupation_q.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: rem(44);
+  height: auto;
+  aspect-ratio: 44 / 40;
+  object-fit: cover;
+  top: rem(-32);
+  left: rem(-64);
+}
+
+.p-occupation__block {
+  background: #413c37;
+  margin-top: rem(60);
+  position: relative;
+  padding: rem(40);
+}
+.p-occupation__block::before {
+  position: absolute;
+  content: "";
+  background: url(../images/common/occupation_join.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: rem(428);
+  height: auto;
+  aspect-ratio: 429 / 53;
+  object-fit: cover;
+  top: rem(8);
+  right: rem(8);
+}
+
+.p-occupation__block-titleWrapper {
+  padding-bottom: rem(16);
+  border-bottom: 1px solid #fff;
+}
+
+.p-occupation__block-title {
+  font-size: rem(20);
+  color: #fff;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.p-occupation__block-textWrapper {
+  padding-top: rem(20);
+}
+
+.p-occupation__block-text {
+  font-size: rem(16);
+  color: #fff;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.p-occupation__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: rem(38);
+  margin-top: rem(8);
+}
+
+.p-occupation__row-text {
+  color: $black;
+  font-size: rem(16);
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  background: #def3ff;
+  padding: rem(16) rem(30);
+  position: relative;
+}
+.p-occupation__row-text::before {
+  position: absolute;
+  content: "";
+  background: url(../images/common/occupation_arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: rem(31);
+  height: auto;
+  aspect-ratio: 31 / 20;
+  object-fit: cover;
+  top: 50%;
+  right: rem(-16);
+  transform: translateY(-50%);
+}
+
+.p-occupation__img {
+  max-width: rem(65);
+  min-width: rem(65);
+  width: 100%;
+}
+.p-occupation__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}

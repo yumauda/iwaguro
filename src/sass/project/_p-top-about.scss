@@ -7,7 +7,7 @@
   --scaleX: 0;
   transform-origin: top;
 }
-/* .p-top-about::before {
+.p-top-about::before {
   position: absolute;
   content: "";
   background: $black;
@@ -18,7 +18,7 @@
   z-index: 10;
   transform: scaleX(var(--scaleX));
   transform-origin: top left;
-} */
+}
 
 .p-top-about__content {
   padding-top: rem(100);

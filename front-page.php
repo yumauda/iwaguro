@@ -286,7 +286,7 @@
         </div>
       </div>
     </section>
-    <section class="p-top-story">
+    <section class="p-top-story js-left--row-story">
       <div class="c-left js-left--vertical-story">
         <p class="c-left__text">story</p>
       </div>

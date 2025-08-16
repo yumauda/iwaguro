@@ -36,130 +36,92 @@
       </div>
     </div>
   </section>
-  <section class="p-hear">
-    <div class="p-hear__inner">
-      <div class="p-hear__content">
-        <div class="p-hear__top">
-          <h3 class="p-hear__title c-text-gradation c-text-gradation--page">
-            他業界から転職した理由を聞いてみました。
-          </h3>
-          <figure class="p-hear__topImg">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_top_img.png" alt="" width="1000" height="600">
-          </figure>
+  <section class="p-occupation">
+    <div class="l-inner l-single-inner">
+      <div class="p-occupation__content">
+        <div class="p-occupation__title-wrapper">
+          <h3 class="p-occupation__title">岩黒製作所は、どんな職場？</h3>
         </div>
-        <div class="p-hear__block-wrapper">
-          <div class="p-hear__block">
-            <div class="p-hear__detail">
-              <div class="p-hear__row">
-                <p class="p-hear__q">q</p>
-                <p class="p-hear__question-text">なぜ、就職先に<br>岩黒製作所を選んだのですか？</p>
-              </div>
-              <div class="p-hear__text-wrapper">
-                <p class="p-hear__text">少子高齢化が進む中で、医薬品の需要は増え続けています。それに伴い医薬品メーカーの設備投資も拡大していくと考え、この業界には将来性があると感じました。医薬品の製造のため、安定的に品質の良い機械を提供する欠かせない仕事だと自負しています。</p>
-              </div>
-            </div>
-            <figure class="p-hear__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_person.png" alt="" width="128" height="200">
-            </figure>
-            <div class="p-hear__detail">
-              <div class="p-hear__row">
-                <p class="p-hear__q">q</p>
-                <p class="p-hear__question-text">岩黒製作所の現場で<br>気づいたところはありますか？</p>
-              </div>
-              <div class="p-hear__text-wrapper p-hear__text-wrapper--right">
-                <p class="p-hear__text">精密部品の製造を行っているため、工場内の清潔さはもちろん、空調管理もしっかりしており安定して働き続けることができる環境だと思いました。</p>
-              </div>
-            </div>
+        <div class="p-occupation__block">
+          <div class="p-occupation__block-titleWrapper">
+            <p class="p-occupation__block-title">岩黒製作所は、モノづくりにワクワクする人たちの集まりです。</p>
           </div>
-          <div class="p-hear__block">
-            <div class="p-hear__detail">
-              <div class="p-hear__row">
-                <p class="p-hear__q">q</p>
-                <p class="p-hear__question-text">なぜ、就職先に<br>岩黒製作所を選んだのですか？</p>
-              </div>
-              <div class="p-hear__text-wrapper">
-                <p class="p-hear__text">岩黒製作所と取引のある会社に勤める知人から「知られざる優良企業」と勧められて応募しました。前職の船に関わる会社では出来上がった製品のメンテナンスをしていましたが、０から設計、組立と作り上げていくモノづくりが新鮮で面白く、入社の決め手になりました。</p>
-              </div>
-            </div>
-            <figure class="p-hear__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_person.png" alt="" width="128" height="200">
+          <div class="p-occupation__block-textWrapper">
+            <p class="p-occupation__block-text">
+              知識があるに越したことはありませんが、それよりも「やる気」や機械が好き、機械に興味があるという「情熱」を大事にしています。<br>
+              岩黒製作所のような医科向け製剤・包装機械を製造している会社は、日本でもわずか数社しかありません。<br>
+              そんな面白みのあるメーカーで、お客様のご要望に合わせたオーダーメイドの機械を作ってみたい！そんな方をお待ちしています！
+            </p>
+          </div>
+          <div class="p-occupation__row">
+            <p class="p-occupation__row-text">岩黒の現場で、モノづくりを楽しんでみませんか？</p>
+            <figure class="p-occupation__img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/occupation_img.png" alt="" width="65" height="109">
             </figure>
-            <div class="p-hear__detail">
-              <div class="p-hear__row">
-                <p class="p-hear__q">q</p>
-                <p class="p-hear__question-text">岩黒製作所の現場で<br>気づいたところはありますか？</p>
-              </div>
-              <div class="p-hear__text-wrapper p-hear__text-wrapper--right">
-                <p class="p-hear__text">岩黒製作所はフルオーダーメイドの機械を作る仕事なので、毎回作業が異なり様々な知識が必要です。しかし、その分、うまく調整できた時は大きな喜びを感じます。</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="p-reason">
+  <section class="p-reason p-reason--story03">
     <div class="l-inner">
       <div class="p-reason__content">
-        <div class="p-reason__title">
-          <h3 class="c-section-title">
-            <span class="c-section-title__en js-about-title">reason</span>
-            <span class="c-section-title__ja js-about-title">医療・製薬業界が注目される理由</span>
-          </h3>
-        </div>
-        <div class="p-reason__block">
+
+        <div class="p-reason__block p-reason__block--story03">
           <div class="p-reason__row">
             <div class="p-reason__detail" data-number="01">
-              <p class="p-reason__detailTitle c-text-gradation c-text-gradation--page">社会貢献度が高い</p>
+              <p class="p-reason__detailTitle c-text-gradation c-text-gradation--page">時代に応え続ける技術者集団。</p>
               <div class="p-reason__text-wrapper">
-                <p class="p-reason__text">日本が直面している少子高齢化は、私たちの未来のために挑まなければいけない最大の社会課題です。この解決において「医薬産業」は非常に重要な役割を担っています。「くすり」は処方医薬品だけでなく私たちの生活に身近なコンビニやドラックストアなどでも販売されています。機械づくりを通じて社会課題の解決に貢献できる、誇りある仕事です。</p>
+                <p class="p-reason__text">当社の信念は「限りなき技術への挑戦」。薬を手作業で成型していた時代に製丸機を開発したことに始まります。そして、丸薬から粉薬、錠剤へと進化する中で、高度な技術と精度に挑戦し、お客様の要望に応え続けてきました。その創業スピリットは今も脈々と受け継がれ、社員一人ひとりの情熱によって他社が真似できない、高品質な機械を生み出しています。</p>
               </div>
             </div>
             <figure class="p-reason__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_img1.jpg" alt="社会貢献度が高い" width="480" height="350">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_img5.jpg" alt="時代に応え続ける技術者集団。" width="480" height="350">
             </figure>
           </div>
           <div class="p-reason__row">
             <div class="p-reason__detail" data-number="02">
-              <p class="p-reason__detailTitle c-text-gradation c-text-gradation--page">成長性のある市場</p>
+              <p class="p-reason__detailTitle c-text-gradation c-text-gradation--page">プロフェッショナルへの道は、現場から。</p>
               <div class="p-reason__text-wrapper">
-                <p class="p-reason__text">「人生100年時代」の今、政府による健康寿命を延ばす取り組みが始まっています。特に「健康づくり」に関する医療・ヘルスケア産業は、今後ますます成長が期待される分野。包装機械のニーズも増えていくと予想され、私たちの技術が求められる場もさらに広がっていくでしょう。将来性のある業界で、安定したキャリアを築くチャンスです。</p>
+                <p class="p-reason__text">すべての社員がまず「現場」からキャリアをスタートするのが岩黒流。それは私たちがつくっている機械のことを細部までしっかり理解してほしいからです。仕上課で2～3年間、先輩とチームを組み、図面の見方から組立の技術、機械調整、修理対応まで、実践を通してしっかり学び、経験を積みます。その後、希望の職種へキャリアアップ。現場を知ることこそ、機械づくりのプロへの近道です。</p>
               </div>
             </div>
             <figure class="p-reason__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_img2.jpg" alt="成長性のある市場" width="480" height="350">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_img6.jpg" alt="プロフェッショナルへの道は、現場から。" width="480" height="350">
             </figure>
           </div>
           <div class="p-reason__row">
             <div class="p-reason__detail" data-number="03">
-              <p class="p-reason__detailTitle c-text-gradation c-text-gradation--page">専門性が強みになる</p>
+              <p class="p-reason__detailTitle c-text-gradation c-text-gradation--page">モノづくりにワクワクできる。</p>
               <div class="p-reason__text-wrapper">
-                <p class="p-reason__text">医薬品の製造には、高い水準にて安定した品質を維持することに加え、「GMP（Good Manufacturing Practice）」という製造管理および品質管理の厳しい基準を厳守する必要があります。これは、医薬品メーカーだけでなく、医薬品包装機械メーカーにおいても同様の高い専門性が求められます。岩黒製作所は、創業以来、医療・製薬に特化し、高度な専門知識と技術力を培ってきました。入社後は、モノづくりを通じて、医療業界ならではの高い専門性を身につけることができます。</p>
+                <p class="p-reason__text">私たちがつくるのは、オーダーメイドの機械。お客様のご要望に合わせてゼロから設計・製造を行うため、毎回が新たな挑戦です。世界最速の機械に挑んだり、改良を重ねて精度を高めたり、どうカタチにするかをみんなで考え、実現していく、モノづくりの醍醐味を味わえます。失敗も大事な結果と前向きに捉える社風や、自由度の高いワークスタイルも創造力を後押し。高いプロ意識を持った仲間とともに挑戦を楽しもう！</p>
               </div>
             </div>
             <figure class="p-reason__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_img3.jpg" alt="専門性が強みになる" width="480" height="350">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_img7.jpg" alt="モノづくりにワクワクできる。" width="480" height="350">
             </figure>
           </div>
-          <div class="p-reason__row">
-            <div class="p-reason__detail" data-number="04">
-              <p class="p-reason__detailTitle c-text-gradation c-text-gradation--page">安定したマーケット</p>
-              <div class="p-reason__text-wrapper">
-                <p class="p-reason__text">医薬品市場は、景気の影響を極めて受けにくい安定性の高いマーケットとして知られています。実際に、国内の医療用医薬品市場は10兆円を超え、3年連続で過去最高を更新。こうした堅調な成長を背景に、当社の事業も「安定性」と「将来性」の両面で大きな強みを持っており、社員が長く安心して働ける環境が整っています。</p>
-              </div>
-            </div>
-            <figure class="p-reason__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_img4.jpg" alt="安定したマーケット" width="480" height="350">
-            </figure>
-          </div>
+
         </div>
-        <div class="p-reason__bottom">
-          <p class="p-reason__bottom-text">岩黒製作所は、医療・製薬業界に特化し、国内トップシェアを誇る技術力があります。<br>
-            また、GMP化やFA化などお客様が求める多様なニーズに対応し、日々、改良を続けています。</p>
-          <div class="p-reason__bottom-gradation">
-            <p class="p-reason__bottom-text--gradation c-text-gradation c-text-gradation--page">医薬品業界が未経験でも、あなたのスキルを活かせる様々な職種があります。</p>
-            <p class="p-reason__bottom-text--gradation c-text-gradation c-text-gradation--page">ぜひ一度、岩黒製作所の工場見学にお越しください。</p>
-          </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="p-power">
+    <div class="l-inner">
+      <div class="p-power__content">
+        <div class="p-power__title-wrapper">
+          <h3 class="p-power__title">技術のチカラを､地域のチカラに｡</h3>
+        </div>
+        <figure class="p-power__img">
+          <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/power_img_pc.png" media="(min-width: 768px)" width="969" height="463" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/common/power_img_sp.png" alt="" width="335" height="391">
+          </picture>
+        </figure>
+        <div class="p-power__bottom">
+          <p class="p-power__bottom-title c-text-gradation c-text-gradation--page">ものづくりへの情熱こそが､岩黒製作所の原動力です｡</p>
+          <p class="p-power__text">機械が好き！モノづくりに興味がある！好奇心旺盛！そんな方をお待ちしています。</p>
         </div>
       </div>
     </div>

@@ -1,0 +1,59 @@
+@use "global" as *;
+
+.p-power {
+  padding-bottom: rem(100);
+}
+
+.p-power__content {
+  max-width: rem(970);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-power__title-wrapper {
+  text-align: center;
+}
+
+.p-power__title {
+  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-weight: 700;
+  font-size: rem(32);
+  text-align: center;
+}
+
+.p-power__img {
+  margin-top: rem(45);
+}
+
+.p-power__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-power__bottom {
+  text-align: center;
+}
+
+.p-power__bottom-title {
+  color: #fff;
+  font-size: rem(24);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.p-power__text {
+  margin-top: rem(20);
+  color: $black;
+  font-size: rem(20);
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+}

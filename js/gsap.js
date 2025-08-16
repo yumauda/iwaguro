@@ -114,7 +114,7 @@ window.addEventListener("DOMContentLoaded", function () {
       delay: 0.5,
       scrollTrigger: {
         trigger: ".p-top-about",
-        start: "0% 50%",
+        start: "0% 30%",
       },
       stagger: 0.4,
       ease: "power3.out",
@@ -196,7 +196,23 @@ window.addEventListener("DOMContentLoaded", function () {
       delay: 0.5,
       scrollTrigger: {
         trigger: ".p-top-interview",
-        start: "0% 50%",
+        start: "0% 70%",
+      },
+      ease: "power3.out",
+    }
+  );
+  gsap.fromTo(
+    ".js-left--row-story",
+    {
+      "--scaleX": 0,
+    },
+    {
+      "--scaleX": 1,
+      duration: 3,
+      delay: 0.5,
+      scrollTrigger: {
+        trigger: ".p-top-story",
+        start: "0% 70%",
       },
       ease: "power3.out",
     }
