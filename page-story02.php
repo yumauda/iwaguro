@@ -19,6 +19,9 @@
           </ul>
           <div class="p-page-mv__title-wrapper">
             <p class="c-page-en">STORY #02</p>
+            <figure class="p-page-mv__img u-mobile">
+              <img src="<?php echo get_template_directory_uri() ?>/images/common/mv_story02.png" alt="" width="659" height="569">
+            </figure>
             <h2 class="p-page-mv__title">
               <span class="c-page-ja">社会に求められる</span>
               <span class="c-page-ja">医薬の業界へ。</span>
@@ -26,13 +29,13 @@
           </div>
           <div class="p-page-mv__text-wrapper">
             <p class="p-page-mv__text">
-              当社では、様々な業界から転職してきたスタッフが活躍しています。<br>
+              当社では、様々な業界から転職してきたスタッフが活躍しています。<br class="u-desktop">
               たとえば、車両製造の会社から、あるいは船舶関連の会社から－。<br>
               異なる業種からなぜ医薬業界を選んだのか。医療・製薬業界が注目されている理由についてご紹介します。
             </p>
           </div>
         </div>
-        <figure class="p-page-mv__img">
+        <figure class="p-page-mv__img u-desktop">
           <img src="<?php echo get_template_directory_uri() ?>/images/common/mv_story02.png" alt="" width="659" height="569">
         </figure>
       </div>
@@ -42,8 +45,8 @@
     <div class="p-hear__inner">
       <div class="p-hear__content">
         <div class="p-hear__top">
-          <h3 class="p-hear__title c-text-gradation c-text-gradation--page">
-            他業界から転職した理由を聞いてみました。
+          <h3 class="p-hear__title">
+            他業界から転職した理由を<br class="u-mobile">聞いてみました。
           </h3>
           <figure class="p-hear__topImg">
             <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_top_img.png" alt="" width="1000" height="600">
@@ -60,10 +63,10 @@
                 <p class="p-hear__text">少子高齢化が進む中で、医薬品の需要は増え続けています。それに伴い医薬品メーカーの設備投資も拡大していくと考え、この業界には将来性があると感じました。医薬品の製造のため、安定的に品質の良い機械を提供する欠かせない仕事だと自負しています。</p>
               </div>
             </div>
-            <figure class="p-hear__img">
+            <figure class="p-hear__img u-desktop">
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_person.png" alt="" width="128" height="200">
             </figure>
-            <div class="p-hear__detail">
+            <div class="p-hear__detail mt24">
               <div class="p-hear__row">
                 <p class="p-hear__q">q</p>
                 <p class="p-hear__question-text">岩黒製作所の現場で<br>気づいたところはありますか？</p>
@@ -157,7 +160,7 @@
         </div>
         <div class="p-reason__bottom">
           <p class="p-reason__bottom-text">岩黒製作所は、医療・製薬業界に特化し、国内トップシェアを誇る技術力があります。<br>
-          また、GMP化やFA化などお客様が求める多様なニーズに対応し、日々、改良を続けています。</p>
+            また、GMP化やFA化などお客様が求める多様なニーズに対応し、日々、改良を続けています。</p>
           <div class="p-reason__bottom-gradation">
             <p class="p-reason__bottom-text--gradation c-text-gradation c-text-gradation--page">医薬品業界が未経験でも、あなたのスキルを活かせる様々な職種があります。</p>
             <p class="p-reason__bottom-text--gradation c-text-gradation c-text-gradation--page">ぜひ一度、岩黒製作所の工場見学にお越しください。</p>

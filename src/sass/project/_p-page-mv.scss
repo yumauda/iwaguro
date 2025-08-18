@@ -1,13 +1,18 @@
 @use "global" as *;
 
 .p-page-mv {
-  padding-top: rem(120);
+  padding-top: rem(80);
+  @include mq(md) {
+    padding-top: rem(120);
+  }
 }
 
 .p-page-mv__content {
-  display: flex;
-  align-items: center;
-  gap: rem(46);
+  @include mq(md) {
+    display: flex;
+    align-items: center;
+    gap: rem(46);
+  }
 }
 .p-page-mv__content--story03 {
   gap: initial;
@@ -47,27 +52,42 @@
   margin-top: rem(40);
 }
 .p-page-mv__title {
-  margin-top: rem(61);
+  margin-top: rem(25);
+  @include mq(md) {
+    margin-top: rem(61);
+  }
 }
 .p-page-mv__title--story03 .c-page-ja {
   white-space: nowrap;
 }
 .p-page-mv__text-wrapper {
-  margin-top: rem(60);
+  margin-top: rem(35);
+  @include mq(md) {
+    margin-top: rem(60);
+  }
 }
 
 .p-page-mv__text {
-  font-size: rem(16);
   color: $black;
   letter-spacing: 0.04em;
-  line-height: 2;
   font-weight: 700;
+  font-size: rem(14);
+  line-height: 1.8;
+  @include mq(md) {
+    font-size: rem(16);
+    line-height: 2;
+  }
 }
 
 .p-page-mv__img {
   margin-right: calc(50% - 50vw);
-  width: 48vw;
   margin-left: auto;
+  width: 77vw;
+  margin-top: rem(-40);
+  @include mq(md) {
+    margin-top: initial;
+    width: 48vw;
+  }
 }
 .p-page-mv__img img {
   width: 100%;

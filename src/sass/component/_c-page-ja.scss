@@ -1,13 +1,19 @@
 @use "global" as *;
 
 .c-page-ja {
-  font-size: rem(60);
+  font-size: rem(34);
   color: $black;
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 1;
   display: block;
+  @include mq(md) {
+    font-size: rem(60);
+  }
 }
 .c-page-ja + .c-page-ja {
-  margin-top: rem(28);
+  margin-top: rem(12);
+  @include mq(md) {
+    margin-top: rem(28);
+  }
 }

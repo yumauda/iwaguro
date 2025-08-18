@@ -2,12 +2,15 @@
 
 .c-page-en {
   font-family: $second-font-family;
-  font-size: rem(24);
   font-weight: 500;
   color: $black;
   line-height: 1;
   position: relative;
   padding-left: rem(23);
+  font-size: rem(20);
+  @include mq(md) {
+    font-size: rem(24);
+  }
 }
 .c-page-en::before {
   position: absolute;
