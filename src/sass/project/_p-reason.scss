@@ -1,8 +1,11 @@
 @use "global" as *;
 
 .p-reason {
-  padding-top: rem(100);
-  padding-bottom: rem(100);
+  padding-bottom: initial;
+  @include mq(md) {
+    padding-top: rem(100);
+    padding-bottom: rem(100);
+  }
 }
 .p-reason--story03 {
   padding-top: rem(60);
@@ -32,11 +35,13 @@
   margin-top: initial;
 }
 .p-reason__row {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: rem(70);
+  @include mq(md) {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: rem(70);
+  }
 }
 .p-reason__row:nth-child(even) {
   flex-direction: row-reverse;
@@ -53,7 +58,6 @@
   position: absolute;
   content: attr(data-number);
   color: #f3faff;
-  font-size: rem(150);
   font-weight: 600;
   font-family: $second-font-family;
   line-height: 1;
@@ -61,6 +65,10 @@
   right: 0;
   top: rem(-40);
   z-index: -1;
+  font-size: rem(100);
+  @include mq(md) {
+    font-size: rem(150);
+  }
 }
 
 .p-reason__detailTitle {
@@ -72,27 +80,40 @@
 }
 
 .p-reason__text-wrapper {
-  margin-top: rem(24);
+  margin-top: rem(10);
+  @include mq(md) {
+    margin-top: rem(24);
+  }
 }
 
 .p-reason__text {
-  font-size: rem(16);
   color: $black;
   line-height: 2;
   letter-spacing: 0.04em;
   font-weight: 500;
+  font-size: rem(15);
+  @include mq(md) {
+    font-size: rem(16);
+  }
 }
 
 .p-reason__img {
-  max-width: rem(480);
   width: 100%;
-  flex: 1;
+  margin-top: rem(24);
+  @include mq(md) {
+    margin-top: initial;
+    flex: 1;
+    max-width: rem(480);
+  }
 }
 .p-reason__img img {
-  aspect-ratio: 480 / 350;
   object-fit: cover;
   width: 100%;
   height: auto;
+  aspect-ratio: 335 / 250;
+  @include mq(md) {
+    aspect-ratio: 480 / 350;
+  }
 }
 .p-reason__bottom {
   margin-top: rem(100);
@@ -113,12 +134,15 @@
 }
 
 .p-reason__bottom-text {
-  font-size: rem(20);
   line-height: 2;
   color: $black;
   letter-spacing: 0.04em;
   font-weight: 700;
   text-align: center;
+  font-size: rem(15);
+  @include mq(md) {
+    font-size: rem(20);
+  }
 }
 
 .p-reason__bottom-gradation {
@@ -129,9 +153,24 @@
 .p-reason__bottom-text--gradation {
   color: #fff;
   font-weight: 700;
-  font-size: rem(24);
   line-height: 1.5;
   letter-spacing: 0.04em;
+  font-size: rem(18);
+  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  text-align: center;
+  width: 100vw;
+  display: inline;
+  @include mq(md) {
+    white-space: initial;
+    text-align: initial;
+    display: inline-block;
+    font-size: rem(24);
+    margin-left: initial;
+    margin-right: initial;
+    width: initial;
+  }
 }
 .p-reason__bottom-text--gradation + .p-reason__bottom-text--gradation {
   margin-top: rem(12);

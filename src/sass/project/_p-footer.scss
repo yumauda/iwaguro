@@ -3,9 +3,12 @@
 .p-footer {
   background: #413c37;
   padding-top: rem(70);
-  padding-bottom: rem(72);
   position: relative;
+  padding-bottom: rem(70);
   z-index: 99;
+  @include mq(md) {
+    padding-bottom: rem(72);
+  }
 }
 
 .p-footer__content {
@@ -16,7 +19,10 @@
 
 .p-footer__home {
   display: inline-block;
-  width: rem(368);
+  width: rem(315);
+  @include mq(md) {
+    width: rem(368);
+  }
 }
 .p-footer__home img {
   width: 100%;
@@ -26,8 +32,11 @@
 }
 
 .p-footer__nav {
-  display: flex;
-  margin-top: rem(60);
+  margin-top: rem(40);
+  @include mq(md) {
+    display: flex;
+    margin-top: rem(60);
+  }
 }
 
 .p-footer__address-wrapper {
@@ -66,9 +75,13 @@
   transform: translateY(-50%);
 }
 .p-footer__lists {
-  margin-left: auto;
-  display: flex;
-  gap: rem(40);
+  margin-top: rem(70);
+  @include mq(md) {
+    margin-top: initial;
+    margin-left: auto;
+    display: flex;
+    gap: rem(40);
+  }
 }
 
 .p-footer__list {
@@ -91,10 +104,14 @@
 }
 
 .p-footer__out {
-  margin-top: rem(52);
   display: flex;
   align-items: center;
-  gap: rem(40);
+  gap: rem(30);
+  margin-top: rem(70);
+  @include mq(md) {
+    margin-top: rem(52);
+    gap: rem(40);
+  }
 }
 
 .p-footer__out-link {
@@ -121,7 +138,10 @@
   object-position: center center;
 }
 .p-footer__small {
-  margin-top: rem(40);
+  margin-top: rem(30);
+  @include mq(md) {
+    margin-top: rem(40);
+  }
 }
 .p-footer__small small {
   font-size: rem(12);

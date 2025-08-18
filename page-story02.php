@@ -162,8 +162,8 @@
           <p class="p-reason__bottom-text">岩黒製作所は、医療・製薬業界に特化し、国内トップシェアを誇る技術力があります。<br>
             また、GMP化やFA化などお客様が求める多様なニーズに対応し、日々、改良を続けています。</p>
           <div class="p-reason__bottom-gradation">
-            <p class="p-reason__bottom-text--gradation c-text-gradation c-text-gradation--page">医薬品業界が未経験でも、あなたのスキルを活かせる様々な職種があります。</p>
-            <p class="p-reason__bottom-text--gradation c-text-gradation c-text-gradation--page">ぜひ一度、岩黒製作所の工場見学にお越しください。</p>
+            <p class="p-reason__bottom-text--gradation">医薬品業界が未経験でも、あなたの<br class="u-mobile">スキルを活かせる様々な職種があります。<br class="u-mobile"></p>
+            <p class="p-reason__bottom-text--gradation">ぜひ一度、岩黒製作所の工場見学に<br class="u-mobile">お越しください。</p>
           </div>
         </div>
       </div>
@@ -175,7 +175,10 @@
         <div class="p-other__block">
           <a href="#" class="p-other__link" data-title="OTHER STORIES">
             <figure class="p-other__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/other_img1.jpg" alt="岩黒製作所だからできること" width="431" height="38">
+              <picture>
+                <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/other_img1.jpg" media="(min-width: 768px)" width="789" height="363" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/common/other_img1_sp.jpg" alt="岩黒製作所だからできること" width="335" height="278">
+              </picture>
             </figure>
             <div class="p-other__detail">
               <p class="p-other__en">STORY #01</p>
@@ -189,7 +192,10 @@
           </a>
           <a href="#" class="p-other__link p-other__link--second" data-title="OTHER STORIES">
             <figure class="p-other__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/other_img2.jpg" alt="金属の未来をリファイン" width="431" height="38">
+              <picture>
+                <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/other_img2.jpg" media="(min-width: 768px)" width="789" height="363" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/common/other_img2_sp.jpg" alt="" width="335" height="278">
+              </picture>
             </figure>
             <div class="p-other__detail">
               <p class="p-other__en">STORY #02</p>
