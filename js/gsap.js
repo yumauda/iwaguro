@@ -77,7 +77,7 @@ window.addEventListener("DOMContentLoaded", function () {
     },
     {
       "--scaleX": 1,
-      duration: 3,
+      duration: 2,
       delay: 0.5,
       scrollTrigger: {
         trigger: ".p-gradation",
