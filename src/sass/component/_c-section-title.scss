@@ -8,8 +8,11 @@
   text-transform: uppercase;
   letter-spacing: 0.04em;
   line-height: 1;
-  font-size: rem(80);
   font-weight: 600;
+  font-size: rem(68);
+  @include mq(md) {
+    font-size: rem(80);
+  }
 }
 
 .c-section-title__ja {

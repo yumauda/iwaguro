@@ -18,7 +18,7 @@
           <div class="p-page-mv__title-wrapper">
             <p class="c-page-en">FIGURES</p>
             <h2 class="p-page-mv__title">
-              <span class="c-page-ja">数字で見る岩黒製作所</span>
+              <span class="c-page-ja c-page-ja--figures">数字で見る岩黒製作所</span>
             </h2>
           </div>
           <div class="p-page-mv__text-wrapper">

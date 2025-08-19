@@ -2,6 +2,7 @@
 
 .p-reason {
   padding-bottom: initial;
+  padding-top: rem(70);
   @include mq(md) {
     padding-top: rem(100);
     padding-bottom: rem(100);
@@ -20,7 +21,10 @@
   }
 
   .c-section-title__ja {
-    margin-top: rem(30);
+    margin-top: rem(18);
+    @include mq(md) {
+      margin-top: rem(30);
+    }
   }
 }
 

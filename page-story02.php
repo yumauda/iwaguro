@@ -54,6 +54,9 @@
         </div>
         <div class="p-hear__block-wrapper">
           <div class="p-hear__block">
+            <figure class="p-hear__img u-mobile">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_person.png" alt="" width="128" height="200">
+            </figure>
             <div class="p-hear__detail">
               <div class="p-hear__row">
                 <p class="p-hear__q">q</p>
@@ -77,6 +80,9 @@
             </div>
           </div>
           <div class="p-hear__block">
+            <figure class="p-hear__img u-mobile">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_person2.png" alt="" width="128" height="200">
+            </figure>
             <div class="p-hear__detail">
               <div class="p-hear__row">
                 <p class="p-hear__q">q</p>
@@ -86,8 +92,8 @@
                 <p class="p-hear__text">岩黒製作所と取引のある会社に勤める知人から「知られざる優良企業」と勧められて応募しました。前職の船に関わる会社では出来上がった製品のメンテナンスをしていましたが、０から設計、組立と作り上げていくモノづくりが新鮮で面白く、入社の決め手になりました。</p>
               </div>
             </div>
-            <figure class="p-hear__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_person.png" alt="" width="128" height="200">
+            <figure class="p-hear__img u-desktop">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/reason_person2.png" alt="" width="128" height="200">
             </figure>
             <div class="p-hear__detail">
               <div class="p-hear__row">

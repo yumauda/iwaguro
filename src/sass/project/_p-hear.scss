@@ -85,7 +85,9 @@
 }
 .p-hear__detail {
   width: 100%;
+  margin-top: rem(24);
   @include mq(md) {
+    margin-top: initial;
     max-width: rem(392);
   }
 }
@@ -93,10 +95,13 @@
 .p-hear__row {
   display: flex;
   align-items: center;
-  gap: rem(25);
   padding-bottom: rem(16);
   padding-left: rem(10);
   border-bottom: 1px solid #fff;
+  gap: rem(10);
+  @include mq(md) {
+    gap: rem(25);
+  }
 }
 
 .p-hear__q {
@@ -115,9 +120,8 @@
   color: #fff;
   letter-spacing: 0.04em;
   font-weight: 700;
-  font-size: rem(15);
+  font-size: rem(18);
   line-height: 1.8;
-
   @include mq(md) {
     line-height: 1.5;
     font-size: rem(20);
@@ -131,9 +135,12 @@
 }
 .p-hear__text-wrapper {
   background: #fff;
-  padding: rem(30) rem(20);
   position: relative;
   margin-top: rem(20);
+  padding: rem(15);
+  @include mq(md) {
+    padding: rem(30) rem(20);
+  }
 }
 .p-hear__text-wrapper::before {
   display: none;
@@ -169,16 +176,28 @@
 }
 
 .p-hear__text {
-  font-size: rem(16);
   font-weight: 500;
   color: $black;
   letter-spacing: 0.04em;
   line-height: 1.8;
+  font-size: rem(15);
+  text-align: justify;
+  @include mq(md) {
+    text-align: initial;
+    font-size: rem(16);
+  }
 }
 
 .p-hear__img {
-  margin-top: rem(120);
-  max-width: rem(128);
+  max-width: rem(80);
+  margin-left: auto;
+  margin-right: auto;
+  @include mq(md) {
+    margin-left: initial;
+    margin-right: initial;
+    margin-top: rem(120);
+    max-width: rem(128);
+  }
 }
 .p-hear__img img {
   width: 100%;
