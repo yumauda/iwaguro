@@ -63,7 +63,7 @@
       <div class="l-inner">
         <div class="p-top-about__content">
           <div class="p-top-about__row">
-            <figure class="p-top-about__img">
+            <figure class="p-top-about__img u-desktop">
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_about_img.png" alt="" width="575" height="490">
             </figure>
             <div class="p-top-about__detail">
@@ -79,8 +79,11 @@
                   <p class="p-top-about__detail-title c-text-gradation js-about-gradation">オーダーメイドなものづくりを｡</p>
                   <p class="p-top-about__detail-en">Always Challenging.</p>
                 </div>
+                <figure class="p-top-about__img u-mobile">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_about_img.png" alt="" width="575" height="490">
+                </figure>
                 <div class="p-top-about__text-wrapper">
-                  <p class="p-top-about__text">岩黒製作所は、国内トップクラスのシェアを誇る<br>
+                  <p class="p-top-about__text">岩黒製作所は、<br class="u-mobile">国内トップクラスのシェアを誇る<br>
                     医科向けの自動包装機の開発・製造を手がける<br>
                     富山の<span class="c-text-gradation js-about-gradation">小さな一流企業</span>です。</p>
                 </div>
@@ -108,7 +111,7 @@
         <div class="p-top-interview__content">
           <div class="p-top-interview__title">
             <h3 class="c-section-title">
-              <span class="c-section-title__en js-interview-title">interview</span>
+              <span class="c-section-title__en js-interview-title">inter<br class="u-mobile">view</span>
               <span class="c-section-title__ja js-interview-title">仲間を知る</span>
             </h3>
           </div>
@@ -116,7 +119,7 @@
             <p class="p-top-interview__gradation-text c-text-gradation js-interview-gradation">
               共に創ろう。ワクワクする機械｡
             </p>
-            <div class="p-top-interview__btn">
+            <div class="p-top-interview__btn u-desktop">
               <a href="" class="c-btn">
                 <p class="c-btn__text">view more</p>
                 <span class="c-btn__arrow">
@@ -455,7 +458,7 @@
                 <span class="c-section-title__en js-news-title">news</span>
                 <span class="c-section-title__ja js-news-title">お知らせ</span>
               </h3>
-              <div class="p-top-news__btn">
+              <div class="p-top-news__btn u-desktop">
                 <a href="" class="c-btn">
                   <p class="c-btn__text">view more</p>
                   <span class="c-btn__arrow">
@@ -506,6 +509,7 @@
               </li>
             </ul>
           </div>
+          
         </div>
       </div>
     </section>

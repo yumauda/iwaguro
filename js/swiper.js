@@ -8,7 +8,7 @@ let swiper = new Swiper(".swiper1", {
     delay: 2500,
   }, */
   speed: 300,
-  slidesPerView: 1.5,
+  slidesPerView: 1.3,
   spaceBetween: 20,
   scrollbar: {
     el: '.swiper-scrollbar',

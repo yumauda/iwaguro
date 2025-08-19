@@ -8,10 +8,13 @@
   justify-content: center;
   text-align: center;
   width: rem(240);
-  height: rem(54);
+  height: rem(50);
   position: relative;
   transition: 0.3s ease-in-out;
   border: 1px solid #413c37;
+  @include mq(md) {
+    height: rem(54);
+  }
 }
 .c-btn:hover {
   background: #fff;

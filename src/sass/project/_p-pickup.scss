@@ -6,6 +6,12 @@
   display: flex;
   --scaleX: 0;
   transform-origin: top;
+  padding-top: rem(70);
+  padding-bottom: rem(70);
+  @include mq(md) {
+    padding-top: initial;
+    padding-bottom: initial;
+  }
 }
 .p-pickup::before {
   position: absolute;
@@ -20,18 +26,24 @@
   transform-origin: top left;
 }
 .p-pickup__content {
-  padding-top: rem(100);
-  padding-bottom: rem(100);
+  @include mq(md) {
+    padding-top: rem(100);
+    padding-bottom: rem(100);
+  }
 }
 
 .p-pickup__lists {
-  max-width: rem(1050);
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: rem(105);
+  grid-template-columns: repeat(1, 1fr);
+  gap: rem(70);
+  @include mq(md) {
+    max-width: rem(1050);
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem(105);
+  }
 }
 
 .p-pickup__list {
@@ -58,16 +70,23 @@
   color: $black;
   letter-spacing: 0.04em;
   line-height: 1.8;
-  margin-top: rem(40);
   display: block;
+  margin-top: rem(25);
+  @include mq(md) {
+    margin-top: rem(40);
+  }
 }
 
 .p-pickup__img {
-  width: rem(110);
   margin-left: auto;
-  margin-right: auto;
   min-height: rem(111);
-  margin-top: rem(50);
+  margin-right: auto;
+  margin-top: rem(40);
+  width: rem(118);
+  @include mq(md) {
+    width: rem(110);
+    margin-top: rem(50);
+  }
 }
 .p-pickup__img img {
   width: 100%;
@@ -77,16 +96,22 @@
 }
 
 .p-pickup__detail {
-  padding-top: rem(50);
+  padding-top: rem(40);
   text-align: center;
+  @include mq(md) {
+    padding-top: rem(50);
+  }
 }
 
 .p-pickup__detail-text {
-  font-size: rem(16);
   line-height: 1.6;
   letter-spacing: 0.04em;
   font-weight: 700;
   color: #000;
+  font-size: rem(15);
+  @include mq(md) {
+    font-size: rem(16);
+  }
 }
 
 .p-pickup__btn {

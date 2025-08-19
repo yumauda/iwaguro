@@ -7,6 +7,12 @@
   display: flex;
   transform-origin: top;
   overflow-x: clip;
+  padding-top: rem(70);
+  padding-bottom: rem(70);
+  @include mq(md) {
+    padding-top: initial;
+    padding-bottom: initial;
+  }
 }
 .p-top-line::before {
   position: absolute;
@@ -21,16 +27,22 @@
   transform-origin: top left;
 }
 .p-top-line__content {
-  padding-top: rem(100);
-  padding-bottom: rem(57);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: rem(94);
+  @include mq(md) {
+    padding-top: rem(100);
+    padding-bottom: rem(57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: rem(94);
+  }
 }
 
 .p-top-line__detail {
   display: flex;
+  justify-content: center;
+  @include mq(md) {
+    justify-content: initial;
+  }
 }
 
 .p-top-line__title {
@@ -53,19 +65,35 @@
 }
 
 .p-top-line__text-wrapper {
+  margin-top: rem(50);
   text-align: center;
+  @include mq(md) {
+    margin-top: initial;
+  }
 }
 
 .p-top-line__text {
   color: $black;
-  font-size: rem(16);
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.8;
+  font-size: rem(15);
+  @include mq(md) {
+    font-size: rem(16);
+  }
 }
 
 .p-top-line__btn-wrapper {
+  margin-top: rem(45);
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @include mq(md) {
+    display: block;
+    margin-top: initial;
+  }
 }
 
 .p-top-line__btn-topText {
@@ -107,5 +135,9 @@
   right: rem(-32);
 }
 .p-top-line__slider {
-  padding-bottom: rem(100);
+  margin-top: rem(70);
+  @include mq(md) {
+    margin-top: initial;
+    padding-bottom: rem(100);
+  }
 }

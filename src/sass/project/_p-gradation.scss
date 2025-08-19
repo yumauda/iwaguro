@@ -4,7 +4,8 @@
   padding-top: rem(250);
   padding-bottom: rem(250);
   position: relative;
-  background: url(../images/common/gradation_bg.png) no-repeat center center / cover;
+  background: url(../images/common/gradation_bg.png) no-repeat center center /
+    cover;
 }
 
 .p-gradation__content {
@@ -16,11 +17,17 @@
 
 .p-gradation__text {
   color: #fff;
-  font-size: rem(17);
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.04em;
+  font-size: rem(15);
+  @include mq(md) {
+    font-size: rem(17);
+  }
 }
 .p-gradation__text + .p-gradation__text {
-  margin-top: rem(60);
+  margin-top: rem(50);
+  @include mq(md) {
+    margin-top: rem(60);
+  }
 }
