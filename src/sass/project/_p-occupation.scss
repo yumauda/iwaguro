@@ -12,13 +12,16 @@
 }
 
 .p-occupation__title {
-  font-size: rem(32);
   color: $black;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.04em;
   position: relative;
   display: inline-block;
+  font-size: rem(28);
+  @include mq(md) {
+    font-size: rem(32);
+  }
 }
 .p-occupation__title::before {
   position: absolute;
@@ -27,19 +30,29 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: rem(44);
   height: auto;
+  width: rem(33);
   aspect-ratio: 44 / 40;
   object-fit: cover;
-  top: rem(-32);
-  left: rem(-64);
+  top: rem(-24);
+  left: rem(-32);
+  @include mq(md) {
+    top: rem(-32);
+    left: rem(-64);
+    width: rem(44);
+  }
 }
 
 .p-occupation__block {
   background: #413c37;
-  margin-top: rem(60);
   position: relative;
-  padding: rem(40);
+  z-index: 2;
+  margin-top: rem(40);
+  padding: rem(15);
+  @include mq(md) {
+    padding: rem(40);
+    margin-top: rem(60);
+  }
 }
 .p-occupation__block::before {
   position: absolute;
@@ -48,15 +61,22 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: rem(428);
+  width: rem(330);
   height: auto;
   aspect-ratio: 429 / 53;
   object-fit: cover;
   top: rem(8);
-  right: rem(8);
+  left: rem(4);
+  z-index: 1;
+  @include mq(md) {
+    right: rem(8);
+    width: rem(428);
+  }
 }
 
 .p-occupation__block-titleWrapper {
+  position: relative;
+  z-index: 2;
   padding-bottom: rem(16);
   border-bottom: 1px solid #fff;
 }
@@ -74,11 +94,17 @@
 }
 
 .p-occupation__block-text {
-  font-size: rem(16);
   color: #fff;
-  letter-spacing: 0.03em;
   line-height: 1.8;
   font-weight: 500;
+  font-size: rem(15);
+  letter-spacing: 0.04em;
+  text-align: justify;
+  @include mq(md) {
+    text-align: initial;
+    letter-spacing: 0.03em;
+    font-size: rem(16);
+  }
 }
 
 .p-occupation__row {
@@ -91,13 +117,17 @@
 
 .p-occupation__row-text {
   color: $black;
-  font-size: rem(16);
   font-weight: 500;
   line-height: 1.8;
   letter-spacing: 0.04em;
   background: #def3ff;
-  padding: rem(16) rem(30);
   position: relative;
+  padding: rem(7);
+  font-size: rem(15);
+  @include mq(md) {
+    font-size: rem(16);
+    padding: rem(16) rem(30);
+  }
 }
 .p-occupation__row-text::before {
   position: absolute;

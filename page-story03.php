@@ -19,6 +19,9 @@
           </ul>
           <div class="p-page-mv__title-wrapper">
             <p class="c-page-en">STORY #03</p>
+            <figure class="p-page-mv__img u-mobile">
+              <img src="<?php echo get_template_directory_uri() ?>/images/common/mv_story03.png" alt="" width="659" height="569">
+            </figure>
             <h2 class="p-page-mv__title p-page-mv__title--story03">
               <span class="c-page-ja">機械創りに集中できる</span>
               <span class="c-page-ja">風通しのよい職場。</span>
@@ -30,7 +33,7 @@
             </p>
           </div>
         </div>
-        <figure class="p-page-mv__img">
+        <figure class="p-page-mv__img u-desktop">
           <img src="<?php echo get_template_directory_uri() ?>/images/common/mv_story03.png" alt="" width="659" height="569">
         </figure>
       </div>
@@ -40,11 +43,11 @@
     <div class="l-inner l-single-inner">
       <div class="p-occupation__content">
         <div class="p-occupation__title-wrapper">
-          <h3 class="p-occupation__title">岩黒製作所は、どんな職場？</h3>
+          <h3 class="p-occupation__title">岩黒製作所は、<br class="u-mobile">どんな職場？</h3>
         </div>
         <div class="p-occupation__block">
           <div class="p-occupation__block-titleWrapper">
-            <p class="p-occupation__block-title">岩黒製作所は、モノづくりにワクワクする人たちの集まりです。</p>
+            <p class="p-occupation__block-title">岩黒製作所は、<br class="u-mobile">モノづくりにワクワクする人たち<br class="u-mobile">の集まりです。</p>
           </div>
           <div class="p-occupation__block-textWrapper">
             <p class="p-occupation__block-text">
@@ -111,7 +114,7 @@
     <div class="l-inner">
       <div class="p-power__content">
         <div class="p-power__title-wrapper">
-          <h3 class="p-power__title">技術のチカラを､地域のチカラに｡</h3>
+          <h3 class="p-power__title">技術のチカラを､<br class="u-mobile">地域のチカラに｡</h3>
         </div>
         <figure class="p-power__img">
           <picture>
@@ -121,7 +124,7 @@
         </figure>
         <div class="p-power__bottom">
           <p class="p-power__bottom-title c-text-gradation c-text-gradation--page">ものづくりへの情熱こそが､岩黒製作所の原動力です｡</p>
-          <p class="p-power__text">機械が好き！モノづくりに興味がある！好奇心旺盛！そんな方をお待ちしています。</p>
+          <p class="p-power__text">機械が好き！<br class="u-mobile">モノづくりに興味がある！<br class="u-mobile">好奇心旺盛！<br class="u-mobile">そんな方をお待ちしています。</p>
         </div>
       </div>
     </div>

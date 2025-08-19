@@ -8,7 +8,7 @@
             </div>
             <div class="p-footer__nav">
                 <div class="p-footer__address-wrapper">
-                    <p class="p-footer__address">〒939-0418   富山県射水市布目沢480-2</p>
+                    <p class="p-footer__address">〒939-0418 富山県射水市布目沢480-2</p>
                     <div class="p-footer__tel-wrapper">
                         <p class="p-footer__tel">TEL <a href="tel:0766-53-1116" class="p-footer__tel">0766-53-1116</a></p>
                         <p class="p-footer__tel p-footer__tel--fax">FAX 0766-53-1727</p>
@@ -31,6 +31,8 @@
                             </li>
                         </ul>
                     </li>
+                </ul>
+                <ul class="p-footer__lists p-footer__lists--second">
                     <li class="p-footer__list">
                         <ul class="p-footer__list-left">
                             <li class="p-footer__list-leftList">

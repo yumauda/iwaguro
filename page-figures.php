@@ -83,12 +83,18 @@
             <ul class="p-figures__lists">
               <li class="p-figures__list">
                 <figure class="p-figures__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/figure_img4.jpg" alt="平均年収" width="545" height="289">
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/figure_img4.jpg" media="(min-width: 768px)" width="545" height="289"/>
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/images/common/figure_img4_sp.jpg" alt="平均年収" width="355" height="227">
+                  </picture>
                 </figure>
               </li>
               <li class="p-figures__list">
                 <figure class="p-figures__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/figure_img5.jpg" alt="年間休日" width="545" height="289">
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/figure_img5.jpg" media="(min-width: 768px)" width="545" height="289"/>
+                    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/images/common/figure_img5_sp.jpg" alt="年間休日" width="355" height="227">
+                  </picture>
                 </figure>
               </li>
 

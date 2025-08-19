@@ -1,11 +1,10 @@
 @use "global" as *;
 
 .p-drawer-icon {
-  background: #fff;
+  background: transparent;
   transition: 0.3s;
-  border-radius: 9999px;
-  width: rem(44);
-  height: rem(44);
+  width: rem(60);
+  height: rem(60);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,6 +12,9 @@
   @include mq(md) {
     display: none;
   }
+}
+.p-drawer-icon.is-bg {
+  background: #413c37;
 }
 .p-drawer-icon.is-active {
   position: relative;
@@ -29,6 +31,9 @@
     left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
   }
+  .p-drawer-icon__bar2 {
+    display: none;
+  }
   .p-drawer-icon__bar3 {
     background: white;
     position: absolute;
@@ -39,39 +44,34 @@
 }
 .p-drawer-icon__bars {
   position: relative;
-  width: rem(28);
-  height: rem(8);
+  width: rem(20);
+  height: rem(18);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: rem(6);
-  @include mq(md) {
-    gap: rem(8);
-    width: rem(28);
-    height: rem(12);
-  }
 }
 .p-drawer-icon__bar1 {
-  height: 2px;
-  background: #333;
+  height: 1px;
+  background: #fff;
   transition: 0.5s;
   width: rem(20);
   display: flex;
-  @include mq(md) {
-    width: rem(28);
-  }
+}
+.p-drawer-icon__bar2 {
+  height: 1px;
+  background: #fff;
+  width: rem(20);
+  display: flex;
 }
 
 .p-drawer-icon__bar3 {
-  height: 2px;
-  background: #333;
+  height: 1px;
+  background: #fff;
   transition: 0.5s;
   display: flex;
   width: rem(20);
-  @include mq(md) {
-    width: rem(28);
-  }
 }
 
 .p-drawer-content {

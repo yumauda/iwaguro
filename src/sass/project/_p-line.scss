@@ -7,14 +7,16 @@
   z-index: 10;
 }
 .p-line::before {
-  position: absolute;
-  content: "";
-  background: $black;
-  width: 1px;
-  height: 100%;
-  top: 0;
-  left: rem(74);
-  z-index: 999;
-  transform: scaleY(var(--scaleY));
-  transform-origin: top left;
+  @include mq(md) {
+    position: absolute;
+    content: "";
+    background: $black;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: rem(74);
+    z-index: 999;
+    transform: scaleY(var(--scaleY));
+    transform-origin: top left;
+  }
 }

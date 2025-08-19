@@ -144,6 +144,7 @@
                     <button class="p-header__drawer p-drawer-icon">
                         <span class="p-drawer-icon__bars">
                             <span class="p-drawer-icon__bar1"></span>
+                            <span class="p-drawer-icon__bar2"></span>
                             <span class="p-drawer-icon__bar3"></span>
                         </span>
                     </button>
@@ -256,9 +257,10 @@
                             <p class="p-header__btn-text">entry</p>
                         </a>
                     </div>
-                    <button class="p-header__drawer p-drawer-icon">
+                    <button class="p-header__drawer p-drawer-icon is-bg">
                         <span class="p-drawer-icon__bars">
                             <span class="p-drawer-icon__bar1"></span>
+                            <span class="p-drawer-icon__bar2"></span>
                             <span class="p-drawer-icon__bar3"></span>
                         </span>
                     </button>

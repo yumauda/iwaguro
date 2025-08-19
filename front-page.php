@@ -299,7 +299,10 @@
             <a href="#" class="p-top-story__link">
               <div class="p-top-story__img1">
                 <figure class="p-top-story__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_story_1.jpg" alt="" width="1300" height="540">
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/top_story_1.jpg" media="(min-width: 768px)" width="1300" height="540" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/common/top_story_1_sp.jpg" alt="" width="359" height="359">
+                  </picture>
                 </figure>
               </div>
               <div class="p-top-story__detail">
@@ -321,7 +324,10 @@
           <div class="p-top-story__block">
             <a href="<?php echo esc_url(home_url('/story02')); ?>" class="p-top-story__link">
               <figure class="p-top-story__img">
-                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_story_2.jpg" alt="" width="1300" height="540">
+                <picture>
+                  <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/top_story_2.jpg" media="(min-width: 768px)" width="1300" height="540" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/common/top_story_2_sp.jpg" alt="" width="359" height="359">
+                </picture>
               </figure>
               <div class="p-top-story__detail">
                 <p class="p-top-story__num">STORY #02</p>
@@ -342,7 +348,10 @@
           <div class="p-top-story__block">
             <a href="#" class="p-top-story__link">
               <figure class="p-top-story__img">
-                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_story_3.jpg" alt="" width="1300" height="540">
+                <picture>
+                  <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/top_story_3.jpg" media="(min-width: 768px)" width="1300" height="540" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/common/top_story_3_sp.jpg" alt="" width="359" height="359">
+                </picture>
               </figure>
               <div class="p-top-story__detail">
                 <p class="p-top-story__num">STORY #03</p>
@@ -509,7 +518,17 @@
               </li>
             </ul>
           </div>
-          
+          <div class="p-top-news__btn p-top-news__btn--mobile">
+            <a href="" class="c-btn">
+              <p class="c-btn__text">view more</p>
+              <span class="c-btn__arrow">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="c-btn__path" d="M16.3464 11.6291H13.2691C13.1885 11.632 13.1083 11.6186 13.033 11.5897C12.9578 11.5609 12.8892 11.5172 12.8312 11.4612C12.7732 11.4052 12.7271 11.3382 12.6956 11.264C12.6641 11.1898 12.6479 11.1101 12.6479 11.0295C12.6479 10.9489 12.6641 10.8692 12.6956 10.795C12.7271 10.7208 12.7732 10.6538 12.8312 10.5978C12.8892 10.5419 12.9578 10.4982 13.033 10.4693C13.1083 10.4404 13.1885 10.427 13.2691 10.4299L17.7946 10.4299C17.9536 10.43 18.106 10.4932 18.2184 10.6056C18.3309 10.718 18.3941 10.8705 18.3942 11.0295L18.3942 15.555C18.397 15.6355 18.3836 15.7158 18.3548 15.791C18.3259 15.8662 18.2822 15.9349 18.2262 15.9929C18.1703 16.0508 18.1032 16.0969 18.029 16.1284C17.9549 16.1599 17.8751 16.1762 17.7946 16.1762C17.714 16.1762 17.6342 16.1599 17.5601 16.1284C17.4859 16.0969 17.4188 16.0508 17.3629 15.9929C17.3069 15.9349 17.2632 15.8662 17.2343 15.791C17.2055 15.7158 17.1921 15.6355 17.1949 15.555L17.1949 12.4777L11.7134 17.9592C11.6009 18.0717 11.4483 18.1349 11.2892 18.1349C11.13 18.1349 10.9774 18.0717 10.8649 17.9592C10.7524 17.8466 10.6892 17.694 10.6892 17.5349C10.6892 17.3758 10.7524 17.2231 10.8649 17.1106L16.3464 11.6291Z" fill="white" />
+                </svg>
+              </span>
+            </a>
+          </div>
+
         </div>
       </div>
     </section>
@@ -520,7 +539,10 @@
       <div class="l-inner">
         <div class="p-challenge__content">
           <figure class="p-challenge__top">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_recruit_top.png" alt="" width="1300" height="540">
+            <picture>
+              <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/top_recruit_top.png" media="(min-width: 768px)" width="1365" height="78" />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/common/top_recruit_top_sp.png" alt="" width="355" height="227">
+            </picture>
           </figure>
           <div class="p-challenge__box">
             <div class="p-challenge__left">
@@ -531,10 +553,10 @@
                 </h3>
               </div>
               <div class="p-challenge__text-wrapper">
-                <p class="p-challenge__text">私たちが目指すのは、モノづくりではなく“コト”づくり。<br>
-                  お客様の要望をどう実現するか、考えるのは難しい。<br>
-                  でも、だからこそ面白い。<br>
-                  期待に応えるモノづくりで、一生ゴトの仕事をしよう！</p>
+                <p class="p-challenge__text">私たちが目指すのは、モノづくりではなく“コト”づくり。<br class="u-desktop">
+                  お客様の要望をどう実現するか、考えるのは難しい。<br class="u-desktop">
+                  でも、だからこそ面白い。<br><br class="u-mobile">
+                  期待に応えるモノづくりで、<br class="u-mobile">一生ゴトの仕事をしよう！</p>
               </div>
             </div>
 
@@ -564,7 +586,10 @@
             </div>
           </div>
           <figure class="p-challenge__bottom">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_recruit_bottom.png" alt="" width="1300" height="540">
+            <picture>
+              <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/top_recruit_bottom.png" media="(min-width: 768px)" width="1300" height="540" />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/common/top_recruit_bottom_sp.png" alt="" width="355" height="227">
+            </picture>
           </figure>
         </div>
       </div>

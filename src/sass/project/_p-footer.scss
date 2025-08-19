@@ -83,7 +83,19 @@
     gap: rem(40);
   }
 }
-
+.p-footer__lists--second {
+  display: flex;
+  gap: rem(40);
+  @include mq(md) {
+    margin-left: rem(40);
+  }
+}
+.p-footer__lists + .p-footer__lists {
+  margin-top: rem(50);
+  @include mq(md) {
+    margin-top: initial;
+  }
+}
 .p-footer__list {
 }
 

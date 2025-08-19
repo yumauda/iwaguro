@@ -21,8 +21,12 @@
 }
 
 .c-btn--306 {
-  width: rem(306);
-  height: rem(60);
+  width: rem(240);
+  height: rem(50);
+  @include mq(md) {
+    width: rem(306);
+    height: rem(60);
+  }
 }
 .c-btn--300 {
   width: rem(300);

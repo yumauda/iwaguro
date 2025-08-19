@@ -6,6 +6,10 @@
   position: relative;
   z-index: 2;
   overflow-x: clip;
+  padding-top: rem(8);
+  @include mq(md) {
+    padding-top: initial;
+  }
 }
 
 .p-challenge__content {
@@ -13,23 +17,32 @@
   padding-bottom: rem(100); */
 }
 .p-challenge__box {
-  display: flex;
-  align-items: center;
-  gap: rem(80);
-  max-width: rem(1071);
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   background: #fff;
-  padding-top: rem(60);
-  padding-bottom: rem(49);
-  padding-left: rem(100);
-  padding-right: rem(100);
-  margin-top: rem(60);
+  margin-top: rem(18);
+  padding-top: rem(50);
+  padding-bottom: rem(50);
+  padding-left: rem(25);
+  padding-right: rem(25);
+  @include mq(md) {
+    display: flex;
+    align-items: center;
+    gap: rem(80);
+    max-width: rem(1071);
+    padding-top: rem(60);
+    padding-bottom: rem(49);
+    padding-left: rem(100);
+    padding-right: rem(100);
+    margin-top: rem(60);
+  }
 }
 .p-challenge__left {
-  max-width: rem(483);
   width: 100%;
+  @include mq(md) {
+    max-width: rem(483);
+  }
 }
 
 .p-challenge__title-wrapper {
@@ -40,29 +53,44 @@
 
 .p-challenge__title-ja {
   color: #fff;
-  line-height: 1.5;
-  font-size: rem(42);
   font-weight: 700;
-  letter-spacing: 0.04em;
+  font-size: rem(30);
+  letter-spacing: 0.06em;
+  line-height: 1.4;
+  @include mq(md) {
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    font-size: rem(42);
+  }
 }
 .p-challenge__title-ja + .p-challenge__title-ja {
   margin-top: rem(12);
 }
 .p-challenge__text-wrapper {
-  margin-top: rem(40);
+  margin-top: rem(35);
+  @include mq(md) {
+    margin-top: rem(40);
+  }
 }
 
 .p-challenge__text {
   color: $black;
   line-height: 1.6;
   letter-spacing: 0.04em;
-  font-size: rem(16);
   font-weight: 700;
+  font-size: rem(15);
+  @include mq(md) {
+    font-size: rem(16);
+  }
 }
 
 .p-challenge__right {
-  max-width: rem(306);
   width: 100%;
+  margin-top: rem(45);
+  @include mq(md) {
+    margin-top: initial;
+    max-width: rem(306);
+  }
 }
 
 .p-challenge__link {
@@ -97,6 +125,12 @@
 
 .p-challenge__btn-wrapper {
   margin-top: rem(40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include mq(md) {
+    display: block;
+  }
 }
 .p-challenge__top img,
 .p-challenge__bottom img {
@@ -109,12 +143,18 @@
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  margin-top: rem(-36);
+  @include mq(md) {
+    margin-top: rem(-36);
+  }
 }
 .p-challenge__bottom {
-  margin-top: rem(60);
-  margin-bottom: rem(-9);
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+  margin-top: rem(32);
+  margin-bottom: rem(8);
+  @include mq(md) {
+    margin-bottom: rem(-9);
+    margin-top: rem(60);
+  }
 }
