@@ -3,10 +3,11 @@
 .p-other {
   background: #f2f2f2;
   overflow-x: clip;
-  padding-top: rem(100);
-  padding-bottom: rem(100);
+  padding-top: rem(70);
+  padding-bottom: rem(70);
   @include mq(md) {
     padding-top: rem(130);
+    padding-bottom: rem(100);
   }
 }
 
@@ -138,7 +139,6 @@
 
 .p-other__title {
   text-align: center;
-  color: #fff;
   font-weight: 600;
   font-family: $second-font-family;
   line-height: 1;
@@ -149,10 +149,18 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: rem(30);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size: rem(130);
+  color: $black;
+  font-size: rem(54);
+  text-align: left;
+  @include mq(md){
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    font-size: rem(130);
+    
+  }
 }
 
 .p-other__title-ja {

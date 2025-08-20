@@ -53,8 +53,11 @@
 }
 .c-page-ja--en {
   font-family: $second-font-family;
-  font-size: rem(100);
   font-weight: 600;
   line-height: 1;
   color: $black;
+  font-size: rem(52);
+  @include mq(md) {
+    font-size: rem(100);
+  }
 }
