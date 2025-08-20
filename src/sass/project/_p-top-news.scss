@@ -50,7 +50,7 @@
   top: rem(-100);
   bottom: rem(-100);
   z-index: -1;
-  height: 138%;
+  height: 145%;
   @include mq(md) {
     height: 125%;
   }
@@ -80,6 +80,12 @@
   @include mq(md) {
     display: block;
     margin-top: rem(110);
+  }
+}
+.p-top-news__btn--desktop {
+  display: none;
+  @include mq(md){
+   display: block; 
   }
 }
 .p-top-news__btn--mobile {

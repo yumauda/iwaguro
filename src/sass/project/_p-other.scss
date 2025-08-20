@@ -171,7 +171,8 @@
   background: #413c37;
   padding-left: rem(8);
   padding-right: rem(8);
-  display: inline-block;
+  display: block;
+  width: fit-content;
   font-size: rem(24);
   @include mq(md) {
     font-size: rem(36);

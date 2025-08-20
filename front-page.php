@@ -492,7 +492,7 @@
                 <span class="c-section-title__en js-news-title">news</span>
                 <span class="c-section-title__ja js-news-title">お知らせ</span>
               </h3>
-              <div class="p-top-news__btn u-desktop">
+              <div class="p-top-news__btn p-top-news__btn--desktop">
                 <a href="" class="c-btn">
                   <p class="c-btn__text">view more</p>
                   <span class="c-btn__arrow">

@@ -19,7 +19,7 @@
   }
 }
 .c-page-ja + .c-page-ja {
-  margin-top: rem(12);
+ /*  margin-top: rem(12); */
   @include mq(md) {
     margin-top: rem(28);
   }
