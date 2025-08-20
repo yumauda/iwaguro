@@ -346,7 +346,7 @@
             </a>
           </div>
           <div class="p-top-story__block">
-            <a href="#" class="p-top-story__link">
+            <a href="<?php echo esc_url(home_url('/story03')); ?>" class="p-top-story__link">
               <figure class="p-top-story__img">
                 <picture>
                   <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/top_story_3.jpg" media="(min-width: 768px)" width="1300" height="540" />

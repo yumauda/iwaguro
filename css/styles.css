@@ -2649,8 +2649,8 @@ input::placeholder {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 1;
-  width: 150px;
-  width: 9.375rem;
+  width: 250px;
+  width: 15.625rem;
 }
 @media screen and (min-width: 768px) {
   .p-loading__logo {
