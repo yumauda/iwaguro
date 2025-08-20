@@ -21,7 +21,7 @@
     </div>
   </section>
   <div class="p-gradation">
-    <div class="l-inner">
+    <div class="l-inner l-gradation-inner">
       <div class="p-gradation__content">
         <div class="p-gradation__text-wrapper">
           <p class="p-gradation__text">普段、何気なく手に取っている<span class="c-text-gradation js-text-gradation">医薬品</span>。<br>
@@ -44,7 +44,7 @@
       </div>
     </div>
   </div>
-  <div class="p-top-image">
+  <!-- <div class="p-top-image">
     <figure class="p-top-image__img">
       <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img1.jpg" alt="" width="480" height="270">
     </figure>
@@ -54,7 +54,32 @@
     <figure class="p-top-image__img">
       <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img3.jpg" alt="" width="480" height="270">
     </figure>
+  </div> -->
+  <div class="p-top-image" aria-label="Top images">
+    <div class="p-top-image__track">
+      <figure class="p-top-image__img">
+        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img1.jpg" alt="" width="480" height="270">
+      </figure>
+      <figure class="p-top-image__img">
+        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img2.jpg" alt="" width="480" height="270">
+      </figure>
+      <figure class="p-top-image__img">
+        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img3.jpg" alt="" width="480" height="270">
+      </figure>
+
+      <!-- 無限スクロール用に同じ並びをもう一巡分 -->
+      <figure class="p-top-image__img is-dup">
+        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img1.jpg" alt="" width="480" height="270">
+      </figure>
+      <figure class="p-top-image__img is-dup">
+        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img2.jpg" alt="" width="480" height="270">
+      </figure>
+      <figure class="p-top-image__img is-dup">
+        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img3.jpg" alt="" width="480" height="270">
+      </figure>
+    </div>
   </div>
+
   <div class="p-line js-left--vertical">
     <section class="p-top-about js-left--row">
       <div class="c-left js-left--vertical">

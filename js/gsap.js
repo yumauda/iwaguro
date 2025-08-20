@@ -77,14 +77,14 @@ window.addEventListener("DOMContentLoaded", function () {
     },
     {
       "--scaleX": 1,
-      duration: 2,
+      duration: 1.5,
       delay: 0.5,
       scrollTrigger: {
         trigger: ".p-gradation",
         start: "0% 50%",
       },
       stagger: 0.4,
-      ease: "power3.out",
+   /*    ease: "power3.out", */
     }
   );
   gsap.fromTo(

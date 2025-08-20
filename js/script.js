@@ -13,9 +13,9 @@ jQuery(function ($) {
       // 画面が指定pxより上ならボタンを非表示
       topBtn.fadeOut();
     }
-    
+
     // ヘッダーのアクティブ状態制御（トップページのみ）
-    if (typeof wpPageInfo !== 'undefined' && wpPageInfo.isFrontPage) {
+    if (typeof wpPageInfo !== "undefined" && wpPageInfo.isFrontPage) {
       if ($(this).scrollTop() > 600) {
         $(".p-header").addClass("is-active");
         $(".p-header__link").addClass("is-active");
@@ -195,19 +195,7 @@ jQuery(".p-drawer-icon").on("click", function (e) {
   jQuery(".p-drawer-background").toggleClass("is-active");
   return false;
 });
-window.addEventListener("scroll", function () {
-  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-  var element = document.querySelector(".p-footer__floating");
 
-  if (window.innerWidth <= 768) {
-    // 768px以下のデバイスでのみ動作
-    if (scrollPosition > 700) {
-      element.style.opacity = "1";
-    } else {
-      element.style.opacity = "0";
-    }
-  }
-});
 window.onload = function () {
   document.body.classList.add("fade-in");
 };

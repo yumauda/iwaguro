@@ -16,6 +16,14 @@
 .l-single-inner {
   max-width: rem(1140);
 }
+.l-gradation-inner {
+  padding-left: rem(4);
+  padding-right: rem(4);
+  @include mq("md") {
+    padding-right: $padding-pc;
+    padding-left: $padding-pc;
+  }
+}
 .l-story-inner {
   max-width: rem(1350);
 }
