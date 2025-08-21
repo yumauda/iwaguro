@@ -145,25 +145,60 @@
                     <nav class="p-header__nav">
                         <ul class="p-header__lists">
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">about</a>
+                                <a href="#" class="p-header__link">
+                                    <span class="p-header__roller">
+                                        <span class="p-header__link-text p-header__link-text--top">about</span>
+                                        <span class="p-header__link-text p-header__link-text--bottom">about</span>
+                                    </span>
+                                </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">interview</a>
+                                <a href="#" class="p-header__link">
+                                    <span class="p-header__roller">
+                                        <span class="p-header__link-text p-header__link-text--top">interview</span>
+                                        <span class="p-header__link-text p-header__link-text--bottom">interview</span>
+                                    </span>
+                                </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">story</a>
+                                <a href="#" class="p-header__link">
+                                    <span class="p-header__roller">
+                                        <span class="p-header__link-text p-header__link-text--top">story</span>
+                                        <span class="p-header__link-text p-header__link-text--bottom">story</span>
+                                    </span>
+                                </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">job</a>
+                                <a href="#" class="p-header__link">
+                                    <span class="p-header__roller">
+                                        <span class="p-header__link-text p-header__link-text--top">job</span>
+                                        <span class="p-header__link-text p-header__link-text--bottom">job</span>
+                                    </span>
+                                </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="<?php echo esc_url(home_url('/figures')); ?>" class="p-header__link">figures</a>
+                                <a href="<?php echo esc_url(home_url('/figures')); ?>" class="p-header__link">
+                                    <span class="p-header__roller">
+                                        <span class="p-header__link-text p-header__link-text--top">figures</span>
+                                        <span class="p-header__link-text p-header__link-text--bottom">figures</span>
+                                    </span>
+                                </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">style</a>
+                                <a href="#" class="p-header__link">
+                                    <span class="p-header__roller">
+                                        <span class="p-header__link-text p-header__link-text--top">style</span>
+                                        <span class="p-header__link-text p-header__link-text--bottom">style</span>
+                                    </span>
+                                </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">recruit</a>
+                                <a href="#" class="p-header__link">
+                                    <span class="p-header__roller">
+                                        <span class="p-header__link-text p-header__link-text--top">recruit</span>
+                                        <span class="p-header__link-text p-header__link-text--bottom">recruit</span>
+                                    </span>
+                                </a>
                             </li>
                         </ul>
                     </nav>
