@@ -3152,6 +3152,10 @@ input::placeholder {
   }
 }
 
+.p-other__link:hover {
+  opacity: 1;
+}
+
 .p-other__link:nth-child(even) {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -3203,6 +3207,7 @@ input::placeholder {
   margin-right: auto;
   position: relative;
   z-index: 2;
+  overflow: hidden;
 }
 @media screen and (min-width: 768px) {
   .p-other__img {
@@ -3216,11 +3221,18 @@ input::placeholder {
   width: 100%;
   height: auto;
   aspect-ratio: 335/278;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 @media screen and (min-width: 768px) {
   .p-other__img img {
     aspect-ratio: 789/363;
   }
+}
+
+.p-other__link:hover .p-other__img img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .p-other__detail {

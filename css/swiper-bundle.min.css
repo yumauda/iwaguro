@@ -302,9 +302,9 @@
   content: "next";
 }
 .swiper-pagination {
-  position: absolute;
+/*   position: absolute; */
   text-align: center;
-  transition: 0.3s opacity;
+  /* transition: 0.3s opacity; */
   transform: translate3d(0, 0, 0);
   z-index: 10;
 }

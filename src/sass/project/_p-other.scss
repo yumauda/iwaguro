@@ -49,6 +49,9 @@
     font-size: rem(160);
   }
 }
+.p-other__link:hover {
+  opacity: 1;
+}
 .p-other__link:nth-child(even) {
   flex-direction: row-reverse;
 }
@@ -85,6 +88,7 @@
   margin-right: auto;
   position: relative;
   z-index: 2;
+  overflow: hidden;
   @include mq(md) {
     max-width: rem(789);
   }
@@ -94,9 +98,13 @@
   width: 100%;
   height: auto;
   aspect-ratio: 335 / 278;
+  transition: 0.3s ease-in-out;
   @include mq(md) {
     aspect-ratio: 789 / 363;
   }
+}
+.p-other__link:hover .p-other__img img {
+  transform: scale(1.05);
 }
 
 .p-other__detail {
