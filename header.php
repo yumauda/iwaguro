@@ -354,7 +354,7 @@
                         </ul>
                     </nav>
                     <div class="p-header__btn">
-                        <a href="#" class="p-header__btn-link">
+                        <a href="#" class="p-header__btn-link is-active">
                             <p class="p-header__btn-text">entry</p>
                         </a>
                     </div>

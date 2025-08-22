@@ -147,7 +147,12 @@
   opacity: 1;
   background: #413c37;
 }
-
+.p-header__btn-link.is-active {
+  background: #413c37;
+  &:hover {
+    background: #fff;
+  } 
+}
 .p-header__btn-text {
   color: #413c37;
   font-size: rem(14);
@@ -160,4 +165,10 @@
 }
 .p-header__btn-link:hover .p-header__btn-text {
   color: #fff;
+}
+.p-header__btn-link.is-active .p-header__btn-text {
+  color: #fff;
+}
+.p-header__btn-link.is-active:hover .p-header__btn-text {
+  color: #413c37;
 }

@@ -20,11 +20,13 @@ jQuery(function ($) {
         $(".p-header").addClass("is-active");
         $(".p-header__link").addClass("is-active");
         $(".p-header__path").addClass("is-active");
+        $(".p-header__btn-link").addClass("is-active");
         $(".p-drawer-icon").addClass("is-bg");
       } else {
         $(".p-header").removeClass("is-active");
         $(".p-header__link").removeClass("is-active");
         $(".p-header__path").removeClass("is-active");
+        $(".p-header__btn-link").removeClass("is-active");
         $(".p-drawer-icon").removeClass("is-bg");
       }
     }

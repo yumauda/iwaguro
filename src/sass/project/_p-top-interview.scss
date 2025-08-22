@@ -7,6 +7,8 @@
   @include mq(md) {
     display: flex;
     position: relative;
+    padding-top: initial;
+    padding-bottom: initial;
     --scaleX: 0;
     transform-origin: top;
     overflow-x: clip;
@@ -65,9 +67,6 @@
   margin-right: calc(50% - 50vw);
   @include mq(md) {
     margin-top: rem(48);
-    margin-right: initial;
-    /* max-width: rem(1075);
-    margin-left: auto; */
   }
 }
 

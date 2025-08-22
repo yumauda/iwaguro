@@ -2126,6 +2126,13 @@ input::placeholder {
   background: #413c37;
 }
 
+.p-header__btn-link.is-active {
+  background: #413c37;
+}
+.p-header__btn-link.is-active:hover {
+  background: #fff;
+}
+
 .p-header__btn-text {
   color: #413c37;
   font-size: 14px;
@@ -2141,6 +2148,14 @@ input::placeholder {
 
 .p-header__btn-link:hover .p-header__btn-text {
   color: #fff;
+}
+
+.p-header__btn-link.is-active .p-header__btn-text {
+  color: #fff;
+}
+
+.p-header__btn-link.is-active:hover .p-header__btn-text {
+  color: #413c37;
 }
 
 .p-hear {
@@ -3660,11 +3675,22 @@ input::placeholder {
   display: block;
   margin-top: 25px;
   margin-top: 1.5625rem;
+  padding-left: 23px;
+  padding-left: 1.4375rem;
+  display: inline-block;
 }
-@media screen and (min-width: 768px) {
-  .p-pickup__title-ja {
-    margin-top: 2.5rem;
-  }
+
+.p-pickup__title-ja::before {
+  position: absolute;
+  content: "";
+  background: #000;
+  width: 14px;
+  width: 0.875rem;
+  height: 1px;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .p-pickup__img {
@@ -4497,7 +4523,7 @@ input::placeholder {
 }
 @media screen and (min-width: 768px) {
   .slide {
-    width: 10vw; /* 3はスライドの枚数 */
+    width: 16.6666666667vw; /* 3はスライドの枚数 */
   }
 }
 
@@ -5526,6 +5552,10 @@ input::placeholder {
     display: -ms-flexbox;
     display: flex;
     position: relative;
+    padding-top: 0;
+    padding-top: initial;
+    padding-bottom: 0;
+    padding-bottom: initial;
     --scaleX: 0;
     -webkit-transform-origin: top;
             transform-origin: top;
@@ -5610,10 +5640,6 @@ input::placeholder {
 @media screen and (min-width: 768px) {
   .p-top-interview__slider {
     margin-top: 3rem;
-    margin-right: 0;
-    margin-right: initial;
-    /* max-width: rem(1075);
-    margin-left: auto; */
   }
 }
 
@@ -5866,7 +5892,7 @@ input::placeholder {
 @media screen and (min-width: 768px) {
   .p-top-line__content {
     padding-top: 6.25rem;
-    padding-bottom: 3.5625rem;
+    padding-bottom: 6.25rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

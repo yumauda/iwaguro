@@ -4,17 +4,12 @@ let swiper = new Swiper(".swiper1", {
   loop: false,
   rewind: true,
   centeredSlides: false,
-  /* autoplay: {
+  autoplay: {
     delay: 2500,
-  }, */
+  },
   speed: 300,
   slidesPerView: 1.3,
   spaceBetween: 20,
-  scrollbar: {
-    el: ".swiper-scrollbar",
-    draggable: true,
-    hide: false,
-  },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
