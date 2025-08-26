@@ -8,7 +8,7 @@
   justify-content: center;
   text-align: center;
   width: rem(240);
-  height: rem(50);
+  height: rem(54);
   position: relative;
   transition: 0.3s ease-in-out;
   border: 1px solid #413c37;
@@ -22,7 +22,7 @@
 
 .c-btn--306 {
   width: rem(240);
-  height: rem(50);
+  height: rem(54);
   @include mq(md) {
     width: rem(306);
     height: rem(60);

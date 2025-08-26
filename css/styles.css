@@ -2827,6 +2827,10 @@ input::placeholder {
   overflow: hidden;
 }
 
+.p-mv {
+  position: relative;
+}
+
 .p-mv__content {
   position: relative;
 }
@@ -4634,6 +4638,140 @@ input::placeholder {
             transform: translateX(-100%);
   }
 }
+/* 既存 ------------------------------ */
+.p-scroll {
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  right: 1.25rem;
+  bottom: 40px;
+  bottom: 2.5rem;
+}
+@media screen and (min-width: 768px) {
+  .p-scroll {
+    bottom: 5rem;
+    right: 2.5rem;
+  }
+}
+
+.p-scroll__link {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; /* ← 縦に動く余白を確保 */
+  gap: 8px;
+  gap: 0.5rem;
+  position: relative;
+  height: 24px;
+  height: 1.5rem; /* ← 落下距離の“レール”高さ */
+}
+
+.p-scroll__text {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  gap: 0.5rem;
+}
+
+/* ここからアニメーション ------------------------------ */
+/* 丸の上下では小さく、中央付近で等倍に */
+.p-scroll__circle {
+  background: rgba(255, 255, 255, .5);
+  width: 16px;
+  width: 1rem;
+  height: 16px;
+  height: 1rem;
+  border-radius: 9999px;
+  display: inline-block;
+  z-index: 1;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  will-change: transform, opacity;
+  -webkit-animation: scrollDropScale 1.8s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+          animation: scrollDropScale 1.8s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+/* 下へ落ちてフェード → 位置をリセットしてループ */
+/* 上端 → 中央 → 下端 で scale を 0.75 → 1 → 0.75 に変化 */
+@-webkit-keyframes scrollDropScale {
+  /* ちょい上から薄く登場（小さい） */
+  0% {
+    -webkit-transform: translateY(-0.375rem) scale(0.3);
+            transform: translateY(-0.375rem) scale(0.3);
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  } /* すぐ不透明に */
+  /* 中央付近（等倍） */
+  50% {
+    -webkit-transform: translateY(0.5rem) scale(0.75);
+            transform: translateY(0.5rem) scale(0.75);
+    opacity: 1;
+  }
+  /* 下端でまた小さく→消える */
+  88% {
+    -webkit-transform: translateY(1rem) scale(0.3);
+            transform: translateY(1rem) scale(0.3);
+    opacity: 0.9;
+  }
+  100% {
+    -webkit-transform: translateY(1.25rem) scale(0.2);
+            transform: translateY(1.25rem) scale(0.2);
+    opacity: 0;
+  }
+}
+@keyframes scrollDropScale {
+  /* ちょい上から薄く登場（小さい） */
+  0% {
+    -webkit-transform: translateY(-0.375rem) scale(0.3);
+            transform: translateY(-0.375rem) scale(0.3);
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  } /* すぐ不透明に */
+  /* 中央付近（等倍） */
+  50% {
+    -webkit-transform: translateY(0.5rem) scale(0.75);
+            transform: translateY(0.5rem) scale(0.75);
+    opacity: 1;
+  }
+  /* 下端でまた小さく→消える */
+  88% {
+    -webkit-transform: translateY(1rem) scale(0.3);
+            transform: translateY(1rem) scale(0.3);
+    opacity: 0.9;
+  }
+  100% {
+    -webkit-transform: translateY(1.25rem) scale(0.2);
+            transform: translateY(1.25rem) scale(0.2);
+    opacity: 0;
+  }
+}
+/* 動きが強いと感じたらここを調整
+   - .p-scroll__link の height ← レールの長さ
+   - keyframes の translateY(rem(...)) ← 落下距離
+*/
+/* アニメを抑制したい人向け（アクセシビリティ） */
+@media (prefers-reduced-motion: reduce) {
+  .p-scroll__circle {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
 .p-single-topics {
   padding-top: 80px;
   padding-top: 5rem;
@@ -5322,7 +5460,7 @@ input::placeholder {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    gap: 6.25rem;
+    gap: min(6.25rem, 6.9444444444vw);
   }
 }
 
@@ -5335,7 +5473,7 @@ input::placeholder {
   .p-top-about__img {
     margin-top: 0;
     margin-top: initial;
-    max-width: 35.9375rem;
+    max-width: min(35.9375rem, 39.9305555556vw);
   }
 }
 
@@ -5384,7 +5522,7 @@ input::placeholder {
 @media screen and (min-width: 768px) {
   .p-top-about__detail-title {
     line-height: 1.6;
-    font-size: 1.625rem;
+    font-size: min(1.625rem, 1.8055555556vw);
   }
 }
 
@@ -5461,7 +5599,7 @@ input::placeholder {
 
 @media screen and (min-width: 768px) {
   .p-top-about__block {
-    padding-left: 4.375rem;
+    padding-left: min(4.375rem, 4.8611111111vw);
   }
 }
 
@@ -5850,6 +5988,22 @@ input::placeholder {
   }
 }
 
+.p-top-interview__btn--sp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-top: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .p-top-interview__btn--sp {
+    display: none;
+  }
+}
+
 .p-top-line {
   background: #fff;
   position: relative;
@@ -5902,7 +6056,7 @@ input::placeholder {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 5.875rem;
+    gap: min(5.875rem, 6.5277777778vw);
   }
 }
 
@@ -6589,6 +6743,10 @@ input::placeholder {
   width: fit-content;
   font-size: 14px;
   font-size: 0.875rem;
+  padding-left: 4px;
+  padding-left: 0.25rem;
+  padding-right: 4px;
+  padding-right: 0.25rem;
 }
 @media screen and (min-width: 768px) {
   .p-top-story__text {
@@ -6651,8 +6809,8 @@ input::placeholder {
   text-align: center;
   width: 240px;
   width: 15rem;
-  height: 50px;
-  height: 3.125rem;
+  height: 54px;
+  height: 3.375rem;
   position: relative;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -6671,8 +6829,8 @@ input::placeholder {
 .c-btn--306 {
   width: 240px;
   width: 15rem;
-  height: 50px;
-  height: 3.125rem;
+  height: 54px;
+  height: 3.375rem;
 }
 @media screen and (min-width: 768px) {
   .c-btn--306 {

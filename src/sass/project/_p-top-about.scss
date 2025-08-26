@@ -51,7 +51,7 @@
   @include mq(md) {
     align-items: center;
     flex-direction: row-reverse;
-    gap: rem(100);
+    gap: min(rem(100), calc(100 / 1440) * 100vw);
   }
 }
 
@@ -60,7 +60,7 @@
   margin-top: rem(25);
   @include mq(md) {
     margin-top: initial;
-    max-width: rem(575);
+    max-width: min(rem(575), calc(575 / 1440) * 100vw);
   }
 }
 .p-top-about__img img {
@@ -94,7 +94,7 @@
   line-height: 1.4;
   @include mq(md) {
     line-height: 1.6;
-    font-size: rem(26);
+    font-size: min(rem(26), calc(26 / 1440) * 100vw);
   }
 }
 .p-top-about__detail-title + .p-top-about__detail-title {
@@ -144,6 +144,6 @@
 }
 .p-top-about__block {
   @include mq(md) {
-    padding-left: rem(70);
+    padding-left: min(rem(70), calc(70 / 1440) * 100vw);
   }
 }

@@ -146,6 +146,8 @@
   background: rgba($color: #fff, $alpha: 0.9);
   width: fit-content;
   font-size: rem(14);
+  padding-left: rem(4);
+  padding-right: rem(4);
   @include mq(md) {
     font-size: rem(16);
   }

@@ -224,3 +224,11 @@
     font-size: rem(30);
   }
 }
+.p-top-interview__btn--sp {
+  display: flex;
+  justify-content: center;
+  margin-top: rem(20);
+  @include mq(md) {
+    display: none;
+  }
+}

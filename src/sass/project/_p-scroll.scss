@@ -1,0 +1,87 @@
+@use "global" as *;
+
+/* 既存 ------------------------------ */
+.p-scroll {
+  position: absolute;
+  z-index: 1;
+  right: rem(20);
+  bottom: rem(40);
+  @include mq(md) {
+    bottom: rem(80);
+    right: rem(40);
+  }
+}
+
+.p-scroll__link {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start; /* ← 縦に動く余白を確保 */
+  gap: rem(8);
+  position: relative;
+  height: rem(24); /* ← 落下距離の“レール”高さ */
+}
+
+.p-scroll__text {
+  color: #fff;
+  font-family: $second-font-family;
+  font-size: rem(16);
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: rem(8);
+}
+
+/* ここからアニメーション ------------------------------ */
+/* 丸の上下では小さく、中央付近で等倍に */
+.p-scroll__circle {
+  background: rgba(#fff, 0.5);
+  width: rem(16);
+  height: rem(16);
+  border-radius: 9999px;
+  display: inline-block;
+  z-index: 1;
+  transform-origin: center;
+  will-change: transform, opacity;
+  animation: scrollDropScale 1.8s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+/* 下へ落ちてフェード → 位置をリセットしてループ */
+/* 上端 → 中央 → 下端 で scale を 0.75 → 1 → 0.75 に変化 */
+@keyframes scrollDropScale {
+  /* ちょい上から薄く登場（小さい） */
+  0% {
+    transform: translateY(rem(-6)) scale(0.3);
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  } /* すぐ不透明に */
+
+  /* 中央付近（等倍） */
+  50% {
+    transform: translateY(rem(8)) scale(0.75);
+    opacity: 1;
+  }
+
+  /* 下端でまた小さく→消える */
+  88% {
+    transform: translateY(rem(16)) scale(0.3);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(rem(20)) scale(0.2);
+    opacity: 0;
+  }
+}
+
+/* 動きが強いと感じたらここを調整
+   - .p-scroll__link の height ← レールの長さ
+   - keyframes の translateY(rem(...)) ← 落下距離
+*/
+
+/* アニメを抑制したい人向け（アクセシビリティ） */
+@media (prefers-reduced-motion: reduce) {
+  .p-scroll__circle {
+    animation: none;
+  }
+}
