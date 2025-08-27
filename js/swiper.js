@@ -1,11 +1,11 @@
 "use strict";
 
 let swiper = new Swiper(".swiper1", {
-  loop: false,
+  loop: true,
   rewind: true,
   centeredSlides: false,
   autoplay: {
-    delay: 2500,
+    delay: 3500,
   },
   speed: 300,
   slidesPerView: 1.3,

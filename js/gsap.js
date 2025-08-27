@@ -61,16 +61,11 @@ window.addEventListener("DOMContentLoaded", function () {
       duration: 1.5,
       delay: 3,
       clipPath: "inset(0% 0% 0% 0%)",
-      /*  stagger: 0.3, */
-      /* scrollTrigger: {
-        trigger: ".p-top-about",
-        start: "0% 30%",
-      }, */
       ease: "power3.out",
     }
   );
-  
-  gsap.fromTo(
+
+  /* gsap.fromTo(
     ".js-text-gradation",
     {
       "--scaleX": 0,
@@ -84,9 +79,33 @@ window.addEventListener("DOMContentLoaded", function () {
         start: "0% 50%",
       },
       stagger: 0.4,
-   /*    ease: "power3.out", */
+    }
+  ); */
+  // 1秒あたり何px進めるか（体感に合わせて調整）
+  const PX_PER_SEC = 320;
+
+  gsap.fromTo(
+    ".js-text-gradation",
+    { "--scaleX": 0 },
+    {
+      "--scaleX": 1,
+      // 各要素の幅から duration を計算（= 幅が長いほど時間も長く→速度は一定）
+      duration: (i, el) => el.getBoundingClientRect().width / PX_PER_SEC,
+      ease: "none", // 等速
+      delay: 0.5,
+      stagger: 0.4,
+      scrollTrigger: {
+        trigger: ".p-gradation",
+        start: "0% 50%",
+        invalidateOnRefresh: true, // リサイズ/フォント読み込み後に再計算
+      },
     }
   );
+
+  // Webフォントで幅が変わるなら、フォント読了後にリフレッシュ
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(() => ScrollTrigger.refresh());
+  }
   gsap.fromTo(
     ".js-about-title",
     {
@@ -135,7 +154,7 @@ window.addEventListener("DOMContentLoaded", function () {
       },
     }
   );
-  gsap.fromTo(
+  /* gsap.fromTo(
     ".js-left--row",
     {
       "--scaleX": 0,
@@ -150,7 +169,7 @@ window.addEventListener("DOMContentLoaded", function () {
       },
       ease: "power3.out",
     }
-  );
+  ); */
   gsap.fromTo(
     ".js-interview-title",
     {
@@ -184,8 +203,8 @@ window.addEventListener("DOMContentLoaded", function () {
       ease: "power3.out",
     }
   );
-  
-  gsap.fromTo(
+
+  /* gsap.fromTo(
     ".js-left--row-interview",
     {
       "--scaleX": 0,
@@ -200,8 +219,8 @@ window.addEventListener("DOMContentLoaded", function () {
       },
       ease: "power3.out",
     }
-  );
-  gsap.fromTo(
+  ); */
+  /* gsap.fromTo(
     ".js-left--row-story",
     {
       "--scaleX": 0,
@@ -216,9 +235,9 @@ window.addEventListener("DOMContentLoaded", function () {
       },
       ease: "power3.out",
     }
-  );
+  ); */
 
-  gsap.fromTo(
+  /* gsap.fromTo(
     ".js-left--row-pickup",
     {
       "--scaleX": 0,
@@ -233,10 +252,10 @@ window.addEventListener("DOMContentLoaded", function () {
       },
       ease: "power3.out",
     }
-  );
+  ); */
 
   // トップストーリーのパララックス効果
- /*  gsap.to(".p-top-story__img1", {
+  /*  gsap.to(".p-top-story__img1", {
     y: -30,
     ease: "none",
     scrollTrigger: {
@@ -246,5 +265,4 @@ window.addEventListener("DOMContentLoaded", function () {
       scrub: 1
     }
   }); */
-
 });

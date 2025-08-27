@@ -30,7 +30,7 @@
 .slide {
   width: calc(100vw / 2);
   @include mq(md) {
-    width: calc(100vw / 6); /* 3はスライドの枚数 */
+    width: calc(100vw / 7); /* 3はスライドの枚数 */
   }
 }
 /* スライドの画像 */
