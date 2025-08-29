@@ -48,7 +48,9 @@
   letter-spacing: 0.1em;
   color: #fff;
 }
-
+.p-footer__address span {
+  font-family: $second-font-family;
+}
 .p-footer__tel-wrapper {
   display: flex;
   gap: rem(8);
@@ -56,6 +58,7 @@
 
 .p-footer__tel {
   font-size: rem(14);
+  font-family: $second-font-family;
   line-height: 2;
   letter-spacing: 0.1em;
   color: #fff;
@@ -132,7 +135,9 @@
 .p-footer__link:hover::before {
   width: 100%;
 }
-
+.p-footer__link span {
+  font-family: $second-font-family;
+}
 .p-footer__out {
   display: flex;
   align-items: center;

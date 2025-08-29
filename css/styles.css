@@ -1391,6 +1391,10 @@ select::-ms-expand {
   color: #fff;
 }
 
+.p-footer__address span {
+  font-family: "Outfit", sans-serif;
+}
+
 .p-footer__tel-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1402,6 +1406,7 @@ select::-ms-expand {
 .p-footer__tel {
   font-size: 14px;
   font-size: 0.875rem;
+  font-family: "Outfit", sans-serif;
   line-height: 2;
   letter-spacing: 0.1em;
   color: #fff;
@@ -1500,6 +1505,10 @@ select::-ms-expand {
 
 .p-footer__link:hover::before {
   width: 100%;
+}
+
+.p-footer__link span {
+  font-family: "Outfit", sans-serif;
 }
 
 .p-footer__out {
