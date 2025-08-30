@@ -1,0 +1,131 @@
+@use "global" as *;
+
+.p-result {
+  padding-top: rem(100);
+  padding-bottom: rem(100);
+}
+
+.p-result__content {
+}
+
+.p-result__title-wrapper {
+  text-align: center;
+}
+
+.p-result__title {
+  color: #fff;
+  padding-left: rem(8);
+  display: inline-block;
+  padding-right: rem(8);
+  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  font-size: rem(30);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  padding-top: rem(8);
+  padding-bottom: rem(8);
+}
+
+.p-result__img {
+  max-width: rem(683);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: rem(45);
+}
+.p-result__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-result__bottom {
+  margin-top: rem(60);
+}
+.p-result__bottom-titleWrapper {
+  text-align: center;
+}
+.p-result__title-en {
+  padding-left: rem(30);
+  position: relative;
+  color: #222426;
+  font-weight: 400;
+  font-family: $second-font-family;
+  text-align: center;
+  font-size: rem(14);
+  letter-spacing: 0.04em;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.p-result__title-en::before {
+  position: absolute;
+  content: "";
+  background: url(../images/common/page_en_icon.png) no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: rem(20);
+  height: auto;
+  aspect-ratio: 20 / 10;
+  object-fit: cover;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.p-result__bottom-title {
+  margin-top: rem(16);
+  font-size: rem(30);
+  font-weight: 700;
+  line-height: 1;
+  color: $black;
+  text-align: center;
+}
+
+.p-result__lists {
+  margin-top: rem(60);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: rem(30);
+  column-gap: rem(40);
+  max-width: rem(960);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-result__list {
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  width: rem(210);
+  height: rem(210);
+  position: relative;
+}
+
+.p-result__check {
+  position: absolute;
+  left: 50%;
+  top: rem(30);
+  transform: translateX(-50%);
+}
+.p-result__check img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.p-result__detail {
+}
+
+.p-result__detail-title {
+  color: $black;
+  font-size: rem(22);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  text-align: center;
+}

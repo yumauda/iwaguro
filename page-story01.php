@@ -90,6 +90,97 @@
       </div>
     </div>
   </section>
+  <section class="p-result">
+    <div class="l-inner">
+      <div class="p-result__content">
+        <div class="p-result__title-wrapper">
+          <h3 class="p-result__title">独創解で世にない機械を生み出す</h3>
+        </div>
+        <figure class="p-result__img">
+          <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_img.png" alt="独創解で世にない機械を生み出す" width="431" height="38">
+        </figure>
+        <div class="p-result__bottom">
+          <div class="p-result__bottom-titleWrapper">
+            <span class="p-result__title-en">result</span>
+          </div>
+          <h4 class="p-result__bottom-title">機械をご導入いただいたお客様の成果事例</h4>
+          <ul class="p-result__lists">
+            <li class="p-result__list">
+              <div class="p-result__check">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
+              </div>
+              <div class="p-result__detail">
+                <p class="p-result__detail-title">生産の効率化</p>
+              </div>
+            </li>
+            <li class="p-result__list">
+              <div class="p-result__check">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
+              </div>
+              <div class="p-result__detail">
+                <p class="p-result__detail-title">生産数アップ</p>
+              </div>
+            </li>
+            <li class="p-result__list">
+              <div class="p-result__check">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
+              </div>
+              <div class="p-result__detail">
+                <p class="p-result__detail-title">作業軽減と<br>時間短縮</p>
+              </div>
+            </li>
+            <li class="p-result__list">
+              <div class="p-result__check">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
+              </div>
+              <div class="p-result__detail">
+                <p class="p-result__detail-title">作業人員<br>の削減</p>
+              </div>
+            </li>
+            <li class="p-result__list">
+              <div class="p-result__check">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
+              </div>
+              <div class="p-result__detail">
+                <p class="p-result__detail-title">多品種生産対応</p>
+              </div>
+            </li>
+            <li class="p-result__list">
+              <div class="p-result__check">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
+              </div>
+              <div class="p-result__detail">
+                <p class="p-result__detail-title">充填精度アップ</p>
+              </div>
+            </li>
+            <li class="p-result__list">
+              <div class="p-result__check">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
+              </div>
+              <div class="p-result__detail">
+                <p class="p-result__detail-title">受注率アップ</p>
+              </div>
+            </li>
+            <li class="p-result__list">
+              <div class="p-result__check">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
+              </div>
+              <div class="p-result__detail">
+                <p class="p-result__detail-title">省スペース化</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="p-project">
+    <div class="l-inner">
+      <div class="p-project__content">
+        
+      </div>
+    </div>
+  </section>
   <section class="p-other">
     <div class="l-inner">
       <div class="p-other__content">
