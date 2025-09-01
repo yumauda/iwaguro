@@ -335,7 +335,7 @@
       <div class="l-inner l-story-inner">
         <div class="p-top-story__content">
           <div class="p-top-story__block">
-            <a href="#" class="p-top-story__link">
+            <a href="<?php echo esc_url(home_url('/story01')); ?>" class="p-top-story__link">
               <div class="p-top-story__img1">
                 <figure class="p-top-story__img">
                   <picture>

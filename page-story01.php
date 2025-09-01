@@ -177,97 +177,163 @@
   <section class="p-project">
     <div class="l-inner">
       <div class="p-project__content">
-
+        <div class="p-project__title-wrapper">
+          <p class="p-project__title-en">PICKUP PROJECT</p>
+          <h3 class="p-project__title-ja">集積効率の革新を、世界最速の機械で実現。</h3>
+        </div>
+        <div class="p-project__issue">
+          <div class="p-project__issue-top">
+            <p class="p-project__issue-en">issue</p>
+            <p class="p-project__issue-ja">お客様のお悩み</p>
+          </div>
+          <ul class="p-project__lists">
+            <li class="p-project__list">
+              <div class="p-project__check">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
+              </div>
+              <p class="p-project__list-text">生産効率を改善したい</p>
+            </li>
+            <li class="p-project__list">
+              <div class="p-project__check">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
+              </div>
+              <p class="p-project__list-text">包装スピードを高めたい</p>
+            </li>
+            <li class="p-project__list">
+              <div class="p-project__check">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
+              </div>
+              <p class="p-project__list-text">不良品処理を効率化したい</p>
+            </li>
+          </ul>
+        </div>
+        <div class="p-project__block-wrapper">
+          <div class="p-project__block">
+            <div class="p-project__block-detail">
+              <p class="p-project__block-title">世界最速！革新的な包装マシンを共同開発</p>
+              <p class="p-project__middle">「充填･包装･カット･集積」の一連動作を電子制御により最適化！</p>
+              <p class="p-project__text">標準速度の約5倍となる驚異の分速<span>330</span>ショットを実現。<br>
+                高速化しても極力不良品を出さない補正制御プログラムなど革新的な技術を多数採用し、稼働の安定性と高度な生産処理能力を両立しました。</p>
+            </div>
+            <figure class="p-project__img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/project_img1.jpg" alt="世界最速！革新的な包装マシンを共同開発" width="480" height="350">
+            </figure>
+          </div>
+          <div class="p-project__block">
+            <div class="p-project__block-detail">
+              <p class="p-project__block-title">ムダな廃棄を大幅に減らすことに成功</p>
+              <p class="p-project__middle">NG列のみを自動で排出ラインへ振り分け、廃棄量を最小限に！</p>
+              <p class="p-project__text">従来は1列でも不良品が出ると全列を排出していましたが、独自開発のサーボモータシステムにより各列個別制御が可能に。生産効率と資材コストの両面で貢献するスマートな集積システムへ進化させました。</p>
+            </div>
+            <figure class="p-project__img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/project_img1.jpg" alt="世界最速！革新的な包装マシンを共同開発" width="480" height="350">
+            </figure>
+          </div>
+          <div class="p-project__block">
+            <div class="p-project__block-detail">
+              <p class="p-project__block-title">自動化で品質の安定化と作業効率を向上</p>
+              <p class="p-project__middle">現場の声を反映して３連包⇔４連包の金型交換も自動化！</p>
+              <p class="p-project__text">切り離し工程では、常に適切な位置で切断する新技術を構築。<br>
+                センサーがフィルムの目印を読み取り、季節の温湿度変化で生じるフィルムの伸縮も自動補正します。誰でも扱いやすい包装ラインを実現しました。</p>
+            </div>
+            <figure class="p-project__img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/project_img1.jpg" alt="世界最速！革新的な包装マシンを共同開発" width="480" height="350">
+            </figure>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <section class="p-facilities">
     <div class="l-inner">
-      <div class="p-facilities__title">
-        <h3 class="c-section-title">
-          <span class="c-section-title__en js-about-title">facilities</span>
-          <span class="c-section-title__ja js-about-title">設備紹介</span>
-        </h3>
-      </div>
-      <div class="p-facilities__text-wrapper">
-        <p class="p-facilities__text">お客様の多種多様なご要望・ニーズに対応する"最新設備"を取り揃えています。</p>
-      </div>
-      <figure class="p-facilities__img">
-        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_img.png" alt="最新設備" width="1100" height="674">
-      </figure>
-      <ul class="p-facilities__lists">
-        <li class="p-facilities__list">
-          <figure class="p-facilities__list-img">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_1.jpg" alt="立形マシニングセンター" width="248" height="160">
-          </figure>
-          <div class="p-facilities__list-detail">
-            <p class="p-facilities__list-title">立形マシニングセンター</p>
-          </div>
-        </li>
-        <li class="p-facilities__list">
-          <figure class="p-facilities__list-img">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_2.jpg" alt="立形マシニングセンター" width="248" height="160">
-          </figure>
-          <div class="p-facilities__list-detail">
-            <p class="p-facilities__list-title">立形マシニングセンター</p>
-          </div>
-        </li>
-        <li class="p-facilities__list">
-          <figure class="p-facilities__list-img">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_3.jpg" alt="立形マシニングセンター" width="248" height="160">
-          </figure>
-          <div class="p-facilities__list-detail">
-            <p class="p-facilities__list-title">立形マシニングセンター</p>
-          </div>
-        </li>
-        <li class="p-facilities__list">
-          <figure class="p-facilities__list-img">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_4.jpg" alt="立形マシニングセンター" width="248" height="160">
-          </figure>
-          <div class="p-facilities__list-detail">
-            <p class="p-facilities__list-title">立形マシニングセンター</p>
-          </div>
-        </li>
-        <li class="p-facilities__list">
-          <figure class="p-facilities__list-img">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_5.jpg" alt="立形マシニングセンター" width="248" height="160">
-          </figure>
-          <div class="p-facilities__list-detail">
-            <p class="p-facilities__list-title">立形マシニングセンター</p>
-          </div>
-        </li>
-        <li class="p-facilities__list">
-          <figure class="p-facilities__list-img">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_6.jpg" alt="CNCフライス盤" width="248" height="160">
-          </figure>
-          <div class="p-facilities__list-detail">
-            <p class="p-facilities__list-title">CNCフライス盤</p>
-          </div>
-        </li>
-        <li class="p-facilities__list">
-          <figure class="p-facilities__list-img">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_7.jpg" alt="複合加工機" width="248" height="160">
-          </figure>
-          <div class="p-facilities__list-detail">
-            <p class="p-facilities__list-title">複合加工機</p>
-          </div>
-        </li>
-        <li class="p-facilities__list">
-          <figure class="p-facilities__list-img">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_8.jpg" alt="高精密フライス精機" width="248" height="160">
-          </figure>
-          <div class="p-facilities__list-detail">
-            <p class="p-facilities__list-title">高精密フライス精機</p>
-          </div>
-        </li>
-      </ul>
-      <div class="p-reason__bottom">
-        <div class="p-reason__bottom-gradation">
-          <p class="p-reason__bottom-text--gradation">私たちは、お客さまと共に“唯一無二”の機械を創り上げる集団です。</p>
+      <div class="p-facilities__content">
+        <div class="p-facilities__title">
+          <h3 class="c-section-title">
+            <span class="c-section-title__en js-about-title">facilities</span>
+            <span class="c-section-title__ja js-about-title">設備紹介</span>
+          </h3>
         </div>
-        <p class="p-reason__bottom-text mt8">自社完結のものづくりだからこそ、課題への深い理解と、柔軟なソリューション提案が可能に。<br>
-          変化を恐れず、挑戦を止めない。その姿勢こそが、医療・製薬業界の未来に応える力になると信じています。</p>
+        <div class="p-facilities__text-wrapper">
+          <p class="p-facilities__text">お客様の多種多様なご要望・ニーズに対応する"最新設備"を取り揃えています。</p>
+        </div>
+        <figure class="p-facilities__img">
+          <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_img.png" alt="最新設備" width="1100" height="674">
+        </figure>
 
+        <ul class="p-facilities__lists">
+          <li class="p-facilities__list">
+            <figure class="p-facilities__list-img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_1.jpg" alt="立形マシニングセンター" width="248" height="160">
+            </figure>
+            <div class="p-facilities__list-detail">
+              <p class="p-facilities__list-title">立形マシニングセンター</p>
+            </div>
+          </li>
+          <li class="p-facilities__list">
+            <figure class="p-facilities__list-img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_2.jpg" alt="立形マシニングセンター" width="248" height="160">
+            </figure>
+            <div class="p-facilities__list-detail">
+              <p class="p-facilities__list-title">立形マシニングセンター</p>
+            </div>
+          </li>
+          <li class="p-facilities__list">
+            <figure class="p-facilities__list-img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_3.jpg" alt="立形マシニングセンター" width="248" height="160">
+            </figure>
+            <div class="p-facilities__list-detail">
+              <p class="p-facilities__list-title">立形マシニングセンター</p>
+            </div>
+          </li>
+          <li class="p-facilities__list">
+            <figure class="p-facilities__list-img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_4.jpg" alt="立形マシニングセンター" width="248" height="160">
+            </figure>
+            <div class="p-facilities__list-detail">
+              <p class="p-facilities__list-title">立形マシニングセンター</p>
+            </div>
+          </li>
+          <li class="p-facilities__list">
+            <figure class="p-facilities__list-img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_5.jpg" alt="立形マシニングセンター" width="248" height="160">
+            </figure>
+            <div class="p-facilities__list-detail">
+              <p class="p-facilities__list-title">立形マシニングセンター</p>
+            </div>
+          </li>
+          <li class="p-facilities__list">
+            <figure class="p-facilities__list-img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_6.jpg" alt="CNCフライス盤" width="248" height="160">
+            </figure>
+            <div class="p-facilities__list-detail">
+              <p class="p-facilities__list-title">CNCフライス盤</p>
+            </div>
+          </li>
+          <li class="p-facilities__list">
+            <figure class="p-facilities__list-img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_7.jpg" alt="複合加工機" width="248" height="160">
+            </figure>
+            <div class="p-facilities__list-detail">
+              <p class="p-facilities__list-title">複合加工機</p>
+            </div>
+          </li>
+          <li class="p-facilities__list">
+            <figure class="p-facilities__list-img">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_8.jpg" alt="高精密フライス精機" width="248" height="160">
+            </figure>
+            <div class="p-facilities__list-detail">
+              <p class="p-facilities__list-title">高精密フライス精機</p>
+            </div>
+          </li>
+        </ul>
+        <div class="p-reason__bottom">
+          <div class="p-reason__bottom-gradation">
+            <p class="p-reason__bottom-text--gradation">私たちは、お客さまと共に“唯一無二”の機械を創り上げる集団です。</p>
+          </div>
+          <p class="p-reason__bottom-text mt8">自社完結のものづくりだからこそ、課題への深い理解と、柔軟なソリューション提案が可能に。<br>
+            変化を恐れず、挑戦を止めない。その姿勢こそが、医療・製薬業界の未来に応える力になると信じています。</p>
+  
+        </div>
       </div>
     </div>
   </section>

@@ -4,7 +4,12 @@
   padding-top: rem(100);
   padding-bottom: rem(100);
 }
-
+.p-facilities__content {
+  max-width: rem(1100);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .p-facilities__title .c-section-title__en {
   display: block;
 }
