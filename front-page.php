@@ -106,8 +106,8 @@
               </div>
               <div class="p-top-about__block">
                 <div class="p-top-about__detail-top">
-                  <p class="p-top-about__detail-title c-text-gradation js-about-gradation">だれにも真似できない</p>
-                  <p class="p-top-about__detail-title c-text-gradation js-about-gradation">オーダーメイドなものづくりを｡</p>
+                  <p class="p-top-about__detail-title">だれにも真似できない</p>
+                  <p class="p-top-about__detail-title">オーダーメイドなものづくりを｡</p>
                   <p class="p-top-about__detail-en">Always Challenging.</p>
                 </div>
                 <figure class="p-top-about__img u-mobile">
@@ -147,7 +147,7 @@
             </h3>
           </div>
           <div class="p-top-interview__row">
-            <p class="p-top-interview__gradation-text c-text-gradation js-interview-gradation">
+            <p class="p-top-interview__gradation-text">
               共に創ろう。ワクワクする機械｡
             </p>
             <div class="p-top-interview__btn u-desktop">

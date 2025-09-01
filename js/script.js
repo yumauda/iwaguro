@@ -22,12 +22,14 @@ jQuery(function ($) {
         $(".p-header__path").addClass("is-active");
         $(".p-header__btn-link").addClass("is-active");
         $(".p-drawer-icon").addClass("is-bg");
+        $(".p-scroll").addClass("is-active");
       } else {
         $(".p-header").removeClass("is-active");
         $(".p-header__link").removeClass("is-active");
         $(".p-header__path").removeClass("is-active");
         $(".p-header__btn-link").removeClass("is-active");
         $(".p-drawer-icon").removeClass("is-bg");
+        $(".p-scroll").removeClass("is-active");
       }
     }
   });

@@ -92,6 +92,9 @@
   width: fit-content;
   font-size: rem(18);
   line-height: 1.4;
+  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  padding-left: rem(8);
+  padding-right: rem(8);
   @include mq(md) {
     line-height: 1.6;
     font-size: min(rem(26), calc(26 / 1440) * 100vw);

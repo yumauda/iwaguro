@@ -2,14 +2,22 @@
 
 /* 既存 ------------------------------ */
 .p-scroll {
-  position: absolute;
-  z-index: 1;
+  position: fixed;
+  z-index: 99;
   right: rem(20);
   bottom: rem(40);
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s ease-in-out;
   @include mq(md) {
-    bottom: rem(80);
+    bottom: rem(60);
     right: rem(40);
   }
+}
+
+.p-scroll.is-active {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .p-scroll__link {
@@ -24,8 +32,9 @@
 .p-scroll__text {
   color: #fff;
   font-family: $second-font-family;
-  font-size: rem(16);
+  font-size: rem(14);
   text-transform: capitalize;
+  font-weight: 400;
   display: flex;
   align-items: center;
   gap: rem(8);
