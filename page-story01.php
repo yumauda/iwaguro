@@ -47,7 +47,7 @@
         <h3 class="p-feature__title-wrapper">
           <span class="p-feature__title-en">features</span>
           <span class="p-feature__title-ja">生産現場の困りごとを解決する<br>
-            ソリューション提案が岩黒製作所の強みです。</span>
+            ソリューション提案が<br class="u-mobile">岩黒製作所の強みです。</span>
         </h3>
         <ul class="p-feature__lists">
           <li class="p-feature__list">
@@ -94,7 +94,7 @@
     <div class="l-inner">
       <div class="p-result__content">
         <div class="p-result__title-wrapper">
-          <h3 class="p-result__title">独創解で世にない機械を生み出す</h3>
+          <h3 class="p-result__title">独創解で<br class="u-mobile">世にない機械を生み出す</h3>
         </div>
         <figure class="p-result__img">
           <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_img.png" alt="独創解で世にない機械を生み出す" width="431" height="38">
@@ -103,7 +103,7 @@
           <div class="p-result__bottom-titleWrapper">
             <span class="p-result__title-en">result</span>
           </div>
-          <h4 class="p-result__bottom-title">機械をご導入いただいたお客様の成果事例</h4>
+          <h4 class="p-result__bottom-title">機械をご導入いただいた<br class="u-mobile">お客様の成果事例</h4>
           <ul class="p-result__lists">
             <li class="p-result__list">
               <div class="p-result__check">
@@ -179,7 +179,7 @@
       <div class="p-project__content">
         <div class="p-project__title-wrapper">
           <p class="p-project__title-en">PICKUP PROJECT</p>
-          <h3 class="p-project__title-ja">集積効率の革新を、世界最速の機械で実現。</h3>
+          <h3 class="p-project__title-ja">集積効率の革新を、<br class="u-mobile">世界最速の機械で実現。</h3>
         </div>
         <div class="p-project__issue">
           <div class="p-project__issue-top">
@@ -210,9 +210,9 @@
         <div class="p-project__block-wrapper">
           <div class="p-project__block">
             <div class="p-project__block-detail">
-              <p class="p-project__block-title">世界最速！革新的な包装マシンを共同開発</p>
+              <p class="p-project__block-title">世界最速！革新的な<br class="u-mobile">包装マシンを共同開発</p>
               <p class="p-project__middle">「充填･包装･カット･集積」の一連動作を電子制御により最適化！</p>
-              <p class="p-project__text">標準速度の約5倍となる驚異の分速<span>330</span>ショットを実現。<br>
+              <p class="p-project__text">標準速度の約5倍となる驚異の分速<span>330</span>ショットを実現。<br class="u-desktop">
                 高速化しても極力不良品を出さない補正制御プログラムなど革新的な技術を多数採用し、稼働の安定性と高度な生産処理能力を両立しました。</p>
             </div>
             <figure class="p-project__img">
@@ -221,7 +221,7 @@
           </div>
           <div class="p-project__block">
             <div class="p-project__block-detail">
-              <p class="p-project__block-title">ムダな廃棄を大幅に減らすことに成功</p>
+              <p class="p-project__block-title">ムダな廃棄を<br class="u-mobile">大幅に減らすことに成功</p>
               <p class="p-project__middle">NG列のみを自動で排出ラインへ振り分け、廃棄量を最小限に！</p>
               <p class="p-project__text">従来は1列でも不良品が出ると全列を排出していましたが、独自開発のサーボモータシステムにより各列個別制御が可能に。生産効率と資材コストの両面で貢献するスマートな集積システムへ進化させました。</p>
             </div>
@@ -231,7 +231,7 @@
           </div>
           <div class="p-project__block">
             <div class="p-project__block-detail">
-              <p class="p-project__block-title">自動化で品質の安定化と作業効率を向上</p>
+              <p class="p-project__block-title">自動化で品質の<br class="u-mobile">安定化と作業効率を向上</p>
               <p class="p-project__middle">現場の声を反映して３連包⇔４連包の金型交換も自動化！</p>
               <p class="p-project__text">切り離し工程では、常に適切な位置で切断する新技術を構築。<br>
                 センサーがフィルムの目印を読み取り、季節の温湿度変化で生じるフィルムの伸縮も自動補正します。誰でも扱いやすい包装ラインを実現しました。</p>
@@ -257,7 +257,10 @@
           <p class="p-facilities__text">お客様の多種多様なご要望・ニーズに対応する"最新設備"を取り揃えています。</p>
         </div>
         <figure class="p-facilities__img">
-          <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_img.png" alt="最新設備" width="1100" height="674">
+          <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/facilities_img.png" media="(min-width: 768px)" width="1238" height="570" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/common/facilities_img_sp.png" alt="最新設備" width="1100" height="674">
+          </picture>
         </figure>
 
         <ul class="p-facilities__lists">
@@ -266,7 +269,7 @@
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_1.jpg" alt="立形マシニングセンター" width="248" height="160">
             </figure>
             <div class="p-facilities__list-detail">
-              <p class="p-facilities__list-title">立形マシニングセンター</p>
+              <p class="p-facilities__list-title">立形マシニング<br class="u-mobile">センター</p>
             </div>
           </li>
           <li class="p-facilities__list">
@@ -274,7 +277,7 @@
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_2.jpg" alt="立形マシニングセンター" width="248" height="160">
             </figure>
             <div class="p-facilities__list-detail">
-              <p class="p-facilities__list-title">立形マシニングセンター</p>
+              <p class="p-facilities__list-title">立形マシニング<br class="u-mobile">センター</p>
             </div>
           </li>
           <li class="p-facilities__list">
@@ -282,7 +285,7 @@
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_3.jpg" alt="立形マシニングセンター" width="248" height="160">
             </figure>
             <div class="p-facilities__list-detail">
-              <p class="p-facilities__list-title">立形マシニングセンター</p>
+              <p class="p-facilities__list-title">立形マシニング<br class="u-mobile">センター</p>
             </div>
           </li>
           <li class="p-facilities__list">
@@ -290,7 +293,7 @@
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_4.jpg" alt="立形マシニングセンター" width="248" height="160">
             </figure>
             <div class="p-facilities__list-detail">
-              <p class="p-facilities__list-title">立形マシニングセンター</p>
+              <p class="p-facilities__list-title">立形マシニング<br class="u-mobile">センター</p>
             </div>
           </li>
           <li class="p-facilities__list">
@@ -298,7 +301,7 @@
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/facilities_5.jpg" alt="立形マシニングセンター" width="248" height="160">
             </figure>
             <div class="p-facilities__list-detail">
-              <p class="p-facilities__list-title">立形マシニングセンター</p>
+              <p class="p-facilities__list-title">立形マシニング<br class="u-mobile">センター</p>
             </div>
           </li>
           <li class="p-facilities__list">
@@ -328,11 +331,11 @@
         </ul>
         <div class="p-reason__bottom">
           <div class="p-reason__bottom-gradation">
-            <p class="p-reason__bottom-text--gradation">私たちは、お客さまと共に“唯一無二”の機械を創り上げる集団です。</p>
+            <p class="p-reason__bottom-text--gradation">私たちは、お客さまと共に<br class="u-mobile">“唯一無二”の機械を<br class="u-mobile">創り上げる集団です。</p>
           </div>
-          <p class="p-reason__bottom-text mt8">自社完結のものづくりだからこそ、課題への深い理解と、柔軟なソリューション提案が可能に。<br>
-            変化を恐れず、挑戦を止めない。その姿勢こそが、医療・製薬業界の未来に応える力になると信じています。</p>
-  
+          <p class="p-reason__bottom-text mt8">自社完結のものづくりだからこそ、<br class="u-mobile">課題への深い理解と、<br class="u-mobile">柔軟なソリューション提案が可能に。<br>
+            変化を恐れず、挑戦を止めない。<br class="u-mobile">その姿勢こそが、医療・製薬業界の<br class="u-mobile">未来に応える力になると<br class="u-mobile">信じています。</p>
+
         </div>
       </div>
     </div>

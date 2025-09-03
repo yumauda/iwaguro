@@ -30,9 +30,9 @@
 .p-feature__title-en {
   padding-left: rem(30);
   position: relative;
-  color: #222426;
   font-weight: 400;
   font-family: $second-font-family;
+  color: #fff;
   font-size: rem(14);
   letter-spacing: 0.04em;
   display: inline-block;
@@ -55,35 +55,51 @@
 }
 
 .p-feature__title-ja {
-  font-size: rem(30);
   line-height: 1.8;
   font-weight: 500;
   color: #fff;
   margin-top: rem(16);
   display: block;
+  font-size: rem(18);
+  @include mq(md) {
+    font-size: rem(30);
+  }
 }
 
 .p-feature__lists {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: rem(30);
   gap: rem(30);
-  margin-top: rem(40);
+  @include mq(md) {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: rem(40);
+  }
 }
 
 .p-feature__list {
-  padding: rem(30) rem(20);
   background: #fff;
+  padding: rem(30) rem(15);
+  @include mq(md) {
+    padding: rem(30) rem(20);
+  }
 }
 
 .p-feature__list-title {
-  font-size: rem(24);
   letter-spacing: 0.04em;
   font-weight: 700;
   color: #222426;
   text-align: center;
+  font-size: rem(20);
+  @include mq(md) {
+    font-size: rem(24);
+  }
 }
 .p-feature__list-title span {
-  font-size: rem(20);
+  font-size: rem(17);
+  @include mq(md) {
+    font-size: rem(20);
+  }
 }
 .p-feature__bg-wrapper {
   text-align: center;
@@ -95,21 +111,27 @@
   display: inline-block;
   padding-right: rem(4);
   background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
-  font-size: rem(28);
   letter-spacing: 0.04em;
   line-height: 1.5;
   text-align: center;
   font-weight: 700;
+  font-size: rem(20);
+  @include mq(md) {
+    font-size: rem(28);
+  }
 }
 
 .p-feature__list-text {
   margin-top: rem(15);
   font-weight: 700;
-  font-size: rem(16);
   letter-spacing: 0.04em;
   line-height: 1.5;
   color: #222426;
   text-align: center;
+  font-size: rem(15);
+  @include mq(md) {
+    font-size: rem(16);
+  }
 }
 .p-feature__list-title span {
   font-family: $second-font-family;

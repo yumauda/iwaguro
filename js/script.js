@@ -263,3 +263,116 @@ jQuery(".p-digital-modal__close").on("click", function (e) {
   jQuery(".p-digital-modal").removeClass("is-active");
   return false;
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const allowMultiple = false; // trueなら複数同時オープン可
+
+  function openPanel(li, trigger, panel) {
+    li.classList.add("is-open");
+    trigger.setAttribute("aria-expanded", "true");
+    panel.setAttribute("aria-hidden", "false");
+
+    // 一旦0にしてから高さを計測→設定（トランジションを確実に走らせる）
+    panel.style.maxHeight = "0px";
+    requestAnimationFrame(() => {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    });
+  }
+
+  function closePanel(li, trigger, panel) {
+    li.classList.remove("is-open");
+    trigger.setAttribute("aria-expanded", "false");
+    panel.setAttribute("aria-hidden", "true");
+    panel.style.maxHeight = "0px";
+  }
+
+  // ウィンドウリサイズで開いてるパネルの高さ再計算
+  window.addEventListener("resize", () => {
+    document
+      .querySelectorAll(
+        ".p-drawer-content__list.is-open > .p-drawer-content__toggle-lists"
+      )
+      .forEach((panel) => {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      });
+  });
+
+  // クリック（イベントデリゲート）
+  document.addEventListener("click", (e) => {
+    const trigger = e.target.closest(".p-drawer-content__open");
+    if (!trigger) return;
+
+    // 親liと対応パネルを取得
+    const li = trigger.closest(".p-drawer-content__list");
+    const panel = li.querySelector(":scope > .p-drawer-content__toggle-lists");
+    if (!panel) return;
+
+    // 親リンクの遷移は止める（トグル専用にする場合）
+    e.preventDefault();
+
+    const isExpanded = trigger.getAttribute("aria-expanded") === "true";
+
+    if (isExpanded) {
+      closePanel(li, trigger, panel);
+    } else {
+      if (!allowMultiple) {
+        // 他を閉じる
+        document
+          .querySelectorAll(".p-drawer-content__list.is-open")
+          .forEach((otherLi) => {
+            if (otherLi === li) return;
+            const otherTrigger = otherLi.querySelector(
+              ":scope > .p-drawer-content__open"
+            );
+            const otherPanel = otherLi.querySelector(
+              ":scope > .p-drawer-content__toggle-lists"
+            );
+            if (otherTrigger && otherPanel)
+              closePanel(otherLi, otherTrigger, otherPanel);
+          });
+      }
+      openPanel(li, trigger, panel);
+    }
+  });
+
+  // 初期ARIA付与（任意：HTML側で入れてもOK）
+  document.querySelectorAll(".p-drawer-content__open").forEach((trigger) => {
+    if (!trigger.hasAttribute("aria-expanded"))
+      trigger.setAttribute("aria-expanded", "false");
+  });
+  document
+    .querySelectorAll(".p-drawer-content__toggle-lists")
+    .forEach((panel) => {
+      if (!panel.hasAttribute("aria-hidden"))
+        panel.setAttribute("aria-hidden", "true");
+      // トランジション後にmaxHeightをクリアしたい場合は以下（任意）
+      panel.addEventListener("transitionend", (ev) => {
+        if (ev.propertyName !== "max-height") return;
+        const li = panel.closest(".p-drawer-content__list");
+        if (li && li.classList.contains("is-open")) {
+          // 開いた後はauto相当の動きにするため、いったんauto化
+          panel.style.maxHeight = "none";
+        }
+      });
+    });
+});
+
+function openPanel(li, trigger, panel) {
+  li.classList.add("is-open");
+  trigger.setAttribute("aria-expanded", "true");
+  panel.setAttribute("aria-hidden", "false");
+
+  panel.style.maxHeight = panel.scrollHeight + "px";
+}
+
+function closePanel(li, trigger, panel) {
+  li.classList.remove("is-open");
+  trigger.setAttribute("aria-expanded", "false");
+  panel.setAttribute("aria-hidden", "true");
+
+  // 今の高さを固定してから → 次のフレームで 0 に
+  panel.style.maxHeight = panel.scrollHeight + "px";
+  requestAnimationFrame(() => {
+    panel.style.maxHeight = "0px";
+  });
+}

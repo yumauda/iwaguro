@@ -159,14 +159,16 @@
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  font-size: rem(18);
+  font-size: rem(17);
   background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
   text-align: center;
-  width: 100vw;
   display: inline;
+  width: 100vw;
+  padding-left: rem(4);
+  padding-right: rem(4);
   @include mq(md) {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
     white-space: initial;
     text-align: initial;
     display: inline-block;
