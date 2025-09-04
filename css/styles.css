@@ -1157,8 +1157,6 @@ select::-ms-expand {
 .p-facilities {
   padding-top: 70px;
   padding-top: 4.375rem;
-  padding-bottom: 70px;
-  padding-bottom: 4.375rem;
 }
 @media screen and (min-width: 768px) {
   .p-facilities {
@@ -1519,19 +1517,29 @@ select::-ms-expand {
 
 .p-figures__top {
   position: relative;
-  padding-top: 5px;
-  padding-top: 0.3125rem;
-  padding-bottom: 5px;
-  padding-bottom: 0.3125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  padding-top: 8px;
+  padding-top: 0.5rem;
+  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
 }
 @media screen and (min-width: 768px) {
   .p-figures__top {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -1632,6 +1640,7 @@ select::-ms-expand {
   text-align: right;
   font-size: 14px;
   font-size: 0.875rem;
+  font-family: "Outfit", sans-serif;
 }
 @media screen and (min-width: 768px) {
   .p-figures__year {
@@ -4028,8 +4037,8 @@ input::placeholder {
 }
 
 .p-page-mv__title {
-  margin-top: 25px;
-  margin-top: 1.5625rem;
+  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 @media screen and (min-width: 768px) {
   .p-page-mv__title {
@@ -4042,8 +4051,8 @@ input::placeholder {
 }
 
 .p-page-mv__text-wrapper {
-  margin-top: 35px;
-  margin-top: 2.1875rem;
+  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 @media screen and (min-width: 768px) {
   .p-page-mv__text-wrapper {
@@ -5205,6 +5214,24 @@ input::placeholder {
   line-height: 1.5;
 }
 
+.p-reason__detailTitle--gradation {
+  background: -webkit-gradient(linear, left top, right top, from(#0087c1), to(#033fc2));
+  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  padding-right: 8px;
+  padding-right: 0.5rem;
+  line-height: 2;
+  display: inline;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+@media screen and (min-width: 768px) {
+  .p-reason__detailTitle--gradation {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
 .p-reason__text-wrapper {
   margin-top: 10px;
   margin-top: 0.625rem;
@@ -5297,15 +5324,27 @@ input::placeholder {
 }
 
 .p-reason__bottom-gradation {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
   margin-top: 17px;
   margin-top: 1.0625rem;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .p-reason__bottom-gradation {
+    width: auto;
+    width: initial;
+    margin-left: 0;
+    margin-left: initial;
+    margin-right: 0;
+    margin-right: initial;
+  }
 }
 
 .p-reason__bottom-text--gradation {
   color: #fff;
   font-weight: 700;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   font-size: 17px;
   font-size: 1.0625rem;
@@ -5314,10 +5353,11 @@ input::placeholder {
   text-align: center;
   display: inline;
   width: 100vw;
-  padding-left: 4px;
-  padding-left: 0.25rem;
-  padding-right: 4px;
-  padding-right: 0.25rem;
+  padding-left: 8px;
+  padding-left: 0.5rem;
+  padding-right: 8px;
+  padding-right: 0.5rem;
+  line-height: 2;
 }
 @media screen and (min-width: 768px) {
   .p-reason__bottom-text--gradation {
@@ -5325,9 +5365,6 @@ input::placeholder {
     margin-right: calc(50% - 50vw);
     white-space: normal;
     white-space: initial;
-    text-align: left;
-    text-align: initial;
-    display: inline-block;
     font-size: 1.5rem;
     margin-left: initial;
     margin-right: initial;
@@ -6437,7 +6474,7 @@ input::placeholder {
   color: #222426;
   line-height: 2;
   letter-spacing: 0.04em;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   font-size: 0.875rem;
 }
@@ -8177,7 +8214,8 @@ input::placeholder {
 }
 
 .c-page-ja + .c-page-ja {
-  /*  margin-top: rem(12); */
+  margin-top: -20px;
+  margin-top: -1.25rem;
 }
 @media screen and (min-width: 768px) {
   .c-page-ja + .c-page-ja {

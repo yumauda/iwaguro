@@ -78,7 +78,7 @@
           <p class="p-figures__number">DATE 02</p>
         </div>
         <div class="p-figures__block">
-          <p class="p-figures__year">※令和6年度</p>
+          <p class="p-figures__year">※令和<span>6</span>年度</p>
           <div class="p-figures__double mt20">
             <ul class="p-figures__lists">
               <li class="p-figures__list">
@@ -135,7 +135,7 @@
           <p class="p-figures__number">DATE 03</p>
         </div>
         <div class="p-figures__block">
-          <p class="p-figures__year">※令和6年度</p>
+          <p class="p-figures__year">※令和<span>6</span>年度</p>
           <ul class="p-figures__triple mt20">
             <li class="p-figures__triple-list">
               <figure class="p-figures__img">

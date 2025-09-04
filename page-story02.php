@@ -168,8 +168,8 @@
           <p class="p-reason__bottom-text">岩黒製作所は、医療・製薬業界に特化し、国内トップシェアを誇る技術力があります。<br>
             また、GMP化やFA化などお客様が求める多様なニーズに対応し、日々、改良を続けています。</p>
           <div class="p-reason__bottom-gradation">
-            <p class="p-reason__bottom-text--gradation">医薬品業界が未経験でも、あなたの<br class="u-mobile">スキルを活かせる様々な職種があります。<br class="u-mobile"></p>
-            <p class="p-reason__bottom-text--gradation">ぜひ一度、岩黒製作所の工場見学に<br class="u-mobile">お越しください。</p>
+            <p class="p-reason__bottom-text--gradation">医薬品業界が未経験でも、あなたの<br class="u-mobile">スキルを活かせる様々な職種があります。<br>ぜひ一度、岩黒製作所の工場見学に<br class="u-mobile">お越しください。</p>
+      
           </div>
         </div>
       </div>

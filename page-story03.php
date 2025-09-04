@@ -43,7 +43,7 @@
     <div class="l-inner l-single-inner">
       <div class="p-occupation__content">
         <div class="p-occupation__title-wrapper">
-          <h3 class="p-occupation__title">岩黒製作所は、<br class="u-mobile">どんな職場？</h3>
+          <h3 class="p-occupation__title">岩黒製作所は､<br class="u-mobile">どんな職場？</h3>
         </div>
         <div class="p-occupation__block">
           <div class="p-occupation__block-titleWrapper">
@@ -73,7 +73,7 @@
         <div class="p-reason__block p-reason__block--story03">
           <div class="p-reason__row">
             <div class="p-reason__detail" data-number="01">
-              <p class="p-reason__detailTitle c-text-gradation c-text-gradation--page">時代に応え続ける技術者集団。</p>
+              <p class="p-reason__detailTitle p-reason__detailTitle--gradation">時代に応え続ける<br class="u-mobile">技術者集団。</p>
               <div class="p-reason__text-wrapper">
                 <p class="p-reason__text">当社の信念は「限りなき技術への挑戦」。薬を手作業で成型していた時代に製丸機を開発したことに始まります。そして、丸薬から粉薬、錠剤へと進化する中で、高度な技術と精度に挑戦し、お客様の要望に応え続けてきました。その創業スピリットは今も脈々と受け継がれ、社員一人ひとりの情熱によって他社が真似できない、高品質な機械を生み出しています。</p>
               </div>
@@ -84,7 +84,7 @@
           </div>
           <div class="p-reason__row">
             <div class="p-reason__detail" data-number="02">
-              <p class="p-reason__detailTitle c-text-gradation c-text-gradation--page">プロフェッショナルへの道は、現場から。</p>
+              <p class="p-reason__detailTitle p-reason__detailTitle--gradation">プロフェッショナル<br class="u-mobile">への道は、現場から。</p>
               <div class="p-reason__text-wrapper">
                 <p class="p-reason__text">すべての社員がまず「現場」からキャリアをスタートするのが岩黒流。それは私たちがつくっている機械のことを細部までしっかり理解してほしいからです。仕上課で2～3年間、先輩とチームを組み、図面の見方から組立の技術、機械調整、修理対応まで、実践を通してしっかり学び、経験を積みます。その後、希望の職種へキャリアアップ。現場を知ることこそ、機械づくりのプロへの近道です。</p>
               </div>
@@ -95,7 +95,7 @@
           </div>
           <div class="p-reason__row">
             <div class="p-reason__detail" data-number="03">
-              <p class="p-reason__detailTitle c-text-gradation c-text-gradation--page">モノづくりにワクワクできる。</p>
+              <p class="p-reason__detailTitle p-reason__detailTitle--gradation">モノづくりに<br class="u-mobile">ワクワクできる。</p>
               <div class="p-reason__text-wrapper">
                 <p class="p-reason__text">私たちがつくるのは、オーダーメイドの機械。お客様のご要望に合わせてゼロから設計・製造を行うため、毎回が新たな挑戦です。世界最速の機械に挑んだり、改良を重ねて精度を高めたり、どうカタチにするかをみんなで考え、実現していく、モノづくりの醍醐味を味わえます。失敗も大事な結果と前向きに捉える社風や、自由度の高いワークスタイルも創造力を後押し。高いプロ意識を持った仲間とともに挑戦を楽しもう！</p>
               </div>
@@ -123,7 +123,7 @@
           </picture>
         </figure>
         <div class="p-power__bottom">
-          <p class="p-power__bottom-title c-text-gradation c-text-gradation--page">ものづくりへの情熱こそが､岩黒製作所の原動力です｡</p>
+          <p class="p-power__bottom-title p-reason__detailTitle--gradation">ものづくりへの情熱こそが､<br class="u-mobile">岩黒製作所の原動力です｡</p>
           <p class="p-power__text">機械が好き！<br class="u-mobile">モノづくりに興味がある！<br class="u-mobile">好奇心旺盛！<br class="u-mobile">そんな方をお待ちしています。</p>
         </div>
       </div>
