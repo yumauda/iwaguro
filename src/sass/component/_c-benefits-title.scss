@@ -1,0 +1,42 @@
+@use "global" as *;
+
+.c-benefits-title {
+}
+
+.c-benefits-title__en {
+  font-family: $second-font-family;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 2;
+  font-weight: 400;
+  font-size: rem(14);
+  color: $black;
+  padding-left: rem(35);
+  position: relative;
+}
+.c-benefits-title__en::before {
+  position: absolute;
+  content: "";
+  background: url(../images/common/benefits_title_icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: rem(20);
+  height: auto;
+  aspect-ratio: 20 / 10;
+  object-fit: cover;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.c-benefits-title__ja {
+  margin-top: rem(16);
+  color: $black;
+  font-weight: 500;
+  font-size: rem(30);
+  line-height: 1;
+}
+.c-benefits-title__ja--small {
+  font-size: rem(26);
+}

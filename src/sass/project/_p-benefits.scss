@@ -1,0 +1,77 @@
+@use "global" as *;
+
+.p-benefits {
+  padding-bottom: rem(100);
+}
+
+.p-benefits__content {
+  max-width: rem(1100);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-benefits__title {
+}
+
+.p-benefits__lists {
+  margin-top: rem(72);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: rem(58);
+  column-gap: rem(40);
+}
+
+.p-benefits__list {
+  background: linear-gradient(to right, #dff3ff 0%, #e5edff 100%);
+  padding-left: rem(36);
+  padding-right: rem(36);
+  padding-bottom: rem(30);
+}
+
+.p-benefits__number {
+  display: flex;
+  align-items: center;
+  gap: rem(14);
+  margin-top: rem(-12);
+  margin-left: rem(-8);
+}
+
+.p-benefits__number-en,
+.p-benefits__number-num {
+  font-family: $second-font-family;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 2;
+  font-weight: 400;
+  font-size: rem(14);
+  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.p-benefits__list-title {
+  font-size: rem(18);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 2;
+  color: $black;
+  margin-top: rem(16);
+}
+.p-benefits__list-title span {
+  font-family: $second-font-family;
+}
+
+.p-benefits__list-text {
+  margin-top: rem(8);
+  color: $black;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: rem(15);
+}
+.p-benefits__list-text span {
+  font-family: $second-font-family;
+}
