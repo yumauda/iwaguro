@@ -23,7 +23,7 @@
           </div>
           <div class="p-page-mv__text-wrapper">
             <p class="p-page-mv__text">
-              岩黒製作所をさまざまな角度から数字で紐解きます。
+              岩黒製作所を様々な角度から数字で紐解きます。
             </p>
           </div>
         </div>

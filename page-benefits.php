@@ -133,7 +133,10 @@
     </div>
   </section>
   <figure class="p-section-img">
-    <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/section_img.jpg" alt="" width="1440" height="397">
+    <picture>
+      <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/section_img.jpg" media="(min-width: 768px)" width="1238" height="570" />
+      <img src="<?php echo get_template_directory_uri(); ?>/images/common/section_img_sp.jpg" alt="" width="375" height="273">
+    </picture>
   </figure>
   <section class="p-career">
     <div class="l-inner">
@@ -141,7 +144,7 @@
         <div class="p-career__title">
           <div class="c-benefits-title">
             <p class="c-benefits-title__en">CAREER</p>
-            <h3 class="c-benefits-title__ja">キャリアパス</h3>
+            <h3 class="c-benefits-title__ja">キャリアパス・制度について</h3>
           </div>
         </div>
         <div class="p-career__text-wrapper">
@@ -158,7 +161,10 @@
               </div>
             </div>
             <figure class="p-career__block-img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/career_path_img.png" alt="キャリアパスの選択" width="1021" height="396">
+              <picture>
+                <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/career_path_img.png" media="(min-width: 768px)" width="1021" height="396" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/common/career_path_img_sp.png" alt="キャリアパスの選択" width="338" height="595">
+              </picture>
             </figure>
           </div>
           <div class="p-career__block">
@@ -182,6 +188,7 @@
                   <p class="p-career__steps-important">重要</p>
                   <p class="p-career__steps-elect">仕上げ/電気</p>
                 </div>
+                <div class="p-career__steps-line--sp"></div>
               </li>
               <li class="p-career__steps-list">
                 <div class="p-career__steps-top">
@@ -199,24 +206,27 @@
                   </li>
                   <li class="p-career__list">
                     <p class="p-career__list-title">設計</p>
-                    <p class="p-career__list-text">機械設計・制御設計・プロフェッショナルを目指す</p>
+                    <p class="p-career__list-text">機械設計・制御設計・<br class="u-mobile">プロフェッショナルを目指す</p>
                   </li>
                   <li class="p-career__list">
                     <p class="p-career__list-title">営業</p>
-                    <p class="p-career__list-text">お客様の課題解決提案・プロフェッショナルを目指す</p>
+                    <p class="p-career__list-text">お客様の課題解決提案・<br class="u-mobile">プロフェッショナルを目指す</p>
                   </li>
                 </ul>
               </li>
             </ul>
             <figure class="p-career__bottom-img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/career_environment.jpg" alt="仕事のステップ" width="963" height="410">
+              <picture>
+                <source srcset="<?php echo get_template_directory_uri(); ?>/images/common/career_environment.jpg" media="(min-width: 768px)" width="963" height="410" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/common/career_environment_sp.jpg" alt="仕事のステップ" width="355" height="461">
+              </picture>
             </figure>
           </div>
           <div class="p-career__block">
             <div class="p-career__block-title">
               <div class="c-benefits-title">
                 <p class="c-benefits-title__en">QUALIFICATION</p>
-                <h3 class="c-benefits-title__ja c-benefits-title__ja--small">取得できる資格 (従業員が保有している資格)</h3>
+                <h3 class="c-benefits-title__ja c-benefits-title__ja--small">取得できる資格<br class="u-mobile"> (従業員が保有している資格)</h3>
               </div>
             </div>
             <ul class="p-career__qualification-lists">

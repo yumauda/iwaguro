@@ -186,7 +186,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">
+                                <a href="<?php echo esc_url(home_url('/benefits')); ?>" class="p-header__link">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">style</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">style</span>
@@ -325,7 +325,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/styles')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/benefits')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">style</p>
                                             <p class="p-drawer-content__link-ja">福利厚生・制度</p>
@@ -455,7 +455,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link is-active">
+                                <a href="<?php echo esc_url(home_url('/benefits')); ?>" class="p-header__link is-active">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">style</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">style</span>
@@ -594,7 +594,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/styles')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/benefits')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">style</p>
                                             <p class="p-drawer-content__link-ja">福利厚生・制度</p>

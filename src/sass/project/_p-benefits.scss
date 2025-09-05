@@ -1,7 +1,11 @@
 @use "global" as *;
 
 .p-benefits {
+  padding-top: rem(70);
   padding-bottom: rem(100);
+  @include mq(md) {
+    padding-top: initial;
+  }
 }
 
 .p-benefits__content {
@@ -15,26 +19,39 @@
 }
 
 .p-benefits__lists {
-  margin-top: rem(72);
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: rem(58);
-  column-gap: rem(40);
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: rem(54);
+  gap: rem(32);
+  @include mq(md) {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: rem(72);
+    row-gap: rem(58);
+    column-gap: rem(40);
+  }
 }
 
 .p-benefits__list {
   background: linear-gradient(to right, #dff3ff 0%, #e5edff 100%);
-  padding-left: rem(36);
-  padding-right: rem(36);
-  padding-bottom: rem(30);
+  padding-bottom: rem(24);
+  padding-right: rem(24);
+  padding-left: rem(24);
+  @include mq(md) {
+    padding-left: rem(36);
+    padding-right: rem(36);
+    padding-bottom: rem(30);
+  }
 }
 
 .p-benefits__number {
   display: flex;
   align-items: center;
   gap: rem(14);
-  margin-top: rem(-12);
   margin-left: rem(-8);
+  margin-top: rem(-14);
+  @include mq(md) {
+    margin-top: rem(-12);
+  }
 }
 
 .p-benefits__number-en,
@@ -53,12 +70,16 @@
 }
 
 .p-benefits__list-title {
-  font-size: rem(18);
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 2;
   color: $black;
-  margin-top: rem(16);
+  margin-top: rem(8);
+  font-size: rem(16);
+  @include mq(md) {
+    font-size: rem(18);
+    margin-top: rem(16);
+  }
 }
 .p-benefits__list-title span {
   font-family: $second-font-family;
@@ -70,7 +91,10 @@
   line-height: 2;
   letter-spacing: 0.04em;
   font-weight: 500;
-  font-size: rem(15);
+  font-size: rem(14);
+  @include mq(md) {
+    font-size: rem(15);
+  }
 }
 .p-benefits__list-text span {
   font-family: $second-font-family;

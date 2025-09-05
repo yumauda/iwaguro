@@ -295,6 +295,7 @@
   opacity: 0;
   transition: max-height 0.35s cubic-bezier(0.25, 0.8, 0.25, 1),
     opacity 0.25s ease;
+  margin-top: -1px;
 }
 
 .p-drawer-content__list.is-open > .p-drawer-content__toggle-lists {
@@ -323,7 +324,7 @@
   fill: #fff;
 }
 .p-drawer__logo {
-  position: absolute;
+  position: fixed;
   left: rem(20);
   top: rem(17);
 }
