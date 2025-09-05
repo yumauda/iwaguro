@@ -2,24 +2,13 @@
 
 // ベース
 .p-top-image {
-  --marquee-duration: 24s; // 流れる速度（必要に応じて調整）
-  overflow: hidden; // モバイルではトラックを隠す
   position: relative;
   z-index: 10;
-}
-
-// モバイル：横に流れる無限スクロール
-.p-top-image__track {
-  display: flex;
-  width: max-content; // 中身サイズにフィット
-  animation: marquee var(--marquee-duration) linear infinite;
-}
-
-// 1枚を画面幅ちょうどに（滑らかに繋げるコツ）
-.p-top-image__img {
-  flex: 0 0 100vw; // ビューポート幅固定
-  min-width: 100vw;
-  scroll-snap-align: none; // 自動スクロールなので不要
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  @include mq(md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .p-top-image__img img {
@@ -27,43 +16,4 @@
   object-fit: cover;
   width: 100%;
   height: auto;
-}
-
-// アニメーション（1周分＝元配列の幅。本構成は2周並んでいるので-50%で継ぎ目ゼロ）
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-// アニメーション苦手な人配慮
-@media (prefers-reduced-motion: reduce) {
-  .p-top-image__track {
-    animation: none;
-  }
-}
-
-// PC：3列グリッド＆無限スクロール解除
-@include mq(md) {
-  .p-top-image {
-    overflow: visible; // PCでは隠さない
-  }
-  .p-top-image__track {
-    animation: none;
-    transform: none;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%;
-  }
-  .p-top-image__img {
-    flex: initial;
-    min-width: initial;
-  }
-  // PCでは重複分は非表示（最初の3枚だけ見せる）
-  .p-top-image__img.is-dup {
-    display: none;
-  }
 }

@@ -7353,29 +7353,15 @@ input::placeholder {
 }
 
 .p-top-image {
-  --marquee-duration: 24s;
-  overflow: hidden;
   position: relative;
   z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
-
-.p-top-image__track {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  -webkit-animation: marquee var(--marquee-duration) linear infinite;
-          animation: marquee var(--marquee-duration) linear infinite;
-}
-
-.p-top-image__img {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100vw;
-          flex: 0 0 100vw;
-  min-width: 100vw;
-  scroll-snap-align: none;
+@media screen and (min-width: 768px) {
+  .p-top-image {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .p-top-image__img img {
@@ -7386,46 +7372,6 @@ input::placeholder {
   height: auto;
 }
 
-@keyframes marquee {
-  from {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  to {
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .p-top-image__track {
-    -webkit-animation: none;
-            animation: none;
-  }
-}
-@media screen and (min-width: 768px) {
-  .p-top-image {
-    overflow: visible;
-  }
-  .p-top-image__track {
-    -webkit-animation: none;
-            animation: none;
-    -webkit-transform: none;
-            transform: none;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%;
-  }
-  .p-top-image__img {
-    -webkit-box-flex: initial;
-        -ms-flex: initial;
-            flex: initial;
-    min-width: 0;
-    min-width: initial;
-  }
-  .p-top-image__img.is-dup {
-    display: none;
-  }
-}
 .p-top-interview {
   background: #fff;
   padding-top: 70px;
@@ -8938,7 +8884,7 @@ input::placeholder {
   margin-right: 2px;
   margin-right: 0.125rem;
   position: relative;
-  --scaleX: 0;
+  --scaleX: 1;
   -webkit-transform-origin: top;
           transform-origin: top;
   display: inline-block;

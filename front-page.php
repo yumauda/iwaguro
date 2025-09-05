@@ -50,7 +50,7 @@
       </div>
     </div>
   </div>
-  <!-- <div class="p-top-image">
+  <div class="p-top-image">
     <figure class="p-top-image__img">
       <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img1.jpg" alt="" width="480" height="270">
     </figure>
@@ -60,30 +60,6 @@
     <figure class="p-top-image__img">
       <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img3.jpg" alt="" width="480" height="270">
     </figure>
-  </div> -->
-  <div class="p-top-image" aria-label="Top images">
-    <div class="p-top-image__track">
-      <figure class="p-top-image__img">
-        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img1.jpg" alt="" width="480" height="270">
-      </figure>
-      <figure class="p-top-image__img">
-        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img2.jpg" alt="" width="480" height="270">
-      </figure>
-      <figure class="p-top-image__img">
-        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img3.jpg" alt="" width="480" height="270">
-      </figure>
-
-      <!-- 無限スクロール用に同じ並びをもう一巡分 -->
-      <figure class="p-top-image__img is-dup">
-        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img1.jpg" alt="" width="480" height="270">
-      </figure>
-      <figure class="p-top-image__img is-dup">
-        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img2.jpg" alt="" width="480" height="270">
-      </figure>
-      <figure class="p-top-image__img is-dup">
-        <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/top_img3.jpg" alt="" width="480" height="270">
-      </figure>
-    </div>
   </div>
 
   <div class="p-line js-left--vertical">

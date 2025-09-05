@@ -65,47 +65,6 @@ window.addEventListener("DOMContentLoaded", function () {
     }
   );
 
-  /* gsap.fromTo(
-    ".js-text-gradation",
-    {
-      "--scaleX": 0,
-    },
-    {
-      "--scaleX": 1,
-      duration: 1,
-      delay: 0.5,
-      scrollTrigger: {
-        trigger: ".p-gradation",
-        start: "0% 50%",
-      },
-      stagger: 0.4,
-    }
-  ); */
-  // 1秒あたり何px進めるか（体感に合わせて調整）
-  const PX_PER_SEC = 320;
-
-  gsap.fromTo(
-    ".js-text-gradation",
-    { "--scaleX": 0 },
-    {
-      "--scaleX": 1,
-      // 各要素の幅から duration を計算（= 幅が長いほど時間も長く→速度は一定）
-      duration: (i, el) => el.getBoundingClientRect().width / PX_PER_SEC,
-      ease: "none", // 等速
-      delay: 0.5,
-      stagger: 0.4,
-      scrollTrigger: {
-        trigger: ".p-gradation",
-        start: "0% 50%",
-        invalidateOnRefresh: true, // リサイズ/フォント読み込み後に再計算
-      },
-    }
-  );
-
-  // Webフォントで幅が変わるなら、フォント読了後にリフレッシュ
-  if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(() => ScrollTrigger.refresh());
-  }
   gsap.fromTo(
     ".js-about-title",
     {
