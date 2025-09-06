@@ -25,7 +25,7 @@
         <meta property="og:site_name" content="" />
         <meta property="og:description" content="" />
     <?php elseif (is_page('story01')) : ?>
-        <title>STORY＃01｜岩黒製作所 採用サイト</title>
+        <title>STORY#01_岩黒製作所だからできること。｜岩黒製作所 採用サイト</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <meta property="og:title" content="" />
@@ -34,7 +34,7 @@
         <meta property="og:site_name" content="" />
         <meta property="og:description" content="" />
     <?php elseif (is_page('story02')) : ?>
-        <title>STORY＃02｜岩黒製作所 採用サイト</title>
+        <title>STORY#02_社会に求められる医薬の業界へ。｜岩黒製作所 採用サイト</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <meta property="og:title" content="" />
@@ -43,7 +43,7 @@
         <meta property="og:site_name" content="" />
         <meta property="og:description" content="" />
     <?php elseif (is_page('story03')) : ?>
-        <title>STORY＃03｜岩黒製作所 採用サイト</title>
+        <title>STORY#03_機械創りに集中できる風通しの良い職場。｜岩黒製作所 採用サイト</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <meta property="og:title" content="" />

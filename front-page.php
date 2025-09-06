@@ -431,7 +431,7 @@
                   気になる数字について紹介します
                 </p>
                 <div class="p-pickup__btn">
-                  <a href="" class="c-btn">
+                  <a href="<?php echo esc_url(home_url('/figures')); ?>" class="c-btn">
                     <p class="c-btn__text">view more</p>
                     <span class="c-btn__arrow">
                       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -455,7 +455,7 @@
                   働く環境について紹介します｡
                 </p>
                 <div class="p-pickup__btn">
-                  <a href="" class="c-btn">
+                  <a href="<?php echo esc_url(home_url('/benefits')); ?>" class="c-btn">
                     <p class="c-btn__text">view more</p>
                     <span class="c-btn__arrow">
                       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">

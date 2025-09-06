@@ -3992,7 +3992,7 @@ input::placeholder {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100dvh;
 }
 @media screen and (min-width: 768px) {
   .p-mv__img video {
