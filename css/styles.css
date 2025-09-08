@@ -4033,7 +4033,7 @@ input::placeholder {
 }
 @media screen and (min-width: 768px) {
   .p-mv__title {
-    max-width: 33.5rem;
+    max-width: 37.5rem;
   }
 }
 
