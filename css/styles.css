@@ -3018,6 +3018,11 @@ input::placeholder {
   position: relative;
   background: url(../images/common/gradation_bg.png) no-repeat center center/cover;
 }
+@media screen and (min-width: 768px) {
+  .p-gradation {
+    padding-bottom: 31.25rem;
+  }
+}
 
 .p-gradation__content {
   text-align: center;

@@ -68,7 +68,7 @@
               <p class="p-feature__list-bg">共創力</p>
             </div>
             <p class="p-feature__list-text">一つのチームでゴールまで。<br>
-              お客のニーズに寄り添い、<br>
+              お客さまのニーズに寄り添い、<br>
               新たな機械を創る。</p>
             <figure class="p-feature__list-img">
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/feature_img2.jpg" alt="" width="100" height="100">

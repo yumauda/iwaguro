@@ -6,6 +6,9 @@
   position: relative;
   background: url(../images/common/gradation_bg.png) no-repeat center center /
     cover;
+  @include mq(md) {
+    padding-bottom: rem(500);
+  }
 }
 
 .p-gradation__content {

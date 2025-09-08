@@ -15,10 +15,10 @@
     <div class="l-inner">
       <div class="p-thanks__content">
         <div class="p-thanks__title-wrapper">
-          <h2 class="p-thanks__title">ご応募ありがとうございます。</h2>
+          <h2 class="p-thanks__title">ご応募いただき、誠にありがとうございます。</h2>
         </div>
         <div class="p-thanks__text-wrapper">
-          <p class="p-thanks__text">ご応募いただき、誠にありがとうございます。<br>
+          <p class="p-thanks__text">
             自動返信メールをご入力いただいたメールアドレスに送信しております。<br>
             メールが届かない場合は、お手数ですが、もう一度メールアドレスをご確認のうえ送信をお願いいたします。</p>
           <p class="p-thanks__text">3営業日以内を目安に担当者よりメールにてご連絡いたします。<br>
