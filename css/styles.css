@@ -1162,8 +1162,8 @@ select::-ms-expand {
 
 .p-challenge__right {
   width: 100%;
-  margin-top: 45px;
-  margin-top: 2.8125rem;
+  margin-top: 5px;
+  margin-top: 0.3125rem;
 }
 @media screen and (min-width: 768px) {
   .p-challenge__right {
@@ -1183,16 +1183,22 @@ select::-ms-expand {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 8px;
-  padding-top: 0.5rem;
-  padding-bottom: 16px;
-  padding-bottom: 1rem;
+  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   border-bottom: 1px solid #2b2f38;
+  padding-top: 20px;
+  padding-top: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .p-challenge__link {
+    padding-top: 0.5rem;
+  }
 }
 
-.p-challenge__link + .p-challenge__link {
-  margin-top: 25px;
-  margin-top: 1.5625rem;
+@media screen and (min-width: 768px) {
+  .p-challenge__link + .p-challenge__link {
+    margin-top: 1.5625rem;
+  }
 }
 
 .p-challenge__link-text {
@@ -1220,8 +1226,6 @@ select::-ms-expand {
 }
 
 .p-challenge__btn-wrapper {
-  margin-top: 40px;
-  margin-top: 2.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1231,9 +1235,12 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 45px;
+  margin-top: 2.8125rem;
 }
 @media screen and (min-width: 768px) {
   .p-challenge__btn-wrapper {
+    margin-top: 2.1875rem;
     display: block;
   }
 }
@@ -7378,21 +7385,21 @@ input::placeholder {
   padding-top: 4.375rem;
   padding-bottom: 70px;
   padding-bottom: 4.375rem;
+  --scaleX: 1;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  overflow-x: clip;
+  position: relative;
 }
 @media screen and (min-width: 768px) {
   .p-top-interview {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: relative;
     padding-top: 0;
     padding-top: initial;
     padding-bottom: 0;
     padding-bottom: initial;
-    --scaleX: 1;
-    -webkit-transform-origin: top;
-            transform-origin: top;
-    overflow-x: clip;
   }
 }
 
@@ -7696,8 +7703,8 @@ input::placeholder {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 20px;
-  margin-top: 1.25rem;
+  margin-top: 45px;
+  margin-top: 2.8125rem;
 }
 @media screen and (min-width: 768px) {
   .p-top-interview__btn--sp {

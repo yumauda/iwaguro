@@ -163,7 +163,7 @@ window.addEventListener("DOMContentLoaded", function () {
     }
   );
 
-  /* gsap.fromTo(
+  gsap.fromTo(
     ".js-left--row-interview",
     {
       "--scaleX": 0,
@@ -178,7 +178,7 @@ window.addEventListener("DOMContentLoaded", function () {
       },
       ease: "power3.out",
     }
-  ); */
+  );
   /* gsap.fromTo(
     ".js-left--row-story",
     {

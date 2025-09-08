@@ -29,7 +29,7 @@
           </div>
           <div class="p-page-mv__text-wrapper">
             <p class="p-page-mv__text">
-              私たちの機械づくりの原点は、お客様の声にあります。<br>
+              私たちの機械づくりの原点は、お客さまの声にあります。<br>
               医療・製薬業界の現場で、本当に必要とされる唯一無二の機械を生み出す。想いを受けとめ、確かなカタチにすること。それが私たちの使命です。
             </p>
           </div>
@@ -68,7 +68,7 @@
               <p class="p-feature__list-bg">共創力</p>
             </div>
             <p class="p-feature__list-text">一つのチームでゴールまで。<br>
-              お客様のニーズに寄り添い、<br>
+              お客のニーズに寄り添い、<br>
               新たな機械を創る。</p>
             <figure class="p-feature__list-img">
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/feature_img2.jpg" alt="" width="100" height="100">
@@ -103,7 +103,7 @@
           <div class="p-result__bottom-titleWrapper">
             <span class="p-result__title-en">result</span>
           </div>
-          <h4 class="p-result__bottom-title">機械をご導入いただいた<br class="u-mobile">お客様の成果事例</h4>
+          <h4 class="p-result__bottom-title">機械をご導入いただいた<br class="u-mobile">お客さまの成果事例</h4>
           <ul class="p-result__lists">
             <li class="p-result__list">
               <div class="p-result__check">
@@ -184,7 +184,7 @@
         <div class="p-project__issue">
           <div class="p-project__issue-top">
             <p class="p-project__issue-en">issue</p>
-            <p class="p-project__issue-ja">お客様のお悩み</p>
+            <p class="p-project__issue-ja">お客さまのお悩み</p>
           </div>
           <ul class="p-project__lists">
             <li class="p-project__list">
@@ -254,7 +254,7 @@
           </h3>
         </div>
         <div class="p-facilities__text-wrapper">
-          <p class="p-facilities__text">お客様の多種多様なご要望・ニーズに対応する"最新設備"を取り揃えています。</p>
+          <p class="p-facilities__text">お客さまの多種多様なご要望・ニーズに対応する"最新設備"を取り揃えています。</p>
         </div>
         <figure class="p-facilities__img">
           <picture>

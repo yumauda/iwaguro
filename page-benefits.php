@@ -210,7 +210,7 @@
                   </li>
                   <li class="p-career__list">
                     <p class="p-career__list-title">営業</p>
-                    <p class="p-career__list-text">お客様の課題解決提案・<br class="u-mobile">プロフェッショナルを目指す</p>
+                    <p class="p-career__list-text">お客さまの課題解決提案・<br class="u-mobile">プロフェッショナルを目指す</p>
                   </li>
                 </ul>
               </li>

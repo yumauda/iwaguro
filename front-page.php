@@ -154,7 +154,7 @@
                     </figure>
                     <div class="p-top-interview__slider-detail">
                       <p class="p-top-interview__slider-name">
-                        t.m
+                        t.m.
                       </p>
                       <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
                         思い通りに動いた瞬間、<br>
@@ -180,7 +180,7 @@
                     </figure>
                     <div class="p-top-interview__slider-detail">
                       <p class="p-top-interview__slider-name">
-                        t.m
+                        t.m.
                       </p>
                       <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
                         思い通りに動いた瞬間、<br>
@@ -206,7 +206,7 @@
                     </figure>
                     <div class="p-top-interview__slider-detail">
                       <p class="p-top-interview__slider-name">
-                        t.m
+                        t.m.
                       </p>
                       <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
                         思い通りに動いた瞬間、<br>
@@ -232,7 +232,7 @@
                     </figure>
                     <div class="p-top-interview__slider-detail">
                       <p class="p-top-interview__slider-name">
-                        t.m
+                        t.m.
                       </p>
                       <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
                         思い通りに動いた瞬間、<br>
@@ -258,7 +258,7 @@
                     </figure>
                     <div class="p-top-interview__slider-detail">
                       <p class="p-top-interview__slider-name">
-                        t.m
+                        t.m.
                       </p>
                       <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
                         思い通りに動いた瞬間、<br>
@@ -569,7 +569,7 @@
               </div>
               <div class="p-challenge__text-wrapper">
                 <p class="p-challenge__text">私たちが目指すのは、モノづくりではなく“コト”づくり。<br class="u-desktop">
-                  お客様の要望をどう実現するか、考えるのは難しい。<br class="u-desktop">
+                  お客さまの要望をどう実現するか、考えるのは難しい。<br class="u-desktop">
                   でも、だからこそ面白い。<br><br class="u-mobile">
                   期待に応えるモノづくりで、<br class="u-mobile">一生ゴトの仕事をしよう！</p>
               </div>

@@ -4,14 +4,14 @@
   background: #fff;
   padding-top: rem(70);
   padding-bottom: rem(70);
+  --scaleX: 1;
+  transform-origin: top;
+  overflow-x: clip;
+  position: relative;
   @include mq(md) {
     display: flex;
-    position: relative;
     padding-top: initial;
     padding-bottom: initial;
-    --scaleX: 1;
-    transform-origin: top;
-    overflow-x: clip;
   }
 }
 .p-top-interview::before {
@@ -230,7 +230,7 @@
 .p-top-interview__btn--sp {
   display: flex;
   justify-content: center;
-  margin-top: rem(20);
+  margin-top: rem(45);
   @include mq(md) {
     display: none;
   }

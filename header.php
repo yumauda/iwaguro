@@ -61,7 +61,7 @@
         <meta property="og:site_name" content="" />
         <meta property="og:description" content="" />
     <?php elseif (is_404()) : ?>
-        <title>-</title>
+        <title>ご指定のページは見つかりませんでした。</title>
         <meta name="description" content="ご指定のページが見つかりませんでした。" />
         <meta name="keywords" content="" />
         <meta property="og:title" content="" />
@@ -72,7 +72,7 @@
     <?php elseif (is_single()) : ?>
         <title>岩黒製作所 採用サイト</title>
         <meta name="description" content="" />
-        <meta name="keywords" content="" />
+    <meta name="keywords" content="" />
         <meta property="og:title" content="" />
         <meta property="og:type" content="website">
         <meta property="og:url" content="">
