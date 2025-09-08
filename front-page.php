@@ -326,7 +326,7 @@
                   できること。</h3>
                 <div class="p-top-story__bottom">
                   <div class="p-top-story__text-wrapper">
-                    <p class="p-top-story__text">創意は無限、改良は永遠。止まらない情熱が､</p>
+                    <p class="p-top-story__text">創意は無限、改良は永遠。止まらない情熱が</p>
                     <p class="p-top-story__text">精度の高い唯一無二の機械をつくる｡</p>
                   </div>
                   <div class="p-top-story__arrow">
@@ -350,7 +350,7 @@
                   医薬の業界へ。</h3>
                 <div class="p-top-story__bottom">
                   <div class="p-top-story__text-wrapper">
-                    <p class="p-top-story__text">社会を支える医薬の業界で､</p>
+                    <p class="p-top-story__text">社会を支える医薬の業界で</p>
                     <p class="p-top-story__text">本当に信頼されるものをつくり、届ける｡</p>
                   </div>
                   <div class="p-top-story__arrow">
