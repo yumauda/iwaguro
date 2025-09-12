@@ -1,5 +1,5 @@
 /* リキッドレイアウト対応 */
-@use "global" as *;
+@use "../global" as *;
 
 html {
   //~375px
@@ -17,6 +17,8 @@ html {
   //inner~max-screen
   @media (min-width: $inner) {
     font-size: 16px;
+    // font-size: 16px;
+    
   }
 }
 

@@ -1,5 +1,78 @@
-@use "./base/**";
-@use "./plugin/**";
-@use "./layout/**";
-@use "./project/**";
-@use "./component/**";
+// @use "./base/**";
+// @use "./plugin/**";
+// @use "./layout/**";
+// @use "./project/**";
+// @use "./component/**";
+
+
+// ===========================
+// Global
+// ===========================
+@use "./global/setting" as *;
+@use "./global/function" as *;
+@use "./global/index" as *;
+
+// ===========================
+// Base
+// ===========================
+@use "./base/reset";
+@use "./base/base";
+
+// ===========================
+// Layout
+// ===========================
+@use "./layout/_l-inner";
+
+// ===========================
+// Component
+// ===========================
+@use "./component/c-benefits-title";
+@use "./component/c-btn";
+@use "./component/c-left";
+@use "./component/c-page-en";
+@use "./component/c-page-ja";
+@use "./component/c-section-title";
+@use "./component/c-text-gradation";
+
+// ===========================
+// Project
+// ===========================
+@use "./project/p-404";
+@use "./project/p-benefits";
+@use "./project/p-career";
+@use "./project/p-challenge";
+@use "./project/p-drawer";
+@use "./project/p-facilities";
+@use "./project/p-feature";
+@use "./project/p-figures";
+@use "./project/p-footer";
+@use "./project/p-form";
+@use "./project/p-gradation";
+@use "./project/p-header";
+@use "./project/p-hear";
+@use "./project/p-home-topics";
+@use "./project/p-line";
+@use "./project/p-loading";
+@use "./project/p-mv";
+@use "./project/p-occupation";
+@use "./project/p-other";
+@use "./project/p-page-mv";
+@use "./project/p-pickup";
+@use "./project/p-power";
+@use "./project/p-project";
+@use "./project/p-question";
+@use "./project/p-reason";
+@use "./project/p-result";
+@use "./project/p-scroll-img";
+@use "./project/p-scroll-text";
+@use "./project/p-scroll";
+@use "./project/p-section-img";
+@use "./project/p-single-topics";
+@use "./project/p-single";
+@use "./project/p-thanks";
+@use "./project/p-top-about";
+@use "./project/p-top-image";
+@use "./project/p-top-interview";
+@use "./project/p-top-line";
+@use "./project/p-top-news";
+@use "./project/p-top-story";
