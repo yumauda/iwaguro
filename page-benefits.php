@@ -53,8 +53,8 @@
               <p class="p-benefits__number-en">benefits</p>
               <p class="p-benefits__number-num">01</p>
             </div>
-            <p class="p-benefits__list-title">転勤なし｜年間休日<span>122</span>日（土日完全休業）</p>
-            <p class="p-benefits__list-text">年間<span>122</span>日の休日があります。転勤もなく、仕事とプライベートのメリハリをつけて働けます。</p>
+            <p class="p-benefits__list-title">年間休日<span>122</span>日（土日完全休業）</p>
+            <p class="p-benefits__list-text">年間<span>122</span>日（※）の休日があります。転勤もなく、仕事とプライベートのメリハリをつけて働けます。※2026年 年間休日日数</p>
           </li>
           <li class="p-benefits__list">
             <div class="p-benefits__number">
@@ -186,7 +186,7 @@
                 </div>
                 <div class="p-career__steps-detail">
                   <p class="p-career__steps-important">重要</p>
-                  <p class="p-career__steps-elect">仕上げ/電気</p>
+                  <p class="p-career__steps-elect">製造 (組立･調整) / 電気</p>
                 </div>
                 <div class="p-career__steps-line--sp"></div>
               </li>
@@ -201,7 +201,7 @@
                 </div>
                 <ul class="p-career__lists">
                   <li class="p-career__list">
-                    <p class="p-career__list-title">仕上げ/電気</p>
+                    <p class="p-career__list-title">製造 (組立･調整) / 電気</p>
                     <p class="p-career__list-text">プロフェッショナル/責任者を目指す</p>
                   </li>
                   <li class="p-career__list">
@@ -222,7 +222,7 @@
               </picture>
             </figure>
           </div>
-          <div class="p-career__block">
+          <!-- <div class="p-career__block">
             <div class="p-career__block-title">
               <div class="c-benefits-title">
                 <p class="c-benefits-title__en">QUALIFICATION</p>
@@ -241,7 +241,7 @@
               <li class="p-career__qualification-list">クレーン運転業務特別教育</li>
               <li class="p-career__qualification-list">床上操作式クレーン運転技能講習</li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

@@ -72,7 +72,7 @@
             <div class="p-hear__detail mt24">
               <div class="p-hear__row">
                 <p class="p-hear__q">q</p>
-                <p class="p-hear__question-text">岩黒製作所の現場で<br>気づいたところはありますか？</p>
+                <p class="p-hear__question-text">岩黒製作所の<br>現場環境の特徴は？</p>
               </div>
               <div class="p-hear__text-wrapper p-hear__text-wrapper--right">
                 <p class="p-hear__text">精密部品の製造を行っているため、工場内の清潔さはもちろん、空調管理もしっかりしており安定して働き続けることができる環境だと思いました。</p>
@@ -98,7 +98,7 @@
             <div class="p-hear__detail">
               <div class="p-hear__row">
                 <p class="p-hear__q">q</p>
-                <p class="p-hear__question-text">岩黒製作所の現場で<br>気づいたところはありますか？</p>
+                <p class="p-hear__question-text">岩黒製作所の<br>仕事内容の特徴は？</p>
               </div>
               <div class="p-hear__text-wrapper p-hear__text-wrapper--right">
                 <p class="p-hear__text">岩黒製作所はフルオーダーメイドの機械を作る仕事なので、毎回作業が異なり様々な知識が必要です。しかし、その分、うまく調整できた時は大きな喜びを感じます。</p>
@@ -168,7 +168,7 @@
           <p class="p-reason__bottom-text">岩黒製作所は、医療・製薬業界に特化し、国内トップシェアを誇る技術力があります。<br>
             また、GMP化やFA化などお客さまが求める多様なニーズに対応し、日々、改良を続けています。</p>
           <div class="p-reason__bottom-gradation">
-            <p class="p-reason__bottom-text--gradation">医薬品業界が未経験でも、あなたの<br class="u-mobile">スキルを活かせる様々な職種があります。<br>ぜひ一度、岩黒製作所の工場見学に<br class="u-mobile">お越しください。</p>
+            <p class="p-reason__bottom-text--gradation">医薬品業界が未経験でも、<br class="u-mobile">あなたのスキルを活かせる<br class="u-mobile">様々な職種があります｡<br>ぜひ一度、岩黒製作所の工場見学に<br class="u-mobile">お越しください｡</p>
       
           </div>
         </div>

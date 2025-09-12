@@ -3594,7 +3594,7 @@ input::placeholder {
 }
 
 .p-mv__detail {
-  height: 100vh;
+  height: 100svh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5060,7 +5060,7 @@ input::placeholder {
 .p-reason__detail::before {
   position: absolute;
   content: attr(data-number);
-  color: #f3faff;
+  color: #E8F5FF;
   font-weight: 600;
   font-family: "Outfit", sans-serif;
   line-height: 1;
@@ -7045,6 +7045,7 @@ input::placeholder {
   display: block;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .p-top-story__link::before {

@@ -92,7 +92,7 @@
                 <div class="p-top-about__text-wrapper">
                   <p class="p-top-about__text">岩黒製作所は、<br class="u-mobile">国内トップクラスのシェアを誇る<br>
                     医科向けの自動包装機の開発・製造を手がける<br>
-                    富山の<span class="c-text-gradation js-about-gradation">小さな一流企業</span>です。</p>
+                    富山の小さな一流企業です。</p>
                 </div>
                 <div class="p-top-about__btn">
                   <a href="#" class="c-btn">
