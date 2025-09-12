@@ -170,7 +170,7 @@ Template Name: インタビュー NF
                 <p class="p-question__title p-question__title--white">岩黒製作所はどんな会社？</p>
               </h4>
               <figure class="p-question__who-img u-mobile">
-                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/interview/nf/question_white_img1.png" alt="" width="300" height="380">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img4.png" alt="" width="300" height="380">
               </figure>
               <div class="p-question__white">
                 <p class="p-question__white-text">岩黒製作所は、<span>他ではなかなか見られないような機械を設計・製造</span>しているので、モノづくりに興味がある人や、機械好きな人にはとてもやりがいのある職場だと思います。専門的な知識よりも、<span>やってみたい、挑戦</span>したい という気持ちがあれば、どんどん成長できます。
@@ -179,7 +179,7 @@ Template Name: インタビュー NF
             </div>
           </div>
           <figure class="p-question__who-img u-desktop">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/interview/nf/question_white_img1.png" alt="" width="300" height="380">
+            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img4.png" alt="" width="300" height="380">
           </figure>
         </div>
       </div>

@@ -166,7 +166,7 @@ Template Name: インタビュー RN
                 <p class="p-question__title p-question__title--white">この仕事に向いている人は？</p>
               </h4>
               <figure class="p-question__who-img u-mobile">
-                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/interview/rn/question_white_img1.png" alt="" width="300" height="380">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img5.png" alt="" width="300" height="380">
               </figure>
               <div class="p-question__white">
                 <p class="p-question__white-text"><span>手先の器用さに自信がある方や、積極的に学ぶ意欲がある人</span>が向いていると思います。知識や経験がゼロでも丁寧に教えてもらえる会社なので、<span>未経験でも全く心配いりません！</span>機械を作ってみたいという方と一緒に働けたら嬉しいです。</p>
@@ -174,7 +174,7 @@ Template Name: インタビュー RN
             </div>
           </div>
           <figure class="p-question__who-img u-desktop">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/interview/rn/question_white_img1.png" alt="" width="300" height="380">
+            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img5.png" alt="" width="300" height="380">
           </figure>
         </div>
       </div>

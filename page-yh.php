@@ -165,7 +165,7 @@ Template Name: インタビュー YH
                 <p class="p-question__title p-question__title--white">岩黒製作所はどんな会社？</p>
               </h4>
               <figure class="p-question__who-img u-mobile">
-                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/interview/yh/question_white_img1.png" alt="" width="300" height="380">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img3.png" alt="" width="300" height="380">
               </figure>
               <div class="p-question__white">
                 <p class="p-question__white-text"><span>風通しの良さがあり、人財が揃っている会社</span>です。<br>
@@ -174,7 +174,7 @@ Template Name: インタビュー YH
             </div>
           </div>
           <figure class="p-question__who-img u-desktop">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/interview/yh/question_white_img1.png" alt="" width="300" height="380">
+            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img3.png" alt="" width="300" height="380">
           </figure>
         </div>
       </div>

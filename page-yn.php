@@ -163,7 +163,7 @@ Template Name: インタビュー YN
                 <p class="p-question__title p-question__title--white">この仕事に向いている人は？</p>
               </h4>
               <figure class="p-question__who-img u-mobile">
-                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/interview/yn/question_white_img1.png" alt="" width="300" height="380">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img2.png" alt="" width="300" height="380">
               </figure>
               <div class="p-question__white">
                 <p class="p-question__white-text">いろんな機械部品を加工してみたい人、新しいことに前向きに取り組める人もぴったりだと思います。<span>機械が好きな人</span>に、ぜひ岩黒製作所のモノづくりの楽しさを体感してほしいです。</p>
@@ -171,7 +171,7 @@ Template Name: インタビュー YN
             </div>
           </div>
           <figure class="p-question__who-img u-desktop">
-            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/interview/yn/question_white_img1.png" alt="" width="300" height="380">
+            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img2.png" alt="" width="300" height="380">
           </figure>
         </div>
       </div>

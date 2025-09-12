@@ -127,7 +127,7 @@
               共に創ろう。ワクワクする機械｡
             </p>
             <div class="p-top-interview__btn u-desktop">
-              <a href="" class="c-btn">
+              <a href="<?php echo home_url('/interview/'); ?>" class="c-btn">
                 <p class="c-btn__text">view more</p>
                 <span class="c-btn__arrow">
                   <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -176,7 +176,7 @@
                       <p class="p-top-interview__num">02</p>
                     </div>
                     <figure class="p-top-interview__slider-img">
-                      <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img1.png" alt="" width="270" height="270">
+                      <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img2.png" alt="" width="270" height="270">
                     </figure>
                     <div class="p-top-interview__slider-detail">
                       <p class="p-top-interview__slider-name">
@@ -202,7 +202,7 @@
                       <p class="p-top-interview__num">03</p>
                     </div>
                     <figure class="p-top-interview__slider-img">
-                      <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img1.png" alt="" width="270" height="270">
+                      <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img3.png" alt="" width="270" height="270">
                     </figure>
                     <div class="p-top-interview__slider-detail">
                       <p class="p-top-interview__slider-name">
@@ -228,7 +228,7 @@
                       <p class="p-top-interview__num">04</p>
                     </div>
                     <figure class="p-top-interview__slider-img">
-                      <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img1.png" alt="" width="270" height="270">
+                      <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img4.png" alt="" width="270" height="270">
                     </figure>
                     <div class="p-top-interview__slider-detail">
                       <p class="p-top-interview__slider-name">
@@ -254,7 +254,7 @@
                       <p class="p-top-interview__num">05</p>
                     </div>
                     <figure class="p-top-interview__slider-img">
-                      <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img1.png" alt="" width="270" height="270">
+                      <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img5.png" alt="" width="270" height="270">
                     </figure>
                     <div class="p-top-interview__slider-detail">
                       <p class="p-top-interview__slider-name">
