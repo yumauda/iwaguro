@@ -10,11 +10,15 @@
 .p-question__content {
 }
 
-.p-question__block {
-}
-.p-question__block + .p-question__block {
+.p-question__wrap:nth-child(n+2) {
   margin-top: rem(80);
 }
+
+.p-question__block {
+}
+// .p-question__block + .p-question__block {
+//   margin-top: rem(80);
+// }
 
 .p-question__q {
   display: flex;
@@ -101,6 +105,13 @@
 }
 .p-question__row:nth-child(even) {
   flex-direction: row-reverse;
+}
+
+.p-question__row.ImgLeft {
+  flex-direction: row-reverse;
+  @include mq(md){
+    
+  }
 }
 
 .p-question__rowImg {

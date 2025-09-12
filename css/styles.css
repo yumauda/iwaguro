@@ -4698,7 +4698,7 @@ input::placeholder {
   }
 }
 
-.p-question__block + .p-question__block {
+.p-question__wrap:nth-child(n+2) {
   margin-top: 5rem;
 }
 
@@ -4808,6 +4808,9 @@ input::placeholder {
   flex-direction: row-reverse;
 }
 
+.p-question__row.ImgLeft {
+  flex-direction: row-reverse;
+}
 .p-question__rowImg {
   width: 100%;
   margin-top: 1.5625rem;

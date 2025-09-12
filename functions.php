@@ -36,7 +36,7 @@ function my_script_init()
 	wp_enqueue_script('jquery', '//code.jquery.com/jquery-3.6.0.min.js', '', "1.0.1", true);
 	
 	wp_enqueue_style('my', get_template_directory_uri() . '/css/styles.css', array(), filemtime(get_theme_file_path('/css/styles.css')), 'all');
-	if (is_front_page() || is_page('b-b')) {
+	if (is_front_page() || is_page('interview_mt') || is_page('interview_yn') || is_page('interview_yh') || is_page('interview_nf') || is_page('interview_rn')) {
 		wp_enqueue_style('swiper-css', get_template_directory_uri() . '/css/swiper-bundle.min.css', array(), filemtime(get_theme_file_path('/css/swiper-bundle.min.css')), 'all');
 		wp_enqueue_script('swiper', '//unpkg.com/swiper@8/swiper-bundle.min.js', array(), null, true);
 		wp_enqueue_script('swiper-js', get_template_directory_uri() . '/js/swiper.js', array('jquery'), filemtime(get_theme_file_path('/js/swiper.js')), true);
