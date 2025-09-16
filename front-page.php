@@ -304,7 +304,7 @@
         </div>
       </div>
     </section>
-    <section class="p-top-story js-left--row-story">
+    <section class="p-top-story js-left--row-story" id="STORY">
       <div class="c-left js-left--vertical-story">
         <p class="c-left__text">story</p>
       </div>

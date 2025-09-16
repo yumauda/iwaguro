@@ -154,7 +154,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">
+                                <a href="<?php echo esc_url(home_url('/interview/')); ?>" class="p-header__link">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">interview</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">interview</span>
@@ -162,7 +162,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">
+                                <a href="<?php echo esc_url(home_url('/')); ?>#STORY" class="p-header__link">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">story</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">story</span>
@@ -276,7 +276,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="#" class="p-drawer-content__link p-drawer-content__open">
+                                    <a href="<?php echo esc_url(home_url('/')); ?>#STORY" class="p-drawer-content__link p-drawer-content__open">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">story</p>
                                             <p class="p-drawer-content__link-ja">ストーリー</p>
@@ -431,7 +431,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link is-active">
+                                <a href="<?php echo esc_url(home_url('/')); ?>#STORY" class="p-header__link is-active">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">story</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">story</span>
@@ -545,7 +545,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="#" class="p-drawer-content__link p-drawer-content__open">
+                                    <a href="<?php echo esc_url(home_url('/')); ?>#STORY" class="p-drawer-content__link p-drawer-content__open">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">story</p>
                                             <p class="p-drawer-content__link-ja">ストーリー</p>

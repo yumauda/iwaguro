@@ -331,7 +331,7 @@
         </ul>
         <div class="p-reason__bottom">
           <div class="p-reason__bottom-gradation">
-            <p class="p-reason__bottom-text--gradation">私たちは、お客さまと共に<br class="u-mobile">“唯一無二”の機械を<br class="u-mobile">創り上げる集団です。</p>
+            <p class="p-reason__bottom-text--gradation">私たちは、お客さまと共に<br class="u-mobile">“唯一無二”の機械を<br class="u-mobile">創り上げる集団です｡</p>
           </div>
           <p class="p-reason__bottom-text mt8">自社完結のものづくりだからこそ、<br class="u-mobile">課題への深い理解と、<br class="u-mobile">柔軟なソリューション提案が可能に。<br>
             変化を恐れず、挑戦を止めない。<br class="u-mobile">その姿勢こそが、医療・製薬業界の<br class="u-mobile">未来に応える力になると<br class="u-mobile">信じています。</p>
@@ -344,7 +344,7 @@
     <div class="l-inner">
       <div class="p-other__content">
         <div class="p-other__block">
-          <a href="#" class="p-other__link" data-title="OTHER STORIES">
+          <a href="<?php echo esc_url(home_url('/story02/')); ?>" class="p-other__link" data-title="OTHER STORIES">
             <figure class="p-other__img">
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/other_img3.jpg" alt="社会に求められる医薬の業界へ" width="431" height="38">
             </figure>
@@ -358,7 +358,7 @@
               </div>
             </div>
           </a>
-          <a href="#" class="p-other__link p-other__link--second" data-title="OTHER STORIES">
+          <a href="<?php echo esc_url(home_url('/story03/')); ?>" class="p-other__link p-other__link--second" data-title="OTHER STORIES">
             <figure class="p-other__img">
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/other_img2.jpg" alt="金属の未来をリファイン" width="431" height="38">
             </figure>

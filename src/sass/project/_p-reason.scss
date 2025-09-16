@@ -85,7 +85,7 @@
 .p-reason__detailTitle--gradation {
   background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
   padding-right: rem(8);
-  line-height: 2;
+  line-height: 1.8;
   display: inline;
   width: fit-content;
   @include mq(md) {
@@ -102,7 +102,7 @@
 
 .p-reason__text {
   color: $black;
-  line-height: 2;
+  line-height: 1.8;
   letter-spacing: 0.04em;
   font-weight: 500;
   font-size: rem(15);

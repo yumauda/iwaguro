@@ -80,7 +80,7 @@ Template Name: インタビュー YN
             同じ機械がない面白さ。<br>複雑な部品加工ほど<br>大きな達成感を味わえる。
           </h3>
           <div class="p-single__sub-wrapper">
-            <p class="p-single__sub">Y.N. 技術部 機械加工 (2023年入社)</p>
+            <p class="p-single__sub">Y.N. 技術部 機械加工 (<span>2023</span>年入社)</p>
           </div>
         </div>
       </div>

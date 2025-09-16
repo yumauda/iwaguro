@@ -80,7 +80,7 @@ Template Name: インタビュー RN
           目標は、一台の機械を任されること！<br>そのために積極的に<br>学ぶ姿勢を大切にしています。
           </h3>
           <div class="p-single__sub-wrapper">
-            <p class="p-single__sub">R.N. 製造部 仕上課 (2022年入社)</p>
+            <p class="p-single__sub">R.N. 製造部 仕上課 (<span>2022</span>年入社)</p>
           </div>
         </div>
       </div>

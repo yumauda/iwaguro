@@ -36,6 +36,12 @@
   }
 }
 
+.p-single__detail--left {
+  @include mq(md){
+    left: 0;
+  }
+}
+
 .p-single__number {
   display: flex;
   align-items: flex-end;
@@ -103,4 +109,8 @@
     font-size: rem(20);
     background: #fff;
   }
+}
+
+.p-single__sub span {
+  font-family: $second-font-family;
 }

@@ -1,7 +1,7 @@
 @use "../global" as *;
 
 .p-question {
-  padding-top: rem(99);
+  padding-top: rem(80);
   @include mq(md) {
     padding-bottom: rem(100);
   }
@@ -101,7 +101,10 @@
   }
 }
 .p-question__row + .p-question__row {
-  margin-top: rem(60);
+  margin-top: rem(80);
+  @include mq(md){
+    margin-top: rem(60);
+  }
 }
 .p-question__row:nth-child(even) {
   flex-direction: row-reverse;

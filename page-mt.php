@@ -80,7 +80,7 @@ Template Name: インタビュー MT
             挑戦するから実現できる｡<br>思い通りに動いた瞬間､<br>モノづくりの醍醐味を感じる｡
           </h3>
           <div class="p-single__sub-wrapper">
-            <p class="p-single__sub">M.T. 技術部 制御設計 (1997年入社)</p>
+            <p class="p-single__sub">M.T. 技術部 制御設計 (<span>1997</span>年入社)</p>
           </div>
         </div>
       </div>

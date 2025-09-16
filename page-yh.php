@@ -71,7 +71,7 @@ Template Name: インタビュー YH
             <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/images/interview/yh/single_img_top_sp.jpg" alt="" width="355" height="227">
           </picture>
         </figure>
-        <div class="p-single__detail">
+        <div class="p-single__detail p-single__detail--left">
           <div class="p-single__number">
             <p class="p-single__en">no.</p>
             <p class="p-single__num">03</p>
@@ -80,7 +80,7 @@ Template Name: インタビュー YH
           セールスエンジニアとして<br>社内外の人たちと一緒に<br>モノづくりをする楽しさと達成感。
           </h3>
           <div class="p-single__sub-wrapper">
-            <p class="p-single__sub">Y.H. 営業部 営業課長 (1998年入社)</p>
+            <p class="p-single__sub">Y.H. 営業部 営業課長 (<span>1998</span>年入社)</p>
           </div>
         </div>
       </div>

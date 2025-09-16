@@ -115,11 +115,11 @@
 .p-footer__link {
   color: #fff;
   font-size: rem(14);
-  letter-spacing: 0.04em;
   line-height: 1.8;
   font-weight: 500;
   position: relative;
   display: inline-block;
+  white-space: nowrap;
 }
 .p-footer__link::before {
   position: absolute;

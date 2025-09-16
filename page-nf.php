@@ -80,7 +80,7 @@ Template Name: インタビュー NF
           仕上課から機械設計へ｡<br>機械づくりの難しさと<br>楽しさを感じる毎日。
           </h3>
           <div class="p-single__sub-wrapper">
-            <p class="p-single__sub">N.F. 技術部 機械設計 (2008年入社)</p>
+            <p class="p-single__sub">N.F. 技術部 機械設計 (<span>2008</span>年入社)</p>
           </div>
         </div>
       </div>

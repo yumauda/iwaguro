@@ -29,7 +29,7 @@
   }
 }
 .p-gradation__text + .p-gradation__text {
-  margin-top: rem(50);
+  margin-top: rem(40);
   @include mq(md) {
     margin-top: rem(60);
   }
