@@ -113,7 +113,7 @@ Template Name: インタビュー NF
             <div class="p-question__block">
               <h4 class="p-question__q">
                 <span class="p-question__q--en">Q</span>
-                <p class="p-question__title">仕上課から希望していた機械設計へ。仕上課での経験は、設計にどう活きていますか？</p>
+                <p class="p-question__title">仕上課から希望していた機械設計へ。<br class="u-desktop">仕上課での経験は、設計にどう活きていますか？</p>
               </h4>
               <div class="p-question__answer-wrapper">
                 <p class="p-question__answer">岩黒製作所では機械のことをしっかり学ぶため、入社後は「仕上課」で機械の組立・調整・納品・アフターケアの対応まで幅広く経験します。「現場での動きや流れをつかむことは、設計に携わる上でも必要」という考えがあるためです。これは確かにその通りで、機械設計をする上で、現場で経験した知識やスキルが大いに役立っていると実感しています。<br>
@@ -162,7 +162,7 @@ Template Name: インタビュー NF
         </div>
         <div class="p-question__who">
           <div class="p-question__who-detail">
-            <p class="p-question__who-en">Who is suitable for Iwakuro?</p>
+            <p class="p-question__who-en">What kind of company is Iwakuro?</p>
 
             <div class="p-question__who-titleWrapper">
               <h4 class="p-question__q">

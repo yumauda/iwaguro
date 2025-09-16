@@ -4205,7 +4205,7 @@ input::placeholder {
     flex-direction: column;
     align-items: flex-start;
     color: #fff;
-    font-size: 8.125rem;
+    font-size: 7.2rem;
   }
 }
 
@@ -4302,6 +4302,12 @@ input::placeholder {
 .p-page-mv__detail {
   max-width: 35.25rem;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .p-page-mv__content--graduate .p-page-mv__detail {
+    max-width: 100%;
+  }
 }
 
 .p-page-mv__detail--figures {
@@ -4962,7 +4968,7 @@ input::placeholder {
 }
 @media screen and (min-width: 768px) {
   .p-question__title {
-    font-size: 1.75rem;
+    font-size: 1.55rem;
   }
 }
 
@@ -5130,7 +5136,7 @@ input::placeholder {
 @media screen and (min-width: 768px) {
   .p-question__white {
     margin-top: 2.3125rem;
-    padding: 2.5rem;
+    padding: 2.1875rem;
   }
 }
 
@@ -5168,7 +5174,7 @@ input::placeholder {
 }
 @media screen and (min-width: 768px) {
   .p-question__white-text {
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
 }
 

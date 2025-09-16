@@ -128,7 +128,7 @@ Template Name: インタビュー YN
             <div class="p-question__block">
               <h4 class="p-question__q">
                 <span class="p-question__q--en">Q</span>
-                <p class="p-question__title">岩黒製作所での機械加工のおもしろさ、やりがいとは？</p>
+                <p class="p-question__title">岩黒製作所での機械加工のおもしろさ、<br class="u-desktop">やりがいとは？</p>
               </h4>
               <div class="p-question__answer-wrapper">
                 <p class="p-question__answer">一番の魅力は、お客さまごとのオーダーメイドで機械を作っているため、同じ部品がほとんどないことです。その分、一つひとつに加工・確認を繰り返す大変さはありますが、新しい機械ができ上がっていく過程に関われるのは本当におもしろいです。また、工作機械やソフトなどの設備も整っていること、新しい工具も希望すれば試すことができることなど、いろいろ挑戦させてもらえる職場環境もモチベーションにつながっています。</p>
@@ -155,7 +155,7 @@ Template Name: インタビュー YN
         </div>
         <div class="p-question__who">
           <div class="p-question__who-detail">
-            <p class="p-question__who-en">Who is suitable for Iwakuro?</p>
+            <p class="p-question__who-en">Who is suitable for this job?</p>
 
             <div class="p-question__who-titleWrapper">
               <h4 class="p-question__q">

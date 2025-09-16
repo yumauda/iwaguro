@@ -93,7 +93,7 @@ Template Name: インタビュー RN
           <div class="p-question__block">
             <h4 class="p-question__q">
               <span class="p-question__q--en">Q</span>
-              <p class="p-question__title">具体的な仕事内容を教えてください。</p>
+              <p class="p-question__title">仕事内容について教えてください。</p>
             </h4>
             <div class="p-question__answer-wrapper">
               <p class="p-question__answer">仕上課では、機械の組立から調整、顧客先での設置、修理対応までを一貫して行います。<br>

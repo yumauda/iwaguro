@@ -157,7 +157,7 @@ Template Name: インタビュー YH
         </div>
         <div class="p-question__who">
           <div class="p-question__who-detail">
-            <p class="p-question__who-en">Who is suitable for Iwakuro?</p>
+            <p class="p-question__who-en">What kind of company is Iwakuro?</p>
 
             <div class="p-question__who-titleWrapper">
               <h4 class="p-question__q">

@@ -141,7 +141,7 @@ Template Name: インタビュー MT
             <div class="p-question__block">
               <h4 class="p-question__q">
                 <span class="p-question__q--en">Q</span>
-                <p class="p-question__title">職場の雰囲気について教えてください</p>
+                <p class="p-question__title">職場の雰囲気について<br class="u-mobile">教えてください。</p>
               </h4>
               <div class="p-question__answer-wrapper">
                 <p class="p-question__answer">「営業」「設計」「加工」「組立」と一つの機会をみんなで協力してつくり上げるため、チームワークがいい会社です。いい意味で自由な面もあり、自分のスタイルで働けるのも魅力です。</p>
