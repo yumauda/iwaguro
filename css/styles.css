@@ -26,6 +26,10 @@ body {
   overflow-x: clip;
 }
 
+.u-font-outfit {
+  font-family: "Outfit", sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -4941,6 +4945,7 @@ input::placeholder {
   color: #222426;
   line-height: 1.8;
   font-size: 0.875rem;
+  font-weight: 500;
 }
 @media screen and (min-width: 768px) {
   .p-question__white-text {

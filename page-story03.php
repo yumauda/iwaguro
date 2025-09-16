@@ -73,7 +73,7 @@
         <div class="p-reason__block p-reason__block--story03">
           <div class="p-reason__row">
             <div class="p-reason__detail" data-number="01">
-              <p class="p-reason__detailTitle p-reason__detailTitle--gradation">時代に応え続ける<br class="u-mobile">技術者集団。</p>
+              <p class="p-reason__detailTitle p-reason__detailTitle--gradation">時代に応え続ける<br class="u-mobile">技術者集団｡</p>
               <div class="p-reason__text-wrapper">
                 <p class="p-reason__text">当社の信念は「限りなき技術への挑戦」。薬を手作業で成型していた時代に製丸機を開発したことに始まります。そして、丸薬から粉薬、錠剤へと進化する中で、高度な技術と精度に挑戦し、お客さまの要望に応え続けてきました。その創業スピリットは今も脈々と受け継がれ、社員一人ひとりの情熱によって他社が真似できない、高品質な機械を生み出しています。</p>
               </div>
@@ -84,7 +84,7 @@
           </div>
           <div class="p-reason__row">
             <div class="p-reason__detail" data-number="02">
-              <p class="p-reason__detailTitle p-reason__detailTitle--gradation">プロフェッショナル<br class="u-mobile">への道は、現場から。</p>
+              <p class="p-reason__detailTitle p-reason__detailTitle--gradation">プロフェッショナル<br class="u-mobile">への道は、現場から｡</p>
               <div class="p-reason__text-wrapper">
                 <p class="p-reason__text">すべての社員がまず「現場」からキャリアをスタートするのが岩黒流。それは私たちがつくっている機械のことを細部までしっかり理解してほしいからです。仕上課で2～3年間、先輩とチームを組み、図面の見方から組立の技術、機械調整、修理対応まで、実践を通してしっかり学び、経験を積みます。その後、希望の職種へキャリアアップ。現場を知ることこそ、機械づくりのプロへの近道です。</p>
               </div>
@@ -95,7 +95,7 @@
           </div>
           <div class="p-reason__row">
             <div class="p-reason__detail" data-number="03">
-              <p class="p-reason__detailTitle p-reason__detailTitle--gradation">モノづくりに<br class="u-mobile">ワクワクできる。</p>
+              <p class="p-reason__detailTitle p-reason__detailTitle--gradation">モノづくりに<br class="u-mobile">ワクワクできる｡</p>
               <div class="p-reason__text-wrapper">
                 <p class="p-reason__text">私たちがつくるのは、オーダーメイドの機械。お客さまのご要望に合わせてゼロから設計・製造を行うため、毎回が新たな挑戦です。世界最速の機械に挑んだり、改良を重ねて精度を高めたり、どうカタチにするかをみんなで考え、実現していく、モノづくりの醍醐味を味わえます。失敗も大事な結果と前向きに捉える社風や、自由度の高いワークスタイルも創造力を後押し。高いプロ意識を持った仲間とともに挑戦を楽しもう！</p>
               </div>

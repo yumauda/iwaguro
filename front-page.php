@@ -92,10 +92,10 @@
                 <div class="p-top-about__text-wrapper">
                   <p class="p-top-about__text">岩黒製作所は、<br class="u-mobile">国内トップクラスのシェアを誇る<br>
                     医科向けの自動包装機の開発・製造を手がける<br>
-                    富山の小さな一流企業です。</p>
+                    富山の<span class="c-text-gradation">小さな一流企業</span>です。</p>
                 </div>
                 <div class="p-top-about__btn">
-                  <a href="#" class="c-btn">
+                  <a href="<?php echo esc_url(home_url('/about/')); ?>" class="c-btn">
                     <p class="c-btn__text">view more</p>
                     <span class="c-btn__arrow">
                       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -431,7 +431,7 @@
                   気になる数字について紹介します
                 </p>
                 <div class="p-pickup__btn">
-                  <a href="<?php echo esc_url(home_url('/figures')); ?>" class="c-btn">
+                  <a href="<?php echo esc_url(home_url('/figures/')); ?>" class="c-btn">
                     <p class="c-btn__text">view more</p>
                     <span class="c-btn__arrow">
                       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -455,7 +455,7 @@
                   働く環境について紹介します｡
                 </p>
                 <div class="p-pickup__btn">
-                  <a href="<?php echo esc_url(home_url('/benefits')); ?>" class="c-btn">
+                  <a href="<?php echo esc_url(home_url('/style/')); ?>" class="c-btn">
                     <p class="c-btn__text">view more</p>
                     <span class="c-btn__arrow">
                       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">

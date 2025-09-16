@@ -15,7 +15,7 @@
         <meta property="og:url" content="">
         <meta property="og:site_name" content="" />
         <meta property="og:description" content="" />
-    <?php elseif (is_page('figures')) : ?>
+    <?php elseif (is_page('figures/')) : ?>
         <title>数字で見る岩黒製作所｜岩黒製作所 採用サイト</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -146,7 +146,7 @@
                     <nav class="p-header__nav">
                         <ul class="p-header__lists">
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">
+                                <a href="<?php echo esc_url(home_url('/about/')); ?>" class="p-header__link">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">about</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">about</span>
@@ -178,7 +178,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="<?php echo esc_url(home_url('/figures')); ?>" class="p-header__link">
+                                <a href="<?php echo esc_url(home_url('/figures/')); ?>" class="p-header__link">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">figures</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">figures</span>
@@ -186,7 +186,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="<?php echo esc_url(home_url('/benefits')); ?>" class="p-header__link">
+                                <a href="<?php echo esc_url(home_url('/style/')); ?>" class="p-header__link">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">style</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">style</span>
@@ -254,7 +254,7 @@
 
                             <ul class="p-drawer-content__lists">
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/about/')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">about</p>
                                             <p class="p-drawer-content__link-ja"><span>3</span>分で分かる岩黒製作所</p>
@@ -265,7 +265,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/interbiew/')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">interview</p>
                                             <p class="p-drawer-content__link-ja">仲間を知る</p>
@@ -314,7 +314,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/figures')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/figures/')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">figures</p>
                                             <p class="p-drawer-content__link-ja">数字で見る岩黒製作所</p>
@@ -325,7 +325,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/benefits')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/style/')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">style</p>
                                             <p class="p-drawer-content__link-ja">福利厚生・制度</p>
@@ -336,7 +336,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/styles')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/style')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">news</p>
                                             <p class="p-drawer-content__link-ja">新着情報</p>
@@ -347,7 +347,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/styles')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/style')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">recruit</p>
                                             <p class="p-drawer-content__link-ja">募集要項</p>
@@ -415,7 +415,7 @@
                     <nav class="p-header__nav">
                         <ul class="p-header__lists">
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link is-active">
+                                <a href="<?php echo esc_url(home_url('/about/')); ?>" class="p-header__link is-active">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">about</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">about</span>
@@ -423,7 +423,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link is-active">
+                                <a href="<?php echo esc_url(home_url('/interbiew/')); ?>" class="p-header__link is-active">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">interview</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">interview</span>
@@ -447,7 +447,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="<?php echo esc_url(home_url('/figures')); ?>" class="p-header__link is-active">
+                                <a href="<?php echo esc_url(home_url('/figures/')); ?>" class="p-header__link is-active">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">figures</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">figures</span>
@@ -455,7 +455,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="<?php echo esc_url(home_url('/benefits')); ?>" class="p-header__link is-active">
+                                <a href="<?php echo esc_url(home_url('/style/')); ?>" class="p-header__link is-active">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">style</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">style</span>
@@ -523,7 +523,7 @@
 
                             <ul class="p-drawer-content__lists">
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/about/')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">about</p>
                                             <p class="p-drawer-content__link-ja"><span>3</span>分で分かる岩黒製作所</p>
@@ -534,7 +534,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/interbiew/')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">interview</p>
                                             <p class="p-drawer-content__link-ja">仲間を知る</p>
@@ -583,7 +583,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/figures')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/figures/')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">figures</p>
                                             <p class="p-drawer-content__link-ja">数字で見る岩黒製作所</p>
@@ -594,7 +594,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/benefits')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/style/')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">style</p>
                                             <p class="p-drawer-content__link-ja">福利厚生・制度</p>
@@ -605,7 +605,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/styles')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/style')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">news</p>
                                             <p class="p-drawer-content__link-ja">新着情報</p>
@@ -616,7 +616,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/styles')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/style')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">recruit</p>
                                             <p class="p-drawer-content__link-ja">募集要項</p>

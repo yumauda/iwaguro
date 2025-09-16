@@ -18,7 +18,7 @@
                     <li class="p-footer__list">
                         <ul class="p-footer__list-left">
                             <li class="p-footer__list-leftList">
-                                <a href="#" class="p-footer__link"><span>3</span>分で分かる岩黒製作所</a>
+                                <a href="<?php echo esc_url(home_url('/about/')); ?>" class="p-footer__link"><span>3</span>分で分かる岩黒製作所</a>
                             </li>
                             <li class="p-footer__list-leftList">
                                 <a href="<?php echo esc_url(home_url('/story01/')); ?>" class="p-footer__link"><span>STORY #01</span> 岩黒製作所だからできること｡</a>
@@ -42,10 +42,10 @@
                                 <a href="#" class="p-footer__link">職種紹介</a>
                             </li>
                             <li class="p-footer__list-leftList">
-                                <a href="<?php echo esc_url(home_url('/figures')); ?>" class="p-footer__link">数字で見る岩黒製作所</a>
+                                <a href="<?php echo esc_url(home_url('/figures/')); ?>" class="p-footer__link">数字で見る岩黒製作所</a>
                             </li>
                             <li class="p-footer__list-leftList">
-                                <a href="#" class="p-footer__link">福利厚生・制度</a>
+                                <a href="<?php echo esc_url(home_url('/style/')); ?>" class="p-footer__link">福利厚生・制度</a>
                             </li>
                         </ul>
                     </li>

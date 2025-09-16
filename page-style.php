@@ -54,7 +54,7 @@
               <p class="p-benefits__number-num">01</p>
             </div>
             <p class="p-benefits__list-title">年間休日<span>122</span>日（土日完全休業）</p>
-            <p class="p-benefits__list-text">年間<span>122</span>日（※）の休日があります。転勤もなく、仕事とプライベートのメリハリをつけて働けます。※2026年 年間休日日数</p>
+            <p class="p-benefits__list-text">年間<span>122</span>日（※）の休日があります。転勤もなく、仕事とプライベートのメリハリをつけて働けます。※<span>2026</span>年 年間休日日数</p>
           </li>
           <li class="p-benefits__list">
             <div class="p-benefits__number">
@@ -62,7 +62,7 @@
               <p class="p-benefits__number-num">02</p>
             </div>
             <p class="p-benefits__list-title">決算賞与 支給あり（<span>15</span>年連続）</p>
-            <p class="p-benefits__list-text">年2回の賞与に加えて、業績に応じて期末決算賞与を支給しています。期末決算賞与は【<span>15</span>年連続】支給中です。</p>
+            <p class="p-benefits__list-text">年<span>2</span>回の賞与に加えて、業績に応じて期末決算賞与を支給しています。期末決算賞与は【<span>15</span>年連続】支給中です。</p>
           </li>
           <li class="p-benefits__list">
             <div class="p-benefits__number">
@@ -70,7 +70,7 @@
               <p class="p-benefits__number-num">03</p>
             </div>
             <p class="p-benefits__list-title">手厚い出張手当</p>
-            <p class="p-benefits__list-text">国内出張時の手当として最大1万円/泊を支給いたしております。(他社にはない手厚い出張手当は弊社のユニークな福利厚生です。)</p>
+            <p class="p-benefits__list-text">国内出張時の手当として最大<span>1</span>万円/泊を支給いたしております。(他社にはない手厚い出張手当は弊社のユニークな福利厚生です。)</p>
           </li>
           <li class="p-benefits__list">
             <div class="p-benefits__number">
