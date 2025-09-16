@@ -674,6 +674,11 @@
               </li>
               <li class="slide">
                 <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_6.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
                   <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_1.jpg" alt="" width="400" height="400">
                 </figure>
               </li>
@@ -695,6 +700,11 @@
               <li class="slide">
                 <figure class="p-slider__img">
                   <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_5.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_6.jpg" alt="" width="400" height="400">
                 </figure>
               </li>
             </ul>
@@ -726,6 +736,11 @@
               </li>
               <li class="slide">
                 <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_6.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
                   <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_1.jpg" alt="" width="400" height="400">
                 </figure>
               </li>
@@ -749,13 +764,43 @@
                   <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_5.jpg" alt="" width="400" height="400">
                 </figure>
               </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_6.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
             </ul>
           </div>
           <div class="slider-wrapper">
             <ul class="slider slider--right">
               <li class="slide">
                 <figure class="p-slider__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_6.jpg" alt="" width="400" height="400">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_7.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_8.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_9.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_10.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_11.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_12.jpg" alt="" width="400" height="400">
                 </figure>
               </li>
               <li class="slide">
@@ -785,29 +830,39 @@
               </li>
               <li class="slide">
                 <figure class="p-slider__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_6.jpg" alt="" width="400" height="400">
-                </figure>
-              </li>
-              <li class="slide">
-                <figure class="p-slider__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_7.jpg" alt="" width="400" height="400">
-                </figure>
-              </li>
-              <li class="slide">
-                <figure class="p-slider__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_8.jpg" alt="" width="400" height="400">
-                </figure>
-              </li>
-              <li class="slide">
-                <figure class="p-slider__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_9.jpg" alt="" width="400" height="400">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_12.jpg" alt="" width="400" height="400">
                 </figure>
               </li>
             </ul>
             <ul class="slider slider--right">
               <li class="slide">
                 <figure class="p-slider__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_6.jpg" alt="" width="400" height="400">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_7.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_8.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_9.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_10.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_11.jpg" alt="" width="400" height="400">
+                </figure>
+              </li>
+              <li class="slide">
+                <figure class="p-slider__img">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_12.jpg" alt="" width="400" height="400">
                 </figure>
               </li>
               <li class="slide">
@@ -837,22 +892,7 @@
               </li>
               <li class="slide">
                 <figure class="p-slider__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_6.jpg" alt="" width="400" height="400">
-                </figure>
-              </li>
-              <li class="slide">
-                <figure class="p-slider__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_7.jpg" alt="" width="400" height="400">
-                </figure>
-              </li>
-              <li class="slide">
-                <figure class="p-slider__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_8.jpg" alt="" width="400" height="400">
-                </figure>
-              </li>
-              <li class="slide">
-                <figure class="p-slider__img">
-                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_9.jpg" alt="" width="400" height="400">
+                  <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/scroll_12.jpg" alt="" width="400" height="400">
                 </figure>
               </li>
             </ul>

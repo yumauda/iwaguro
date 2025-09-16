@@ -1,0 +1,116 @@
+@use "../global" as *;
+
+.p-interview-card {
+  padding: rem(25) rem(20);
+  display: block;
+  background: $white;
+  position: relative;
+  @include mq(md){
+    padding: rem(40) rem(45);
+  }
+}
+
+.p-interview-card__num-wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  left: rem(10);
+  top: rem(11);
+  @include mq(md){
+    left: rem(15);
+    top: rem(15);
+  }
+}
+
+.p-interview-card__no {
+  font-weight: 500;
+  color: $black;
+  letter-spacing: 0.14em;
+  font-family: $second-font-family;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: rem(8);
+  font-size: rem(13);
+  @include mq(md) {
+    font-size: rem(16);
+  }
+}
+
+.p-interview-card__num {
+  font-weight: 500;
+  color: $black;
+  letter-spacing: 0.14em;
+  font-family: $second-font-family;
+  font-size: rem(24);
+  @include mq(md) {
+    font-size: rem(30);
+  }
+}
+
+.p-interview-card__img {
+  
+}
+
+.p-interview-card__img img {
+  width: 100%;
+  height: auto;
+}
+
+.p-interview-card__body {
+  margin-top: rem(-5);
+  @include mq(md){
+    margin-top: 0;
+  }
+}
+
+.p-interview-card__name {
+  font-weight: 700;
+  line-height: 1.0;
+  letter-spacing: 0.04em;
+  color: $black;
+  font-family: $second-font-family;
+  text-transform: uppercase;
+  font-size: rem(16);
+  @include mq(md) {
+    font-size: rem(24);
+  }
+}
+
+.p-interview-card__text {
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: $black;
+  font-weight: 700;
+  font-size: rem(15);
+  margin-top: rem(10);
+  @include mq(md) {
+    font-size: rem(17);
+    margin-top: rem(11);
+  }
+}
+
+.p-interview-card__tag-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: rem(14);
+  gap: rem(10);
+  @include mq(md) {
+    column-gap: rem(15);
+    row-gap: rem(10);
+    margin-top: rem(17);
+  }
+}
+
+.p-interview-card__tag {
+  font-weight: 500;
+  color: $black;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  font-size: rem(10);
+  @include mq(md) {
+    font-size: rem(12);
+  }
+}

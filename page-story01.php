@@ -226,7 +226,7 @@
               <p class="p-project__text">従来は1列でも不良品が出ると全列を排出していましたが、独自開発のサーボモータシステムにより各列個別制御が可能に。生産効率と資材コストの両面で貢献するスマートな集積システムへ進化させました。</p>
             </div>
             <figure class="p-project__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/project_img1.jpg" alt="世界最速！革新的な包装マシンを共同開発" width="480" height="350">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/project_img2.jpg" alt="ムダな廃棄を大幅に減らすことに成功" width="480" height="350">
             </figure>
           </div>
           <div class="p-project__block">
@@ -237,7 +237,7 @@
                 センサーがフィルムの目印を読み取り、季節の温湿度変化で生じるフィルムの伸縮も自動補正します。誰でも扱いやすい包装ラインを実現しました。</p>
             </div>
             <figure class="p-project__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/project_img1.jpg" alt="世界最速！革新的な包装マシンを共同開発" width="480" height="350">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/project_img3.jpg" alt="自動化で品質の安定化と作業効率を向上" width="480" height="350">
             </figure>
           </div>
         </div>

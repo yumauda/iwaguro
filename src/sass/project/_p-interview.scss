@@ -1,0 +1,77 @@
+@use "../global" as *;
+
+.p-interview {
+  padding-top: rem(40);
+  @include mq(md){
+    padding-top: rem(48);
+  }
+}
+
+.p-interview__top {
+  padding: rem(30) 0;
+  background: linear-gradient(99deg, #dff3ff 0%, #e5edff 100%);
+  @include mq(md){
+    padding: rem(62) 0 rem(60);
+  }
+}
+
+.p-interview__inner {
+  @include mq(md){
+    max-width: rem(1150)
+  }
+}
+
+.p-interview__top > .p-interview__inner {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: rem(14);
+  @include mq(md){
+    row-gap: rem(12);
+  }
+}
+
+.p-interview__read {
+  font-size: rem(15);
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  @include mq(md){
+    font-size: rem(18);
+  }
+}
+
+.p-interview__read.u-font-bold {
+  font-size: rem(18);
+  font-weight: 700;
+  @include mq(md){
+    font-size: rem(20);
+  }
+}
+
+.p-interview__bottom {
+  padding-top: rem(60);
+  padding-bottom: rem(70);
+  background: $bg-gray;
+  @include mq(md){
+    padding-top: rem(80);
+    padding-bottom: rem(100);
+  }
+}
+
+.p-interview__list {
+  width: calc(260 / 335 * 100%);
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: rem(36);
+  @include mq(md){
+    width: 100%;
+    margin-inline: 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem(25);
+  }
+}
+
+.p-interview__item {
+
+}
