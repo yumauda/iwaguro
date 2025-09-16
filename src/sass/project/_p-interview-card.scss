@@ -61,8 +61,10 @@
 
 .p-interview-card__body {
   margin-top: rem(-5);
+  // padding-left: rem(8);
   @include mq(md){
     margin-top: 0;
+    // padding-left: 0;
   }
 }
 

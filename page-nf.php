@@ -173,7 +173,7 @@ Template Name: インタビュー NF
                 <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img4.png" alt="" width="300" height="380">
               </figure>
               <div class="p-question__white">
-                <p class="p-question__white-text">岩黒製作所は、<span>他ではなかなか見られないような機械を設計・製造</span>しているので、モノづくりに興味がある人や、機械好きな人にはとてもやりがいのある職場だと思います。専門的な知識よりも、<span>やってみたい、挑戦</span>したい という気持ちがあれば、どんどん成長できます。
+                <p class="p-question__white-text">岩黒製作所は、<span>他ではなかなか見られないような機械を設計・製造</span>しているので、モノづくりに興味がある人や、機械好きな人にはとてもやりがいのある職場だと思います。専門的な知識よりも、<span>やってみたい、挑戦したい</span>という気持ちがあれば、どんどん成長できます。
 面白そうだなと思った方は、会社見学会も行っているのでぜひ！先輩社員に話を聞いたり、会社の雰囲気を肌で感じ、自分に合うかどうかを体験しに来てみてください！</p>
               </div>
             </div>

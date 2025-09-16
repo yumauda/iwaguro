@@ -5667,7 +5667,7 @@ input::placeholder {
 
 /* スライド3枚のグループ */
 .slider {
-  animation: scroll-left 60s infinite linear 0.5s both;
+  animation: scroll-left 110s infinite linear 0.5s both;
   display: flex; /* スライド3枚を横並び */
   gap: 1.25rem;
 }
@@ -5678,7 +5678,7 @@ input::placeholder {
 }
 
 .slider--right {
-  animation: scroll-right 60s infinite linear 0.5s both;
+  animation: scroll-right 110s infinite linear 0.5s both;
 }
 
 /* スライド */
@@ -6659,8 +6659,13 @@ input::placeholder {
   .p-top-interview__slider-card {
     padding-top: 0.9375rem;
     padding-left: 0.9375rem;
-    padding-right: 2.8125rem;
+    padding-right: 1.875rem;
     padding-bottom: 2.5625rem;
+  }
+}
+@media screen and (min-width: 768px) and (width <= 860px) {
+  .p-top-interview__slider-card {
+    padding-right: 1.25rem;
   }
 }
 
@@ -6687,7 +6692,7 @@ input::placeholder {
 }
 @media screen and (min-width: 768px) {
   .p-top-interview__slider-detail {
-    padding-left: 1.875rem;
+    padding-left: 0.625rem;
   }
 }
 

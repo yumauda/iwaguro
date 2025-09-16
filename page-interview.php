@@ -147,9 +147,9 @@ Template Name: インタビュー MT
           </li>
           <li class="p-interview__item">
             <a href="<?php echo home_url('/interview/interview_nf'); ?>" class="p-interview-card">
-              <div class="p-top-interview__num-wrapper">
-                <p class="p-top-interview__no">no.</p>
-                <p class="p-top-interview__num">04</p>
+              <div class="p-interview-card__num-wrapper">
+                <p class="p-interview-card__no">no.</p>
+                <p class="p-interview-card__num">04</p>
               </div>
               <figure class="p-interview-card__img">
                 <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img4.png" alt="" width="270" height="270">
@@ -172,9 +172,9 @@ Template Name: インタビュー MT
 </li>
           <li class="p-interview__item">
             <a href="<?php echo home_url('/interview/interview_rn'); ?>" class="p-interview-card">
-              <div class="p-top-interview__num-wrapper">
-                <p class="p-top-interview__no">no.</p>
-                <p class="p-top-interview__num">05</p>
+              <div class="p-interview-card__num-wrapper">
+                <p class="p-interview-card__no">no.</p>
+                <p class="p-interview-card__num">05</p>
               </div>
               <figure class="p-interview-card__img">
                 <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/interview_img5.png" alt="" width="270" height="270">

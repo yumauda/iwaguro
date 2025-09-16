@@ -95,8 +95,11 @@
   @include mq(md) {
     padding-top: rem(15);
     padding-left: rem(15);
-    padding-right: rem(45);
+    padding-right: rem(30);
     padding-bottom: rem(41);
+    @media (width <= 860px) {
+      padding-right: rem(20);
+    }
   }
 }
 
@@ -118,7 +121,7 @@
   padding-top: rem(5);
   padding-left: rem(18);
   @include mq(md) {
-    padding-left: rem(30);
+    padding-left: rem(10);
   }
 }
 
