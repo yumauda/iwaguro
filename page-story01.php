@@ -30,7 +30,7 @@
           <div class="p-page-mv__text-wrapper">
             <p class="p-page-mv__text">
               私たちの機械づくりの原点は、お客さまの声にあります。<br>
-              医療・製薬業界の現場で、本当に必要とされる唯一無二の機械を生み出す。想いを受けとめ、確かなカタチにすること。それが私たちの使命です。
+              医療・製薬業界の現場で本当に必要とされる唯一無二の機械を生み出す。想いを受けとめ、確かなカタチにすること。それが私たちの使命です。
             </p>
           </div>
         </div>
@@ -212,7 +212,7 @@
             <div class="p-project__block-detail">
               <p class="p-project__block-title">世界最速！革新的な<br class="u-mobile">包装マシンを共同開発</p>
               <p class="p-project__middle">「充填･包装･カット･集積」の一連動作を電子制御により最適化！</p>
-              <p class="p-project__text">標準速度の約5倍となる驚異の分速<span>330</span>ショットを実現。<br class="u-desktop">
+              <p class="p-project__text">標準速度の約<span>5</span>倍となる驚異の分速<span>330</span>ショットを実現。<br class="u-desktop">
                 高速化しても極力不良品を出さない補正制御プログラムなど革新的な技術を多数採用し、稼働の安定性と高度な生産処理能力を両立しました。</p>
             </div>
             <figure class="p-project__img">
