@@ -91,7 +91,7 @@
   padding-top: rem(12);
   padding-bottom: rem(25);
   padding-left: rem(12);
-  padding-right: rem(20);
+  padding-right: rem(12);
   @include mq(md) {
     padding-top: rem(15);
     padding-left: rem(15);
@@ -119,7 +119,7 @@
 
 .p-top-interview__slider-detail {
   padding-top: rem(5);
-  padding-left: rem(18);
+  padding-left: rem(14);
   @include mq(md) {
     padding-left: rem(10);
   }

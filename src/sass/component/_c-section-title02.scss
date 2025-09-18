@@ -1,0 +1,49 @@
+@use "../global" as *;
+
+.c-section-title02 {
+  display: flex;
+  flex-direction: column;
+  gap: rem(18);
+  @include mq(md){
+    flex-direction: row;
+    align-items: center;
+    gap: rem(37);
+  }
+}
+
+.c-section-title02__sub {
+  font-size: rem(68);
+  line-height: 1;
+  letter-spacing: 0.04em;
+  font-family: $second-font-family;
+  font-weight: 600;
+  @include mq(md){
+    font-size: rem(80);
+  }
+}
+
+.c-section-title02__main {
+  padding-left: rem(23);
+  font-size: rem(16);
+  line-height: 1;
+  font-weight: 700;
+  position: relative;
+  @include mq(md){
+    font-size: rem(16);
+  }
+}
+
+.c-section-title02__main::before {
+  content: "";
+  width: rem(14);
+  height: 1px;
+  background: $black;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  @include mq(md){
+    
+  }
+}

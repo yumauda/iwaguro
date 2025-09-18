@@ -158,7 +158,7 @@
                       </p>
                       <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
                         思い通りに動いた瞬間、<br>
-                        モノづくりの醍醐味を感じる。</p>
+                        モノづくりの醍醐味を感じる｡</p>
                       <div class="p-top-interview__tag-wrapper">
                         <span class="p-top-interview__tag">#制御設計</span>
                         <span class="p-top-interview__tag">#キャリア入社</span>
@@ -184,7 +184,7 @@
                       </p>
                       <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
                         思い通りに動いた瞬間、<br>
-                        モノづくりの醍醐味を感じる。</p>
+                        モノづくりの醍醐味を感じる｡</p>
                       <div class="p-top-interview__tag-wrapper">
                         <span class="p-top-interview__tag">#制御設計</span>
                         <span class="p-top-interview__tag">#キャリア入社</span>
@@ -210,7 +210,7 @@
                       </p>
                       <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
                         思い通りに動いた瞬間、<br>
-                        モノづくりの醍醐味を感じる。</p>
+                        モノづくりの醍醐味を感じる｡</p>
                       <div class="p-top-interview__tag-wrapper">
                         <span class="p-top-interview__tag">#制御設計</span>
                         <span class="p-top-interview__tag">#キャリア入社</span>
@@ -236,7 +236,7 @@
                       </p>
                       <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
                         思い通りに動いた瞬間、<br>
-                        モノづくりの醍醐味を感じる。</p>
+                        モノづくりの醍醐味を感じる｡</p>
                       <div class="p-top-interview__tag-wrapper">
                         <span class="p-top-interview__tag">#制御設計</span>
                         <span class="p-top-interview__tag">#キャリア入社</span>
@@ -262,7 +262,7 @@
                       </p>
                       <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
                         思い通りに動いた瞬間、<br>
-                        モノづくりの醍醐味を感じる。</p>
+                        モノづくりの醍醐味を感じる｡</p>
                       <div class="p-top-interview__tag-wrapper">
                         <span class="p-top-interview__tag">#制御設計</span>
                         <span class="p-top-interview__tag">#キャリア入社</span>

@@ -1,0 +1,158 @@
+@use "../global" as *;
+
+.p-grad-faq {
+  padding-top: rem(70);
+  padding-bottom: rem(70);
+  @include mq(md){
+    padding-top: rem(100);
+    padding-bottom: rem(99);
+  }
+}
+
+.p-grad-faq__inner {
+  @include mq(md){
+    max-width: rem(1150);
+  }
+}
+
+.p-grad-faq__title {
+
+}
+
+.p-grad-faq__wrap {
+  margin-top: rem(42);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: rem(40);
+  @include mq(md){
+    margin-top: rem(60);
+    row-gap: rem(80);
+  }
+}
+
+.p-grad-faq__container {
+
+}
+
+.p-grad-faq__subtitle {
+  font-size: rem(20);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  @include mq(md){
+    font-size: rem(28);
+  }
+}
+
+.p-grad-faq__list {
+  margin-top: rem(24);
+  border-top: 1px solid #413C37;
+  @include mq(md){
+    margin-top: rem(24);
+  }
+}
+
+.p-grad-faq__item {
+  border-bottom: 1px solid #413C37;
+}
+
+.p-grad-faq__item-head {
+  padding: rem(31) rem(48) rem(31) rem(20);
+  display: flex;
+  align-items: center;
+  gap: rem(10);
+  background: $bg-gray;
+  position: relative;
+  @include mq(md){
+    padding: rem(27) rem(88) rem(27) rem(40);
+    gap: rem(24);
+    cursor: pointer;
+  }
+}
+
+.p-grad-faq__item-head::before {
+  content: "";
+  width: rem(18);
+  height: 3px;
+  background: linear-gradient(45deg, #0087C1 , #033FC2 100%);
+  border-radius: 14.86px;
+  position: absolute;
+  top: 50%;
+  right: rem(20);
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  @include mq(md){
+    width: rem(24);
+    right: rem(40);
+  }
+}
+
+.p-grad-faq__item-head::after {
+  content: "";
+  width: 3px;
+  height: rem(18);
+  background: linear-gradient(135deg, #0087C1 , #033FC2 100%);
+  border-radius: 14.86px;
+  position: absolute;
+  top: 50%;
+  right: rem(27);
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transition: .3s ease;
+  @include mq(md){
+    height: rem(24);
+    background: linear-gradient(45deg, #033FC2 , #0087C1 100%);
+    right: rem(50);
+    transform: translate(0, -50%);
+  }
+}
+
+.p-grad-faq__item-head.is-open::after {
+  transform: translate(0, -50%) rotate(0deg);
+  -webkit-transform: translate(0, -50%) rotate(90deg);
+}
+
+.p-grad-faq__item-q {
+  display: block;
+  font-size: rem(26);
+  line-height: 1;
+  letter-spacing: 0.04em;
+  font-family: $second-font-family;
+  font-weight: 600;
+  @include mq(md){
+    font-size: rem(36);
+  }
+}
+
+.p-grad-faq__item-question {
+  font-size: rem(15);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  @include mq(md){
+    font-size: rem(16);
+  }
+}
+
+.p-grad-faq__item-body {
+  padding: rem(22) rem(50);
+  background: $white;
+  @include mq(md){
+    padding: rem(40) rem(88) rem(40) rem(94);
+  }
+}
+
+.p-grad-faq__item-answer {
+  font-size: rem(15);
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  @include mq(md){
+    font-size: rem(16);
+    line-height: 1.5;
+  }
+}
+
+.p-grad-faq__item-answer:nth-child(n+2) {
+  margin-top: rem(15);
+}

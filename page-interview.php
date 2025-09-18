@@ -84,7 +84,7 @@ Template Name: インタビュー MT
                 </p>
                 <p class="p-interview-card__text">挑戦するから実現できる。<br>
                   思い通りに動いた瞬間、<br>
-                  モノづくりの醍醐味を感じる。</p>
+                  モノづくりの醍醐味を感じる｡</p>
                 <div class="p-interview-card__tag-wrapper">
                   <span class="p-interview-card__tag">#制御設計</span>
                   <span class="p-interview-card__tag">#キャリア入社</span>

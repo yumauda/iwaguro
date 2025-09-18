@@ -32,6 +32,7 @@
 @use "./component/c-page-en";
 @use "./component/c-page-ja";
 @use "./component/c-section-title";
+@use "./component/c-section-title02";
 @use "./component/c-text-gradation";
 
 // ===========================
@@ -48,6 +49,10 @@
 @use "./project/p-footer";
 @use "./project/p-form";
 @use "./project/p-gradation";
+@use "./project/p-grad-cta";
+@use "./project/p-grad-faq";
+@use "./project/p-grad-flow";
+@use "./project/p-grad-recruitment";
 @use "./project/p-header";
 @use "./project/p-hear";
 @use "./project/p-home-topics";

@@ -376,3 +376,12 @@ function closePanel(li, trigger, panel) {
     panel.style.maxHeight = "0px";
   });
 }
+
+jQuery(document).ready(function($){
+  $(".js-faq-head").on("click", function(){
+    var $item = $(this).closest(".p-grad-faq__item");
+    var $body = $item.find(".js-faq-body");
+    $body.slideToggle(300);
+    $(this).toggleClass("is-open");
+  });
+});
