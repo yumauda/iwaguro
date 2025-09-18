@@ -3372,6 +3372,20 @@ input::placeholder {
   }
 }
 
+.p-grad-flow__attention {
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .p-grad-flow__attention {
+    margin-top: 3.875rem;
+    font-size: 1rem;
+  }
+}
+
 .p-grad-recruitment {
   padding-top: 2.625rem;
   padding-bottom: 4.375rem;
@@ -3458,6 +3472,12 @@ a.p-grad-recruitment__head-item {
 @media screen and (min-width: 768px) {
   a.p-grad-recruitment__head-item {
     border-bottom: 1px solid #000;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  div.p-grad-recruitment__head-item {
+    border-left: 1px solid #000;
   }
 }
 

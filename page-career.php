@@ -33,12 +33,12 @@
     </div>
   </section>
 
-  <section class="p-grad-recruitment graduate">
+  <section class="p-grad-recruitment career">
     <div class="p-grad-recruitment__inner l-inner">
       <div class="p-grad-recruitment__head">
         <div class="p-grad-recruitment__head-list">
-          <div class="p-grad-recruitment__head-item">新 卒</div>
-          <a href="<?php echo esc_url(home_url('/career/')); ?>" class="p-grad-recruitment__head-item">キャリア</a>
+          <a href="<?php echo esc_url(home_url('/graduate/')); ?>" class="p-grad-recruitment__head-item">新 卒</a>
+          <div class="p-grad-recruitment__head-item">キャリア</div>
         </div>
       </div>
       <div class="p-grad-recruitment__body">
@@ -87,21 +87,11 @@
           </li>
           <li class="p-grad-recruitment__item">
             <div class="p-grad-recruitment__item-top">
-              <p class="p-grad-recruitment__item-term">募集対象</p>
+              <p class="p-grad-recruitment__item-term">給与</p>
             </div>
             <div class="p-grad-recruitment__item-bottom">
               <div class="p-grad-recruitment__item-wrap">
-                <p class="p-grad-recruitment__item-text">全学部全学科</p>
-              </div>
-            </div>
-          </li>
-          <li class="p-grad-recruitment__item">
-            <div class="p-grad-recruitment__item-top">
-              <p class="p-grad-recruitment__item-term">初任給</p>
-            </div>
-            <div class="p-grad-recruitment__item-bottom">
-              <div class="p-grad-recruitment__item-wrap">
-                <p class="p-grad-recruitment__item-text">月給　学部卒　<span class="u-font-outfit">220,000</span>円　<br class="u-mobile">※諸手当を含む</p>
+                <p class="p-grad-recruitment__item-text">当社規定による (経験・年齢・能力等を考慮します)</p>
               </div>
             </div>
           </li>
@@ -220,64 +210,54 @@
           <div class="p-grad-flow__item-head">
             <span class="p-grad-flow__item-number">01</span>
             <figure class="p-grad-flow__item-img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/graduate/icon_entry.png" alt="" width="80" height="80">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/graduate/icon_entry.png" alt="フォームよりエントリー" width="80" height="80">
             </figure>
           </div>
           <div class="p-grad-flow__item-body">
-            <h3 class="p-grad-flow__item-title">マイナビより<br class="u-desktop">エントリー</h3>
-            <p class="p-grad-flow__item-text">エントリーシートと<br class="u-desktop">成績証明書のご提出を<br class="u-desktop">お願いしています</p>
+            <h3 class="p-grad-flow__item-title">フォームより<br class="u-desktop">エントリー</h3>
           </div>
         </li>
         <li class="p-grad-flow__item">
           <div class="p-grad-flow__item-head">
             <span class="p-grad-flow__item-number">02</span>
             <figure class="p-grad-flow__item-img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/graduate/icon_explanation.png" alt="" width="80" height="80">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/graduate/icon_selection_01.png" alt="1次選考" width="80" height="80">
             </figure>
           </div>
           <div class="p-grad-flow__item-body">
-            <h3 class="p-grad-flow__item-title">会社説明会・<br>
-            工場見学に参加</h3>
-            <p class="p-grad-flow__item-text">気になることがあれば<br class="u-desktop">なんでも<br class="u-desktop">ご質問ください！</p>
+            <h3 class="p-grad-flow__item-title">1次選考</h3>
+            <p class="p-grad-flow__item-text">面接を行います<br>
+            ※対面、WEB<br class="u-desktop">どちらも可能です</p>
           </div>
         </li>
         <li class="p-grad-flow__item">
           <div class="p-grad-flow__item-head">
             <span class="p-grad-flow__item-number">03</span>
             <figure class="p-grad-flow__item-img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/graduate/icon_selection_01.png" alt="1次選考" width="80" height="80">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/graduate/icon_selection_02.png" alt="最終選考" width="80" height="80">
             </figure>
           </div>
           <div class="p-grad-flow__item-body">
-            <h3 class="p-grad-flow__item-title">1次選考</h3>
-            <p class="p-grad-flow__item-text">対面にて<br class="u-desktop">面接を実施します</p>
+            <h3 class="p-grad-flow__item-title">最終選考</h3>
+            <p class="p-grad-flow__item-text">面接を行います<br>
+            ※ご来社いただき<br class="u-desktop">対面で行います</p>
           </div>
         </li>
         <li class="p-grad-flow__item">
           <div class="p-grad-flow__item-head">
             <span class="p-grad-flow__item-number">04</span>
             <figure class="p-grad-flow__item-img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/graduate/icon_selection_02.png" alt="" width="80" height="80">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/graduate/icon_offer.png" alt="内定" width="80" height="80">
             </figure>
           </div>
           <div class="p-grad-flow__item-body">
-            <h3 class="p-grad-flow__item-title">最終選考</h3>
-            <p class="p-grad-flow__item-text">対面にて<br class="u-desktop">面接を実施します</p>
-          </div>
-        </li>
-        <li class="p-grad-flow__item">
-          <div class="p-grad-flow__item-head">
-            <span class="p-grad-flow__item-number">05</span>
-            <figure class="p-grad-flow__item-img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/graduate/icon_offer.png" alt="内々定" width="80" height="80">
-            </figure>
-          </div>
-          <div class="p-grad-flow__item-body">
-            <h3 class="p-grad-flow__item-title">内々定</h3>
-            <p class="p-grad-flow__item-text">最終選考後、弊社からご連絡します</p>
+            <h3 class="p-grad-flow__item-title">内定</h3>
+            <p class="p-grad-flow__item-text">1週間を目安に<br>
+            弊社から<br class="u-desktop">ご連絡します</p>
           </div>
         </li>
       </ul>
+      <p class="p-grad-flow__attention">※選考前の工場見学をご希望の方は、個別に調整をさせていただきます。</p>
     </div>
   </section>
 

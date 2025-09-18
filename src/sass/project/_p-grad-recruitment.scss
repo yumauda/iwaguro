@@ -79,6 +79,12 @@ a.p-grad-recruitment__head-item {
   }
 }
 
+div.p-grad-recruitment__head-item {
+  @include mq(md){
+    border-left: 1px solid #000;
+  }
+}
+
 .p-grad-recruitment__body {
   margin-top: rem(38);
   @include mq(md){
