@@ -17,12 +17,12 @@
 .p-page-mv__content--story03 {
   gap: initial;
 }
-.p-page-mv__content--graduate {
-  @include mq(md){
-    max-width: rem(1100);
-    margin-inline: auto;
-  }
-}
+// .p-page-mv__content--graduate {
+//   @include mq(md){
+//     max-width: rem(1100);
+//     margin-inline: auto;
+//   }
+// }
 .p-page-mv__detail {
   max-width: rem(564);
   width: 100%;

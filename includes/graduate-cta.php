@@ -11,7 +11,7 @@
         <p class="p-grad-cta__read">新卒採用 に<br>
         エントリーする！</p>
         <div class="p-grad-cta__btn">
-          <a href="" target="_blank" class="c-btn">
+          <a href="https://job.mynavi.jp/27/pc/search/corp267521/outline.html" target="_blank" class="c-btn">
             <p class="c-btn__text">マイナビサイトへ</p>
             <span class="c-btn__arrow">
               <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +25,7 @@
         <p class="p-grad-cta__read">キャリア採用 に<br>
         エントリーする！</p>
         <div class="p-grad-cta__btn">
-          <a href="" class="c-btn">
+          <a href="<?php echo esc_url(home_url('/entry/')); ?>" class="c-btn">
             <p class="c-btn__text">エントリーフォームへ</p>
             <span class="c-btn__arrow">
               <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -3186,12 +3186,17 @@ input::placeholder {
 @media screen and (min-width: 768px) {
   .p-grad-faq__item-answer {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.8;
   }
 }
 
 .p-grad-faq__item-answer:nth-child(n+2) {
   margin-top: 0.9375rem;
+}
+
+.p-grad-faq__item-answer a {
+  display: inline-block;
+  text-decoration: underline;
 }
 
 .p-grad-flow {
@@ -3392,7 +3397,7 @@ input::placeholder {
 }
 @media screen and (min-width: 768px) {
   .p-grad-recruitment {
-    padding-top: 6.625rem;
+    padding-top: 3.75rem;
     padding-bottom: 6.25rem;
   }
 }
@@ -3458,7 +3463,7 @@ input::placeholder {
   .p-grad-recruitment__head-item {
     width: 49.0909090909%;
     padding: 0.8125rem 0 0.9375rem;
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     border-left: none;
   }
 }
@@ -3529,7 +3534,7 @@ a.p-grad-recruitment__head-item {
 
 .p-grad-recruitment__item-bottom {
   width: 74.6268656716%;
-  padding: 1.3125rem 0.5rem 1.3125rem 0.9375rem;
+  padding: 1.3125rem 0 1.3125rem 0.9375rem;
 }
 @media screen and (min-width: 768px) {
   .p-grad-recruitment__item-bottom {
@@ -5143,13 +5148,6 @@ a.p-grad-recruitment__head-item {
 
 .p-page-mv__content--story03 {
   gap: initial;
-}
-
-@media screen and (min-width: 768px) {
-  .p-page-mv__content--graduate {
-    max-width: 68.75rem;
-    margin-inline: auto;
-  }
 }
 
 .p-page-mv__detail {

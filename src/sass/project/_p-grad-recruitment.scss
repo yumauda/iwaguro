@@ -4,7 +4,7 @@
   padding-top: rem(42);
   padding-bottom: rem(70);
   @include mq(md){
-    padding-top: rem(106);
+    padding-top: rem(60);
     padding-bottom: rem(100);
   }
 }
@@ -64,7 +64,7 @@
   @include mq(md){
     width: calc(540 / 1100 * 100%);
     padding: rem(13) 0 rem(15);
-    font-size: rem(24);
+    font-size: rem(22);
     border-left: none;
   }
 }
@@ -128,7 +128,7 @@ div.p-grad-recruitment__head-item {
 
 .p-grad-recruitment__item-bottom {
   width: calc(250 / 335 * 100%);
-  padding: rem(21) rem(8) rem(21) rem(15);
+  padding: rem(21) 0 rem(21) rem(15);
   @include mq(md){
     width: calc(900 / 1100 * 100%);
     padding: rem(24) rem(40);

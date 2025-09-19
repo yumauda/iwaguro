@@ -25,7 +25,7 @@
           </div>
           <div class="p-page-mv__text-wrapper">
             <p class="p-page-mv__text">
-              募集職種や要項、採用の流れ、よくあるご質問を掲載しています。皆さまのご応募をお待ちしています！
+              募集要項、採用の流れ、よくあるご質問を掲載しています。皆さまのご応募をお待ちしています！
             </p>
           </div>
         </div>
@@ -169,7 +169,7 @@
                 <dl>
                   <dt>[休日]</dt>
                   <dd>年間<span class="u-font-outfit">122</span>日 (有給休暇の計画的付与<span class="u-font-outfit">2</span>日を含む)<br>
-                  土日完全週休2<span class="u-font-outfit">2</span>日制</dd>
+                  土日完全休業</dd>
                 </dl>
                 <dl>
                   <dt>[休暇]</dt>
@@ -186,13 +186,13 @@
               <div class="p-grad-recruitment__item-wrap">
                 <ul class="p-grad-recruitment__item-subList">
                   <li class="p-grad-recruitment__item-subItem">健康保険、厚生年金保険、雇用保険、労災保険</li>
-                  <li class="p-grad-recruitment__item-subItem">昼食代 <span class="p-grad-recruitment__item--sm">※お弁</span>当 (一部補助)</li>
+                  <li class="p-grad-recruitment__item-subItem">昼食代 <span class="p-grad-recruitment__item--sm">※お弁当</span> (一部補助)</li>
                   <li class="p-grad-recruitment__item-subItem">出張手当 (<span class="u-font-outfit">5</span>千円/泊)</li>
                   <li class="p-grad-recruitment__item-subItem">人間ドック受診料補助</li>
-                  <li class="p-grad-recruitment__item-subItem">手厚い保険サポート（会社負担）</li>
+                  <li class="p-grad-recruitment__item-subItem">手厚い保険サポート(会社負担)</li>
                   <li class="p-grad-recruitment__item-subItem">資格取得支援制度あり</li>
                   <li class="p-grad-recruitment__item-subItem">社員旅行 (一部費用補助)</li>
-                  <li class="p-grad-recruitment__item-subItem">社員預金制度あり <br class="u-mobile">(最大<span class="u-font-outfit">500</span>万円まで年利<span class="u-font-outfit">3</span>％で運用可)</li>
+                  <li class="p-grad-recruitment__item-subItem">社員預金制度あり (最大<span class="u-font-outfit">500</span>万円まで年利<span class="u-font-outfit">3</span>％で運用可)</li>
                   <li class="p-grad-recruitment__item-subItem">退職一時金、企業型DC、中小企業退職金共済制度あり</li>
                   <li class="p-grad-recruitment__item-subItem">制服貸与あり　等</li>
                 </ul>
@@ -249,7 +249,7 @@
             </figure>
           </div>
           <div class="p-grad-flow__item-body">
-            <h3 class="p-grad-flow__item-title">1次選考</h3>
+            <h3 class="p-grad-flow__item-title"><span class="u-font-outfit">1</span>次選考</h3>
             <p class="p-grad-flow__item-text">対面にて<br class="u-desktop">面接を実施します</p>
           </div>
         </li>
