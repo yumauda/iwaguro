@@ -166,7 +166,7 @@
 .p-top-interview__tag {
   font-weight: 500;
   color: $black;
-  letter-spacing: 0.04em;
+  letter-spacing: 0;
   line-height: 1;
   font-size: rem(10);
   @include mq(md) {

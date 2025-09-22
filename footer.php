@@ -68,13 +68,13 @@
                 </ul>
             </div>
             <div class="p-footer__out">
-                <a href="#" class="p-footer__out-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.iwakuro.co.jp/" class="p-footer__out-link" target="_blank" rel="noopener noreferrer">
                     <p class="p-footer__out-text">コーポレートサイト</p>
                     <span class="p-footer__icon">
                         <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/out_link.svg" alt="" width="11" height="11">
                     </span>
                 </a>
-                <a href="#" class="p-footer__out-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.iwakuro.co.jp/privacy-policy/" class="p-footer__out-link" target="_blank" rel="noopener noreferrer">
                     <p class="p-footer__out-text">プライバシーポリシー</p>
                     <span class="p-footer__icon">
                         <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/out_link.svg" alt="" width="11" height="11">

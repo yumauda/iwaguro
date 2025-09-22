@@ -252,34 +252,8 @@ function remove_title_tag()
 add_action('init', 'remove_title_tag');
 
 
-// 管理画面上「投稿」の名前変更
-function Change_menulabel()
-{
-	global $menu;
-	global $submenu;
-	$name = 'お知らせ';
-	$menu[5][0] = $name;
-	$submenu['edit.php'][5][0] = $name . '一覧';
-	$submenu['edit.php'][10][0] = '新しい' . $name;
-}
-function Change_objectlabel()
-{
-	global $wp_post_types;
-	$name = 'お知らせ';
-	$labels = &$wp_post_types['post']->labels;
-	$labels->name = $name;
-	$labels->singular_name = $name;
-	$labels->add_new = _x('追加', $name);
-	$labels->add_new_item = $name . 'の新規追加';
-	$labels->edit_item = $name . 'の編集';
-	$labels->new_item = '新規' . $name;
-	$labels->view_item = $name . 'を表示';
-	$labels->search_items = $name . 'を検索';
-	$labels->not_found = $name . 'が見つかりませんでした';
-	$labels->not_found_in_trash = 'ゴミ箱に' . $name . 'は見つかりませんでした';
-}
-add_action('init', 'Change_objectlabel');
-add_action('admin_menu', 'Change_menulabel');
+
+
 
 //ログイン画面のロゴ変更
 function login_logo()
@@ -392,3 +366,96 @@ add_filter('body_class', function ($classes) {
 	}
 	return $classes;
 });
+
+
+
+
+
+
+/* ---------- 「投稿」に関する表示を「お知らせ」に変更 ---------- */
+function post_has_archive( $args, $post_type ) {
+	if ( 'post' == $post_type ) {
+		$args['rewrite'] = true;
+		$args['has_archive'] = 'news'; //任意のスラッグ名　←アーカイブページを有効に
+		$args['label'] = 'お知らせ'; //管理画面左ナビに「投稿」の代わりに表示される
+		}
+		return $args;
+}
+add_filter( 'register_post_type_args', 'post_has_archive', 10, 2 );
+
+
+
+
+/* ---------- 投稿の「カテゴリー」と「タグ」の非表示 ---------- */
+function my_unregister_taxonomies() {
+  global $wp_taxonomies;
+  // 「カテゴリー」の非表示
+  // if (!empty($wp_taxonomies['category']->object_type)) {
+  //   foreach ($wp_taxonomies['category']->object_type as $i => $object_type) {
+  //     if ($object_type == 'post') {
+  //       unset($wp_taxonomies['category']->object_type[$i]);
+  //     }
+  //   }
+  // }
+  // 「タグ」の非表示
+  if (!empty($wp_taxonomies['post_tag']->object_type)) {
+    foreach ($wp_taxonomies['post_tag']->object_type as $i => $object_type) {
+      if ($object_type == 'post') {
+        unset($wp_taxonomies['post_tag']->object_type[$i]);
+      }
+    }
+  }
+  return true;
+}
+add_action('init', 'my_unregister_taxonomies');
+
+
+// 「投稿」詳細ページのURLの構造を変更する ドメイン/news/記事パーマリンク(スラッグ)/ へ
+add_filter( 'post_type_archive_link', function( $link, $post_type ) {
+	if ( 'post' === $post_type ) {
+	$post_type_object = get_post_type_object( 'post' );
+	$slug = $post_type_object->has_archive;
+	$link = get_home_url( null, '/' . $slug . '/' );
+	}
+	return $link;
+ }, 10, 2 );
+ function add_article_post_permalink( $permalink ) {
+ $permalink = '/news' . $permalink; //「news」は任意のものに変えて下さい。
+	return $permalink;
+ }
+ add_filter( 'pre_post_link', 'add_article_post_permalink' );
+ function add_article_post_rewrite_rules( $post_rewrite ) {
+	$return_rule = array();
+	foreach ( $post_rewrite as $regex => $rewrite ) {
+	$return_rule['news/' . $regex] = $rewrite; //「news」は任意のものに変えて下さい。
+	}
+ return $return_rule;
+ }
+ add_filter( 'post_rewrite_rules', 'add_article_post_rewrite_rules' );
+
+
+/*--------------------------------------------------
+ * 投稿タイプごとに異なるアーカイブの表示件数を指定
+ * 参考：https://webcreatetips.com/coding/152/
+ *--------------------------------------------------*/
+function change_posts_per_page($query) {
+  if (is_admin() || ! $query->is_main_query())
+    return;
+
+	// デフォルト投稿
+	if ($query->is_post_type_archive('post')) {
+		$query->set('posts_per_page', 1);
+	}
+	// デフォルト投稿 カテゴリー
+	if ($query->is_category()) {
+		$query->set('posts_per_page', 1);
+	}
+	// // カスタム投稿
+  // if ($query->is_post_type_archive('blog')) {
+  //   $query->set('posts_per_page', 12);
+  // }
+  // if ($query->is_tax('blog_cate')) {
+  //   $query->set('posts_per_page', 12);
+  // }
+}
+add_action('pre_get_posts', 'change_posts_per_page');

@@ -70,7 +70,7 @@
               <p class="p-benefits__number-num">03</p>
             </div>
             <p class="p-benefits__list-title">手厚い出張手当</p>
-            <p class="p-benefits__list-text">国内出張時の手当として最大<span>1</span>万円/泊を支給いたしております。(他社にはない手厚い出張手当は弊社のユニークな福利厚生です。)</p>
+            <p class="p-benefits__list-text">国内出張時の手当として最大<span>1</span>万円/泊を支給しています。(他社にはない手厚い出張手当は弊社のユニークな福利厚生です。)</p>
           </li>
           <li class="p-benefits__list">
             <div class="p-benefits__number">
@@ -102,7 +102,7 @@
               <p class="p-benefits__number-num">07</p>
             </div>
             <p class="p-benefits__list-title">社員預金制度あり</p>
-            <p class="p-benefits__list-text">希望者のみ、最大<span>500</span>万円まで年利<span>3%</span>で運用可能な社員預金制度を利用いただけます。</p>
+            <p class="p-benefits__list-text">希望者のみ、最大<span>500</span>万円まで年利<span>3%</span>で運用可能な社員預金制度を利用できます。</p>
           </li>
           <li class="p-benefits__list">
             <div class="p-benefits__number">
@@ -118,7 +118,7 @@
               <p class="p-benefits__number-num">09</p>
             </div>
             <p class="p-benefits__list-title">保険料会社負担で病気やケガ等のリスクに備え</p>
-            <p class="p-benefits__list-text">入社と同時に“総合団体定期保険”、<span>1</span>年後に“養老保険”に加入。</p>
+            <p class="p-benefits__list-text">入社と同時に“総合団体定期保険”、<span>1</span>年後に“養老保険”に加入します。</p>
           </li>
           <li class="p-benefits__list">
             <div class="p-benefits__number">
@@ -186,7 +186,7 @@
                 </div>
                 <div class="p-career__steps-detail">
                   <p class="p-career__steps-important">重要</p>
-                  <p class="p-career__steps-elect">製造 (組立･調整) / 電気</p>
+                  <p class="p-career__steps-elect">製造 (組立･調整) / 電装</p>
                 </div>
                 <div class="p-career__steps-line--sp"></div>
               </li>
@@ -201,16 +201,16 @@
                 </div>
                 <ul class="p-career__lists">
                   <li class="p-career__list">
-                    <p class="p-career__list-title">製造 (組立･調整) / 電気</p>
-                    <p class="p-career__list-text">プロフェッショナル/責任者を目指す</p>
+                    <p class="p-career__list-title">製造 (組立･調整) / 電装</p>
+                    <p class="p-career__list-text">技術と知識を兼ね備えた統括･責任者を目指す</p>
                   </li>
                   <li class="p-career__list">
                     <p class="p-career__list-title">設計</p>
-                    <p class="p-career__list-text">機械設計・制御設計・<br class="u-mobile">プロフェッショナルを目指す</p>
+                    <p class="p-career__list-text">機械設計や制御設計の<br class="u-mobile">スペシャリストを目指す</p>
                   </li>
                   <li class="p-career__list">
                     <p class="p-career__list-title">営業</p>
-                    <p class="p-career__list-text">お客さまの課題解決提案・<br class="u-mobile">プロフェッショナルを目指す</p>
+                    <p class="p-career__list-text">お客さまから信頼される<br class="u-mobile">課題解決のプロを目指す</p>
                   </li>
                 </ul>
               </li>

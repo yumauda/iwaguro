@@ -162,6 +162,11 @@
   }
 }
 
+.p-grad-flow__item-text a {
+  display: inline;
+  text-decoration: underline;
+}
+
 .p-grad-flow__attention {
   margin-top: rem(40);
   font-size: rem(16);

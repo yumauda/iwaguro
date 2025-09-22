@@ -135,7 +135,7 @@
 }
 
 .p-grad-faq__item-body {
-  padding: rem(22) rem(50);
+  padding: rem(22) rem(30);
   background: $white;
   @include mq(md){
     padding: rem(40) rem(88) rem(40) rem(94);
@@ -158,6 +158,6 @@
 }
 
 .p-grad-faq__item-answer a {
-  display: inline-block;
+  display: inline;
   text-decoration: underline;
 }

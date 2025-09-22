@@ -215,6 +215,7 @@
           </div>
           <div class="p-grad-flow__item-body">
             <h3 class="p-grad-flow__item-title">フォームより<br class="u-desktop">エントリー</h3>
+            <p class="p-grad-flow__item-text">エントリーフォーム<br class="u-mobile">は<a href="<?php echo esc_url(home_url('/entry/')); ?>">こちら</a>です</p>
           </div>
         </li>
         <li class="p-grad-flow__item">

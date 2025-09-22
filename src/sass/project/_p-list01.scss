@@ -1,0 +1,119 @@
+@use "../global" as *;
+
+.p-list01 {
+  padding-bottom: rem(20);
+  border-bottom: 1px solid #C0C0C0;
+  @include mq(md){
+    
+  }
+}
+
+.p-list01__area {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: rem(25);
+}
+
+.p-list01__date {
+  font-size: rem(15);
+  color: #BEB9B4;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  font-family: $second-font-family;
+  font-weight: 500;
+  @include mq(md){
+    font-size: rem(15);
+  }
+}
+
+.p-list01__cate {
+  padding: rem(6) rem(12.5);
+  font-size: rem(12);
+  color: $white;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  background: #413C37;
+  @include mq(md){
+    font-size: rem(12);
+  }
+}
+
+.p-list01__title {
+  margin-top: rem(14);
+  font-size: rem(16);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  @include mq(md){
+    font-size: rem(16);
+    line-height: 1.8;
+  }
+}
+
+.p-list01__text {
+  margin-top: rem(14);
+  font-size: rem(14);
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  @include mq(md){
+    font-size: rem(14);
+  }
+}
+
+.p-list01__btn {
+  margin-top: rem(2);
+  text-align: right;
+}
+
+.p-list01__btn a {
+  padding-right: rem(31);
+  font-size: rem(14);
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  position: relative;
+  background: linear-gradient(45deg, #0087C1, #033FC2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  @include mq(md){
+    font-size: rem(14);
+  }
+}
+
+.p-list01__btn a::after {
+  content: "";
+  width: rem(28);
+  height: rem(28);
+  background: url(../images/common/challenge_arrow.svg) no-repeat center center / contain;
+  mask-position: center center;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  mask-image: url(../images/common/challenge_arrow.svg);
+  background: linear-gradient(135deg, #0087C1, #033FC2);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+.p-news__pagination {
+
+}
+
+.p-pagination {
+
+}
+

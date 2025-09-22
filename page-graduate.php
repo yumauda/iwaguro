@@ -225,7 +225,7 @@
           </div>
           <div class="p-grad-flow__item-body">
             <h3 class="p-grad-flow__item-title">マイナビより<br class="u-desktop">エントリー</h3>
-            <p class="p-grad-flow__item-text">エントリーシートと<br class="u-desktop">成績証明書のご提出を<br class="u-desktop">お願いしています</p>
+            <p class="p-grad-flow__item-text">エントリーシートと<br>成績証明書のご提出を<br>お願いしています</p>
           </div>
         </li>
         <li class="p-grad-flow__item">
@@ -238,7 +238,7 @@
           <div class="p-grad-flow__item-body">
             <h3 class="p-grad-flow__item-title">会社説明会・<br>
             工場見学に参加</h3>
-            <p class="p-grad-flow__item-text">気になることがあれば<br class="u-desktop">なんでも<br class="u-desktop">ご質問ください！</p>
+            <p class="p-grad-flow__item-text">気になることがあれば<br>なんでも<br class="u-desktop">ご質問ください！</p>
           </div>
         </li>
         <li class="p-grad-flow__item">

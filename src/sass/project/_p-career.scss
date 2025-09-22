@@ -199,8 +199,8 @@
 .p-career__steps-important {
   background: #413c37;
   color: #fff;
-  width: rem(198);
-  height: rem(28);
+  width: rem(100);
+  height: rem(34);
   text-align: center;
   display: flex;
   align-items: center;
@@ -226,7 +226,7 @@
   font-size: rem(16);
   @include mq(md) {
     margin-top: initial;
-    font-size: rem(18);
+    font-size: rem(20);
   }
 }
 
