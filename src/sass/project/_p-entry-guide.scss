@@ -1,0 +1,91 @@
+@use "../global" as *;
+
+.p-entry-guide {
+  padding-top: rem(38);
+  @include mq(md){
+    padding-top: rem(84);
+  }
+}
+
+.p-entry-guide__inner {
+  padding-right: 0;
+  padding-left: 0;
+  @include mq(md){
+    padding-right: $padding-pc;
+    padding-left: $padding-pc;
+  }
+}
+
+.p-entry-guide__wrap {
+  padding: rem(40) rem(20) rem(53);
+  background: #F2F2F2;
+  @include mq(md){
+    padding: rem(60) 0 rem(78);
+  }
+}
+
+.p-entry-guide__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: rem(3);
+  @include mq(md){
+    row-gap: rem(10);
+  }
+}
+
+.p-entry-guide__title-sub {
+  display: inline-block;
+  font-size: rem(14);
+  line-height: 2;
+  letter-spacing: 0.04em;
+  font-family: $second-font-family;
+  position: relative;
+  @include mq(md){
+    font-size: rem(14);
+  }
+}
+
+.p-entry-guide__title-main {
+  display: inline-block;
+  font-size: rem(20);
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 700;
+  position: relative;
+  @include mq(md){
+    font-size: rem(30);
+  }
+}
+
+.p-entry-guide__read {
+  margin-top: rem(20);
+  font-size: rem(15);
+  text-align: center;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  position: relative;
+  @include mq(md){
+    margin-top: rem(40);
+    font-size: rem(16);
+    line-height: 2;
+  }
+}
+
+.p-entry-guide__btn {
+  width: rem(250);
+  margin-inline: auto;
+  margin-top: rem(24);
+  @include mq(md){
+    width: rem(240);
+    margin-top: rem(16);
+  }
+}
+
+.p-entry-guide__btn-link {
+  display: block;
+  box-shadow: rem(6) rem(6) rem(10) rgba(#000, 0.2);
+}
+

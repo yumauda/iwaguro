@@ -423,12 +423,14 @@ body.fade-in {
   }
 }
 
-.p-page-mv__content--news .c-page-en {
+.p-page-mv__content--news .c-page-en,
+.p-page-mv__content--entry .c-page-en {
   font-size: 1.25rem;
   font-family: "Zen Kaku Gothic New", sans-serif;
 }
 @media screen and (min-width: 768px) {
-  .p-page-mv__content--news .c-page-en {
+  .p-page-mv__content--news .c-page-en,
+  .p-page-mv__content--entry .c-page-en {
     font-size: 1.5rem;
   }
 }
@@ -459,13 +461,15 @@ body.fade-in {
   margin-bottom: 2.8125rem;
 }
 
-.p-page-mv__content--news .c-page-ja {
+.p-page-mv__content--news .c-page-ja,
+.p-page-mv__content--entry .c-page-ja {
   font-size: 3.25rem;
   font-family: "Outfit", sans-serif;
   font-weight: 600;
 }
 @media screen and (min-width: 768px) {
-  .p-page-mv__content--news .c-page-ja {
+  .p-page-mv__content--news .c-page-ja,
+  .p-page-mv__content--entry .c-page-ja {
     font-size: 5rem;
   }
 }
@@ -476,11 +480,9 @@ body.fade-in {
   background: url(../images/common/page_en_icon.png) no-repeat center center;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 1.125rem 0.6875rem;
   width: 1.25rem;
-  height: auto;
-  aspect-ratio: 20/10;
-  object-fit: cover;
+  height: 100%;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
@@ -1852,6 +1854,111 @@ body.fade-in {
   height: auto;
   object-fit: cover;
   object-position: center center;
+}
+
+.p-entry-guide {
+  padding-top: 2.375rem;
+}
+@media screen and (min-width: 768px) {
+  .p-entry-guide {
+    padding-top: 5.25rem;
+  }
+}
+
+.p-entry-guide__inner {
+  padding-right: 0;
+  padding-left: 0;
+}
+@media screen and (min-width: 768px) {
+  .p-entry-guide__inner {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
+.p-entry-guide__wrap {
+  padding: 2.5rem 1.25rem 3.3125rem;
+  background: #F2F2F2;
+}
+@media screen and (min-width: 768px) {
+  .p-entry-guide__wrap {
+    padding: 3.75rem 0 4.875rem;
+  }
+}
+
+.p-entry-guide__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.1875rem;
+}
+@media screen and (min-width: 768px) {
+  .p-entry-guide__title {
+    row-gap: 0.625rem;
+  }
+}
+
+.p-entry-guide__title-sub {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  font-family: "Outfit", sans-serif;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .p-entry-guide__title-sub {
+    font-size: 0.875rem;
+  }
+}
+
+.p-entry-guide__title-main {
+  display: inline-block;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 700;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .p-entry-guide__title-main {
+    font-size: 1.875rem;
+  }
+}
+
+.p-entry-guide__read {
+  margin-top: 1.25rem;
+  font-size: 0.9375rem;
+  text-align: center;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .p-entry-guide__read {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    line-height: 2;
+  }
+}
+
+.p-entry-guide__btn {
+  width: 15.625rem;
+  margin-inline: auto;
+  margin-top: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .p-entry-guide__btn {
+    width: 15rem;
+    margin-top: 1rem;
+  }
+}
+
+.p-entry-guide__btn-link {
+  display: block;
+  box-shadow: 0.375rem 0.375rem 0.625rem rgba(0, 0, 0, 0.2);
 }
 
 .p-facilities {

@@ -12,7 +12,8 @@
     font-size: rem(24);
   }
 }
-.p-page-mv__content--news .c-page-en {
+.p-page-mv__content--news .c-page-en,
+.p-page-mv__content--entry .c-page-en {
   font-size: rem(20);
   font-family: $base-font-family;
   @include mq(md){
@@ -43,7 +44,8 @@
   padding-left: rem(23);
   margin-bottom: rem(45);
 }
-.p-page-mv__content--news .c-page-ja {
+.p-page-mv__content--news .c-page-ja,
+.p-page-mv__content--entry .c-page-ja {
   font-size: rem(52);
   font-family: $second-font-family;
   font-weight: 600;
@@ -57,11 +59,11 @@
   background: url(../images/common/page_en_icon.png) no-repeat center center;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: rem(18) rem(11);
   width: rem(20);
-  height: auto;
-  aspect-ratio: 20 / 10;
-  object-fit: cover;
+  height: 100%;
+  // aspect-ratio: 20 / 12;
+  // object-fit: cover;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
