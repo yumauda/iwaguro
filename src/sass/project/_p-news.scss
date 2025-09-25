@@ -1,16 +1,15 @@
 @use "../global" as *;
 
 .p-news {
-  padding-top: rem(40);
+  padding-top: rem(12);
+  padding-bottom: rem(76);
   @include mq(md){
     padding-top: rem(90);
+    padding-bottom: rem(100);
   }
 }
 
 .p-news__inner {
-  @include mq(md){
-    max-width: rem(850);
-  }
 }
 
 .p-news__cateList {
@@ -31,6 +30,7 @@
 
 .p-news__cateLink {
   min-width: rem(122);
+  padding: rem(5) rem(5) rem(6);
   font-size: rem(14);
   font-weight: 500;
   display: flex;
@@ -45,7 +45,8 @@
 }
 
 .p-news__cateItem--base {
-  
+  font-size: rem(12);
+
 }
 
 .p-news__cateItem--active .p-news__cateLink {
@@ -59,6 +60,8 @@
   grid-template-columns: repeat(1, 1fr);
   row-gap: rem(40);
   @include mq(md){
+    max-width: rem(800);
+    margin-inline: auto;
     margin-top: rem(60);
     row-gap: rem(28);
   }
@@ -66,4 +69,11 @@
 
 .p-news__item {
 
+}
+
+.p-news__pagination {
+  margin-top: rem(60);
+  @include mq(md){
+    margin-top: rem(60);
+  }
 }

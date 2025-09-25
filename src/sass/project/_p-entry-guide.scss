@@ -25,38 +25,7 @@
 }
 
 .p-entry-guide__title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  row-gap: rem(3);
-  @include mq(md){
-    row-gap: rem(10);
-  }
-}
-
-.p-entry-guide__title-sub {
-  display: inline-block;
-  font-size: rem(14);
-  line-height: 2;
-  letter-spacing: 0.04em;
-  font-family: $second-font-family;
-  position: relative;
-  @include mq(md){
-    font-size: rem(14);
-  }
-}
-
-.p-entry-guide__title-main {
-  display: inline-block;
-  font-size: rem(20);
-  line-height: 1.5;
-  letter-spacing: 0;
-  font-weight: 700;
-  position: relative;
-  @include mq(md){
-    font-size: rem(30);
-  }
+  
 }
 
 .p-entry-guide__read {

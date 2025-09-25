@@ -384,4 +384,33 @@ jQuery(document).ready(function($){
     $body.slideToggle(300);
     $(this).toggleClass("is-open");
   });
+
+
+  /* ================================
+     チェックボックスのフォーカス制御
+  =================================== */
+  document.addEventListener('click', function(e) {
+    const label = e.target.closest('label');
+    if (!label) return;
+    const targetId = label.getAttribute('for');
+    if (!targetId) return;
+    const input = document.getElementById(targetId);
+    if (input) input.focus();
+  });
+
+  /* ================================
+     プライバシーポリシーの is-checked 付与
+  =================================== */
+  (function(){
+    const $policyCheckbox = $('input[name="your_policy[]"]');
+    $policyCheckbox.on('change', function(){
+      const $control = $(this).closest('.wpcf7-form-control');
+      $control.toggleClass('is-checked', $(this).is(':checked'));
+    });
+    $policyCheckbox.trigger('change');
+  })();
+
+
 });
+
+

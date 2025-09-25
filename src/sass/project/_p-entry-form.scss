@@ -1,0 +1,42 @@
+@use "../global" as *;
+
+.p-entry-form {
+  padding-top: rem(68);
+  padding-bottom: rem(94);
+  @include mq(md){
+    padding-top: rem(80);
+    padding-bottom: rem(140);
+  }
+}
+
+.p-entry-form__inner {
+
+}
+
+.p-entry-form__title {
+  
+}
+
+.p-entry-form__read {
+  margin-top: rem(22);
+  font-size: rem(15);
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  position: relative;
+  @include mq(md){
+    margin-top: rem(32);
+    font-size: rem(16);
+    text-align: center;
+    line-height: 2;
+  }
+}
+
+.p-entry-form__wrap {
+  margin-top: rem(40);
+  @include mq(md){
+    max-width: rem(1050);
+    margin-inline: auto;
+    margin-top: rem(80);
+  }
+}

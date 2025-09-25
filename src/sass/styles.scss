@@ -33,17 +33,20 @@
 @use "./component/c-page-ja";
 @use "./component/c-section-title";
 @use "./component/c-section-title02";
+@use "./component/c-section-title03";
 @use "./component/c-text-gradation";
 
 // ===========================
 // Project
 // ===========================
 @use "./project/p-404";
+@use "./project/_p-article";
 @use "./project/p-benefits";
 @use "./project/p-career";
 @use "./project/p-challenge";
 @use "./project/p-drawer";
 @use "./project/p-entry-guide";
+@use "./project/p-entry-form";
 @use "./project/p-facilities";
 @use "./project/p-feature";
 @use "./project/p-figures";

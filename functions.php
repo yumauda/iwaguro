@@ -459,3 +459,21 @@ function change_posts_per_page($query) {
   // }
 }
 add_action('pre_get_posts', 'change_posts_per_page');
+
+
+
+
+add_filter('wpcf7_validate_text', 'custom_validation_filter', 999, 2);
+add_filter('wpcf7_validate_text*', 'custom_validation_filter', 999, 2);
+
+function custom_validation_filter($result, $tag) {
+	if ('your_kana' === $tag->name) {
+		$your_kana = isset($_POST['your_kana']) ? trim(wp_unslash($_POST['your_kana'])) : '';
+		// ひらがな、全角スペース、半角スペースを許可する正規表現
+		if (!preg_match("/^[ぁ-ゞー　 ]*$/u", $your_kana)) {
+				$result->invalidate($tag, "全角ひらがな、全角スペース、または半角スペースのみで入力してください。");
+		}
+	}
+	
+	return $result;
+}

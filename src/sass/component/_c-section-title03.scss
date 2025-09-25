@@ -1,0 +1,49 @@
+@use "../global" as *;
+
+.c-section-title03 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: rem(3);
+  @include mq(md){
+    row-gap: rem(10);
+  }
+}
+
+.c-section-title03__sub {
+  display: inline-block;
+  padding-left: rem(30);
+  font-size: rem(14);
+  line-height: 2;
+  letter-spacing: 0.04em;
+  font-family: $second-font-family;
+  position: relative;
+  @include mq(md){
+    font-size: rem(14);
+  }
+}
+
+.c-section-title03__sub::before {
+  content: "";
+  width: rem(20);
+  height: rem(10);
+  background: transparent url(../images/common/page_en_icon.png) no-repeat center center / 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+}
+
+.c-section-title03__main {
+  display: inline-block;
+  font-size: rem(20);
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 700;
+  position: relative;
+  @include mq(md){
+    font-size: rem(30);
+  }
+}
