@@ -52,7 +52,7 @@
         <div class="p-news__item p-list01">
           <div class="p-list01__area">
             <time datetime="<?php the_time('Y-m-d'); ?>" class="p-list01__date"><?php the_time('Y.m.d'); ?></time>
-            <div class="p-list01__cate c-category">
+            <div class="p-list01__cate">
               <?php $category = get_the_category(); echo $category[0]->name; ?>
             </div>
           </div>

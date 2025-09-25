@@ -444,11 +444,11 @@ function change_posts_per_page($query) {
 
 	// デフォルト投稿
 	if ($query->is_post_type_archive('post')) {
-		$query->set('posts_per_page', 1);
+		$query->set('posts_per_page', 8);
 	}
 	// デフォルト投稿 カテゴリー
 	if ($query->is_category()) {
-		$query->set('posts_per_page', 1);
+		$query->set('posts_per_page', 8);
 	}
 	// // カスタム投稿
   // if ($query->is_post_type_archive('blog')) {
