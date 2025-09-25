@@ -204,7 +204,7 @@
                         </ul>
                     </nav>
                     <div class="p-header__btn">
-                        <a href="#" class="p-header__btn-link">
+                        <a href="<?php echo esc_url(home_url('/entry/')); ?>" class="p-header__btn-link">
                             <p class="p-header__btn-text">entry</p>
                         </a>
                     </div>
@@ -336,7 +336,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/style')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/news')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">news</p>
                                             <p class="p-drawer-content__link-ja">新着情報</p>
@@ -473,7 +473,7 @@
                         </ul>
                     </nav>
                     <div class="p-header__btn">
-                        <a href="#" class="p-header__btn-link is-active">
+                        <a href="<?php echo esc_url(home_url('/entry/')); ?>" class="p-header__btn-link is-active">
                             <p class="p-header__btn-text">entry</p>
                         </a>
                     </div>
@@ -605,7 +605,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/style')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/news')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">news</p>
                                             <p class="p-drawer-content__link-ja">新着情報</p>

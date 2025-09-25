@@ -478,7 +478,7 @@
                 <span class="c-section-title__ja js-news-title">お知らせ</span>
               </h3>
               <div class="p-top-news__btn p-top-news__btn--desktop">
-                <a href="" class="c-btn">
+                <a href="<?php echo esc_url(home_url('/news/')); ?>" class="c-btn">
                   <p class="c-btn__text">view more</p>
                   <span class="c-btn__arrow">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -584,7 +584,7 @@
                 </span>
               </a>
               <div class="p-challenge__btn-wrapper">
-                <a href="" class="c-btn c-btn--306">
+                <a href="<?php echo esc_url(home_url('/entry/')); ?>" class="c-btn c-btn--306">
                   <p class="c-btn__text">エントリーする</p>
                   <span class="c-btn__arrow">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
