@@ -39,7 +39,7 @@
                                 <a href="#" class="p-footer__link">仲間を知る</a>
                             </li>
                             <li class="p-footer__list-leftList">
-                                <a href="#" class="p-footer__link">職種紹介</a>
+                                <a href="<?php echo esc_url(home_url('/job/')); ?>" class="p-footer__link">職種紹介</a>
                             </li>
                             <li class="p-footer__list-leftList">
                                 <a href="<?php echo esc_url(home_url('/figures/')); ?>" class="p-footer__link">数字で見る岩黒製作所</a>

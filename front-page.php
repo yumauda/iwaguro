@@ -402,7 +402,7 @@
                   各部門の仕事について紹介します｡
                 </p>
                 <div class="p-pickup__btn">
-                  <a href="" class="c-btn">
+                  <a href="<?php echo esc_url(home_url('/job/')); ?>" class="c-btn">
                     <p class="c-btn__text">view more</p>
                     <span class="c-btn__arrow">
                       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -490,42 +490,30 @@
             </div>
 
             <ul class="p-top-news__lists">
+              <?php 
+                query_posts([
+                  'posts_per_page' => 4, //投稿件数
+                  'orderby' => 'date',
+                  'order' => 'DESC'
+                ]);
+                if (have_posts()) :
+                while (have_posts()) : the_post();
+              ?>
+
               <li class="p-top-news__list">
-                <a href="#" class="p-top-news__link">
+                <a href="<?php the_permalink(); ?>" class="p-top-news__link">
                   <div class="p-top-news__meta">
-                    <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
-                    <span class="p-top-news__category">イベント情報</span>
+                    <time datetime="<?php the_time('Y-m-d'); ?>" class="p-top-news__time"><?php the_time('Y.m.d'); ?></time>
+                    <span class="p-top-news__category"><?php $category = get_the_category(); echo $category[0]->name; ?></span>
                   </div>
-                  <p class="p-top-news__link-title">キャリア向け！◯◯転職◯◯◯◯◯に参加します。</p>
+                  <p class="p-top-news__link-title"><?php the_title(); ?></p>
                 </a>
               </li>
-              <li class="p-top-news__list">
-                <a href="#" class="p-top-news__link">
-                  <div class="p-top-news__meta">
-                    <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
-                    <span class="p-top-news__category">お知らせ</span>
-                  </div>
-                  <p class="p-top-news__link-title">202X卒 新卒採用のエントリーを開始しました。</p>
-                </a>
-              </li>
-              <li class="p-top-news__list">
-                <a href="#" class="p-top-news__link">
-                  <div class="p-top-news__meta">
-                    <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
-                    <span class="p-top-news__category">イベント情報</span>
-                  </div>
-                  <p class="p-top-news__link-title">キャリア向け！◯◯転職◯◯◯◯◯に参加します。</p>
-                </a>
-              </li>
-              <li class="p-top-news__list">
-                <a href="#" class="p-top-news__link">
-                  <div class="p-top-news__meta">
-                    <time datetime="2025-08-06" class="p-top-news__time">2025.08.06</time>
-                    <span class="p-top-news__category">お知らせ</span>
-                  </div>
-                  <p class="p-top-news__link-title">202X卒 新卒採用のエントリーを開始しました。</p>
-                </a>
-              </li>
+
+              <?php endwhile;
+                endif;
+                wp_reset_query(); // クエリのリセット
+              ?>
             </ul>
           </div>
           <div class="p-top-news__btn p-top-news__btn--mobile">

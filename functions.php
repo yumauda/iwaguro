@@ -465,15 +465,62 @@ add_action('pre_get_posts', 'change_posts_per_page');
 
 add_filter('wpcf7_validate_text', 'custom_validation_filter', 999, 2);
 add_filter('wpcf7_validate_text*', 'custom_validation_filter', 999, 2);
+add_filter('wpcf7_validate_checkbox', 'custom_validation_filter', 999, 2);
+add_filter('wpcf7_validate_checkbox*', 'custom_validation_filter', 999, 2);
 
 function custom_validation_filter($result, $tag) {
-	if ('your_kana' === $tag->name) {
-		$your_kana = isset($_POST['your_kana']) ? trim(wp_unslash($_POST['your_kana'])) : '';
-		// ひらがな、全角スペース、半角スペースを許可する正規表現
-		if (!preg_match("/^[ぁ-ゞー　 ]*$/u", $your_kana)) {
-				$result->invalidate($tag, "全角ひらがな、全角スペース、または半角スペースのみで入力してください。");
-		}
-	}
-	
-	return $result;
+    $name = $tag->name;
+
+    // ひらがなチェック（例: your_kana）
+    if ($name === 'your_kana') {
+        $your_kana = isset($_POST['your_kana']) ? trim(wp_unslash($_POST['your_kana'])) : '';
+        if (!preg_match("/^[ぁ-ゞー　 ]*$/u", $your_kana)) {
+            $result->invalidate($tag, "全角ひらがな、全角スペース、または半角スペースのみで入力してください。");
+        }
+    }
+
+    // 年齢チェック（例: your_age）
+    if ($name === 'your_age') {
+        $your_age = isset($_POST['your_age']) ? trim(wp_unslash($_POST['your_age'])) : '';
+        if (!preg_match("/^[0-9]+$/", $your_age)) {
+            $result->invalidate($tag, "年齢は半角数字のみで入力してください。");
+        }
+    }
+
+    // 経験年数チェック（your_years01, your_years02 セットで判定）
+    if ($name === 'your_years01' || $name === 'your_years02') {
+        $years01 = isset($_POST['your_years01']) ? trim(wp_unslash($_POST['your_years01'])) : '';
+        $years02 = isset($_POST['your_years02']) ? trim(wp_unslash($_POST['your_years02'])) : '';
+
+        // 両方空 or 片方だけ入力 の場合
+        if (($years01 === '' && $years02 === '') || ($years01 === '' xor $years02 === '')) {
+            $result->invalidate($tag, "経験年数は年と月を両方入力してください。");
+        } else {
+            // 両方入力がある場合は半角数字チェック
+            if (!preg_match("/^[0-9]+$/", $years01) || !preg_match("/^[0-9]+$/", $years02)) {
+                $result->invalidate($tag, "経験年数は半角数字のみで入力してください。");
+            }
+        }
+    }
+
+    // 応募職種チェック（your_requirement01, your_requirement02, your_requirement03 のいずれか必須）
+    if (in_array($name, ['your_requirement01', 'your_requirement02', 'your_requirement03'], true)) {
+        $req01 = isset($_POST['your_requirement01']) ? (array) $_POST['your_requirement01'] : [];
+        $req02 = isset($_POST['your_requirement02']) ? (array) $_POST['your_requirement02'] : [];
+        $req03 = isset($_POST['your_requirement03']) ? (array) $_POST['your_requirement03'] : [];
+
+        // 3つをまとめる
+        $all_checked = array_merge($req01, $req02, $req03);
+
+        if (empty($all_checked)) {
+            // どれもチェックされていない場合
+            $result->invalidate($tag, "応募職種を1つ以上選択してください。");
+        }
+    }
+
+    return $result;
 }
+
+
+
+

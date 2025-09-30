@@ -37,7 +37,7 @@
   @include mq(md) {
     display: flex;
     gap: rem(118);
-    padding-bottom: rem(100);
+    padding-bottom: rem(90);
   }
 }
 .p-top-news__bg::before {
@@ -155,6 +155,7 @@
   letter-spacing: 0.04em;
   line-height: 1.8;
   font-size: rem(12);
+  font-weight: 500;
   @include mq(md) {
     width: rem(97);
     font-size: rem(13);
@@ -168,7 +169,7 @@
   letter-spacing: 0.04em;
   position: relative;
   margin-top: rem(25);
-  font-size: rem(14);
+  font-size: rem(16);
   @include mq(md) {
     padding-left: rem(35);
     font-size: rem(16);

@@ -30,7 +30,7 @@
     <div class="p-news__inner l-inner">
       <ul class="p-news__cateList">
         <li class="p-news__cateItem p-news__cateItem--base <?php if(is_post_type_archive('post')) echo 'p-news__cateItem--active'; ?>">
-            <a href="/news/" class="p-news__cateLink">ALL</a>
+            <a href="<?php echo esc_url(home_url('/news/')); ?>" class="p-news__cateLink">ALL</a>
         </li>
         <?php
           $categories = get_categories();

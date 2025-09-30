@@ -170,7 +170,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">
+                                <a href="<?php echo esc_url(home_url('/job/')); ?>" class="p-header__link">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">job</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">job</span>
@@ -303,7 +303,7 @@
                                     </ul>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/job/')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">job</p>
                                             <p class="p-drawer-content__link-ja">職種紹介</p>
@@ -439,7 +439,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link is-active">
+                                <a href="<?php echo esc_url(home_url('/job/')); ?>" class="p-header__link is-active">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">job</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">job</span>
@@ -572,7 +572,7 @@
                                     </ul>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/job/')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">job</p>
                                             <p class="p-drawer-content__link-ja">職種紹介</p>

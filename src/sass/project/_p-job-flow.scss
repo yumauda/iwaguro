@@ -1,0 +1,188 @@
+@use "../global" as *;
+
+.p-job-flow {
+  padding-top: rem(72);
+  padding-bottom: rem(70);
+  @include mq(md){
+    padding-top: rem(40);
+    padding-bottom: rem(22);
+  }
+}
+
+.p-job-flow__inner {
+  @include mq(md){
+    max-width: rem(1150);
+  }
+}
+
+.p-job-flow__head {
+
+}
+
+.p-job-flow__title {
+
+}
+
+.p-job-flow__title img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.p-job-flow__body {
+  padding-top: rem(25);
+  padding-bottom: rem(42);
+  position: relative;
+  @include mq(md){
+    padding-top: rem(35);
+    padding-bottom: 0;
+  }
+}
+
+.p-job-flow__body::after {
+  content: "";
+  width: rem(24.5);
+  height: rem(865.12);
+  background: transparent url(../images/job/arrow_flow_sp.png) no-repeat center bottom / 100%;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - rem(90));
+  @include mq(md){
+    width: calc(1043 / 1100 * 100%);
+    height: rem(24.5);
+    background: transparent url(../images/job/arrow_flow_pc.png) no-repeat center center / 100%;
+    bottom: auto;
+    left: auto;
+    top: rem(83);
+    right: 0;
+  }
+}
+
+.p-job-flow__wrap {
+  width: calc(275 / 335 * 100%);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(15);
+  position: relative;
+  z-index: 1;
+  @include mq(md){
+    width: calc(1020 / 1100 * 100%);
+    flex-direction: row;
+    justify-content: center;
+    column-gap: rem(30);
+  }
+}
+
+.p-job-flow__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: rem(28);
+  @include mq(md){
+    width: rem(120);
+    display: block;
+  }
+}
+
+.p-job-flow__box-head {
+  width: rem(120);
+  height: rem(120);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #F2F2F2;
+  @include mq(md){
+    width: rem(120);
+    height: rem(120);
+  }
+}
+
+.p-job-flow__box-title {
+  font-size: rem(18);
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  @include mq(md){
+    font-size: rem(20);
+  }
+}
+
+.p-job-flow__box-title span {
+  display: block;
+  font-size: rem(15);
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  @include mq(md){
+    font-size: rem(16);
+  }
+}
+
+.p-job-flow__box-body {
+  width: rem(127);
+  padding: 0 0 0;
+  @include mq(md){
+    width: auto;
+    padding: rem(23) 0 rem(20) rem(13);
+  }
+}
+
+.p-job-flow__box-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: rem(10);
+  @include mq(md){
+    row-gap: rem(6);
+  }
+}
+
+.p-job-flow__box-item {
+  padding-left: rem(11);
+  font-size: rem(17);
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  position: relative;
+  @include mq(md){
+    padding-left: rem(4);
+    font-size: rem(16);
+  }
+}
+
+.p-job-flow__box-item::before {
+  content: "";
+  width: rem(4);
+  height: rem(4);
+  background: $white;
+  border-radius: 50%;
+  position: absolute;
+  top: rem(10);
+  left: rem(2);
+  z-index: 1;
+  @include mq(md){
+    width: rem(4);
+    height: rem(4);
+    top: rem(7);
+    left: rem(-7);
+  }
+}
+
+.p-job-flow__box-item::after {
+  content: "";
+  width: rem(8);
+  height: rem(8);
+  background: linear-gradient(45deg, #4CA0DE, #4B85ED);
+  border-radius: 50%;
+  position: absolute;
+  top: rem(8);
+  left: 0;
+  @include mq(md){
+    width: rem(8);
+    height: rem(8);
+    top: rem(5);
+    left: rem(-9);
+  }
+}

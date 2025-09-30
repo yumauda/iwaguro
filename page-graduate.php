@@ -55,7 +55,7 @@
                 </dl>
                 <dl>
                   <dt>[技能職]</dt>
-                  <dd>機械加工、機械組立、電気組立、製造（組立･調整）</dd>
+                  <dd>機械加工、製造（組立･調整）、電装</dd>
                 </dl>
                 <dl>
                   <dt>[営業職]</dt>
@@ -111,7 +111,7 @@
             </div>
             <div class="p-grad-recruitment__item-bottom">
               <div class="p-grad-recruitment__item-wrap">
-                <p class="p-grad-recruitment__item-text">生産手当、通勤手当、役職手当、家族手当、出張手当 (<span class="u-font-outfit">5</span>千円/泊)、時間外手当 <span class="p-grad-recruitment__item--sm">※残業時間に応じて支給</span></p>
+                <p class="p-grad-recruitment__item-text">生産手当、通勤手当、役職手当、家族手当、出張手当 (最大<span class="u-font-outfit">1</span>万円/泊)、時間外手当 <span class="p-grad-recruitment__item--sm">※残業時間に応じて支給</span></p>
               </div>
             </div>
           </li>
@@ -187,7 +187,7 @@
                 <ul class="p-grad-recruitment__item-subList">
                   <li class="p-grad-recruitment__item-subItem">健康保険、厚生年金保険、雇用保険、労災保険</li>
                   <li class="p-grad-recruitment__item-subItem">昼食代 <span class="p-grad-recruitment__item--sm">※お弁当</span> (一部補助)</li>
-                  <li class="p-grad-recruitment__item-subItem">出張手当 (<span class="u-font-outfit">5</span>千円/泊)</li>
+                  <li class="p-grad-recruitment__item-subItem">出張手当 (最大<span class="u-font-outfit">1</span>万円/泊)</li>
                   <li class="p-grad-recruitment__item-subItem">人間ドック受診料補助</li>
                   <li class="p-grad-recruitment__item-subItem">手厚い保険サポート(会社負担)</li>
                   <li class="p-grad-recruitment__item-subItem">資格取得支援制度あり</li>

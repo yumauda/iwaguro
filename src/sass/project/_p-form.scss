@@ -29,7 +29,6 @@
 .p-form__head {
   display: -webkit-box;
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
   @include mq(md){
     width: calc(250 / 1050 * 100%);
@@ -107,6 +106,24 @@
   }
 }
 
+.form_years .p-form__body {
+  justify-content: flex-start;
+  column-gap: rem(16);
+  flex-wrap: nowrap;
+  @include mq(md){
+    flex-direction: row;
+    column-gap: rem(40);
+    flex-wrap: wrap;
+  }
+}
+
+.form_requirement .p-form__body {
+  row-gap: rem(24);
+  @include mq(md){
+    row-gap: rem(14);
+  }
+}
+
 .p-form__body .mw_wp_form .error {
   margin-top: rem(5);
 }
@@ -116,26 +133,42 @@
   width: 100%;
 }
 
+.p-form .form_age .wpcf7-form-control-wrap,
+.p-form .form_years .wpcf7-form-control-wrap {
+  width: auto;
+}
+
+.p-form .form_requirement .wpcf7-form-control-wrap {
+  flex-wrap: wrap;
+}
+
 .p-form input,
 .p-form textarea,
 .p-form select {
   width: 100%;
   height: rem(66);
-  padding: rem(24) rem(20) rem(24);
+  padding: rem(10) rem(20);
   font-size: rem(14);
   color: $black;
   line-height: 1.0;
   font-weight: 500;
+  font-family: $base-font-family;
   background-color: #F2F2F2;
   border-radius: 4px;
   border: none;
   @include mq(md){
     height: rem(46);
-    padding: rem(10) rem(27) rem(10);
+    padding: rem(10) rem(27);
   }
 }
 .p-form ::placeholder{
   color: #C0C0C0;
+}
+
+.p-form .wpcf7 input[type="file"] {
+  height: auto;
+  padding: 0;
+  background-color: $white;
 }
 
 .p-form input[type="checkbox"] {
@@ -162,31 +195,24 @@
   }
 }
 
-.p-form input.form_name,
-.p-form input.form_kana {
-  width: rem(300);
+.p-form .form_age input,
+.p-form .form_tel input,
+.p-form .form_mail input,
+.p-form .form_years input {
+  font-family: $second-font-family;
+}
+
+.p-form .form_age input,
+.p-form .form_years input {
+  width: rem(165);
+  padding: rem(10) rem(16);
   @include mq(md){
-    width: 100%;
-    margin-top: rem(10);
+    width: rem(100);
   }
 }
 
-.p-form input.form_company,
-.p-form input.form_tel,
-.p-form input.form_mail {
-  width: rem(425);
-  @include mq(md){
-    width: 100%;
-  }
-}
-
-/* 郵便番号,電話番号 */
-.p-form .p-form__item.form_post .p-form__detail,
-.p-form .p-form__item.form_tel .p-form__detail {
-  width: rem(287);
-  @include mq(md){
-    width: rem(287);
-  }
+.p-form .form_years input {
+  width: rem(100);
 }
 
 .p-form select {
@@ -280,16 +306,17 @@ input[type="radio"] {
 
 /* チェック前のボタン */
 .wpcf7-list-item-label::before {
-  background: #fff;
-  border: rem(1) solid #333;
-  border-radius: 100%; /* ラジオボタンっぽく丸くする */
   content: "";
-  height: 1.2em;
+  width: rem(20);
+  height: rem(20);
   display: inline-block;
   margin-bottom: auto;
-  margin-right: .5em;
-  margin-top: auto;
-  width: 1.2em;
+  margin-right: rem(8);
+  border: rem(1) solid #333;
+  border-radius: 100%; /* ラジオボタンっぽく丸くする */
+  background: #fff;
+  position: relative;
+  top: rem(4);
 }
 
 // チェックボックスのカスタマイズ
@@ -299,6 +326,27 @@ input[type="radio"] {
   row-gap: rem(12);
   @include mq(md){
     row-gap: rem(12);
+  }
+}
+
+.form_sex .wpcf7-checkbox,
+.form_experience .wpcf7-checkbox {
+  display: flex;
+  align-items: center;
+  gap: rem(20);
+  @include mq(md){
+    gap: rem(25);
+  }
+}
+
+.form_requirement .wpcf7-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0;
+  column-gap: rem(20);
+  @include mq(md){
+    row-gap: rem(25);
+    column-gap: rem(25);
   }
 }
 
@@ -315,18 +363,18 @@ input[type="radio"] {
 }
 
 .wpcf7-checkbox .wpcf7-list-item-label::before {
-  background: #F5F5F5;
-  border-radius: 4px;
-  border: 1px solid rgba(#000, 0.14);
+  background: $white;
+  border-radius: 0;
+  border: 1px solid #E2E2E2;
 }
 
 .wpcf7-checkbox input[type="checkbox"]:checked + .wpcf7-list-item-label::after {
   content: "";
   display: block;
-  width: 12px;
+  width: 16px;
   height: 6px;
-  border-top: 3px solid #ED1D2F;
-  border-right: 3px solid #ED1D2F;
+  border-top: 3px solid #033FC2;
+  border-right: 3px solid #033FC2;
   transform: rotate(135deg);
   position: absolute;
   top: rem(6);
@@ -361,18 +409,22 @@ input[type="radio"]:checked + .wpcf7-list-item-label::before {
 }
 
 .c-form__checkbox {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   align-items: center;
-  font-size: rem(12);
-  line-height: 1.8;
+  padding-left: rem(20);
+  font-size: rem(14);
+  line-height: 1.5;
+  letter-spacing: 0;
   font-weight: 500;
   // gap: 0.5em;
   flex-wrap: wrap;
   position: relative;
   @include mq(md){
-    font-size: rem(16);
+    padding-left: 0;
+    font-size: rem(14);
     cursor: pointer;
+    display: flex;
+    justify-content: center;
     transition: .3s ease;
   }
 
@@ -434,6 +486,15 @@ input[type="radio"]:checked + .wpcf7-list-item-label::before {
   color: gray;
 }
 
+.wpcf7-not-valid-tip {
+  
+}
+
+.form_requirement .p-form__detail:nth-child(1) .wpcf7-not-valid-tip,
+.form_requirement .p-form__detail:nth-child(2) .wpcf7-not-valid-tip {
+  display: none;
+}
+
   /******************* END./form base *******************/ 
 
 
@@ -458,17 +519,51 @@ input[type="radio"]:checked + .wpcf7-list-item-label::before {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  column-gap: rem(10);
+  row-gap: rem(30);
   @include mq(md){
-    display: block;
+    column-gap: rem(13);
+    row-gap: rem(20);
   }
 }
 
-.p-form__detail:nth-of-type(n+2) {
-  margin-top: rem(30);
+.form_requirement .p-form__detail {
+  row-gap: rem(8);
   @include mq(md){
-    margin-top: rem(20);
+    row-gap: rem(8);
   }
 }
+
+.form_years .p-form__detail,
+.form_pdf .p-form__detail {
+  width: auto;
+  @include mq(md){
+    flex-wrap: nowrap;
+  }
+}
+
+.form_years .p-form__detail:nth-child(1) {
+  min-width: rem(110);
+}
+
+.form_years .p-form__detail:nth-child(2) {
+  min-width: rem(125);
+}
+
+.form_pdf .p-form__detail {
+  width: 100%;
+  row-gap: rem(10);
+  font-size: rem(13);
+  font-weight: 700;
+  @include mq(md){
+    font-size: rem(14);
+  }
+}
+
+.p-form .form_pdf .wpcf7-form-control-wrap {
+  width: auto;
+}
+
 
 .p-form__detail p {
   width: 100%;
@@ -548,26 +643,15 @@ input[type="radio"]:checked + .wpcf7-list-item-label::before {
 }
 
 .p-form__policy {
-  margin-top: rem(34);
-  margin-left: rem(25);
-  text-align: left;
+  display: block;
+  font-size: rem(14);
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 500;
   position: relative;
   @include mq(md){
-    margin-top: rem(64);
-    margin-left: 0;
-    text-align: center;
-  }
-}
-
-.p-form__policy {
-  display: inline;
-  font-size: rem(16);
-  line-height: calc(27 / 16);
-  font-weight: 400;
-  position: relative;
-  @include mq(md){
-    font-size: rem(16);
-    line-height: calc(27 / 16);
+    margin-top: rem(60);
+    font-size: rem(14);
   }
 }
 
@@ -594,8 +678,14 @@ input[type="radio"]:checked + .wpcf7-list-item-label::before {
   width: 100%;
   white-space: nowrap;
   position: absolute;
-  bottom: rem(-38);
+  bottom: rem(-60);
   left: 0;
+  @media (width >= 536px) {
+    bottom: rem(-42);
+  }
+  @include mq(md){
+    bottom: rem(-28);
+  }
 }
 
 .p-form__policy .wpcf7-form-control {
@@ -615,7 +705,8 @@ input[type="radio"]:checked + .wpcf7-list-item-label::before {
   border-radius: 3px;
   border: 1px solid rgba(0, 0, 0, 0.14);
   position: relative;
-  left: rem(-6);
+  top: rem(17);
+  left: rem(-20);
   // position: absolute;
   // top: 80%;
   // left: rem(-5);
@@ -624,15 +715,17 @@ input[type="radio"]:checked + .wpcf7-list-item-label::before {
   @include mq(md){
     // top: 35%;
     // left: 0;
+    top: 0;
+    left: rem(-6);
   }
 }
 
 .p-form__policy .wpcf7-form-control::after {
   content: "";
-  width: rem(12);
+  width: rem(16);
   height: rem(6);
-  border-top: rem(3) solid #ED1D2F;
-  border-right: rem(2) solid #ED1D2F;
+  border-top: rem(3) solid #033FC2;
+  border-right: rem(2) solid #033FC2;
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
   position: absolute;
@@ -647,7 +740,8 @@ input[type="radio"]:checked + .wpcf7-list-item-label::before {
 
 .p-form__policy .wpcf7-form-control.is-checked::after {
   display: block;
-  top: rem(4);
+  top: rem(20);
+  left: rem(-17);
   @include mq(md){
     top: rem(2);
     left: rem(-2);
@@ -669,25 +763,30 @@ input[type="radio"]:checked + .wpcf7-list-item-label::before {
 //   height: rem(16);
 // }
 
-// .p-form__policy a {
-//   display: inline-block;
-//   font-size: rem(16);
-//   line-height: calc(27 / 16);
-//   font-weight: 400;
-//   background: linear-gradient($black, $black) 100% 84%/0 1px no-repeat;
-//   background-size: 100% 1px;
-//   transition: background .5s;
-//   @include mq(md){
-//     font-size: rem(16);
-//     line-height: calc(27 / 16);
-//   }
-// }
+.p-form__policy a {
+  display: inline-block;
+  font-size: rem(14);
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 500;
+  background: linear-gradient(to Right, #0087C1, #033FC2);
+  background-size: 100% 1px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline;
+  position: relative;
+  transition: background .5s;
+  @include mq(md){
+    font-size: rem(14);
+  }
+}
 
-// .p-form__policy a:hover {
-//   @include mq(md){
-//     background-size: 0 1px;
-//   }
-// }
+.p-form__policy a:hover {
+  @include mq(md){
+    opacity: 0.7;
+  }
+}
 
 // .p-form__policy .wpcf7-not-valid-tip {
 //   width: rem(250);
@@ -704,66 +803,36 @@ input[type="radio"]:checked + .wpcf7-list-item-label::before {
 // }
 
 .form-btn {
-  width: rem(287);
-  height: rem(75);
-  margin-top: rem(60);
+  width: rem(335);
+  height: rem(54);
+  margin-top: rem(30);
   margin-inline: auto;
   position: relative;
   @include mq(md){
-    width: rem(287);
-    margin-top: rem(76);
+    width: rem(300);
+    margin-top: rem(60);
   }
 }
 
-.form-btn::before {
-  content: "";
-  width: 1px;
-  height: 100%;
-  background: $white;
-  position: absolute;
-  top: 0;
-  right: rem(75);
-  z-index: 1;
-}
-
-.form-btn::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-top: rem(3.5) solid transparent;
-  border-bottom: rem(3.5) solid transparent;
-  border-left: rem(7) solid $white;
-  border-right: 0;
-  position: absolute;
-  top: 50%;
-  right: rem(34);
-  transform: translate(0, -50%);
-  -webkit-transform: translate(0, -50%);
-}
-
 .form-btn input {
-  height: rem(75);
-  padding: rem(20) 0 rem(20) rem(30);
-  font-size: rem(18);
-  text-align: left;
+  height: rem(54);
+  font-size: rem(15);
+  text-align: center;
   color: $white;
-  line-height: 1.0;
-  font-weight: 400;
-  background: $blue;
-  border-radius: 4px;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  background: linear-gradient(to Right, #0087C1, #033FC2);
+  border-radius: 100px;
   position: relative;
   @include mq(md){
-    height: rem(75);
-    font-size: rem(18);
+    font-size: rem(15);
     cursor: pointer;
-    transition: .3s ease;
   }
 }
 
 .form-btn input:hover {
   @include mq(md){
-    background: $barge;
+    background: $black;
   }
 }

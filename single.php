@@ -12,7 +12,14 @@
                 <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/breadcrumbs_arrow.svg" alt="" width="10" height="10">
               </span>
             <li class="p-page-mv__breadcrumbs-list">
-              <p class="p-page-mv__breadcrumbs-link">NEWS</p>
+              <a href="<?php echo esc_url(home_url('/')); ?>" class="p-page-mv__breadcrumbs-link">NEWS</a>
+            </li>
+            <li class="p-page-mv__breadcrumbs-list">
+              <span class="p-page-mv__breadcrumbs-link">
+                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/breadcrumbs_arrow.svg" alt="" width="10" height="10">
+              </span>
+            <li class="p-page-mv__breadcrumbs-list">
+              <p class="p-page-mv__breadcrumbs-link"><?php the_title(); ?></p>
             </li>
           </ul>
           <div class="p-page-mv__title-wrapper">
