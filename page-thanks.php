@@ -21,8 +21,8 @@
           <p class="p-thanks__text">
             自動返信メールをご入力いただいたメールアドレスに送信しております。<br>
             メールが届かない場合は、お手数ですが、もう一度メールアドレスをご確認のうえ送信をお願いいたします。</p>
-          <p class="p-thanks__text">3営業日以内を目安に担当者よりメールにてご連絡いたします。<br>
-            3日経過しても連絡がない場合、もう一度お問い合わせいただくか、お電話にてご連絡をお願いいたします。</p>
+          <p class="p-thanks__text"><span class="u-font-outfit">3</span>営業日以内を目安に担当者よりメールにてご連絡いたします。<br>
+            <span class="u-font-outfit">3</span>日経過しても連絡がない場合、もう一度お問い合わせいただくか、お電話にてご連絡をお願いいたします。</p>
         </div>
         <div class="p-thanks__btn">
           <a href="<?php echo esc_url(home_url('/')); ?>" class="c-btn">

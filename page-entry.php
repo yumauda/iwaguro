@@ -57,7 +57,7 @@
         </hgroup>
       </div>
       <p class="p-entry-form__read">
-      下記のエントリーフォームより、ご応募ください。<br class="u-desktop">2〜3営業日以内に折り返しご連絡いたします。ご応募をお待ちしています！
+      下記のエントリーフォームより、ご応募ください。<br class="u-desktop"><span class="u-font-outfit">2〜3</span>営業日以内に折り返しご連絡いたします。ご応募をお待ちしています！
       </p>
       <div class="p-entry-form__wrap p-form">
         <?php the_content(); ?>

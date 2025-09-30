@@ -49,11 +49,6 @@ Template Name: インタビュー MT
             <li class="p-page-mv__breadcrumbs-list">
               <p class="p-page-mv__breadcrumbs-link">仲間を知る</p>
             </li>
-            <li class="p-page-mv__breadcrumbs-list">
-              <span class="p-page-mv__breadcrumbs-link">
-                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/breadcrumbs_arrow.svg" alt="" width="10" height="10">
-              </span>
-            </li>
           </ul>
         </div>
       </div>

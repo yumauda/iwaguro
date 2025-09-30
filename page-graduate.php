@@ -70,18 +70,7 @@
             </div>
             <div class="p-grad-recruitment__item-bottom">
               <div class="p-grad-recruitment__item-wrap">
-                <dl>
-                  <dt>[技術職]</dt>
-                  <dd><span class="u-font-outfit">4</span>名程度</dd>
-                </dl>
-                <dl>
-                  <dt>[技能職]</dt>
-                  <dd><span class="u-font-outfit">2</span>名程度</dd>
-                </dl>
-                <dl>
-                  <dt>[営業職]</dt>
-                  <dd><span class="u-font-outfit">1</span>名</dd>
-                </dl>
+                <p class="p-grad-recruitment__item-text"><span class="u-font-outfit">3</span>名程度</p>
               </div>
             </div>
           </li>
