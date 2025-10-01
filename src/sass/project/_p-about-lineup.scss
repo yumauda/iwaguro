@@ -1,0 +1,157 @@
+@use "../global" as *;
+
+.p-about-lineup {
+  padding-top: rem(70);
+  padding-bottom: rem(70);
+  background: linear-gradient(135deg, #DFF3FF, #E5EDFF);
+  @include mq(md){
+    padding-top: rem(99);
+    padding-bottom: rem(100);
+  }
+}
+
+.p-about-lineup__inner {
+  @include mq(md){
+    max-width: rem(1126);
+  }
+}
+
+.p-about-lineup__head {
+  text-align: center;
+}
+
+.p-about-lineup__title {
+  padding: 0 rem(11) rem(1);
+  font-size: rem(20);
+  color: $white;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  background-image: linear-gradient(#3061CA);
+  background-size: 100% 100%; // 初期状態は横幅0
+  background-position: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  @include mq(md){
+    display: inline;
+    padding: 0 rem(10) rem(1);
+    font-size: rem(24);
+  }
+}
+
+.p-about-lineup__read {
+  margin-top: rem(25);
+  font-size: rem(15);
+  line-height: 2;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  @include mq(md){
+    margin-top: rem(20);
+    font-size: rem(20);
+    text-align: center;
+    line-height: 1.8;
+  }
+}
+
+.p-about-lineup__body {
+  margin-top: rem(70);
+  @include mq(md){
+    margin-top: rem(58);
+    background: $white;
+  }
+}
+
+.p-about-lineup__wrap {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: rem(56);
+  @include mq(md){
+    padding: rem(19) rem(20) rem(38);
+    row-gap: rem(24);
+  }
+}
+
+.p-about-lineup__block {
+  background: $white;
+  position: relative;
+  @include mq(md){
+    display: flex;
+    align-items: center;
+    column-gap: rem(26);
+    background: transparent;
+  }
+}
+
+.p-about-lineup__block-head {
+  width: rem(160);
+  height: rem(86);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent url(../images/about/icon_rhombus.png) no-repeat center center / cover;
+  position: absolute;
+  top: 0;
+  left: rem(-17);
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -52%);
+  @include mq(md){
+    width: rem(160);
+    height: rem(84);
+    position: static;
+    top: rem(-18);
+    left: auto;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+  }
+}
+
+.p-about-lineup__block-title {
+  font-size: rem(17);
+  color: $white;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  @include mq(md){
+    font-size: rem(17);
+  }
+}
+
+.p-about-lineup__block-wrap {
+  padding: rem(20) 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: rem(40);
+  @include mq(md){
+    grid-template-columns: repeat(2, rem(380));
+    column-gap: rem(26);
+    // row-gap: ;
+  }
+}
+
+.p-about-lineup__block-img {
+
+}
+
+.p-about-lineup__block-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 335 / 220;
+  @include mq(md){
+    aspect-ratio: 380 / 265;
+  }
+}
+
+.p-about-lineup__block-img figcaption {
+  margin-top: rem(6);
+  font-size: rem(17);
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  @include mq(md){
+    margin-top: rem(8);
+    font-size: rem(17);
+  }
+}

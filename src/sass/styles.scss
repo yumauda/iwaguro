@@ -40,7 +40,13 @@
 // Project
 // ===========================
 @use "./project/p-404";
-@use "./project/_p-article";
+@use "./project/p-about-concept";
+@use "./project/p-about-lineup";
+@use "./project/p-about-mv";
+@use "./project/p-about-service";
+@use "./project/p-about-story";
+@use "./project/p-about-strength";
+@use "./project/p-article";
 @use "./project/p-benefits";
 @use "./project/p-career";
 @use "./project/p-challenge";

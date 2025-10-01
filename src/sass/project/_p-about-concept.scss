@@ -1,0 +1,158 @@
+@use "../global" as *; 
+
+.p-about-concept {
+  background: linear-gradient(135deg, #DFF3FF , #E5EDFF);
+}
+
+.p-about-concept__inner {
+  padding-top: rem(120);
+  padding-bottom: rem(40);
+  position: relative;
+  @include mq(md){
+    padding-top: rem(304);
+    padding-bottom: rem(130);
+  }
+}
+
+.p-about-concept__head {
+  text-align: center;
+}
+
+.p-about-concept__title {
+  font-size: rem(20);
+  color: $white;
+  text-align: center;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  @include mq(md){
+    font-size: rem(30);
+    line-height: 1.5;
+  }
+}
+
+.p-about-concept__title span {
+  padding: 0 rem(10);
+  background-image: linear-gradient(#3061CA);
+  background-size: 100% 100%; // 初期状態は横幅0
+  background-position: 100%;
+  background-repeat: no-repeat;
+  display: inline;
+  @include mq(md){
+    padding: rem(4) rem(20);
+  }
+}
+
+.p-about-concept__read {
+  margin-top: rem(20);
+  font-size: rem(16);
+  text-align: center;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  @include mq(md){
+    margin-top: rem(44);
+    font-size: rem(20);
+    line-height: 2;
+  }
+}
+
+.p-about-concept__chronology {
+  margin-top: rem(22);
+  @include mq(md){
+    margin-top: rem(60);
+    display: flex;
+    column-gap: rem(55);
+  }
+}
+
+.p-about-concept__chronology-head {
+  position: relative;
+  @include mq(md){
+    width: calc(625 / 1440 * 100%);
+  }
+}
+
+.p-about-concept__chronology-img:nth-child(1) {
+  width: calc(293 / 375 * 100%);
+  padding-top: rem(130);
+  @include mq(md){
+    width: auto;
+    padding-top: rem(242);
+  }
+}
+
+.p-about-concept__chronology-img:nth-child(2) {
+  width: calc(196 / 375 * 100%);
+  width: rem(196);
+  position: absolute;
+  top: 0;
+  right: rem(12);
+  right: calc(50% - rem(175));
+  @include mq(md){
+    width: calc(293.5 / 625 * 100%);
+    top: rem(-10);
+    right: rem(2);
+  }
+}
+
+.p-about-concept__chronology-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.p-about-concept__chronology-body {
+  margin-top: rem(24);
+  padding: 0 rem(20);
+  @include mq(md){
+    margin-top: 0;
+    padding: 0;
+    width: calc(530 / 1440 * 100%);
+  }
+}
+
+.p-about-concept__chronology-body img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.p-about-concept__icons {
+  padding: 0 rem(20);
+  margin-top: rem(25);
+  @include mq(md){
+    width: calc(1088.5 / 1440 * 100%);
+    margin-right: auto;
+    margin-left: calc(164 / 1440 * 100%);
+    margin-top: rem(-60);
+    padding: 0;
+  }
+}
+
+.p-about-concept__icons img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 335 / 311;
+  @include mq(md){
+    aspect-ratio: 1070 / 445;
+  }
+}
+
+.p-about-concept__img {
+  @include mq(md){
+    width: calc(520 / 1440 * 100%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(0, 55%);
+    -webkit-transform: translate(0, 55%);
+  }
+}
+
+.p-about-concept__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
