@@ -131,7 +131,7 @@
   text-align: center;
   line-height: 1.2;
   letter-spacing: 0.04em;
-  font-weight: 700;
+  font-weight: 500;
   position: relative;
   top: rem(4);
   @include mq(md){
@@ -162,7 +162,7 @@
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  font-weight: 700;
+  font-weight: 500;
   @include mq(md){
     margin-top: rem(16);
     font-size: rem(16);

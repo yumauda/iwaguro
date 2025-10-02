@@ -201,5 +201,30 @@ Template Name: インタビュー MT
     </div>
   </section>
 
+  <section class="p-movie">
+    <div class="p-movie__inner l-inner">
+      <div class="p-movie__title">
+        <div class="c-benefits-title">
+          <p class="c-benefits-title__en">MOVIE</p>
+          <h2 class="c-benefits-title__ja">とある<span class="u-font-outfit">1</span>日に密着！</h2>
+        </div>
+      </div>
+      <div class="p-movie__wrap">
+        <div class="p-movie__card">
+          <h3 class="p-movie__card-title">製造 (組立･調整)／若手社員</h3>
+          <div class="p-movie__card-movie">
+            <iframe width="338" height="189" src="https://www.youtube.com/embed/6xRhDElRAm4?si=DUZkmJuZl46HZigL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="p-movie__card">
+          <h3 class="p-movie__card-title">技術部 設計／ベテラン社員</h3>
+          <div class="p-movie__card-movie">
+            <iframe width="" height="" src="https://www.youtube.com/embed/JHG5pPS_Z2s?si=LGhlUHoABJAjdYRx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
 <?php get_footer() ?>

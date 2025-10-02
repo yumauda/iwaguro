@@ -259,11 +259,11 @@
 }
 
 .wpcf7-radio {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  display: flex;
+  column-gap: rem(36);
+  column-gap: rem(20);
   row-gap: rem(20);
   @include mq(md){
-    display: flex;
     flex-wrap: wrap;
     column-gap: rem(36);
     row-gap: rem(6);
@@ -397,7 +397,7 @@ input[type="radio"] {
   content: "";
   display: inline-block;
   background: #fff;
-  border: rem(2) solid $black;
+  border: rem(2) solid #E2E2E2;
   border-radius: 100%; /* ラジオボタンっぽく丸くする */
   width: rem(16);
   height: rem(16);
@@ -525,6 +525,7 @@ input[type="radio"]:checked + .wpcf7-list-item-label::before {
   flex-wrap: wrap;
   column-gap: rem(10);
   row-gap: rem(30);
+  font-weight: 500;
   @include mq(md){
     column-gap: rem(13);
     row-gap: rem(20);
