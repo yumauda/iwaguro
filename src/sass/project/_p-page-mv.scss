@@ -10,7 +10,7 @@
 .p-page-mv__content {
   @include mq(md) {
     display: flex;
-    align-items: center;
+    // align-items: center;
     gap: rem(46);
   }
 }

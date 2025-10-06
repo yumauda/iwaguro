@@ -8099,7 +8099,6 @@ a.p-grad-recruitment__head-item {
 @media screen and (min-width: 768px) {
   .p-page-mv__content {
     display: flex;
-    align-items: center;
     gap: 2.875rem;
   }
 }
