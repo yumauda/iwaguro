@@ -323,52 +323,6 @@ function custom_hiragana_validation_filter($result, $tag)
 	return $result;
 }
 
-//投稿タイプの作成(カスタム投稿)
-register_post_type(
-	'allcolumn',
-	array(
-		'labels' => array(
-			'name' => __('コラム'),
-			'singular_name' => __('コラム')
-		),
-		'supports' => array(
-			'title',
-			'editor',
-			'author',
-			'thumbnail',
-			'excerpt',
-			'custom-fields',
-			'comments',
-			'categories'
-		),
-		'public' => true,
-		'has_archive' => true,
-		'show_in_rest' => true,
-	)
-);
-register_taxonomy('allcolumn_category', array('allcolumn'), array(
-	'hierarchical' => true,
-	'label' => 'カテゴリー',
-	'show_ui' => true,
-	'public' => true
-));
-register_taxonomy('allcolumn_tag', 'allcolumn', array(
-	'hierarchical' => false,
-	'label' => 'タグ',
-	'show_ui' => true,
-	'public' => true,
-	'show_in_rest' => true,
-));
-
-add_filter('body_class', function ($classes) {
-	if (is_front_page()) {
-		$classes[] = 'home';
-	}
-	return $classes;
-});
-
-
-
 
 
 

@@ -4903,14 +4903,15 @@ input[type=radio]:checked + .wpcf7-list-item-label::before {
 }
 
 .p-gradation {
-  padding-top: 37.5rem;
-  padding-bottom: 15.625rem;
+  padding-top: 25rem;
+  padding-bottom: 12.5rem;
   position: relative;
   background: url(../images/common/gradation_bg.png) no-repeat center center/cover;
 }
 @media screen and (min-width: 768px) {
   .p-gradation {
-    padding-bottom: 31.25rem;
+    padding-top: 43.75rem;
+    padding-bottom: 18.75rem;
   }
 }
 

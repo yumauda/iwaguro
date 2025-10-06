@@ -1,13 +1,14 @@
 @use "../global" as *;
 
 .p-gradation {
-  padding-top: rem(600);
-  padding-bottom: rem(250);
+  padding-top: rem(400);
+  padding-bottom: rem(200);
   position: relative;
   background: url(../images/common/gradation_bg.png) no-repeat center center /
-    cover;
+  cover;
   @include mq(md) {
-    padding-bottom: rem(500);
+    padding-top: rem(700);
+    padding-bottom: rem(300);
   }
 }
 
