@@ -685,7 +685,7 @@ body.fade-in {
 .c-text-gradation::before {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   top: 0;
   left: 0;
   width: 100%;
@@ -916,7 +916,7 @@ body.fade-in {
 
 .p-about-concept__title span {
   padding: 0 0.625rem;
-  background-image: linear-gradient(#3061CA);
+  background-image: linear-gradient(#3264CA);
   background-size: 100% 100%;
   background-position: 100%;
   background-repeat: no-repeat;
@@ -1088,7 +1088,7 @@ body.fade-in {
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 700;
-  background-image: linear-gradient(#3061CA);
+  background-image: linear-gradient(#3264CA);
   background-size: 100% 100%;
   background-position: 100%;
   background-repeat: no-repeat;
@@ -1407,7 +1407,7 @@ body.fade-in {
   padding: 0.25rem 0.5rem 0.3125rem;
   color: #fff;
   line-height: 1.75;
-  background-image: linear-gradient(#3061CA);
+  background-image: linear-gradient(#3264CA);
   background-size: 100% 100%;
   background-position: 100%;
   background-repeat: no-repeat;
@@ -1696,7 +1696,7 @@ body.fade-in {
 .p-about-strength {
   padding-top: 4.375rem;
   padding-bottom: 4.375rem;
-  background: #3061CA;
+  background: #3264CA;
 }
 @media screen and (min-width: 768px) {
   .p-about-strength {
@@ -1903,7 +1903,7 @@ body.fade-in {
   line-height: 1.7;
   letter-spacing: 0;
   font-weight: 700;
-  background: linear-gradient(180deg, #0087C1, #033FC2);
+  background: #3264CA;
   position: relative;
 }
 @media screen and (min-width: 768px) {
@@ -2288,7 +2288,7 @@ body.fade-in {
   line-height: 2;
   font-weight: 400;
   font-size: 0.875rem;
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2395,7 +2395,7 @@ body.fade-in {
 .p-career__block-title::before {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   width: 7.6875rem;
   height: 2px;
   bottom: -1px;
@@ -2447,7 +2447,7 @@ body.fade-in {
 }
 
 .p-career__steps-list-title {
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2466,7 +2466,7 @@ body.fade-in {
 }
 
 .p-career__steps-list-num {
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2694,7 +2694,7 @@ body.fade-in {
 .p-career__qualification-list::before {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   width: 0.375rem;
   height: 0.375rem;
   border-radius: 9999px;
@@ -3609,7 +3609,7 @@ body.fade-in {
   padding-left: 0.25rem;
   display: inline-block;
   padding-right: 0.25rem;
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   letter-spacing: 0.04em;
   line-height: 1.5;
   text-align: center;
@@ -5731,7 +5731,7 @@ a.p-grad-recruitment__head-item {
   letter-spacing: 0.04em;
   font-weight: 500;
   border-radius: 0.25rem;
-  background: linear-gradient(135deg, #0087C1, #033FC2);
+  background: #3264CA;
 }
 @media screen and (min-width: 768px) {
   .p-grad-recruitment__item-banner {
@@ -5976,7 +5976,7 @@ a.p-grad-recruitment__head-item {
   display: inline;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
 }
@@ -6759,7 +6759,7 @@ a.p-grad-recruitment__head-item {
 .p-job-contents__block-read span {
   display: inline;
   padding: 0 0.375rem;
-  background: #3061CA;
+  background: #3264CA;
   background-size: 100% 100%;
   background-position: 100% 100%;
   background-repeat: no-repeat;
@@ -7353,7 +7353,7 @@ a.p-grad-recruitment__head-item {
 .p-movie__title::before {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   width: 2.375rem;
   height: 2px;
   bottom: -1px;
@@ -7974,7 +7974,7 @@ a.p-grad-recruitment__head-item {
   font-family: "Outfit", sans-serif;
   letter-spacing: 0.04em;
   line-height: 1.5;
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -8562,7 +8562,7 @@ a.p-grad-recruitment__head-item {
 }
 
 .p-power__title {
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -8648,7 +8648,7 @@ a.p-grad-recruitment__head-item {
 }
 
 .p-project__title-en {
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -8707,7 +8707,7 @@ a.p-grad-recruitment__head-item {
 }
 
 .p-project__issue-en {
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -8839,7 +8839,7 @@ a.p-grad-recruitment__head-item {
 }
 
 .p-project__block-title {
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   color: #fff;
@@ -9151,7 +9151,7 @@ a.p-grad-recruitment__head-item {
 }
 
 .p-question__white-text span {
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   color: #fff;
 }
 
@@ -9170,7 +9170,7 @@ a.p-grad-recruitment__head-item {
 .p-question__white-text .c-text-gradation::before {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   top: 0;
   left: 0;
   width: 100%;
@@ -9303,7 +9303,7 @@ a.p-grad-recruitment__head-item {
 }
 
 .p-reason__detailTitle--gradation {
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   padding-right: 0.5rem;
   line-height: 1.8;
   display: inline;
@@ -9415,7 +9415,7 @@ a.p-grad-recruitment__head-item {
   font-weight: 700;
   letter-spacing: 0.04em;
   font-size: 1.0625rem;
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   text-align: center;
   display: inline;
   width: 100vw;
@@ -9461,7 +9461,7 @@ a.p-grad-recruitment__head-item {
 .p-result__title {
   color: #fff;
   display: inline;
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 2.3;
@@ -10456,7 +10456,7 @@ a.p-grad-recruitment__head-item {
   width: fit-content;
   font-size: 1.125rem;
   line-height: 1.4;
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -10608,7 +10608,7 @@ a.p-grad-recruitment__head-item {
   line-height: 1.4;
   letter-spacing: 0.06em;
   font-size: 1.125rem;
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }

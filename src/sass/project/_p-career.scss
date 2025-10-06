@@ -59,7 +59,7 @@
 .p-career__block-title::before {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   width: rem(123);
   height: 2px;
   bottom: -1px;
@@ -111,7 +111,7 @@
 }
 
 .p-career__steps-list-title {
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -128,7 +128,7 @@
 }
 
 .p-career__steps-list-num {
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -322,7 +322,7 @@
 .p-career__qualification-list::before {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #0087c1 0%, #033fc2 100%);
+  background: #3264CA;
   width: rem(6);
   height: rem(6);
   border-radius: 9999px;
