@@ -14,6 +14,13 @@
     padding-bottom: initial;
   }
 }
+.p-top-line__inner {
+  padding: 0 rem(8);
+  @include mq(md){
+    padding-right: $padding-pc;
+    padding-left: $padding-pc;
+  }
+}
 .p-top-line::before {
   position: absolute;
   content: "";
@@ -139,10 +146,12 @@
   right: rem(-32);
 }
 .p-top-line__slider {
-  margin-top: rem(70);
+  // margin-top: rem(70);
+  margin-top: 0;
   @include mq(md) {
     margin-top: initial;
     padding-bottom: rem(100);
+    padding-top: rem(100); //LINE非表示分
   }
 }
 .p-top-line__title .c-section-title {

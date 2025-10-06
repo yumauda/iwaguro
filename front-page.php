@@ -596,7 +596,8 @@
       <div class="c-left js-left--vertical-line">
         <p class="c-left__text">line</p>
       </div>
-      <div class="l-inner">
+      <div class="p-top-line__inner l-inner">
+        <!-- 
         <div class="p-top-line__content">
           <div class="p-top-line__detail">
             <div class="p-top-line__title">
@@ -626,6 +627,7 @@
             </a>
           </div>
         </div>
+         -->
         <div class="p-top-line__slider">
 
           <div class="slider-wrapper">

@@ -10832,6 +10832,16 @@ a.p-grad-recruitment__head-item {
   }
 }
 
+.p-top-line__inner {
+  padding: 0 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .p-top-line__inner {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
 .p-top-line::before {
   position: absolute;
   content: "";
@@ -10968,12 +10978,13 @@ a.p-grad-recruitment__head-item {
 }
 
 .p-top-line__slider {
-  margin-top: 4.375rem;
+  margin-top: 0;
 }
 @media screen and (min-width: 768px) {
   .p-top-line__slider {
     margin-top: initial;
     padding-bottom: 6.25rem;
+    padding-top: 6.25rem;
   }
 }
 
