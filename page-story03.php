@@ -14,11 +14,11 @@
               </span>
             </li>
             <li class="p-page-mv__breadcrumbs-list">
-              <p class="p-page-mv__breadcrumbs-link">STORY #03</p>
+              <p class="p-page-mv__breadcrumbs-link">STORY #<span class="u-font-outfit">03</span></p>
             </li>
           </ul>
           <div class="p-page-mv__title-wrapper">
-            <p class="c-page-en">STORY #03</p>
+            <p class="c-page-en">STORY <span class="u-font-outfit">03</span></p>
             <figure class="p-page-mv__img u-mobile">
               <img src="<?php echo get_template_directory_uri() ?>/images/common/mv_story03.png" alt="" width="659" height="569">
             </figure>
@@ -47,7 +47,7 @@
         </div>
         <div class="p-occupation__block">
           <div class="p-occupation__block-titleWrapper">
-            <p class="p-occupation__block-title">岩黒製作所は、<br class="u-mobile">モノづくりにワクワクする人たち<br class="u-mobile">の集まりです。</p>
+            <p class="p-occupation__block-title">岩黒製作所は、<br class="u-mobile">モノづくりにワクワクする人たちの集まりです。</p>
           </div>
           <div class="p-occupation__block-textWrapper">
             <p class="p-occupation__block-text">
@@ -138,7 +138,7 @@
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/other_img1.jpg" alt="岩黒製作所だからできること" width="431" height="38">
             </figure>
             <div class="p-other__detail">
-              <p class="p-other__en">STORY #01</p>
+              <p class="p-other__en">STORY #<span class="u-font-outfit">01</span></p>
               <div class="p-other__title-wrapper">
                 <h3 class="p-other__title">
                   <span class="p-other__title-ja">岩黒製作所だから</span>
@@ -152,7 +152,7 @@
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/other_img3.jpg" alt="金属の未来をリファイン" width="431" height="38">
             </figure>
             <div class="p-other__detail">
-              <p class="p-other__en">STORY #02</p>
+              <p class="p-other__en">STORY #<span class="u-font-outfit">02</span></p>
               <div class="p-other__title-wrapper">
                 <h3 class="p-other__title">
                   <span class="p-other__title-ja">社会に求められる</span>

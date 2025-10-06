@@ -30,22 +30,22 @@
     <div class="l-inner l-gradation-inner">
       <div class="p-gradation__content">
         <div class="p-gradation__text-wrapper">
-          <p class="p-gradation__text">普段、何気なく手に取っている<span class="c-text-gradation js-text-gradation">医薬品</span>。<br>
+          <p class="p-gradation__text">普段、何気なく手に取っている医薬品。<br>
             そのパッケージ、<br>岩黒製作所が関わっているかもしれません。</p>
           <p class="p-gradation__text">私たちは ｢限りなき技術への挑戦｣ を信念に<br>
             医療・製薬業界の発展に貢献し続ける<br>
             薬剤包装機械製造のソリューション・カンパニー。</p>
           <p class="p-gradation__text">医薬という、<br>
-            大事な<span class="c-text-gradation js-text-gradation">命・健康</span> を支えるものだからこそ<br>
+            大事な命・健康を支えるものだからこそ<br>
             それらを包む技術に私たちは情熱をかけています。</p>
           <p class="p-gradation__text">ただモノづくりをするのではなく、<br>
-            <span class="c-text-gradation js-text-gradation">医薬の一つひとつ</span> に、<span class="c-text-gradation js-text-gradation">オンリーワンの包み方</span> を<br>
+          医薬の一つひとつに、オンリーワンの包み方を<br>
             ゼロから考え、つくり、安心を届ける。
           </p>
           <p class="p-gradation__text">創意は無限、改良は永遠。</p>
           <p class="p-gradation__text">なくてはならない「くすり」。<br>
             その一錠、一包が、<br>
-            人々を支える、<span class="c-text-gradation js-text-gradation">生きる力</span>になることを信じて。</p>
+            人を支える、生きる力となることを信じて。</p>
         </div>
       </div>
     </div>
@@ -316,7 +316,7 @@
                 </figure>
               </div>
               <div class="p-top-story__detail">
-                <p class="p-top-story__num">STORY #01</p>
+                <p class="p-top-story__num">STORY #<span class="u-font-outfit">01</span></p>
                 <h3 class="p-top-story__title">岩黒製作所だから<br>
                   できること。</h3>
                 <div class="p-top-story__bottom">
@@ -340,7 +340,7 @@
                 </picture>
               </figure>
               <div class="p-top-story__detail">
-                <p class="p-top-story__num">STORY #02</p>
+                <p class="p-top-story__num">STORY #<span class="u-font-outfit">02</span></p>
                 <h3 class="p-top-story__title">社会に求められる<br>
                   医薬の業界へ。</h3>
                 <div class="p-top-story__bottom">
@@ -364,7 +364,7 @@
                 </picture>
               </figure>
               <div class="p-top-story__detail">
-                <p class="p-top-story__num">STORY #03</p>
+                <p class="p-top-story__num">STORY <span class="u-font-outfit">03</span></p>
                 <h3 class="p-top-story__title">機械創りに集中できる<br>
                   風通しのよい職場。</h3>
                 <div class="p-top-story__bottom">
@@ -551,7 +551,7 @@
                 </h3>
               </div>
               <div class="p-challenge__text-wrapper">
-                <p class="p-challenge__text">私たちが目指すのは、モノづくりではなく“コト”づくり。<br class="u-desktop">
+                <p class="p-challenge__text">私たちが目指すのは、モノづくりではなく“コト”づくり。<br>
                   お客さまの要望をどう実現するか、考えるのは難しい。<br class="u-desktop">
                   でも、だからこそ面白い。<br><br class="u-mobile">
                   期待に応えるモノづくりで、<br class="u-mobile">一生ゴトの仕事をしよう！</p>

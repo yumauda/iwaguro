@@ -13,6 +13,7 @@ function my_setup()
 {
 	add_theme_support('post-thumbnails'); /* アイキャッチ */
 	add_theme_support('automatic-feed-links'); /* RSSフィード */
+	add_theme_support('title-tag');// ※404ページのタイトル用に残しておく
 	add_theme_support(
 		'html5',
 		array( /* HTML5のタグで出力 */
@@ -170,65 +171,6 @@ function my_excerpt_more($more)
 }
 add_filter('excerpt_more', 'my_excerpt_more');
 
-function breadcrumb()
-{
-	$home = '<li class="c-breadcrumbs__list"><a class="c-breadcrumbs__link" href="' . get_bloginfo('url') . '" >HOME</a></li>';
-
-	echo '<ul class="c-breadcrumbs__lists">';
-	if (is_front_page()) {
-		// トップページの場合
-	} else if (is_category()) {
-		// カテゴリページの場合
-		$cat = get_queried_object();
-		$cat_id = $cat->parent;
-		$cat_list = array();
-		while ($cat_id != 0) {
-			$cat = get_category($cat_id);
-			$cat_link = get_category_link($cat_id);
-			array_unshift($cat_list, '<li class="c-breadcrumbs__list"><a class="c-breadcrumbs__link" href="' . $cat_link . '">' . $cat->name . '</a></li>');
-			$cat_id = $cat->parent;
-		}
-		echo $home;
-		echo '<li class="c-breadcrumbs__list c-breadcrumbs__arrow"><</li>';
-		foreach ($cat_list as $value) {
-			echo $value;
-		}
-		the_archive_title('<li class="c-breadcrumbs__list">', '</li>');
-	} else if (is_archive()) {
-		// 月別アーカイブ・タグページの場合
-		echo $home;
-		echo '<li class="c-breadcrumbs__list c-breadcrumbs__arrow"><</li>';
-		the_archive_title('<li class="c-breadcrumbs__list">', '</li>');
-	} else if (is_home()) {
-		// 月別アーカイブ・タグページの場合
-		echo $home;
-		echo '<li class="c-breadcrumbs__list c-breadcrumbs__arrow"><</li>';
-		the_archive_title('<li class="c-breadcrumbs__list">', '</li>');
-	} else if (is_single()) {
-		// 投稿ページの場合
-		echo $home;
-		echo '<li class="c-breadcrumbs__list c-breadcrumbs__arrow"><</li>';
-		echo "<a href=" . "/blog-all" . ">ブログ</a>";
-		echo '<li class="c-breadcrumbs__list c-breadcrumbs__arrow c-breadcrumbs__arrow--2"><</li>';
-		the_title('<li class="c-breadcrumbs__list c-breadcrumbs__list--mt2">', '</li>');
-	} else if (is_page()) {
-		// 固定ページの場合
-		echo $home;
-		echo '<li class="c-breadcrumbs__list c-breadcrumbs__arrow"><</li>';
-		the_title('<li class="c-breadcrumbs__list">', '</li>');
-	} else if (is_search()) {
-		// 検索ページの場合
-		echo $home;
-		echo '<li class="c-breadcrumbs__list c-breadcrumbs__arrow"><</li>';
-		echo '<li class="c-breadcrumbs__list">「' . get_search_query() . '」の検索結果</li>';
-	} else if (is_404()) {
-		// 404ページの場合
-		echo $home;
-		echo '<li class="c-breadcrumbs__list c-breadcrumbs__arrow"><</li>';
-		echo '<li class="c-breadcrumbs__list">ページが見つかりません</li>';
-	}
-	echo "</ul>";
-}
 
 // アーカイブの余計なタイトルを削除
 add_filter('get_the_archive_title', function ($title) {
@@ -244,12 +186,12 @@ add_filter('get_the_archive_title', function ($title) {
 
 add_filter('wpcf7_autop_or_not', '__return_false');
 
-// titleタグの削除
-function remove_title_tag()
-{
-	remove_action('wp_head', '_wp_render_title_tag', 1);
-}
-add_action('init', 'remove_title_tag');
+// titleタグの削除 ※不要そうなので削除
+// function remove_title_tag()
+// {
+// 	remove_action('wp_head', '_wp_render_title_tag', 1);
+// }
+// add_action('init', 'remove_title_tag');
 
 
 

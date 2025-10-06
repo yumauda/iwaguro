@@ -40,7 +40,7 @@
             </figure>
             <h3 class="p-figures__title">会社について</h3>
           </div>
-          <p class="p-figures__number">DATE 01</p>
+          <p class="p-figures__number u-desktop">DATE 01</p>
         </div>
         <div class="p-figures__block">
 
@@ -75,7 +75,7 @@
             </figure>
             <h3 class="p-figures__title">働き方について</h3>
           </div>
-          <p class="p-figures__number">DATE 02</p>
+          <p class="p-figures__number u-desktop">DATE 02</p>
         </div>
         <div class="p-figures__block">
           <p class="p-figures__year">※令和<span>6</span>年度</p>
@@ -132,7 +132,7 @@
             </figure>
             <h3 class="p-figures__title">社員について</h3>
           </div>
-          <p class="p-figures__number">DATE 03</p>
+          <p class="p-figures__number u-desktop">DATE 03</p>
         </div>
         <div class="p-figures__block">
           <p class="p-figures__year">※令和<span>6</span>年度</p>

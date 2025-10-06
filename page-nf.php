@@ -20,7 +20,7 @@ Template Name: インタビュー NF
               </span>
             </li>
             <li class="p-page-mv__breadcrumbs-list">
-              <p class="p-page-mv__breadcrumbs-link">仲間を知る</p>
+              <a href="<?php echo esc_url(home_url('/interview/')); ?>" class="p-page-mv__breadcrumbs-link">仲間を知る</a>
             </li>
             <li class="p-page-mv__breadcrumbs-list">
               <span class="p-page-mv__breadcrumbs-link">
@@ -47,7 +47,7 @@ Template Name: インタビュー NF
               </span>
             </li>
             <li class="p-page-mv__breadcrumbs-list">
-              <p class="p-page-mv__breadcrumbs-link">仲間を知る</p>
+              <a href="<?php echo esc_url(home_url('/interview/')); ?>" class="p-page-mv__breadcrumbs-link">仲間を知る</a>
             </li>
             <li class="p-page-mv__breadcrumbs-list">
               <span class="p-page-mv__breadcrumbs-link">
@@ -134,7 +134,7 @@ Template Name: インタビュー NF
               <p class="p-question__title">実際に設計の仕事に就いてみてどうですか？</p>
             </h4>
             <div class="p-question__answer-wrapper">
-              <p class="p-question__answer">学ぶことや覚えることが多く機械設計の難しさを痛感しています。過去の問題点や改善点を踏まえつつお客さまのご要望に応える設計を考えること。そこには納期やコストといった制約も含まれるため、どうカタチにしていくかさまざまな課題をクリアしなければいけない難しさとやりがいがあります。異動後1年目は先輩のサポート業務が主でしたが、2年目の今、ようやく本格的に機械設計を任せてもらえるようになり機械づくりへの手応えを感じています。<br>
+              <p class="p-question__answer">学ぶことや覚えることが多く機械設計の難しさを痛感しています。過去の問題点や改善点を踏まえつつお客さまのご要望に応える設計を考えること。そこには納期やコストといった制約も含まれるため、どうカタチにしていくか様々な課題をクリアしなければいけない難しさとやりがいがあります。異動後1年目は先輩のサポート業務が主でしたが、2年目の今、ようやく本格的に機械設計を任せてもらえるようになり機械づくりへの手応えを感じています。<br>
               <br>
               しかし、まだまだ知識不足で行き詰ってしまうことも…。そんな時は、経験値の高い先輩たちにすぐに相談できる環境に助けられています。先輩に相談するとすぐに解決案を提示してくれ、その経験の豊富さや判断力、スピードにいつも驚かされます。お客さまからの電話にも的確に返答している姿を見ると本当にかっこいいなと感じます。私もそんな風にお客さまからも、社内からも、頼られる設計者を目指して成長していきたいです。</p>
             </div>
@@ -152,7 +152,7 @@ Template Name: インタビュー NF
               <div class="p-question__answer-wrapper">
                 <p class="p-question__answer">歴史のある会社ですが、変化を恐れない柔軟な社風があります。毎月の会議で品質改善の意見出しや部署ごとに提案アンケ－トを実施するなど、若手もベテランも関係なく意見が採用されます。<br>
                 <br>
-                福利厚生の手厚さも安心して働ける点ですね。夏冬のボーナスに加えて決算賞与も15年連続で支給されているというのも嬉しいです。他にもさまざまな手当や費用サポートがあり、働き続けたいと思える会社です。これからも、成長を積み重ねていけるよう精進していきたいと思います。</p>
+                福利厚生の手厚さも安心して働ける点ですね。夏冬のボーナスに加えて決算賞与も15年連続で支給されているというのも嬉しいです。他にも様々な手当や費用サポートがあり、働き続けたいと思える会社です。これからも、成長を積み重ねていけるよう精進していきたいと思います。</p>
               </div>
             </div>
             <figure class="p-question__rowImg">

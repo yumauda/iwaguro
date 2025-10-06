@@ -14,11 +14,11 @@
               </span>
             </li>
             <li class="p-page-mv__breadcrumbs-list">
-              <p class="p-page-mv__breadcrumbs-link">STORY #01</p>
+              <p class="p-page-mv__breadcrumbs-link">STORY #<span class="u-font-outfit">01</span></p>
             </li>
           </ul>
           <div class="p-page-mv__title-wrapper">
-            <p class="c-page-en">STORY #01</p>
+            <p class="c-page-en">STORY #<span class="u-font-outfit">01</span></p>
             <figure class="p-page-mv__img u-mobile">
               <img src="<?php echo get_template_directory_uri() ?>/images/common/mv_story01.png" alt="" width="659" height="569">
             </figure>
@@ -134,15 +134,7 @@
                 <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
               </div>
               <div class="p-result__detail">
-                <p class="p-result__detail-title">作業人員<br>の削減</p>
-              </div>
-            </li>
-            <li class="p-result__list">
-              <div class="p-result__check">
-                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
-              </div>
-              <div class="p-result__detail">
-                <p class="p-result__detail-title">多品種生産対応</p>
+                <p class="p-result__detail-title">作業人員の削減</p>
               </div>
             </li>
             <li class="p-result__list">
@@ -158,15 +150,7 @@
                 <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
               </div>
               <div class="p-result__detail">
-                <p class="p-result__detail-title">受注率アップ</p>
-              </div>
-            </li>
-            <li class="p-result__list">
-              <div class="p-result__check">
-                <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/result_check.svg" alt="" width="30" height="30">
-              </div>
-              <div class="p-result__detail">
-                <p class="p-result__detail-title">省スペース化</p>
+                <p class="p-result__detail-title">多品種生産対応</p>
               </div>
             </li>
           </ul>
@@ -210,13 +194,13 @@
         <div class="p-project__block-wrapper">
           <div class="p-project__block">
             <div class="p-project__block-detail">
-              <p class="p-project__block-title">世界最速！革新的な<br class="u-mobile">包装マシンを共同開発</p>
+              <p class="p-project__block-title">世界最速！革新的な<br class="u-mobile">包装マシンを開発</p>
               <p class="p-project__middle">「充填･包装･カット･集積」の一連動作を電子制御により最適化！</p>
               <p class="p-project__text">標準速度の約<span>5</span>倍となる驚異の分速<span>330</span>ショットを実現。<br class="u-desktop">
                 高速化しても極力不良品を出さない補正制御プログラムなど革新的な技術を多数採用し、稼働の安定性と高度な生産処理能力を両立しました。</p>
             </div>
             <figure class="p-project__img">
-              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/project_img1.jpg" alt="世界最速！革新的な包装マシンを共同開発" width="480" height="350">
+              <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/project_img1.jpg" alt="世界最速！革新的な包装マシンを開発" width="480" height="350">
             </figure>
           </div>
           <div class="p-project__block">
@@ -349,7 +333,7 @@
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/other_img3.jpg" alt="社会に求められる医薬の業界へ" width="431" height="38">
             </figure>
             <div class="p-other__detail">
-              <p class="p-other__en">STORY #02</p>
+              <p class="p-other__en">STORY #<span class="u-font-outfit">02</span></p>
               <div class="p-other__title-wrapper">
                 <h3 class="p-other__title">
                   <span class="p-other__title-ja">社会に求められる</span>
@@ -363,7 +347,7 @@
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/other_img2.jpg" alt="金属の未来をリファイン" width="431" height="38">
             </figure>
             <div class="p-other__detail">
-              <p class="p-other__en">STORY #03</p>
+              <p class="p-other__en">STORY <span class="u-font-outfit">03</span></p>
               <div class="p-other__title-wrapper">
                 <h3 class="p-other__title">
                   <span class="p-other__title-ja">機械創りに集中できる</span>

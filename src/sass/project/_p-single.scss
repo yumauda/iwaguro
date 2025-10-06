@@ -68,6 +68,7 @@
 .p-single__num {
   font-family: $second-font-family;
   font-size: rem(30);
+  line-height: 1;
   letter-spacing: 0.14em;
   font-weight: 500;
   color: $black;
@@ -78,7 +79,7 @@
   font-weight: 700;
   line-height: 1.6;
   letter-spacing: 0.04em;
-  font-size: rem(22);
+  font-size: rem(20);
   margin-top: rem(30);
   @include mq(md) {
     margin-top: rem(31);
@@ -91,7 +92,7 @@
 
 .p-single__sub-wrapper {
   display: block;
-  margin-top: rem(35);
+  margin-top: rem(30);
   @include mq(md) {
     margin-top: rem(36);
   }

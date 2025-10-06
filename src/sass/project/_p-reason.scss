@@ -74,6 +74,12 @@
     font-size: rem(150);
   }
 }
+.p-reason--story03 .p-reason__detail::before {
+  top: rem(-6);
+  @include mq(md){
+    top: rem(-40);
+  }
+}
 
 .p-reason__detailTitle {
   color: #fff;

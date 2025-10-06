@@ -19,7 +19,7 @@
             </span>
           </li>
           <li class="p-page-mv__breadcrumbs-list">
-            <p class="p-page-mv__breadcrumbs-link">3分で分かる岩黒製作所</p>
+            <p class="p-page-mv__breadcrumbs-link"><span class="u-font-outfit">3</span>分で分かる岩黒製作所</p>
           </li>
         </ul>
       </div>

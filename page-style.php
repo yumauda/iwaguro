@@ -78,7 +78,7 @@
               <p class="p-benefits__number-num">04</p>
             </div>
             <p class="p-benefits__list-title">昼食代の補助</p>
-            <p class="p-benefits__list-text">昼食代（お弁当）の一部補助を行っています。</p>
+            <p class="p-benefits__list-text">昼食代(お弁当)の一部補助を行っています。</p>
           </li>
           <li class="p-benefits__list">
             <div class="p-benefits__number">
@@ -94,7 +94,7 @@
               <p class="p-benefits__number-num">06</p>
             </div>
             <p class="p-benefits__list-title">社員旅行</p>
-            <p class="p-benefits__list-text">社員旅行の一部費用を補助しています。過去には、沖縄、ハワイ、上海、台湾などさまざまな地域を訪問しました。</p>
+            <p class="p-benefits__list-text">社員旅行の一部費用を補助しています。過去には、沖縄、ハワイ、上海、台湾など様々な地域を訪問しました。</p>
           </li>
           <li class="p-benefits__list">
             <div class="p-benefits__number">
@@ -202,7 +202,7 @@
                 <ul class="p-career__lists">
                   <li class="p-career__list">
                     <p class="p-career__list-title">製造 (組立･調整) / 電装</p>
-                    <p class="p-career__list-text">技術と知識を兼ね備えた統括･責任者を目指す</p>
+                    <p class="p-career__list-text">技術と知識を兼ね備えた<br class="u-mobile">統括･責任者を目指す</p>
                   </li>
                   <li class="p-career__list">
                     <p class="p-career__list-title">設計</p>

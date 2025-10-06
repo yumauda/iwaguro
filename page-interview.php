@@ -58,8 +58,7 @@ Template Name: インタビュー MT
     <div class="p-interview__top">
       <div class="p-interview__inner l-inner">
         <p class="p-interview__read u-font-bold">私たちの職場には、ものづくりを楽しみたい人、日々にワクワクを見つけたい人を歓迎する風土があります。</p>
-        <p class="p-interview__read">新しいことに挑戦したい人も、得意を伸ばしたい人も、一人ひとりが自分らしく活躍できる環境がここにはあります。<br>
-          仲間と一緒に成長しながら自分らしく働く、そんな毎日を過ごしたい方へ。私たちは、あなたにお会いできる日を楽しみにしています！</p>
+        <p class="p-interview__read">新しいことに挑戦したい人も、得意を伸ばしたい人も、一人ひとりが自分らしく活躍できる環境がここにはあります。仲間と一緒に成長しながら自分らしく働く、そんな毎日を過ごしたい方へ。私たちは、あなたにお会いできる日を楽しみにしています！</p>
       </div>
     </div>
     <div class="p-interview__bottom">
@@ -212,13 +211,13 @@ Template Name: インタビュー MT
       </div>
       <div class="p-movie__wrap">
         <div class="p-movie__card">
-          <h3 class="p-movie__card-title">製造 (組立･調整)／若手社員</h3>
+          <h3 class="p-movie__card-title">製造 (組立･調整)</h3>
           <div class="p-movie__card-movie">
             <iframe width="338" height="189" src="https://www.youtube.com/embed/6xRhDElRAm4?si=DUZkmJuZl46HZigL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
         <div class="p-movie__card">
-          <h3 class="p-movie__card-title">技術部 設計／ベテラン社員</h3>
+          <h3 class="p-movie__card-title">設計</h3>
           <div class="p-movie__card-movie">
             <iframe width="" height="" src="https://www.youtube.com/embed/JHG5pPS_Z2s?si=LGhlUHoABJAjdYRx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>

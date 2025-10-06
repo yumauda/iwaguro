@@ -286,17 +286,17 @@
                                     <ul class="p-drawer-content__toggle-lists">
                                         <li class="p-drawer-content__toggle-list">
                                             <a href="<?php echo esc_url(home_url('/story01')); ?>" class="p-drawer-content__toggle-link">
-                                                <p class="p-drawer-content__toggle-link-text"><span>#01</span> 岩黒製作所だからできること。</p>
+                                                <p class="p-drawer-content__toggle-link-text"><span>#<span class="u-font-outfit">01</span></span> 岩黒製作所だからできること。</p>
                                             </a>
                                         </li>
                                         <li class="p-drawer-content__toggle-list">
                                             <a href="<?php echo esc_url(home_url('/story02')); ?>" class="p-drawer-content__toggle-link">
-                                                <p class="p-drawer-content__toggle-link-text"><span>#02</span> 社会に求められる医薬の業界へ。</p>
+                                                <p class="p-drawer-content__toggle-link-text"><span>#<span class="u-font-outfit">02</span></span> 社会に求められる医薬の業界へ。</p>
                                             </a>
                                         </li>
                                         <li class="p-drawer-content__toggle-list">
                                             <a href="<?php echo esc_url(home_url('/story03')); ?>" class="p-drawer-content__toggle-link">
-                                                <p class="p-drawer-content__toggle-link-text"><span>#03</span> 機械創りに集中できる風通しの良い職場｡</p>
+                                                <p class="p-drawer-content__toggle-link-text"><span><span class="u-font-outfit">03</span></span> 機械創りに集中できる風通しの良い職場｡</p>
                                             </a>
                                         </li>
 
@@ -555,17 +555,17 @@
                                     <ul class="p-drawer-content__toggle-lists">
                                         <li class="p-drawer-content__toggle-list">
                                             <a href="<?php echo esc_url(home_url('/story01')); ?>" class="p-drawer-content__toggle-link">
-                                                <p class="p-drawer-content__toggle-link-text"><span>#01</span> 岩黒製作所だからできること。</p>
+                                                <p class="p-drawer-content__toggle-link-text"><span>#<span class="u-font-outfit">01</span></span> 岩黒製作所だからできること。</p>
                                             </a>
                                         </li>
                                         <li class="p-drawer-content__toggle-list">
                                             <a href="<?php echo esc_url(home_url('/story02')); ?>" class="p-drawer-content__toggle-link">
-                                                <p class="p-drawer-content__toggle-link-text"><span>#02</span> 社会に求められる医薬の業界へ。</p>
+                                                <p class="p-drawer-content__toggle-link-text"><span>#<span class="u-font-outfit">02</span></span> 社会に求められる医薬の業界へ。</p>
                                             </a>
                                         </li>
                                         <li class="p-drawer-content__toggle-list">
                                             <a href="<?php echo esc_url(home_url('/story03')); ?>" class="p-drawer-content__toggle-link">
-                                                <p class="p-drawer-content__toggle-link-text"><span>#03</span> 機械創りに集中できる風通しの良い職場｡</p>
+                                                <p class="p-drawer-content__toggle-link-text"><span><span class="u-font-outfit">03</span></span> 機械創りに集中できる風通しの良い職場｡</p>
                                             </a>
                                         </li>
 

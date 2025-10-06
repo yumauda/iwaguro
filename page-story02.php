@@ -14,11 +14,11 @@
               </span>
             </li>
             <li class="p-page-mv__breadcrumbs-list">
-              <p class="p-page-mv__breadcrumbs-link">STORY #02</p>
+              <p class="p-page-mv__breadcrumbs-link">STORY #<span class="u-font-outfit">02</span></p>
             </li>
           </ul>
           <div class="p-page-mv__title-wrapper">
-            <p class="c-page-en">STORY #02</p>
+            <p class="c-page-en">STORY #<span class="u-font-outfit">02</span></p>
             <figure class="p-page-mv__img u-mobile">
               <img src="<?php echo get_template_directory_uri() ?>/images/common/mv_story02.png" alt="" width="659" height="569">
             </figure>
@@ -187,7 +187,7 @@
               </picture>
             </figure>
             <div class="p-other__detail">
-              <p class="p-other__en">STORY #01</p>
+              <p class="p-other__en">STORY #<span class="u-font-outfit">01</span></p>
               <div class="p-other__title-wrapper">
                 <h3 class="p-other__title">
                   <span class="p-other__title-ja">岩黒製作所だから</span>
@@ -204,7 +204,7 @@
               </picture>
             </figure>
             <div class="p-other__detail">
-              <p class="p-other__en">STORY #03</p>
+              <p class="p-other__en">STORY <span class="u-font-outfit">03</span></p>
               <div class="p-other__title-wrapper">
                 <h3 class="p-other__title">
                   <span class="p-other__title-ja">機械創りに集中できる</span>

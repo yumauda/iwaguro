@@ -109,15 +109,16 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, rem(160));
+  justify-content: center;
   margin-top: rem(40);
   gap: rem(15);
   @include mq(md) {
     row-gap: rem(30);
     column-gap: rem(40);
-    max-width: rem(960);
+    max-width: rem(710);
     margin-top: rem(60);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -161,7 +162,7 @@
   letter-spacing: 0.04em;
   line-height: 1.5;
   text-align: center;
-  font-size: rem(18);
+  font-size: rem(17);
   @include mq(md) {
     font-size: rem(22);
   }

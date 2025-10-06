@@ -20,7 +20,7 @@ Template Name: インタビュー MT
               </span>
             </li>
             <li class="p-page-mv__breadcrumbs-list">
-              <p class="p-page-mv__breadcrumbs-link">仲間を知る</p>
+              <a href="<?php echo esc_url(home_url('/interview/')); ?>" class="p-page-mv__breadcrumbs-link">仲間を知る</a>
             </li>
             <li class="p-page-mv__breadcrumbs-list">
               <span class="p-page-mv__breadcrumbs-link">
@@ -47,7 +47,7 @@ Template Name: インタビュー MT
               </span>
             </li>
             <li class="p-page-mv__breadcrumbs-list">
-              <p class="p-page-mv__breadcrumbs-link">仲間を知る</p>
+              <a href="<?php echo esc_url(home_url('/interview/')); ?>" class="p-page-mv__breadcrumbs-link">仲間を知る</a>
             </li>
             <li class="p-page-mv__breadcrumbs-list">
               <span class="p-page-mv__breadcrumbs-link">
