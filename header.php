@@ -194,7 +194,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link">
+                                <a href="<?php echo esc_url(home_url('/graduate/')); ?>" class="p-header__link">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">recruit</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">recruit</span>
@@ -296,7 +296,7 @@
                                         </li>
                                         <li class="p-drawer-content__toggle-list">
                                             <a href="<?php echo esc_url(home_url('/story03')); ?>" class="p-drawer-content__toggle-link">
-                                                <p class="p-drawer-content__toggle-link-text"><span><span class="u-font-outfit">03</span></span> 機械創りに集中できる風通しの良い職場｡</p>
+                                                <p class="p-drawer-content__toggle-link-text"><span>#<span class="u-font-outfit">03</span></span> 機械創りに集中できる風通しの良い職場｡</p>
                                             </a>
                                         </li>
 
@@ -347,7 +347,7 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/style')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/graduate/')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">recruit</p>
                                             <p class="p-drawer-content__link-ja">募集要項</p>
@@ -463,7 +463,7 @@
                                 </a>
                             </li>
                             <li class="p-header__list">
-                                <a href="#" class="p-header__link is-active">
+                                <a href="<?php echo esc_url(home_url('/graduate/')); ?>" class="p-header__link is-active">
                                     <span class="p-header__roller">
                                         <span class="p-header__link-text p-header__link-text--top">recruit</span>
                                         <span class="p-header__link-text p-header__link-text--bottom">recruit</span>
@@ -565,7 +565,7 @@
                                         </li>
                                         <li class="p-drawer-content__toggle-list">
                                             <a href="<?php echo esc_url(home_url('/story03')); ?>" class="p-drawer-content__toggle-link">
-                                                <p class="p-drawer-content__toggle-link-text"><span><span class="u-font-outfit">03</span></span> 機械創りに集中できる風通しの良い職場｡</p>
+                                                <p class="p-drawer-content__toggle-link-text"><span>#<span class="u-font-outfit">03</span></span> 機械創りに集中できる風通しの良い職場｡</p>
                                             </a>
                                         </li>
 
@@ -616,17 +616,26 @@
                                     </a>
                                 </li>
                                 <li class="p-drawer-content__list">
-                                    <a href="<?php echo esc_url(home_url('/style')); ?>" class="p-drawer-content__link">
+                                    <a href="<?php echo esc_url(home_url('/graduate/')); ?>" class="p-drawer-content__link p-drawer-content__open">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">recruit</p>
                                             <p class="p-drawer-content__link-ja">募集要項</p>
                                         </div>
-                                        <div class="p-drawer-content__link-arrow">
-                                            <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/drawer_arrow.svg" alt="" width="12" height="8">
-                                        </div>
+                                        <div class="p-drawer-content__toggle-icon"></div>
                                     </a>
+                                    <ul class="p-drawer-content__toggle-lists">
+                                        <li class="p-drawer-content__toggle-list">
+                                            <a href="<?php echo esc_url(home_url('/graduate/')); ?>" class="p-drawer-content__toggle-link">
+                                                <p class="p-drawer-content__toggle-link-text"><span></span>新卒採用</p>
+                                            </a>
+                                        </li>
+                                        <li class="p-drawer-content__toggle-list">
+                                            <a href="<?php echo esc_url(home_url('/career/')); ?>" class="p-drawer-content__toggle-link">
+                                                <p class="p-drawer-content__toggle-link-text"><span></span>キャリア採用</p>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
-
                             </ul>
                             <div class="p-drawer-content__contact-wrapper">
                                 <a href="<?php echo esc_url(home_url('/')); ?>" class="p-drawer-content__contact">

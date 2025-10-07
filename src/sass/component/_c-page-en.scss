@@ -23,7 +23,7 @@
 .c-page-en::before {
   position: absolute;
   content: "";
-  background: url(../images/common/page_en_icon.png) no-repeat center center;
+  background: url(../images/common/page_en_icon.svg) no-repeat center center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -56,7 +56,7 @@
 .c-page-en--ja::before {
   position: absolute;
   content: "";
-  background: url(../images/common/page_en_icon.png) no-repeat center center;
+  background: url(../images/common/page_en_icon.svg) no-repeat center center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: rem(18) rem(11);

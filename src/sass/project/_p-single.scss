@@ -56,12 +56,12 @@
   font-size: rem(16);
   color: $black;
   text-transform: uppercase;
-  padding-left: rem(8);
   letter-spacing: 0.14em;
   @include mq(md) {
     letter-spacing: initial;
     writing-mode: vertical-lr;
     text-orientation: mixed;
+    padding-left: rem(8);
   }
 }
 

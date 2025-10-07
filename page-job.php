@@ -196,7 +196,7 @@
                 <h4 class="p-job-contents__interview-title">制御設計で働くメンバーのインタビュー</h4>
                 <div class="p-job-contents__interview-detail">
                   <p class="p-job-contents__interview-text">挑戦するから実現できる。<br>
-                  思い通りに動いた瞬間、モノづくりの醍醐味を感じる。 [T.M.]</p>
+                  思い通りに動いた瞬間、モノづくりの醍醐味を感じる。 [M.T.]</p>
                 </div>
               </div>
             </a>

@@ -347,7 +347,7 @@
               <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/other_img2.jpg" alt="金属の未来をリファイン" width="431" height="38">
             </figure>
             <div class="p-other__detail">
-              <p class="p-other__en">STORY <span class="u-font-outfit">03</span></p>
+              <p class="p-other__en">STORY #<span class="u-font-outfit">03</span></p>
               <div class="p-other__title-wrapper">
                 <h3 class="p-other__title">
                   <span class="p-other__title-ja">機械創りに集中できる</span>

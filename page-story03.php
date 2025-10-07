@@ -18,7 +18,7 @@
             </li>
           </ul>
           <div class="p-page-mv__title-wrapper">
-            <p class="c-page-en">STORY <span class="u-font-outfit">03</span></p>
+            <p class="c-page-en">STORY #<span class="u-font-outfit">03</span></p>
             <figure class="p-page-mv__img u-mobile">
               <img src="<?php echo get_template_directory_uri() ?>/images/common/mv_story03.png" alt="" width="659" height="569">
             </figure>

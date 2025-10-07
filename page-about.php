@@ -154,7 +154,7 @@
           </figure>
           <div class="p-about-strength__block-body">
             <p class="p-about-strength__block-text">
-            当社の機械は「医科向け」のため、人々の健康と安心を支える高度な技術と精密さが求められます。錠剤･粉末･顆粒など多様な薬剤への対応や、<span class="u-font-outfit">GMP (Good Manufacturing Practice)</span> 化･<span class="u-font-outfit">FA</span>化といった高度な要望に応えるべく、開発から製造･販売まで一貫して展開しています。
+            当社の機械は「医科向け」のため、人々の健康と安心を支える高度な技術と精密さが求められます。錠剤･粉末･顆粒など多様な薬剤への対応や、<span class="u-font-outfit">GMP <span class="sm">(Good Manufacturing Practice)</span></span> 化･<span class="u-font-outfit">FA</span>化といった高度な要望に応えるべく、開発から製造･販売まで一貫して展開しています。
             </p>
           </div>
         </div>

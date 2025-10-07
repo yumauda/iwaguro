@@ -165,8 +165,8 @@
           </div>
         </div>
         <div class="p-reason__bottom">
-          <p class="p-reason__bottom-text">岩黒製作所は、医療・製薬業界に特化し、国内トップシェアを誇る技術力があります。<br>
-            また、GMP化やFA化などお客さまが求める多様なニーズに対応し、日々改良を続けています。</p>
+          <p class="p-reason__bottom-text">岩黒製作所は、医療・製薬業界に特化し、<br class="u-mobile">国内トップシェアを誇る技術力があります。<br>
+            また、GMP化やFA化などお客さまが求める<br class="u-mobile">多様なニーズに対応し、<br class="u-mobile">日々改良を続けています。</p>
           <div class="p-reason__bottom-gradation">
             <p class="p-reason__bottom-text--gradation">医薬品業界が未経験でも、<br class="u-mobile">あなたのスキルを活かせる<br class="u-mobile">様々な職種があります｡<br>ぜひ一度、岩黒製作所の工場見学に<br class="u-mobile">お越しください｡</p>
       
@@ -204,7 +204,7 @@
               </picture>
             </figure>
             <div class="p-other__detail">
-              <p class="p-other__en">STORY <span class="u-font-outfit">03</span></p>
+              <p class="p-other__en">STORY #<span class="u-font-outfit">03</span></p>
               <div class="p-other__title-wrapper">
                 <h3 class="p-other__title">
                   <span class="p-other__title-ja">機械創りに集中できる</span>

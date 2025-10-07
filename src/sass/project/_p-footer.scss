@@ -110,7 +110,10 @@
 .p-footer__list-leftList {
 }
 .p-footer__list-leftList + .p-footer__list-leftList {
-  margin-top: rem(12);
+  margin-top: rem(4);
+  @include mq(md){
+    margin-top: rem(12);
+  }
 }
 .p-footer__link {
   color: #fff;

@@ -27,7 +27,7 @@
                                 <a href="<?php echo esc_url(home_url('/story02/')); ?>" class="p-footer__link"><span>STORY #<span class="u-font-outfit">02</span></span> 社会に求められる医薬の業界へ｡</a>
                             </li>
                             <li class="p-footer__list-leftList">
-                                <a href="<?php echo esc_url(home_url('/story03/')); ?>" class="p-footer__link"><span>STORY <span class="u-font-outfit">03</span></span> 機械創りに集中できる風通しの良い職場｡</a>
+                                <a href="<?php echo esc_url(home_url('/story03/')); ?>" class="p-footer__link"><span>STORY #<span class="u-font-outfit">03</span></span> 機械創りに集中できる風通しの良い職場｡</a>
                             </li>
                         </ul>
                     </li>

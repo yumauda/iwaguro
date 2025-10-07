@@ -364,7 +364,7 @@
                 </picture>
               </figure>
               <div class="p-top-story__detail">
-                <p class="p-top-story__num">STORY <span class="u-font-outfit">03</span></p>
+                <p class="p-top-story__num">STORY #<span class="u-font-outfit">03</span></p>
                 <h3 class="p-top-story__title">機械創りに集中できる<br>
                   風通しのよい職場。</h3>
                 <div class="p-top-story__bottom">
