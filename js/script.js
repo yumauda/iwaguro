@@ -194,6 +194,7 @@ const openingAnimKeyframes = (content) => [
 ];
 jQuery(".p-drawer-icon").on("click", function (e) {
   e.preventDefault();
+  jQuery(".p-header__content").toggleClass("is-active");
   jQuery(".p-drawer-icon").toggleClass("is-active");
   jQuery(".p-drawer-content").toggleClass("is-active");
   jQuery(".p-drawer-background").toggleClass("is-active");

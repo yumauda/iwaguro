@@ -3249,6 +3249,15 @@ body.fade-in {
   top: 1.0625rem;
 }
 
+.p-header__content.is-active .p-drawer__logo {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .p-header__content.is-active .p-drawer__logo {
+    display: flex;
+  }
+}
+
 .p-drawer__home {
   display: flex;
   width: 16.9375rem;

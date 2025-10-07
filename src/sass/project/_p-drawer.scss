@@ -328,6 +328,12 @@
   left: rem(20);
   top: rem(17);
 }
+.p-header__content.is-active .p-drawer__logo {
+  display: none;
+  @include mq(md){
+    display: flex;
+  }
+}
 .p-drawer__home {
   display: flex;
   width: rem(271);
