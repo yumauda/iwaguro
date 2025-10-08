@@ -76,7 +76,7 @@ window.addEventListener("DOMContentLoaded", function () {
       stagger: 0.3,
       scrollTrigger: {
         trigger: ".p-top-about",
-        start: "0% 30%",
+        start: "0% 60%",
       },
       ease: "power3.out",
     }
@@ -140,7 +140,7 @@ window.addEventListener("DOMContentLoaded", function () {
       stagger: 0.3,
       scrollTrigger: {
         trigger: ".p-top-interview",
-        start: "0% 30%",
+        start: "0% 60%",
       },
       ease: "power3.out",
     }
