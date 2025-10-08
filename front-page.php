@@ -559,13 +559,13 @@
             </div>
 
             <div class="p-challenge__right">
-              <a href="#" class="p-challenge__link">
+              <a href="<?php echo esc_url(home_url('/graduate/')); ?>" class="p-challenge__link">
                 <p class="p-challenge__link-text">新卒採用 募集要項</p>
                 <span class="p-challenge__link-arrow">
                   <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/challenge_arrow.svg" alt="" width="28" height="28">
                 </span>
               </a>
-              <a href="#" class="p-challenge__link">
+              <a href="<?php echo esc_url(home_url('/career/')); ?>" class="p-challenge__link">
                 <p class="p-challenge__link-text">キャリア採用 募集要項</p>
                 <span class="p-challenge__link-arrow">
                   <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/challenge_arrow.svg" alt="" width="28" height="28">

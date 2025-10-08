@@ -263,7 +263,7 @@
   </section>
 
 
-  <section class="p-grad-faq">
+  <section class="p-grad-faq" id="FAQ">
     <div class="p-grad-faq__inner l-inner">
       <div class="p-grad-faq__title">
         <hgroup class="c-section-title02">

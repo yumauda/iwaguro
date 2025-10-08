@@ -36,7 +36,7 @@
                     <li class="p-footer__list">
                         <ul class="p-footer__list-left">
                             <li class="p-footer__list-leftList">
-                                <a href="#" class="p-footer__link">仲間を知る</a>
+                                <a href="<?php echo esc_url(home_url('/interview/')); ?>" class="p-footer__link">仲間を知る</a>
                             </li>
                             <li class="p-footer__list-leftList">
                                 <a href="<?php echo esc_url(home_url('/job/')); ?>" class="p-footer__link">職種紹介</a>
@@ -55,10 +55,10 @@
                                 <a href="<?php echo esc_url(home_url('/news/')); ?>" class="p-footer__link">新着情報</a>
                             </li>
                             <li class="p-footer__list-leftList">
-                                <a href="#" class="p-footer__link">募集要項</a>
+                                <a href="<?php echo esc_url(home_url('/graduate/')); ?>" class="p-footer__link">募集要項</a>
                             </li>
                             <li class="p-footer__list-leftList">
-                                <a href="#" class="p-footer__link">よくあるご質問</a>
+                                <a href="<?php echo esc_url(home_url('/graduate/')); ?>#FAQ" class="p-footer__link">よくあるご質問</a>
                             </li>
                             <li class="p-footer__list-leftList">
                                 <a href="<?php echo esc_url(home_url('/entry/')); ?>" class="p-footer__link">エントリーフォーム</a>

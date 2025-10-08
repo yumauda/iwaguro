@@ -360,7 +360,7 @@
 
                             </ul>
                             <div class="p-drawer-content__contact-wrapper">
-                                <a href="<?php echo esc_url(home_url('/')); ?>" class="p-drawer-content__contact">
+                                <a href="<?php echo esc_url(home_url('/entry/')); ?>" class="p-drawer-content__contact">
                                     <p class="p-drawer-content__contact-text">エントリーする</p>
                                     <span class="c-btn__arrow">
                                         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -638,7 +638,7 @@
                                 </li>
                             </ul>
                             <div class="p-drawer-content__contact-wrapper">
-                                <a href="<?php echo esc_url(home_url('/')); ?>" class="p-drawer-content__contact">
+                                <a href="<?php echo esc_url(home_url('/entry/')); ?>" class="p-drawer-content__contact">
                                     <p class="p-drawer-content__contact-text">エントリーする</p>
                                     <span class="c-btn__arrow">
                                         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
