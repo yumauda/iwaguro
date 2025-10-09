@@ -159,6 +159,12 @@
     flex-direction: row-reverse;
   }
 }
+.p-project__block.flCenter {
+  @include mq(md){
+    justify-content: center;
+    text-align: center;
+  }
+}
 .p-project__block + .p-project__block {
   margin-top: rem(40);
   @include mq(md) {
@@ -179,10 +185,27 @@
   object-position: center center;
 }
 
+.p-project__img {
+  position: relative;
+  overflow: hidden;
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; // 画面に合わせてトリミング
+    display: block;
+  }
+}
+
 .p-project__block-detail {
   width: 100%;
   @include mq(md) {
     max-width: rem(580);
+  }
+}
+.flCenter .p-project__block-detail {
+  @include mq(md){
+    max-width: 100%;
   }
 }
 

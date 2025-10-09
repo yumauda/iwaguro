@@ -339,7 +339,7 @@
                                     <a href="<?php echo esc_url(home_url('/news')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">news</p>
-                                            <p class="p-drawer-content__link-ja">新着情報</p>
+                                            <p class="p-drawer-content__link-ja">お知らせ</p>
                                         </div>
                                         <div class="p-drawer-content__link-arrow">
                                             <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/drawer_arrow.svg" alt="" width="12" height="8">
@@ -608,7 +608,7 @@
                                     <a href="<?php echo esc_url(home_url('/news')); ?>" class="p-drawer-content__link">
                                         <div class="p-drawer-content__link-row">
                                             <p class="p-drawer-content__link-en">news</p>
-                                            <p class="p-drawer-content__link-ja">新着情報</p>
+                                            <p class="p-drawer-content__link-ja">お知らせ</p>
                                         </div>
                                         <div class="p-drawer-content__link-arrow">
                                             <img decoding="async" loading="lazy" src="<?php echo get_template_directory_uri() ?>/images/common/drawer_arrow.svg" alt="" width="12" height="8">

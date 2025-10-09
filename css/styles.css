@@ -8826,6 +8826,13 @@ a.p-grad-recruitment__head-item {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .p-project__block.flCenter {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 .p-project__block + .p-project__block {
   margin-top: 2.5rem;
 }
@@ -8851,12 +8858,29 @@ a.p-grad-recruitment__head-item {
   object-position: center center;
 }
 
+.p-project__img {
+  position: relative;
+  overflow: hidden;
+}
+.p-project__img video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .p-project__block-detail {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
   .p-project__block-detail {
     max-width: 36.25rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flCenter .p-project__block-detail {
+    max-width: 100%;
   }
 }
 

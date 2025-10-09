@@ -52,7 +52,7 @@
                     <li class="p-footer__list">
                         <ul class="p-footer__list-left">
                             <li class="p-footer__list-leftList">
-                                <a href="<?php echo esc_url(home_url('/news/')); ?>" class="p-footer__link">新着情報</a>
+                                <a href="<?php echo esc_url(home_url('/news/')); ?>" class="p-footer__link">お知らせ</a>
                             </li>
                             <li class="p-footer__list-leftList">
                                 <a href="<?php echo esc_url(home_url('/graduate/')); ?>" class="p-footer__link">募集要項</a>
