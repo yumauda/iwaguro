@@ -101,6 +101,15 @@
         </figure>
         <div class="p-result__bottom">
           <div class="p-result__bottom-titleWrapper">
+            <span class="p-result__title-en">MOVIE</span>
+          </div>
+          <h4 class="p-result__bottom-title">PTP自動包装ラインの紹介</h4>
+          <div class="p-result__movie">
+            <iframe width="" height="" src="https://www.youtube.com/embed/30ATRrPPlo4?si=1DJhPmrQkcmXfc_F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="p-result__bottom">
+          <div class="p-result__bottom-titleWrapper">
             <span class="p-result__title-en">result</span>
           </div>
           <h4 class="p-result__bottom-title">機械をご導入いただいた<br class="u-mobile">お客さまの成果事例</h4>

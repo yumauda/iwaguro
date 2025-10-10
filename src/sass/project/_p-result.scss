@@ -64,6 +64,25 @@
 .p-result__bottom-titleWrapper {
   text-align: center;
 }
+.p-result__movie {
+  width: 100%;
+  margin-top: rem(40);
+  @include mq(md){
+    width: rem(780);
+    margin-inline: auto;
+    margin-top: rem(50);
+  }
+}
+.p-result__movie iframe {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  aspect-ratio: 780 / 439;
+  @include mq(md){
+    height: rem(439);
+  }
+}
+
 .p-result__title-en {
   padding-left: rem(30);
   position: relative;

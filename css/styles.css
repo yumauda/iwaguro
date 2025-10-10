@@ -9561,6 +9561,30 @@ a.p-grad-recruitment__head-item {
   text-align: center;
 }
 
+.p-result__movie {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+@media screen and (min-width: 768px) {
+  .p-result__movie {
+    width: 48.75rem;
+    margin-inline: auto;
+    margin-top: 3.125rem;
+  }
+}
+
+.p-result__movie iframe {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  aspect-ratio: 780/439;
+}
+@media screen and (min-width: 768px) {
+  .p-result__movie iframe {
+    height: 27.4375rem;
+  }
+}
+
 .p-result__title-en {
   padding-left: 1.875rem;
   position: relative;
