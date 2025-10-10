@@ -1193,13 +1193,14 @@ body.fade-in {
 }
 
 .p-about-lineup__block-wrap {
-  padding: 1.25rem 0;
+  padding: 0.625rem 0 1.25rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   row-gap: 2.5rem;
 }
 @media screen and (min-width: 768px) {
   .p-about-lineup__block-wrap {
+    padding: 1.25rem 0;
     grid-template-columns: repeat(2, 23.75rem);
     column-gap: 1.625rem;
   }
@@ -1223,7 +1224,7 @@ body.fade-in {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  font-weight: 500;
+  font-weight: 700;
 }
 @media screen and (min-width: 768px) {
   .p-about-lineup__block-img figcaption {
@@ -2808,7 +2809,7 @@ body.fade-in {
 
 .p-challenge__right {
   width: 100%;
-  margin-top: 0.3125rem;
+  margin-top: 1.25rem;
 }
 @media screen and (min-width: 768px) {
   .p-challenge__right {
@@ -3874,7 +3875,7 @@ body.fade-in {
 }
 
 .p-footer__nav {
-  margin-top: 2.5rem;
+  margin-top: 1.25rem;
 }
 @media screen and (min-width: 768px) {
   .p-footer__nav {
@@ -3926,7 +3927,7 @@ body.fade-in {
 }
 
 .p-footer__lists {
-  margin-top: 4.375rem;
+  margin-top: 3.125rem;
 }
 @media screen and (min-width: 768px) {
   .p-footer__lists {
@@ -3948,7 +3949,7 @@ body.fade-in {
 }
 
 .p-footer__lists + .p-footer__lists {
-  margin-top: 3.125rem;
+  margin-top: 1.875rem;
 }
 @media screen and (min-width: 768px) {
   .p-footer__lists + .p-footer__lists {
@@ -4002,7 +4003,7 @@ body.fade-in {
   display: flex;
   align-items: center;
   gap: 1.875rem;
-  margin-top: 4.375rem;
+  margin-top: 3.125rem;
 }
 @media screen and (min-width: 768px) {
   .p-footer__out {
@@ -4037,7 +4038,7 @@ body.fade-in {
 }
 
 .p-footer__small {
-  margin-top: 1.875rem;
+  margin-top: 1.25rem;
 }
 @media screen and (min-width: 768px) {
   .p-footer__small {

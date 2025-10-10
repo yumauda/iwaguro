@@ -32,7 +32,7 @@
 }
 
 .p-footer__nav {
-  margin-top: rem(40);
+  margin-top: rem(20);
   @include mq(md) {
     display: flex;
     margin-top: rem(60);
@@ -80,7 +80,7 @@
   transform: translateY(-50%);
 }
 .p-footer__lists {
-  margin-top: rem(70);
+  margin-top: rem(50);
   @include mq(md) {
     margin-top: initial;
     margin-left: auto;
@@ -96,7 +96,7 @@
   }
 }
 .p-footer__lists + .p-footer__lists {
-  margin-top: rem(50);
+  margin-top: rem(30);
   @include mq(md) {
     margin-top: initial;
   }
@@ -147,7 +147,7 @@
   display: flex;
   align-items: center;
   gap: rem(30);
-  margin-top: rem(70);
+  margin-top: rem(50);
   @include mq(md) {
     margin-top: rem(52);
     gap: rem(40);
@@ -178,7 +178,7 @@
   object-position: center center;
 }
 .p-footer__small {
-  margin-top: rem(30);
+  margin-top: rem(20);
   @include mq(md) {
     margin-top: rem(40);
   }

@@ -86,7 +86,7 @@
 
 .p-challenge__right {
   width: 100%;
-  margin-top: rem(5);
+  margin-top: rem(20);
   @include mq(md) {
     margin-top: initial;
     max-width: rem(306);
