@@ -469,7 +469,7 @@
       <div class="c-left js-left--vertical-news">
         <p class="c-left__text">news</p>
       </div>
-      <div class="l-inner">
+      <div class="p-top-news__inner l-inner">
         <div class="p-top-news__content">
           <div class="p-top-news__bg">
             <div class="p-top-news__detail">
