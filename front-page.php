@@ -154,7 +154,7 @@
                     </figure>
                     <div class="p-top-interview__slider-detail">
                       <p class="p-top-interview__slider-name">
-                        t.m.
+                        m.t.
                       </p>
                       <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
                         思い通りに動いた瞬間、<br>

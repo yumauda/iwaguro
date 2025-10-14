@@ -75,7 +75,7 @@ Template Name: インタビュー MT
               </figure>
               <div class="p-interview-card__body">
                 <p class="p-interview-card__name">
-                  t.m
+                  m.t.
                 </p>
                 <p class="p-interview-card__text">挑戦するから実現できる。<br>
                   思い通りに動いた瞬間、<br>
@@ -101,7 +101,7 @@ Template Name: インタビュー MT
               </figure>
               <div class="p-interview-card__body">
                 <p class="p-interview-card__name">
-                  y.n
+                  y.n.
                 </p>
                 <p class="p-interview-card__text">同じ機械がない面白さ。<br>
                 複雑な部品加工ほど<br>
@@ -126,7 +126,7 @@ Template Name: インタビュー MT
               </figure>
               <div class="p-interview-card__body">
                 <p class="p-interview-card__name">
-                  y.h
+                  y.h.
                 </p>
                 <p class="p-interview-card__text">セールスエンジニアとして<br>
                 社内外の人たちと一緒にモノづくりをする楽しさと達成感。</p>
@@ -151,7 +151,7 @@ Template Name: インタビュー MT
               </figure>
               <div class="p-interview-card__body">
                 <p class="p-interview-card__name">
-                  n.f
+                  n.f.
                 </p>
                 <p class="p-interview-card__text">仕上課から機械設計へ。<br>
                 機械づくりの難しさと楽しさを感じる毎日。</p>
@@ -176,7 +176,7 @@ Template Name: インタビュー MT
               </figure>
               <div class="p-interview-card__body">
                 <p class="p-interview-card__name">
-                  r.n
+                  r.n.
                 </p>
                 <p class="p-interview-card__text">目標は、一台の機械を任されること！そのために積極的に学ぶ姿勢を大切にしています。</p>
                 <div class="p-interview-card__tag-wrapper">
