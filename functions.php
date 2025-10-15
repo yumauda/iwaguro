@@ -426,3 +426,7 @@ function load_recaptcha_js() {
 }
 add_action( 'wp_enqueue_scripts', 'load_recaptcha_js',100 );
 
+
+
+// WordPressコアの自動更新を止める
+add_filter( 'auto_update_core', '__return_false' );

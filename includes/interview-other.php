@@ -13,7 +13,7 @@
         </figure>
         <div class="p-top-interview__slider-detail">
           <p class="p-top-interview__slider-name">
-            t.m
+            m.t.
           </p>
           <p class="p-top-interview__slider-text">挑戦するから実現できる。<br>
             思い通りに動いた瞬間、<br>
@@ -39,7 +39,7 @@
         </figure>
         <div class="p-top-interview__slider-detail">
           <p class="p-top-interview__slider-name">
-            y.n
+            y.n.
           </p>
           <p class="p-top-interview__slider-text">同じ機械がない面白さ。<br>
           複雑な部品加工ほど<br>
@@ -64,7 +64,7 @@
         </figure>
         <div class="p-top-interview__slider-detail">
           <p class="p-top-interview__slider-name">
-            y.h
+            y.h.
           </p>
           <p class="p-top-interview__slider-text">セールスエンジニアとして<br>
           社内外の人たちと一緒にモノづくりをする楽しさと達成感。</p>
@@ -89,7 +89,7 @@
         </figure>
         <div class="p-top-interview__slider-detail">
           <p class="p-top-interview__slider-name">
-            n.f
+            n.f.
           </p>
           <p class="p-top-interview__slider-text">仕上課から機械設計へ。<br>
           機械づくりの難しさと楽しさを感じる毎日。</p>
@@ -114,7 +114,7 @@
         </figure>
         <div class="p-top-interview__slider-detail">
           <p class="p-top-interview__slider-name">
-            r.n
+            r.n.
           </p>
           <p class="p-top-interview__slider-text">目標は、一台の機械を任されること！そのために積極的に学ぶ姿勢を大切にしています。</p>
           <div class="p-top-interview__tag-wrapper">
