@@ -287,7 +287,7 @@
 
           </div>
           <div class="p-top-interview__btn p-top-interview__btn--sp">
-            <a href="#" class="c-btn">
+            <a href="<?php echo home_url('/interview/'); ?>" class="c-btn">
               <p class="c-btn__text">view more</p>
               <span class="c-btn__arrow">
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
